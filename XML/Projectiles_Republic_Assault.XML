@@ -874,12 +874,10 @@
 
 <Projectile Name="Proj_Proton_Torpedo">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
-	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>	
 </Projectile>
 
 <Projectile Name="Proj_Proton_Torpedo_Light">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
-	<Scale_Factor>3.0</Scale_Factor>
 	<Damage_Type> Damage_Proton_Torp_Light </Damage_Type>
 </Projectile>
 
