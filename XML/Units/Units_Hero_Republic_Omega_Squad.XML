@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<OmegaSquad_Data>
+
+<HeroUnit Name="Niner">
+	<Is_Named_Hero>Yes</Is_Named_Hero>
+	<Text_ID>TEXT_HERO_Niner</Text_ID>
+	<Encyclopedia_Text> TEXT_TOOLTIP_RC_Niner TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RC</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_Commando_Niner.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_Niner.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_Commando_Niner.ALO,
+    	Urban,         Rep_Commando_Niner.ALO,
+    	Arctic,     	Rep_Commando_Niner.ALO,
+    	Volcanic,     	Rep_Commando_Niner.ALO,
+    	Desert,     	Rep_Commando_Niner.ALO,
+    	Forest,     	Rep_Commando_Niner.ALO,
+    	Swamp,         Rep_Commando_Niner.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_Commando_Niner.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+	<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI,SHIELDED</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+
+    <Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>1.3</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.07</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<Armor_Type> Armor_Hero </Armor_Type>
+	<Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+    
+    <Tactical_Health>300</Tactical_Health>
+    <Shield_Points>150</Shield_Points>
+    <Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Damage>2</Damage>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+    
+    <Projectile_Types>Proj_Hand_Blaster_Blue</Projectile_Types>
+        <Projectile_Damage>0.0</Projectile_Damage>
+        <Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+    
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+    
+    <Targeting_Fire_Inaccuracy> Infantry, 15.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Structure, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Shield_Points>0</Shield_Points>
+    <Stealth_Capable>No</Stealth_Capable>
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <!--<SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>-->
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+    
+    <MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+    <Create_Team>Yes</Create_Team>
+
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>50.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>
+
+    <HardPoints>
+        HP_Clone_Trooper_DC17
+    </HardPoints>
+
+	<Select_Box_Scale>10</Select_Box_Scale>
+	<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+	<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
+	<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+	<Neutralization_Cost>1000.0</Neutralization_Cost>
+	<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+	<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+<Abilities SubObjectList="Yes">
+
+<Generic_Attack_Ability Name="RC_Niner_Melee">
+	<Activation_Chance>1.0</Activation_Chance>
+	<Activation_Min_Range>0.0</Activation_Min_Range>
+	<Activation_Max_Range>45.0</Activation_Max_Range>
+	<Damage_Amount>100.0</Damage_Amount>
+	<Damage_Percentage>0.0</Damage_Percentage>
+	<Damage_Type>Damage_Normal</Damage_Type>
+	<Attack_Animation>POUND_ATTACK</Attack_Animation>	<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+	<Damage_Frame_Number>20</Damage_Frame_Number>
+	<Applicable_Unit_Categories>Infantry, LandHero</Applicable_Unit_Categories>
+	<Applicable_Unit_Types />
+</Generic_Attack_Ability>
+
+<System_Spy_Ability Name="Omega_System_Spy">
+	<Initially_Enabled>Yes</Initially_Enabled>
+	<Activation_Style>Galactic_Automatic</Activation_Style>
+	<Causes_Despawn>No</Causes_Despawn>
+	<Duration_In_Secs>-1.0</Duration_In_Secs>
+	<See_Base_Levels>Yes</See_Base_Levels>
+	<See_Credit_Income>Yes</See_Credit_Income>
+	<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+	<See_Num_Fleets>Yes</See_Num_Fleets>
+	<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+	<See_Fleet_Contents>No</See_Fleet_Contents>
+	<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+	<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+	<See_Special_Structures>Yes</See_Special_Structures>
+	<See_Political_Control>Yes</See_Political_Control>
+	<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+	<See_Current_Production>Yes</See_Current_Production>
+	<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+	<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+</System_Spy_Ability>
+</Abilities>
+</HeroUnit>
+
+
+<HeroUnit Name="Atin">
+    <Variant_Of_Existing_Type>Niner</Variant_Of_Existing_Type>
+
+	<Is_Generic_Hero>Yes</Is_Generic_Hero>
+	<Text_ID>TEXT_HERO_Atin</Text_ID>
+	<GUI_Bracket_Size>0</GUI_Bracket_Size>
+	<Encyclopedia_Text> TEXT_TOOLTIP_RC_Atin TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RC </Encyclopedia_Unit_Class>
+	<Land_Model_Name>Rep_Commando_Atin.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_Atin.tga</Icon_Name>
+
+        <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_Commando_Atin.ALO,
+    	Urban,         Rep_Commando_Atin.ALO,
+    	Arctic,     	Rep_Commando_Atin.ALO,
+    	Volcanic,     	Rep_Commando_Atin.ALO,
+    	Desert,     	Rep_Commando_Atin.ALO,
+    	Forest,     	Rep_Commando_Atin.ALO,
+    	Swamp,         Rep_Commando_Atin.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_Commando_Atin.ALO</Land_Model_Anim_Override_Name>
+
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+<Abilities SubObjectList="Yes">
+
+<Generic_Attack_Ability Name="RC_Atin_Melee">
+	<Activation_Chance>1.0</Activation_Chance>
+	<Activation_Min_Range>0.0</Activation_Min_Range>
+	<Activation_Max_Range>45.0</Activation_Max_Range>
+	<Damage_Amount>100.0</Damage_Amount>
+	<Damage_Percentage>0.0</Damage_Percentage>
+	<Damage_Type>Damage_Normal</Damage_Type>
+	<Attack_Animation>POUND_ATTACK</Attack_Animation>	<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+	<Damage_Frame_Number>20</Damage_Frame_Number>
+	<Applicable_Unit_Categories>Infantry, LandHero</Applicable_Unit_Categories>
+	<Applicable_Unit_Types />
+</Generic_Attack_Ability>
+
+<System_Spy_Ability Name="Omega_System_Spy">
+	<Initially_Enabled>Yes</Initially_Enabled>
+	<Activation_Style>Galactic_Automatic</Activation_Style>
+	<Causes_Despawn>No</Causes_Despawn>
+	<Duration_In_Secs>-1.0</Duration_In_Secs>
+	<See_Base_Levels>Yes</See_Base_Levels>
+	<See_Credit_Income>Yes</See_Credit_Income>
+	<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+	<See_Num_Fleets>Yes</See_Num_Fleets>
+	<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+	<See_Fleet_Contents>No</See_Fleet_Contents>
+	<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+	<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+	<See_Special_Structures>Yes</See_Special_Structures>
+	<See_Political_Control>Yes</See_Political_Control>
+	<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+	<See_Current_Production>Yes</See_Current_Production>
+	<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+	<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+</System_Spy_Ability>
+</Abilities>
+</HeroUnit>
+
+
+<HeroUnit Name="Fi">
+    <Variant_Of_Existing_Type>Niner</Variant_Of_Existing_Type>
+
+	<Is_Generic_Hero>Yes</Is_Generic_Hero>
+	<Text_ID>TEXT_HERO_Fi</Text_ID>
+	<GUI_Bracket_Size>0</GUI_Bracket_Size>
+	<Encyclopedia_Text> TEXT_TOOLTIP_RC_Fi TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RC </Encyclopedia_Unit_Class>
+	<Land_Model_Name>Rep_Commando_Fi.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_Fi.tga</Icon_Name>
+
+        <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_Commando_Fi.ALO,
+    	Urban,         Rep_Commando_Fi.ALO,
+    	Arctic,     	Rep_Commando_Fi.ALO,
+    	Volcanic,     	Rep_Commando_Fi.ALO,
+    	Desert,     	Rep_Commando_Fi.ALO,
+    	Forest,     	Rep_Commando_Fi.ALO,
+    	Swamp,         Rep_Commando_Fi.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_Commando_Fi.ALO</Land_Model_Anim_Override_Name>
+
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+<!-- Non-Hero unit abilities description -->
+<Unit_Abilities_Data SubObjectList="Yes">
+
+	<!-- Primary ability -->
+<Unit_Ability>
+	<Type>PROXIMITY_MINES</Type>
+	<Recharge_Seconds>70.0</Recharge_Seconds>
+	<GUI_Activated_Ability_Name> Fi_Mines </GUI_Activated_Ability_Name> 
+	<Effective_Radius> 500.0 </Effective_Radius>
+	<SFXEvent_Target_Ability />  
+	<Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
+	<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+</Unit_Ability>
+
+<Unit_Ability>
+	<Type>SPREAD_OUT</Type>
+	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+	<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+</Unit_Ability>
+</Unit_Abilities_Data>
+
+
+<Abilities SubObjectList="Yes">
+
+<Generic_Attack_Ability Name="RC_Fi_Melee">
+	<Activation_Chance>1.0</Activation_Chance>
+	<Activation_Min_Range>0.0</Activation_Min_Range>
+	<Activation_Max_Range>45.0</Activation_Max_Range>
+	<Damage_Amount>150.0</Damage_Amount>
+	<Damage_Percentage>0.0</Damage_Percentage>
+	<Damage_Type>Damage_Normal</Damage_Type>
+	<Attack_Animation>POUND_ATTACK</Attack_Animation>	<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+	<Damage_Frame_Number>20</Damage_Frame_Number>
+	<Applicable_Unit_Categories>Infantry, LandHero</Applicable_Unit_Categories>
+	<Applicable_Unit_Types />
+</Generic_Attack_Ability>
+
+<Proximity_Mines_Ability Name="Fi_Mines">
+	<Activation_Style> User_Input </Activation_Style>
+	<Activation_Min_Range>0.0</Activation_Min_Range>
+	<Activation_Max_Range>70.0</Activation_Max_Range>
+	<Mine_Type>Proximity_Mine</Mine_Type>
+	<Trigger_Radius>30</Trigger_Radius>
+	<Number_Of_Mines>6</Number_Of_Mines>
+	<Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+	<Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+	<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+</Proximity_Mines_Ability>
+
+<System_Spy_Ability Name="Omega_System_Spy">
+	<Initially_Enabled>Yes</Initially_Enabled>
+	<Activation_Style>Galactic_Automatic</Activation_Style>
+	<Causes_Despawn>No</Causes_Despawn>
+	<Duration_In_Secs>-1.0</Duration_In_Secs>
+	<See_Base_Levels>Yes</See_Base_Levels>
+	<See_Credit_Income>Yes</See_Credit_Income>
+	<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+	<See_Num_Fleets>Yes</See_Num_Fleets>
+	<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+	<See_Fleet_Contents>No</See_Fleet_Contents>
+	<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+	<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+	<See_Special_Structures>Yes</See_Special_Structures>
+	<See_Political_Control>Yes</See_Political_Control>
+	<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+	<See_Current_Production>Yes</See_Current_Production>
+	<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+	<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+</System_Spy_Ability>
+</Abilities>
+</HeroUnit>
+
+<HeroUnit Name="Darman">
+    <Variant_Of_Existing_Type>Niner</Variant_Of_Existing_Type>
+
+	<Is_Generic_Hero>Yes</Is_Generic_Hero>
+	<Text_ID>TEXT_HERO_Darman</Text_ID>
+	<GUI_Bracket_Size>0</GUI_Bracket_Size>
+	<Encyclopedia_Text> TEXT_TOOLTIP_RC_Darman TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RC </Encyclopedia_Unit_Class>
+	<Land_Model_Name>Rep_Commando_Darman.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_Darman.tga</Icon_Name>
+
+        <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_Commando_Darman.ALO,
+    	Urban,         Rep_Commando_Darman.ALO,
+    	Arctic,     	Rep_Commando_Darman.ALO,
+    	Volcanic,     	Rep_Commando_Darman.ALO,
+    	Desert,     	Rep_Commando_Darman.ALO,
+    	Forest,     	Rep_Commando_Darman.ALO,
+    	Swamp,         Rep_Commando_Darman.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_Commando_Darman.ALO</Land_Model_Anim_Override_Name>
+
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+<!-- Non-Hero unit abilities description -->
+<Unit_Abilities_Data SubObjectList="Yes">
+
+	<!-- Primary ability -->
+<Unit_Ability>
+	<Type>STICKY_BOMB</Type>
+	<Recharge_Seconds>23.0f </Recharge_Seconds>
+	<GUI_Activated_Ability_Name> Darman_Grenade_Attack </GUI_Activated_Ability_Name>
+	<SFXEvent_Target_Ability> Unit_Grenade_Darman </SFXEvent_Target_Ability>
+	<Supports_Autofire>True</Supports_Autofire>
+</Unit_Ability>
+
+<Unit_Ability>
+	<Type>SPREAD_OUT</Type>
+	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+	<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+</Unit_Ability>
+</Unit_Abilities_Data>
+
+
+<Abilities SubObjectList="Yes">
+
+<Generic_Attack_Ability Name="RC_Darman_Melee">
+	<Activation_Chance>1.0</Activation_Chance>
+	<Activation_Min_Range>0.0</Activation_Min_Range>
+	<Activation_Max_Range>45.0</Activation_Max_Range>
+	<Damage_Amount>100.0</Damage_Amount>
+	<Damage_Percentage>0.0</Damage_Percentage>
+	<Damage_Type>Damage_Normal</Damage_Type>
+	<Attack_Animation>POUND_ATTACK</Attack_Animation>	<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+	<Damage_Frame_Number>20</Damage_Frame_Number>
+	<Applicable_Unit_Categories>Infantry, LandHero</Applicable_Unit_Categories>
+	<Applicable_Unit_Types />
+</Generic_Attack_Ability>
+
+<Grenade_Attack_Ability Name="Darman_Grenade_Attack">
+	<Activation_Style> User_Input </Activation_Style>
+	<Activation_Min_Range>5.0</Activation_Min_Range>
+	<Activation_Max_Range>100.0</Activation_Max_Range>
+	<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command>
+	<Grenade_Type>Proj_Kyle_Katarn_Sticky_Bomb</Grenade_Type>
+	<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
+	<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
+	<Grenade_Spawn_Bone>MuzzleA_00</Grenade_Spawn_Bone>
+	<Grenade_Explode_Timer_In_Secs>2.0</Grenade_Explode_Timer_In_Secs>
+
+	<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
+	<Applicable_Unit_Categories>Vehicle, Structure</Applicable_Unit_Categories>
+	<Applicable_Unit_Types />
+	<SFXEvent_Activate>Unit_Grenade_Darman</SFXEvent_Activate>
+</Grenade_Attack_Ability>
+
+<System_Spy_Ability Name="Omega_System_Spy">
+	<Initially_Enabled>Yes</Initially_Enabled>
+	<Activation_Style>Galactic_Automatic</Activation_Style>
+	<Causes_Despawn>No</Causes_Despawn>
+	<Duration_In_Secs>-1.0</Duration_In_Secs>
+	<See_Base_Levels>Yes</See_Base_Levels>
+	<See_Credit_Income>Yes</See_Credit_Income>
+	<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+	<See_Num_Fleets>Yes</See_Num_Fleets>
+	<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+	<See_Fleet_Contents>No</See_Fleet_Contents>
+	<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+	<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+	<See_Special_Structures>Yes</See_Special_Structures>
+	<See_Political_Control>Yes</See_Political_Control>
+	<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+	<See_Current_Production>Yes</See_Current_Production>
+	<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+	<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+</System_Spy_Ability>
+</Abilities>
+</HeroUnit>
+
+
+
+<HeroCompany Name="Omega_Squad">
+	<Text_ID>TEXT_HERO_OMEGASQUAD</Text_ID>
+	<Encyclopedia_Text> TEXT_TOOLTIP_OMEGASQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RC </Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 0 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>25</Damage>
+	<Autoresolve_Health>225</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>500</Build_Cost_Credits>
+	<Build_Time_Seconds>30</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>GAR_Special_Forces_HQ</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>Niner, Atin, Fi, Darman</Company_Units>
+	<Icon_Name>I_BUTTON_Omega_SQUAD.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+	<SFXEvent_Build_Complete>Unit_Respawn_Niner</SFXEvent_Build_Complete>
+	<SFXEvent_Hero_Respawned>Unit_Move_Niner</SFXEvent_Hero_Respawned>
+	<SFXEvent_Fleet_Move>Unit_Move_Niner</SFXEvent_Fleet_Move>
+
+<!-- Non-Hero unit abilities description -->
+<Unit_Abilities_Data SubObjectList="Yes">
+
+	<!-- Primary ability -->
+<Unit_Ability>
+	<Type>SPREAD_OUT</Type>
+	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+	<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+	<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cover_Niner</SFXEvent_GUI_Unit_Ability_Activated>	 
+</Unit_Ability>
+
+<Unit_Ability>
+	<Type>TARGETED_HACK</Type>
+	<Recharge_Seconds>45.0</Recharge_Seconds>
+	<GUI_Activated_Ability_Name> Atin_Hack </GUI_Activated_Ability_Name>
+	<SFXEvent_Target_Ability>Unit_Hack_Atin </SFXEvent_Target_Ability> 
+	<SFXEvent_GUI_Unit_Ability_Activated>Unit_Hack_Atin</SFXEvent_GUI_Unit_Ability_Activated>	 
+</Unit_Ability>
+
+<Unit_Ability>
+	<Type>PROXIMITY_MINES</Type>
+	<Recharge_Seconds>70.0</Recharge_Seconds>
+	<GUI_Activated_Ability_Name> Fi_Mines </GUI_Activated_Ability_Name> 
+	<Effective_Radius> 500.0 </Effective_Radius>
+	<SFXEvent_Target_Ability />  
+	<Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
+	<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+</Unit_Ability>
+
+<Unit_Ability>
+	<Type>STICKY_BOMB</Type>
+	<Recharge_Seconds>23.0f </Recharge_Seconds>
+	<GUI_Activated_Ability_Name> Darman_Grenade_Attack </GUI_Activated_Ability_Name>
+	<SFXEvent_Target_Ability> Unit_Grenade_Darman </SFXEvent_Target_Ability>
+	<Supports_Autofire>True</Supports_Autofire>
+</Unit_Ability>
+
+</Unit_Abilities_Data>
+
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+	<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+</HeroCompany>
+	
+
+
+</OmegaSquad_Data>

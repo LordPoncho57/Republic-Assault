@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<Rep_AT_XT_Data>
+
+<GroundVehicle Name="AT-XT_Walker">
+	<LOD_Bias>4</LOD_Bias>
+	<Text_ID>TEXT_UNIT_ATXT</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_ATXT</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Land_Model_Name>REP_ATXT.ALO</Land_Model_Name>
+	<Icon_Name>I_BUTTON_ATXT.tga</Icon_Name>
+	<Behavior>SELECTABLE</Behavior>
+	<LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, GARRISON_UNIT, SHIELDED </LandBehavior>
+	<Garrison_Category> Vehicle </Garrison_Category>
+	<Garrison_Value>2</Garrison_Value>
+	<Property_Flags>GoodInfantryCrusher</Property_Flags>
+	<Autoresolve_Health>200</Autoresolve_Health>
+	<Mass>1.0</Mass>
+	<Scale_Factor>1.8</Scale_Factor>
+	<Affiliation>Empire</Affiliation>
+		
+	<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
+	<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
+	<Max_Speed>1.0</Max_Speed>
+	<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
+	<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
+	<Walk_Transition>Yes</Walk_Transition>
+	<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+	<Min_Speed_Fraction_For_Turn> .1 </Min_Speed_Fraction_For_Turn>
+	<Space_Layer> Land </Space_Layer>
+	<UnitCollisionClass> Large Vehicle </UnitCollisionClass>
+	<Custom_Hard_XExtent> 8.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+	<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+	<FormationOrder> 4 </FormationOrder>
+	<FormationGrouping> Standard </FormationGrouping>
+	<FormationSpacing> 1 </FormationSpacing>
+	<FormationRaggedness> 2.5 </FormationRaggedness>
+	<MaxJiggleDistance> 5 </MaxJiggleDistance>
+
+	<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+	<MovementPredictionInterval> 12 </MovementPredictionInterval>
+	<MinimumPushReturnDistance> 60 </MinimumPushReturnDistance>
+	<Min_Speed> .3 </Min_Speed>
+	<GUI_Bracket_Size>1</GUI_Bracket_Size>
+	<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+	<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+	<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+	<Land_Damage_SFX>null,SFX_Grenade_Detonation,SFX_Grenade_Detonation</Land_Damage_SFX>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
+	<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
+	<Deploys>No</Deploys>
+	<Select_Box_Scale>50</Select_Box_Scale>
+	<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+	<Size_Value>75</Size_Value>
+	<Armor_Type> Armor_ATST </Armor_Type>
+	<Damage>6</Damage>
+	<Shield_Points>20</Shield_Points>
+	<Tactical_Health>250</Tactical_Health>
+	<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+	<Energy_Capacity>999</Energy_Capacity>
+	<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+	<Projectile_Types>Proj_Medium_Blaster_Cannon_Blue</Projectile_Types>
+	<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+	<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+	<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+	<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>240.0</Targeting_Max_Attack_Distance>
+	<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>  <!-- 18 -->
+
+	<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
+	<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
+	<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+	<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+	<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+	<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+	<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
+	<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+	<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
+
+	<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Corvette, 45.0 </Targeting_Fire_Inaccuracy>
+	<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
+
+	<Hardpoints>
+				HP_ATXT_01
+	</Hardpoints>
+		
+
+	<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+	<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
+
+	<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_ATRT</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+	<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+	<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
+
+	<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>		
+	<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+
+		
+	<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+	<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+	<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+	<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+	<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+	<MovementClass>Walker</MovementClass>
+	<OccupationStyle>1x1</OccupationStyle>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+	<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+	<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+	<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+	<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+	<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+	<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Overall_Length>20.0</Overall_Length>
+	<!-- Hand tweaked for vehicle pitching up and down on terrain -->
+	<Overall_Width>0.0</Overall_Width>
+	<!-- 0.0 means don't roll left and right on terrain -->
+	<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+	<AI_Combat_Power>80</AI_Combat_Power>
+	<Weather_Category>Walker</Weather_Category>
+	<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+	<Influences_Capture_Point> False </Influences_Capture_Point>
+	<Cheap_Bribe_Cost>120</Cheap_Bribe_Cost>
+	<Tactical_Bribe_Cost>300</Tactical_Bribe_Cost>
+	<Unit_Abilities_Data SubObjectList="Yes">
+		
+	<Unit_Ability>
+		<Type>HUNT</Type>
+	</Unit_Ability>
+   
+	<Unit_Ability>
+		<Type>FULL_SALVO</Type>
+		<Recharge_Seconds>45</Recharge_Seconds>
+		<Expiration_Seconds>7</Expiration_Seconds>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Interceptor_IV</SFXEvent_GUI_Unit_Ability_Activated>
+		<GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name> 
+		<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+	</Unit_Ability>
+</Unit_Abilities_Data>
+		
+<Abilities SubObjectList="Yes">
+	<Redirect_Blaster_Ability Name="REPL_Light_Reflective_Armor_L1_Bonus">
+		<Initially_Enabled> No </Initially_Enabled>	<!-- Must be enabled via the EL_Light_Reflective_Armor_L1_Upgrade -->
+		<Activation_Style>Take_Damage</Activation_Style>
+		<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+		<Redirect_Chance>0.0</Redirect_Chance>
+		<Block_Chance>0.15</Block_Chance>
+		<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+		<Max_Projectile_Redirection_Angle_In_Degrees> 10.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+		<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+		<!-- We can block/redirect shots from the following units types: -->
+		<Applicable_Unit_Categories>Infantry | LandHero | Vehicle | Air | Structure</Applicable_Unit_Categories>
+		<Applicable_Unit_Types />
+		<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+	</Redirect_Blaster_Ability>
+	<Redirect_Blaster_Ability Name="REPL_Light_Reflective_Armor_L2_Bonus">
+		<Initially_Enabled> No </Initially_Enabled>	<!-- Must be enabled via the EL_Light_Reflective_Armor_L2_Upgrade -->
+		<Activation_Style>Take_Damage</Activation_Style>
+		<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+		<Redirect_Chance>0.0</Redirect_Chance>
+		<Block_Chance>0.30</Block_Chance>
+		<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+		<Max_Projectile_Redirection_Angle_In_Degrees> 10.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+		<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+		<!-- We can block/redirect shots from the following units types: -->
+		<Applicable_Unit_Categories>Infantry | LandHero | Vehicle | Air | Structure</Applicable_Unit_Categories>
+		<Applicable_Unit_Types />
+		<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+	</Redirect_Blaster_Ability>
+	</Abilities>
+	<Score_Cost_Credits> 400 </Score_Cost_Credits>
+	<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+</GroundVehicle>
+
+
+	<GroundCompany Name="AT-XT_Walker_Squad">
+	<LOD_Bias>4</LOD_Bias>
+	<Text_ID>TEXT_REPUBLIC_ATXT_SQUAD</Text_ID>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        
+	<GUI_Row> 0 </GUI_Row>
+	<Build_Tab_Space_Station>0</Build_Tab_Space_Station>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>24</Damage>
+	<Autoresolve_Health>200</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>150</Build_Cost_Credits>
+	<Piracy_Value_Credits>50</Piracy_Value_Credits>
+	<Build_Time_Seconds>40</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Company_Units>AT-XT_Walker, AT-XT_Walker, AT-XT_Walker, AT-XT_Walker</Company_Units>
+	<Max_Squad_Size> 1 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_ATXT.tga</Icon_Name>
+	<GUI_Model_Name>REP_ATXT.ALO</GUI_Model_Name>
+	<GUI_Distance>115</GUI_Distance>
+	<GUI_Offset>0 0 15</GUI_Offset>
+	<GUI_Velocity>45</GUI_Velocity>
+	<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_ATRT</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_ATRT</SFXEvent_Fleet_Move>
+	<Score_Cost_Credits>150</Score_Cost_Credits>
+
+	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+	<!-- Primary ability -->
+	<Unit_Ability>
+		<Type>HUNT</Type>
+	</Unit_Ability>
+
+	<Unit_Ability>
+		<Type>FULL_SALVO</Type>
+		<Recharge_Seconds>45</Recharge_Seconds>
+		<Expiration_Seconds>7</Expiration_Seconds>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Interceptor_IV</SFXEvent_GUI_Unit_Ability_Activated>
+		<GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name> 
+		<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+	</Unit_Ability>
+	</Unit_Abilities_Data>
+	<Abilities SubObjectList="Yes">
+	<Redirect_Blaster_Ability Name="RePL_Light_Reflective_Armor_L1_Bonus">
+		<Initially_Enabled> No </Initially_Enabled>
+		<!-- Must be enabled via the EL_Light_Reflective_Armor_L1_Upgrade -->
+		<Activation_Style>Take_Damage</Activation_Style>
+		<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+		<Redirect_Chance>0.0</Redirect_Chance>
+		<Block_Chance>0.15</Block_Chance>
+		<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+		<Max_Projectile_Redirection_Angle_In_Degrees> 10.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+		<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+		<!-- We can block/redirect shots from the following units types: -->
+		<Applicable_Unit_Categories>Infantry | LandHero | Vehicle | Air | Structure</Applicable_Unit_Categories>
+		<Applicable_Unit_Types/>
+		<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+	</Redirect_Blaster_Ability>
+	<Redirect_Blaster_Ability Name="REPL_Light_Reflective_Armor_L2_Bonus">
+		<Initially_Enabled> No </Initially_Enabled>
+		<!-- Must be enabled via the EL_Light_Reflective_Armor_L2_Upgrade -->
+		<Activation_Style>Take_Damage</Activation_Style>
+		<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+		<Redirect_Chance>0.0</Redirect_Chance>
+		<Block_Chance>0.30</Block_Chance>
+		<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+		<Max_Projectile_Redirection_Angle_In_Degrees> 10.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+		<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+		<!-- We can block/redirect shots from the following units types: -->
+		<Applicable_Unit_Categories>Infantry | LandHero | Vehicle | Air | Structure</Applicable_Unit_Categories>
+		<Applicable_Unit_Types/>
+		<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+	</Redirect_Blaster_Ability>
+	</Abilities>
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites>REPC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<Encyclopedia_Text>TEXT_TOOLTIP_ATXT</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+	<Maintenance_Cost>0.05</Maintenance_Cost>
+
+	<Population_Value>1</Population_Value>
+	</GroundCompany>
+	
+</Rep_AT_XT_Data>

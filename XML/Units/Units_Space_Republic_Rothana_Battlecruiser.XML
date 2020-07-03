@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rothana_BC>
+
+<SpaceUnit Name="Rothana_Battlecruiser">
+	<Text_ID>TEXT_UNIT_ROTHBC</Text_ID>
+	<Encyclopedia_Text> TEXT_TOOLTIP_ROTHBC </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+	<Space_Model_Name>Rep_Rothana_Battlecruiser.alo</Space_Model_Name>
+	<Icon_Name>i_button_rothbc.tga</Icon_Name>
+
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Mass>0.999</Mass>
+	<Scale_Factor>1.0</Scale_Factor>
+
+	<Lua_Script>ObjectScript_LayerZ_DeployFighters</Lua_Script>
+	<Moniker>Venator_SD.txt</Moniker>	
+
+	<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	<Ranking_In_Category>6</Ranking_In_Category>
+	<Damage>60</Damage>
+	<Autoresolve_Health>6000</Autoresolve_Health>
+	<Shield_Points>21500</Shield_Points>
+	<Tactical_Health>12250</Tactical_Health>
+	<Shield_Refresh_Rate>95</Shield_Refresh_Rate>
+	<Energy_Capacity>8000</Energy_Capacity>
+	<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+
+	<MovementClass> Space </MovementClass>
+	<Space_Layer> Capital </Space_Layer>
+	<Max_Speed>1.8</Max_Speed>
+	<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.25</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>45</Bank_Turn_Angle>
+	<Hyperspace>Yes</Hyperspace>
+	<OverrideAcceleration> .03 </OverrideAcceleration>
+	<OverrideDeceleration> .03 </OverrideDeceleration>
+	<Layer_Z_Adjust> 0 </Layer_Z_Adjust>
+	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+	<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+	<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+	<Max_Thrust>1.0</Max_Thrust>
+	<Select_Box_Scale>415</Select_Box_Scale>
+	<Select_Box_Z_Adjust>-200</Select_Box_Z_Adjust>
+	<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
+	<Hyperspace_Speed>1.2</Hyperspace_Speed>
+
+	<Affiliation>Empire</Affiliation>
+	<Tech_Level>4</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>5</Required_Star_Base_Level>
+	<Required_Special_Structures />
+	<Required_Planets></Required_Planets>
+	<Build_Initially_Locked>No</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Ship_Class>capital</Ship_Class>
+	<Formation_Priority>3</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Is_Bomber>yes</Is_Bomber>
+	<Political_Control>0</Political_Control>
+	<Squadron_Capacity>10</Squadron_Capacity>
+	<Transport_Capacity>8</Transport_Capacity>
+	<Number_per_Squadron>1</Number_per_Squadron>
+	<AI_Combat_Power>3500</AI_Combat_Power>
+	<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	<Build_Cost_Credits>8000</Build_Cost_Credits>
+	<Build_Time_Seconds>1</Build_Time_Seconds>
+	<Size_Value>8</Size_Value>
+	<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+	<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+	<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+			<!-- Tech 1 -->
+
+	<Starting_Spawned_Units_Tech_0>V19_Squadron, 8</Starting_Spawned_Units_Tech_0>
+	<Reserve_Spawned_Units_Tech_0>V19_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
+
+	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
+
+			<!-- Tech 2 -->
+
+	<Starting_Spawned_Units_Tech_2>V19_Squadron, 7</Starting_Spawned_Units_Tech_2>
+	<Reserve_Spawned_Units_Tech_2>V19_Squadron, 17</Reserve_Spawned_Units_Tech_2> 
+
+	<Starting_Spawned_Units_Tech_2>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_2>
+	<Reserve_Spawned_Units_Tech_2>ARC170_Squadron, 3</Reserve_Spawned_Units_Tech_2> 
+
+	<Starting_Spawned_Units_Tech_2>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+	<Reserve_Spawned_Units_Tech_2>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_2> 
+
+			<!-- Tech 3 -->
+
+	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 4</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 9</Reserve_Spawned_Units_Tech_3> 
+
+	<Starting_Spawned_Units_Tech_3>V19_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>V19_Squadron, 5</Reserve_Spawned_Units_Tech_3> 
+
+	<Starting_Spawned_Units_Tech_3>ARC170_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>ARC170_Squadron, 6</Reserve_Spawned_Units_Tech_3> 
+
+	<Starting_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_3> 
+
+			<!-- Tech 5 -->
+	<Starting_Spawned_Units_Tech_5>V19_Squadron, 1</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>V19_Squadron, 2</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>Z95_Squadron, 3</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>Z95_Squadron, 7</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_5>
+
+	<Starting_Spawned_Units_Tech_5>ARC170_Squadron, 2</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>ARC170_Squadron, 6</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_5> 
+
+	<HardPoints>
+		HP_Rothana_BC_Dummy,
+		HP_Rothana_BC_Hangar_Bay_01,
+		HP_Rothana_BC_Hangar_Bay_02,
+		HP_Rothana_BC_Hangar_Bay_03,
+		HP_Rothana_BC_Hangar_Bay_04,
+		HP_Rothana_BC_Shield_01,
+		HP_Rothana_BC_Shield_02,
+		HP_Rothana_BC_Shield_03,
+		HP_Rothana_BC_Engine,
+		HP_Rothana_BC_Conc_01,
+		HP_Rothana_BC_Conc_02,
+		HP_Rothana_BC_Conc_03,
+		HP_Rothana_BC_Conc_04,
+		HP_Rothana_BC_Conc_05,
+		HP_Rothana_BC_Conc_06,
+		HP_Rothana_BC_TBL_01,
+		HP_Rothana_BC_TBL_02,
+		HP_Rothana_BC_TBL_03,
+		HP_Rothana_BC_TBL_04,
+		HP_Rothana_BC_TBL_05,
+		HP_Rothana_BC_TBL_06,
+		HP_Rothana_BC_TBL_07,
+		HP_Rothana_BC_TBL_08,
+		HP_Rothana_BC_TBL_09,
+		HP_Rothana_BC_TBL_10,
+		HP_Rothana_BC_LBC_01,
+		HP_Rothana_BC_LBC_02,
+		HP_Rothana_BC_LBC_03,
+		HP_Rothana_BC_LBC_04,
+		HP_Rothana_BC_LBC_05,
+		HP_Rothana_BC_LBC_06,
+		HP_Rothana_BC_LC_01,
+		HP_Rothana_BC_LC_02,
+		HP_Rothana_BC_LC_03,
+		HP_Rothana_BC_LC_04,
+		HP_Rothana_BC_LC_05,
+		HP_Rothana_BC_LC_06,
+		HP_Rothana_BC_LC_07,
+		HP_Rothana_BC_LC_08,
+		HP_Rothana_BC_LC_09,
+		HP_Rothana_BC_LC_10,
+		HP_Rothana_BC_LC_11,
+		HP_Rothana_BC_LC_12,
+		HP_Rothana_BC_LC_13,
+		HP_Rothana_BC_LC_14,
+		HP_Rothana_BC_LC_15,
+		HP_Rothana_BC_LC_16,
+		HP_Rothana_BC_AA_01,
+		HP_Rothana_BC_AA_02,
+		HP_Rothana_BC_AA_03,
+		HP_Rothana_BC_AA_04,
+		HP_Rothana_BC_AA_05,
+		HP_Rothana_BC_AA_06,
+		HP_Rothana_IC_01,
+		HP_Rothana_IC_02,
+		HP_Rothana_IC_03,
+		HP_Rothana_IC_04,
+		HP_Rothana_IC_05,
+		HP_Rothana_IC_06,
+		HP_Rothana_BC_HTBL_01,
+	</HardPoints>
+
+	<CategoryMask> Capital | AntiFrigate </CategoryMask>
+
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+<SFXEvent_Select>Unit_Select_CS</SFXEvent_Select>
+<SFXEvent_Move>Unit_Move_CS</SFXEvent_Move>
+<SFXEvent_Fleet_Move>Unit_Fleetmove_CS</SFXEvent_Fleet_Move>
+<SFXEvent_Attack>Unit_Attack_CS</SFXEvent_Attack>
+<SFXEvent_Guard></SFXEvent_Guard>
+<SFXEvent_Move_Opposite>Unit_Move_CS</SFXEvent_Move_Opposite>
+<SFXEvent_Barrage>Unit_Attack_CS</SFXEvent_Barrage>
+<SFXEvent_Stop></SFXEvent_Stop>
+<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_CS</SFXEvent_Move_Into_Asteroid_Field>
+<SFXEvent_Move_Into_Nebula>Unit_Move_CS</SFXEvent_Move_Into_Nebula>
+<SFXEvent_Damaged_By_Asteroid></SFXEvent_Damaged_By_Asteroid>
+<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+
+<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, </SFXEvent_Hardpoint_Destroyed>
+<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON </SFXEvent_Hardpoint_Destroyed>
+<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+
+	<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+         
+	<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_CS</SFXEvent_Build_Complete>
+
+	<SFXEvent_Ambient_Loop>Unit_Rep_Ship_Engine_Moving</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Rep_Ship_Engine_Idle_CIN</SFXEvent_Engine_Cinematic_Focus_Loop>
+
+	<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+	<Idle_Chase_Range>0.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+	<Death_Clone>Damage_Normal,Venator_Death_Clone</Death_Clone>
+
+	<Score_Cost_Credits> 12000 </Score_Cost_Credits>
+
+	<Cheap_Bribe_Cost>1500</Cheap_Bribe_Cost>
+	<Tactical_Bribe_Cost>3200</Tactical_Bribe_Cost>
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+		<Unit_Ability>
+			<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+			<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> 
+			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+			<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+		
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
+			<SFXEvent_GUI_Unit_Ability_Deactivated />
+			<Supports_Autofire>True</Supports_Autofire>
+		</Unit_Ability>
+
+	      <Unit_Ability>
+                <Type>DEPLOY_SQUAD</Type>
+	            <Recharge_Seconds>6</Recharge_Seconds>
+          </Unit_Ability>
+	</Unit_Abilities_Data>
+
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites />
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<Population_Value>5</Population_Value>
+	<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+</SpaceUnit>
+
+</Rothana_BC>

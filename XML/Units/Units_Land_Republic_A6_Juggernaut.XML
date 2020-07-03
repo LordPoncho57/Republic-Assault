@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<A6_Juggernaut_Data>
+
+
+<GroundVehicle Name="HAVw_A6_Juggernaut">
+	<Text_ID>TEXT_UNIT_A6_JUGGERNAUT</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_A6_JUGGERNAUT</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Icon_Name>I_BUTTON_A6_JUGGERNAUT.tga</Icon_Name>
+	<Land_Model_Name>Rep_HAVw_A6_Juggernaut.alo</Land_Model_Name>
+	<Select_Box_Scale>200</Select_Box_Scale>
+	<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+	<GUI_Bracket_Size>1</GUI_Bracket_Size>
+	<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+
+	<Mass>1.0</Mass>
+	<Scale_Factor>1.8</Scale_Factor>
+	<Max_Speed>1.8</Max_Speed>
+	<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+	<Space_Layer> Land </Space_Layer>
+	<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+	<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+	<Deploys>Yes</Deploys>
+	<Affiliation>Empire</Affiliation>
+	<Ranking_In_Category>5</Ranking_In_Category>
+	<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+	<OverrideAcceleration> .05 </OverrideAcceleration>
+	<OverrideDeceleration> .05 </OverrideDeceleration>
+	<FormationSpacing> 1 </FormationSpacing>
+	<FormationOrder> 8 </FormationOrder>
+	<FormationGrouping> Solo </FormationGrouping>
+	<FormationRaggedness> .6 </FormationRaggedness>
+	<MaxJiggleDistance> 0 </MaxJiggleDistance>
+	<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+	<Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+	<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
+	<Armor_Type> Armor_ATAT </Armor_Type>
+	<Size_Value>75</Size_Value>
+	<Damage>100</Damage>
+	<Shield_Points>0</Shield_Points>
+	<Tactical_Health>2300</Tactical_Health> <!-- From 1550 -->
+	<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+	<Energy_Capacity>999</Energy_Capacity>
+	<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+	<Behavior> ABILITY_COUNTDOWN, SELECTABLE </Behavior>
+	<LandBehavior>AFFECTED_BY_SHIELD, GARRISON_VEHICLE, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+	<Garrison_Category> Infantry</Garrison_Category>
+	<Num_Garrison_Slots>8</Num_Garrison_Slots>
+	<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
+	<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+	<Garrison_Radius>50</Garrison_Radius>
+	<Garrison_Bone_Names>CHASSIS</Garrison_Bone_Names>
+	<Property_Flags>GoodInfantryCrusher | CanContainGarrison</Property_Flags>
+	<SurfaceFX_Name>Generic_Track</SurfaceFX_Name>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+	<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+	<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+
+	<Fire_Inaccuracy_Distance> LandHero, 10.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
+	<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+
+	<Hardpoints>
+		HP_JUGGERNAUT_MISSILE_01,
+		HP_JUGGERNAUT_MISSILE_02,
+		HP_JUGGERNAUT_LC_01,
+		HP_JUGGERNAUT_LC_02,
+		HP_JUGGERNAUT_REPEATER_01,
+		HP_JUGGERNAUT_TURRET_01,
+		HP_JUGGERNAUT_SIDE_01,
+		HP_JUGGERNAUT_SIDE_02</Hardpoints>
+
+	<Death_Clone>Damage_Normal, A6_Juggernaut_Death_Clone</Death_Clone>
+
+	<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+	<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+	<SFXEvent_Select>Unit_Select_Sabertank</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_Sabertank</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabertank</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_Sabertank</SFXEvent_Attack>
+	<SFXEvent_Guard>Unit_Move_Sabertank</SFXEvent_Guard>
+	<SFXEvent_Assist_Move>Unit_Move_Sabertank </SFXEvent_Assist_Move>
+	<SFXEvent_Assist_Attack> Unit_Attack_Sabertank</SFXEvent_Assist_Attack>
+	<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Juggernaut_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Juggernaut_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+	<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+	<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+	<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+	<Death_SFXEvent_Start_Die>Unit_Juggernaut_Death</Death_SFXEvent_Start_Die>
+	<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+	<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+	<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+	<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+	<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+	<CategoryMask> Vehicle </CategoryMask>
+	<MovementClass>Wheeled</MovementClass>
+	<OccupationStyle>1x1</OccupationStyle>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Overall_Length>166.0</Overall_Length>
+	<!-- For vehicle pitching up and down on terrain (40 by geometry -->
+	<Overall_Width>56.0</Overall_Width>
+	<!-- For vehicle rolling left and right on terrain (50 by geometry) -->
+	<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+	<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+	<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+	<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+	<AI_Combat_Power>500</AI_Combat_Power>
+	<Idle_Chase_Range>0.0</Idle_Chase_Range>
+	<Guard_Chase_Range>200.0</Guard_Chase_Range>
+	<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+	<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+	<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+	<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+	<Score_Cost_Credits>200</Score_Cost_Credits>
+	<Weather_Category>Tracked</Weather_Category>
+	<Influences_Capture_Point> False </Influences_Capture_Point>
+	<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+	<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+	<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
+	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Ability>
+			<Type>SPRINT</Type>
+			<Expiration_Seconds> 7.0 </Expiration_Seconds>
+			<Recharge_Seconds> 45.0 </Recharge_Seconds>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TURBO_NAME</Alternate_Name_Text>
+			<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TURBO_DESCRIPTION</Alternate_Description_Text>
+			<Alternate_Icon_Name>I_SA_POWER_TO_ENGINES.TGA</Alternate_Icon_Name>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+	<Abilities SubObjectList="Yes">
+		<Redirect_Blaster_Ability Name="RL_Heavy_Reflective_Armor_L1_Bonus">
+			<Initially_Enabled> No </Initially_Enabled>
+			<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L1_Upgrade -->
+			<Activation_Style>Take_Damage</Activation_Style>
+			<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+			<Redirect_Chance>0.0</Redirect_Chance>
+			<Block_Chance>0.15</Block_Chance>
+			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+			<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+			<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+			<!-- We can block/redirect shots from the following units types: -->
+			<Applicable_Unit_Categories>Infantry | LandHero | Vehicle | Air | Structure</Applicable_Unit_Categories>
+			<Applicable_Unit_Types />
+			<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+		</Redirect_Blaster_Ability>
+		<Redirect_Blaster_Ability Name="RL_Heavy_Reflective_Armor_L2_Bonus">
+			<Initially_Enabled> No </Initially_Enabled>
+			<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
+			<Activation_Style>Take_Damage</Activation_Style>
+			<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+			<Redirect_Chance>0.0</Redirect_Chance>
+			<Block_Chance>0.30</Block_Chance>
+			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+			<Max_Projectile_Redirection_Angle_In_Degrees> 30.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+			<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+			<!-- We can block/redirect shots from the following units types: -->
+			<Applicable_Unit_Categories>Infantry | LandHero | Vehicle | Air | Structure</Applicable_Unit_Categories>
+			<Applicable_Unit_Types />
+			<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+		</Redirect_Blaster_Ability>
+	</Abilities>
+	<Movement_Directions_Count>2</Movement_Directions_Count>
+</GroundVehicle>
+
+
+<GroundVehicle Name="A6_Juggernaut_Death_Clone">
+	<Variant_Of_Existing_Type>A6_Juggernaut</Variant_Of_Existing_Type>
+	<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+	<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+	<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+	<Land_Model_Name>ReV_a6_juggernaut_dc.ALO</Land_Model_Name>
+	<Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+	<Custom_Hard_XExtent_Offset> -9.0 </Custom_Hard_XExtent_Offset>
+	<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
+	<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+	<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+	<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+	<IsDeathClone> true </IsDeathClone>
+	<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+</GroundVehicle>
+
+
+<GroundCompany Name="A6_Juggernaut_Company">
+	<LOD_Bias>0.5</LOD_Bias>
+	<Text_ID>TEXT_UNIT_A6_JUGGERNAUT_TEAM</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_A6_JUGGERNAUT</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Icon_Name>I_BUTTON_A6_JUGGERNAUT.tga</Icon_Name>
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>100</Damage>
+	<Autoresolve_Health>450</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>2200</Build_Cost_Credits>
+	<Build_Time_Seconds>45</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Build_Initially_Locked>No</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+	<Tech_Level>3</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>3</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>walker</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Company_Units>HAVw_A6_Juggernaut</Company_Units>
+	<Max_Squad_Size> 1 </Max_Squad_Size>
+
+	<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Sabertank</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sabertank</SFXEvent_Fleet_Move>
+
+	<Score_Cost_Credits>600</Score_Cost_Credits>
+	<Maintenance_Cost>0.05</Maintenance_Cost>
+	<Population_Value>3</Population_Value>
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>2900</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites>EC_Level_Four_Tech_Upgrade </Tactical_Build_Prerequisites>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Ability>
+			<Type>SPRINT</Type>
+			<Expiration_Seconds> 7.0 </Expiration_Seconds>
+			<Recharge_Seconds> 45.0 </Recharge_Seconds>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TURBO_NAME</Alternate_Name_Text>
+			<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TURBO_DESCRIPTION</Alternate_Description_Text>
+			<Alternate_Icon_Name>I_SA_POWER_TO_ENGINES.TGA</Alternate_Icon_Name>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+</GroundCompany>
+
+</A6_Juggernaut_Data>

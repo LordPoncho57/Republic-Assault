@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<Y-Wing_Bomber>
+	
+<SpaceUnit Name="Rep_Y-Wing">
+	<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Space_Model_Name>Rep_BTL-B_Y-Wing_Starfighter.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Select_Box_Scale>10</Select_Box_Scale>
+	<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+	<Mass>0.99</Mass>
+	<Fires_Forward>no</Fires_Forward>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+	<Max_Lift>3</Max_Lift>
+	<Max_Speed>2.5</Max_Speed>
+	<Min_Speed>1.0</Min_Speed>
+	<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+	<Max_Thrust>1.0</Max_Thrust>
+	<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>70</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+	<Hyperspace>Yes</Hyperspace>
+	<Hyperspace_Speed>1.5</Hyperspace_Speed>
+	<Maintenance_Cost>0.1</Maintenance_Cost>
+	<Affiliation>Empire</Affiliation>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>2</Required_Star_Base_Level>
+	<Shield_Points>15</Shield_Points>
+	<Tactical_Health>30</Tactical_Health>
+	<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+	<Energy_Capacity>500</Energy_Capacity>
+	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+	<Ship_Class>bomber</Ship_Class>
+	<Armor_Type> Armor_Fighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>no</Is_Escort>
+	<Is_Bomber>yes</Is_Bomber>
+      <Land_Bomber_Type>Y-Wing_Bombing_Run</Land_Bomber_Type>
+	<Political_Control>0</Political_Control>
+	<Squadron_Capacity>0</Squadron_Capacity>
+	<Number_per_Squadron>12</Number_per_Squadron>
+	<Build_Cost_Credits>70</Build_Cost_Credits>
+	<Build_Time_Seconds>13</Build_Time_Seconds>
+	<Size_Value>8</Size_Value>
+	<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, TURRET, HUNT </SpaceBehavior>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Damage>5</Damage>
+	<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
+	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+	<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+	<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+	<HardPoints>
+		HP_Y_Wing_00, HP_Y_Wing_01, HP_Y_Wing_Turret
+	</HardPoints>
+
+    <Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+    <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+    <SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+    <SFXEvent_Select>Unit_Select_CF</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_CF</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_CF</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_CF</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Move_CF</SFXEvent_Guard>
+    <SFXEvent_Assist_Move> Unit_Move_CF </SFXEvent_Assist_Move>
+    <SFXEvent_Assist_Attack> Unit_Attack_CF</SFXEvent_Assist_Attack>
+    <SFXEvent_Move_Into_Nebula>Unit_Nebula_CF </SFXEvent_Move_Into_Nebula>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+    <SFXEvent_Health_Low_Warning> Unit_Health_Low_CF </SFXEvent_Health_Low_Warning>
+    <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_CF </SFXEvent_Health_Critical_Warning>
+    <SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_CF </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+    <SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_CF </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+    <SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+	<SFXEvent_Ambient_Loop>Unit_Y-Wing_Engine_Moving</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Y-Wing_Engine_Moving</SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Y-Wing_Engine_Moving</SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y-Wing_Engine_Idle_CIN</SFXEvent_Engine_Cinematic_Focus_Loop>
+
+	<CategoryMask> Bomber | AntiCapital</CategoryMask>
+	<Property_Flags> SmallShip </Property_Flags>
+	<Icon_Name>i_button_rep_y_wing.tga</Icon_Name>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+	<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+	<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+	<MovementClass> Space </MovementClass>
+	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+	<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+	<Create_Team>Yes</Create_Team>
+	<AI_Combat_Power>75</AI_Combat_Power>
+	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+	<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+	
+	<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+	<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+	<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+	<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+	<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
+
+<!--==================== BOMBING RUN BEGINS ====================-->
+        <!--<Lua_Script>Heavy_Bombing_Run_Abilities</Lua_Script>-->
+        <!-- Unit abilities description -->
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>HUNT</Type>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+		
+            <Unit_Ability>
+                <Type>WEAKEN_ENEMY</Type>
+                <!-- DO NOT CHANGE -->
+                <Expiration_Seconds>10</Expiration_Seconds>
+
+                <!-- Adjust to your liking -->
+                <Recharge_Seconds>180</Recharge_Seconds>
+                <Owner_Particle_Bone_Name/>
+                <Effective_Radius>10000</Effective_Radius>
+                <Spawned_Object_Type>Space_Bombardment_Spawn_Marker</Spawned_Object_Type>
+                <Alternate_Name_Text/>
+                <Alternate_Description_Text/>
+                <Alternate_Icon_Name>I_SA_FORCE_CONFUSE.TGA</Alternate_Icon_Name>
+                <SFXEvent_Target_Ability/>
+                <SFXEvent_GUI_Unit_Ability_Activated/>
+                <SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+                <Area_Effect_Decal_Distance>200</Area_Effect_Decal_Distance>
+                <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>HARMONIC_BOMB</Type>
+                <Recharge_Seconds>0</Recharge_Seconds>
+                <Spawned_Object_Type>Heavy_Space_Bomb_AoE</Spawned_Object_Type>
+                <Bomb_Countdown_Seconds>4.0</Bomb_Countdown_Seconds>  <!-- AI 8.12 -->
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Boba_Fett</SFXEvent_GUI_Unit_Ability_Activated>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>TURBO</Type>
+
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Recharge_Seconds>10</Recharge_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	1.2f</Mod_Multiplier>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+            </Unit_Ability>
+		
+        </Unit_Abilities_Data>
+<!--==================== BOMBING RUN ENDS ====================-->
+
+	<Strafe_Distance>500.0</Strafe_Distance>
+	<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<Squadron Name="Rep_Y-Wing_Squadron">
+	<Text_ID>TEXT_REP_Y_WING_SQUADRON</Text_ID>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>No</Is_Escort>
+	<Is_Bomber>yes</Is_Bomber>
+	<Autoresolve_Health>200</Autoresolve_Health>
+	<Damage>15</Damage>
+	<Affiliation>Empire</Affiliation>
+	<Political_Control>0</Political_Control>
+	<Build_Cost_Credits>210</Build_Cost_Credits>
+	<Piracy_Value_Credits>50</Piracy_Value_Credits>
+	<Build_Time_Seconds>20</Build_Time_Seconds>
+	<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	<Build_Initially_Locked>No</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Slice_Cost_Credits>400</Slice_Cost_Credits>
+	<Tech_Level>99</Tech_Level>
+	<Required_Timeline/>
+	<Required_Star_Base_Level>2</Required_Star_Base_Level>
+	<Required_Special_Structures/>
+	<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing</Squadron_Units>
+	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing</Squadron_Units>
+	<Squadron_Units>Rep_Y-Wing</Squadron_Units>
+	<Max_Squad_Size>7</Max_Squad_Size>
+        <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+	<Icon_Name>i_button_rep_y_wing.tga</Icon_Name>
+	<GUI_Model_Name>Rep_BTL-B_Y-Wing_Starfighter.ALO</GUI_Model_Name>
+	<GUI_Distance>120</GUI_Distance>
+	<GUI_Offset>0 0 0</GUI_Offset>
+	<GUI_Velocity>45</GUI_Velocity>
+
+	<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_CF</SFXEvent_Build_Complete>
+
+	<FormationOrder>2</FormationOrder>
+	<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+	<Idle_Chase_Range>200.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+	<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+	<Property_Flags> SmallShip </Property_Flags>
+	
+	<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
+	<Create_Team_Type>Rep_Y_Wing_Squadron_Container </Create_Team_Type>
+		
+<!--==================== BOMBING RUN BEGINS ====================-->
+	<!-- Script -->
+	<!--<Lua_Script>Heavy_Bombing_Run_Abilities</Lua_Script>-->
+	<!-- Script -->
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+	
+            <Unit_Ability>
+                <Type>HUNT</Type>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+		
+             <Unit_Ability>
+                <Type>WEAKEN_ENEMY</Type>
+                <!-- DO NOT CHANGE -->
+                <Expiration_Seconds>10</Expiration_Seconds>
+
+                <!-- Adjust to your liking -->
+                <Recharge_Seconds>180</Recharge_Seconds>
+                <Effective_Radius>10000</Effective_Radius>
+                <Spawned_Object_Type>Space_Bombardment_Spawn_Marker</Spawned_Object_Type>
+                <Alternate_Name_Text/>
+                <Alternate_Description_Text/>
+                <Alternate_Icon_Name>I_SA_FORCE_CONFUSE.TGA</Alternate_Icon_Name>
+                <SFXEvent_Target_Ability/>
+                <SFXEvent_GUI_Unit_Ability_Activated/>
+                <SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+                <Area_Effect_Decal_Distance>200</Area_Effect_Decal_Distance>
+                <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>HARMONIC_BOMB</Type>
+                <Recharge_Seconds>0</Recharge_Seconds>
+                <Spawned_Object_Type>Heavy_Space_Bomb_AoE</Spawned_Object_Type>
+                <Bomb_Countdown_Seconds>4.0</Bomb_Countdown_Seconds>  <!-- AI 8.12 -->
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Boba_Fett</SFXEvent_GUI_Unit_Ability_Activated>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>TURBO</Type>
+
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Recharge_Seconds>10</Recharge_Seconds>
+		<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+		<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+		<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	1.2f</Mod_Multiplier>
+
+                <SFXEvent_GUI_Unit_Ability_Activated/>
+                <SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+            </Unit_Ability>
+		
+        </Unit_Abilities_Data>
+<!--==================== BOMBING RUN ENDS ====================-->
+	
+	<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+	
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites/>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	<Population_Value>1</Population_Value>
+	<Score_Cost_Credits> 700</Score_Cost_Credits>
+	</Squadron>
+
+    <Squadron Name="Rep_Y-Wing_Squadron_S">
+        <Variant_Of_Existing_Type>Rep_Y-Wing_Squadron</Variant_Of_Existing_Type>
+        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Create_Team_Type>Rep_Y_Wing_Squadron_Container_S</Create_Team_Type>
+        <!--<Lua_Script>Heavy_Bombing_Run_Abilities_Skirmish</Lua_Script>-->
+    </Squadron>
+	
+	<Container Name="Rep_Y_Wing_Squadron_Container">
+	<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+	<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+	<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
+	<Icon_Name>i_button_rep_y_wing.tga</Icon_Name>
+	<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
+	<GUI_Distance>120</GUI_Distance>
+	<GUI_Offset>0 0 0</GUI_Offset>
+	<GUI_Velocity>45</GUI_Velocity>
+	<Show_Name>No</Show_Name>
+		
+	<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+	<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+	<Formation_Priority>1</Formation_Priority>
+	<Autoresolve_Health>1600</Autoresolve_Health>
+	<Damage>50</Damage>
+	<Affiliation>Empire</Affiliation>
+	<AI_Combat_Power>3000</AI_Combat_Power>
+	<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Tech_Level>99</Tech_Level>
+
+	<MovementClass>Space</MovementClass>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	
+	<FormationOrder>2</FormationOrder>
+	<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+	<Idle_Chase_Range>200.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+	<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	
+	<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+	
+	<Max_Squad_Size>7</Max_Squad_Size>
+        <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+	
+	<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
+	<Max_Speed>5.0</Max_Speed>
+	<Min_Speed>1.5</Min_Speed>
+	<Hyperspace>yes</Hyperspace>
+	<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+<!--==================== BOMBING RUN BEGINS ====================-->
+<!-- Script -->
+        <Lua_Script>HBR_Ability_Y-Wing</Lua_Script>
+<!-- Script -->
+
+        <!-- Unit abilities description -->
+        <Unit_Abilities_Data SubObjectList="Yes">
+	
+            <Unit_Ability>
+                <Type>HUNT</Type>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+		
+            <Unit_Ability>
+                <Type>WEAKEN_ENEMY</Type>
+                <!-- DO NOT CHANGE -->
+                <Expiration_Seconds>10</Expiration_Seconds>
+
+                <!--
+                    Adjust to your liking but never lower than 2*Expiration_Seconds
+                    The ability should not have recharged before the unit has reached it's original position
+                -->
+                <Recharge_Seconds>180</Recharge_Seconds>
+                <Effective_Radius>10000</Effective_Radius>
+                <Spawned_Object_Type>Space_Bombardment_Spawn_Marker</Spawned_Object_Type>
+                <Alternate_Name_Text/>
+                <Alternate_Description_Text/>
+                <Alternate_Icon_Name>I_SA_FORCE_CONFUSE.TGA</Alternate_Icon_Name>
+                <SFXEvent_Target_Ability/>
+                <SFXEvent_GUI_Unit_Ability_Activated/>
+                <SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+                <Area_Effect_Decal_Distance>200</Area_Effect_Decal_Distance>
+                <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>HARMONIC_BOMB</Type>
+                <Recharge_Seconds>0</Recharge_Seconds>
+                <!--<Spawned_Object_Type>Heavy_Space_Bomb_AoE</Spawned_Object_Type>
+                <Bomb_Countdown_Seconds>5.0</Bomb_Countdown_Seconds>-->  <!-- AI 8.12 -->
+                <SFXEvent_GUI_Unit_Ability_Activated/>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>TURBO</Type>
+
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Recharge_Seconds>10</Recharge_Seconds>
+		<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+		<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+		<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	1.2f</Mod_Multiplier>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated/>
+
+            </Unit_Ability>
+		
+        </Unit_Abilities_Data>
+<!--==================== BOMBING RUN BEGINS ====================-->
+	</Container>
+
+    <Container Name="Rep_Y_Wing_Squadron_Container_S">
+        <Variant_Of_Existing_Type>Rep_Y_Wing_Squadron_Container</Variant_Of_Existing_Type>
+        <Lua_Script>Heavy_Bombing_Run_Abilities_Skirmish</Lua_Script>
+    </Container>
+	
+	
+</Y-Wing_Bomber>

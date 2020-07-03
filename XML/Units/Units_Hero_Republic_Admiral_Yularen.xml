@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<Admiral_Yularen_Data>
+
+<UniqueUnit Name="The_Resolute">
+	<Variant_Of_Existing_Type>Venator</Variant_Of_Existing_Type>
+		
+	<Text_ID>TEXT_UNIT_RESOLTUTE</Text_ID>
+	<Encyclopedia_Text> TEXT_TOOLTIP_RESOLUTE </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_ADMIRAL</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Icon_Name>I_BUTTON_ADMIRAL_YULAREN.tga</Icon_Name>
+
+	<Space_Model_Name>Rep_Venator_Star_Destroyer_Flasgship.alo</Space_Model_Name>
+	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
+	<Moniker></Moniker>	
+
+	<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+	<Neutralization_Cost>5500.0</Neutralization_Cost>
+	<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+	<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+	<Tech_Level>99</Tech_Level>
+	<Ranking_In_Category>3</Ranking_In_Category>
+	<AI_Combat_Power>4000</AI_Combat_Power>
+	<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+	<Build_Cost_Credits>0</Build_Cost_Credits>
+	<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+	<Population_Value>4</Population_Value>
+	<Death_Clone>Damage_Normal, Resolute_Death_Clone</Death_Clone>
+
+	<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+
+<HardPoints>
+	HP_Venator_Dummy,
+	HP_Venator_Torpedo_Tubes_01,
+	HP_Venator_Torpedo_Tubes_02,
+	HP_Venator_Ion_Battery_01,
+	HP_Venator_Ion_Battery_02,
+	HP_Venator_Laser_Battery_01,
+	HP_Venator_Laser_Battery_02,
+	HP_Venator_Laser_Battery_03,
+	HP_Venator_Laser_Battery_04,
+	HP_Venator_Laser_Battery_05,
+	HP_Venator_Laser_Battery_06,
+	HP_Venator_Laser_Battery_07,
+	HP_Venator_Laser_Battery_08,
+	HP_Venator_MTBL_01,
+	HP_Venator_MTBL_02,
+	HP_Venator_DBY_01,
+	HP_Venator_DBY_02,
+	HP_Venator_DBY_03,
+	HP_Venator_DBY_04,
+	HP_Venator_DBY_05,
+	HP_Venator_DBY_06,
+	HP_Venator_DBY_07,
+	HP_Venator_DBY_08,
+	HP_Venator_DBY_09,
+	HP_Venator_DBY_10,
+	HP_Venator_DBY_11,
+	HP_Venator_DBY_12,
+	HP_Venator_DBY_13,
+	HP_Venator_DBY_14,
+	HP_Venator_DBY_15,
+	HP_Venator_DBY_16,
+	HP_Venator_Hangar_01,
+	HP_Venator_Hangar_02,
+	HP_Venator_Shield_01,
+	HP_Venator_Shield_02,
+	HP_Venator_Engines_01,
+	HP_Venator_Engines_02
+	</HardPoints>
+
+	<SFXEvent_Select>Unit_Select_Yularen</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_Yularen</SFXEvent_Move>
+	<SFXEvent_Move_Into_Asteroid_Field>Unit_Danger_Move_Yularen</SFXEvent_Move_Into_Asteroid_Field>
+	<SFXEvent_Move_Into_Nebula>Unit_Danger_Move_Yularen</SFXEvent_Move_Into_Nebula>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_Yularen</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_Yularen</SFXEvent_Attack>
+	<SFXEvent_Guard></SFXEvent_Guard>
+	<SFXEvent_Health_Low_Warning> Unit_Damage_Yularen</SFXEvent_Health_Low_Warning>
+	<SFXEvent_Health_Critical_Warning>Unit_Damage_Yularen</SFXEvent_Health_Critical_Warning>
+	<Death_SFXEvent_Start_Die>Unit_Death_Yularen</Death_SFXEvent_Start_Die>   
+	<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+	<SFXEvent_Bombard_Incoming>Unit_Bombard_Yularen</SFXEvent_Bombard_Incoming>
+	<Play_SFXEvent_On_Sighting>False</Play_SFXEvent_On_Sighting>
+
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Lost</SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  Unit_HP_Lost</SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, Unit_HP_Lost</SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  Unit_HP_Lost</SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_HP_Lost</SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+	<SFXEvent_Ambient_Loop>Unit_Venator_Engine_Idle</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Venator_Engine_Idle </SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Venator_Engine_Moving </SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Venator_Engine_Idle_CIN </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+	<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+	<SFXEvent_Build_Complete>Unit_Respawn_Yularen</SFXEvent_Build_Complete>
+	<SFXEvent_Hero_Respawned>Unit_Respawn_Yularen</SFXEvent_Hero_Respawned>
+
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>6200</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites />
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Ability>
+			<Type>CONCENTRATE_FIRE</Type>
+			<Effective_Radius>6000</Effective_Radius>
+			<Recharge_Seconds>30</Recharge_Seconds>
+			<Expiration_Seconds>15</Expiration_Seconds>
+			<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+			<GUI_Activated_Ability_Name>Resolute_Concentrate_Fire</GUI_Activated_Ability_Name>
+			<SFXEvent_Target_Ability>Unit_Concentrate_Fire_Yularen</SFXEvent_Target_Ability>
+		</Unit_Ability>
+
+		<Unit_Ability>
+			<Type>DEPLOY_SQUAD</Type>
+			<Recharge_Seconds>6</Recharge_Seconds>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_Fighters_Yularen</SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+
+	<Abilities SubObjectList="Yes">
+		<Combat_Bonus_Ability Name="Resolute_Combat_Bonus">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Unit_Strength_Category></Unit_Strength_Category>
+			<Applicable_Unit_Categories></Applicable_Unit_Categories>
+			<Applicable_Unit_Types>Arquitens_Light_Cruiser, Acclamator_Assault_Ship</Applicable_Unit_Types>
+			<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+			<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
+			<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+			<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+			<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
+			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+			<Stacking_Category>0</Stacking_Category>
+		</Combat_Bonus_Ability>
+
+		<Concentrate_Fire_Attack_Ability Name="Resolute_Concentrate_Fire">
+			<Activation_Style> User_Input </Activation_Style>
+			<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+			<Applicable_Unit_Types />
+			<Target_Damage_Increase_Percent>0.2</Target_Damage_Increase_Percent>
+			<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
+			<Stacking_Category>0</Stacking_Category>
+		</Concentrate_Fire_Attack_Ability>
+	</Abilities>
+</UniqueUnit>
+
+<UniqueUnit Name="Resolute_Death_Clone">
+	<Text_ID>TEXT_UNIT_JEDI_CRUISER</Text_ID>
+	<Space_Model_Name></Space_Model_Name>
+	<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+	<Scale_Factor>1.95</Scale_Factor>
+	<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+	<Max_Speed>0.025</Max_Speed>
+	<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+	<Max_Thrust>0.05</Max_Thrust>
+	<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>4</Bank_Turn_Angle>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+</UniqueUnit>
+
+</Admiral_Yularen_Data>

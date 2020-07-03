@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Kandosii_Data>
+
+
+<SpaceUnit Name="Mandalorian_Kandosii">
+	<Text_ID>TEXT_UNIT_KANDOSII</Text_ID>
+	<Encyclopedia_Text> TEXT_TOOLTIP_KANDOSII</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+	<Icon_Name>I_BUTTON_KANDOSII.tga</Icon_Name>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Space_Model_Name>Mandalorian_Kandosii.ALO</Space_Model_Name>
+	<Select_Box_Scale>1</Select_Box_Scale>
+	<Select_Box_Z_Adjust>1</Select_Box_Z_Adjust>
+	<Mass>0.995</Mass>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Size_Value>360</Size_Value>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	<Moniker>Mandalorian_Kandosii.txt</Moniker>
+
+	<Max_Speed>1.8</Max_Speed>
+	<Max_Rate_Of_Turn>0.075</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.075</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>80</Bank_Turn_Angle>	
+	<Max_Thrust>0.05</Max_Thrust>
+	<Hyperspace>Yes</Hyperspace>
+	<Hyperspace_Speed>1</Hyperspace_Speed>
+	<Maintenance_Cost>0.3</Maintenance_Cost>
+	<MovementClass> Space </MovementClass>
+	<Space_Layer> Capital </Space_Layer>
+	<Ship_Class>Capital</Ship_Class>
+	<Layer_Z_Adjust>0</Layer_Z_Adjust>
+	<OverrideAcceleration> .05 </OverrideAcceleration>
+	<OverrideDeceleration> .05 </OverrideDeceleration>
+	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+	<Affiliation>Empire, Rebel</Affiliation>
+	<Tech_Level>0</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>3</Required_Star_Base_Level>
+	<Required_Planets>Mandalore</Required_Planets>
+	<Build_Cost_Credits>8500</Build_Cost_Credits>
+	<Build_Time_Seconds>1</Build_Time_Seconds>
+	<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+	<Armor_Type> Armor_Star_Destroyer </Armor_Type>
+	<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+	<Autoresolve_Health>17700</Autoresolve_Health>
+	<Tactical_Health>17700</Tactical_Health>
+	<Shield_Points>20000</Shield_Points>
+	<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+	<Energy_Capacity>8500</Energy_Capacity>
+	<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+	<Damage>800</Damage>
+	<AI_Combat_Power>8500</AI_Combat_Power>
+	<Formation_Priority>5</Formation_Priority>
+	<Squadron_Capacity>40</Squadron_Capacity>
+
+	<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+	<SpaceBehavior>WEAPON, SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions></Death_Explosions>
+	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+	<Death_Clone>Damage_Normal, Kandosii_Death_Clone</Death_Clone>
+
+	<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>2400.0</Targeting_Max_Attack_Distance>
+	<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Starting_Spawned_Units_Tech_0>Komrk_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Komrk_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+
+	<HardPoints> 
+		HP_Kandosii_Dummy,
+		HP_Kandosii_DTL_01,
+		HP_Kandosii_DTL_02,
+		HP_Kandosii_QTL_01,
+		HP_Kandosii_QTL_02,
+		HP_Kandosii_QTL_03,
+		HP_Kandosii_LC_01,
+		HP_Kandosii_LC_02,
+		HP_Kandosii_LC_03,
+		HP_Kandosii_LC_04,
+		HP_Kandosii_LC_05,
+		HP_Kandosii_LC_06,
+		HP_Kandosii_TBL_01,
+		HP_Kandosii_TBL_02,
+		HP_Kandosii_TBL_03,
+		HP_Kandosii_TBL_04,
+		HP_Kandosii_Hanger_01,
+		HP_Kandosii_Hanger_02
+
+	</HardPoints>
+
+  <Projectile_Types>Proj_Ship_Concussion_Missile_Super_Heavy</Projectile_Types>
+  <Turret_Rotate_Extent_Degrees>300</Turret_Rotate_Extent_Degrees>
+  <Turret_Elevate_Extent_Degrees>300</Turret_Elevate_Extent_Degrees>
+  <Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+  <Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+  <Projectile_Fire_Recharge_Seconds>16.0</Projectile_Fire_Recharge_Seconds>
+  <Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+  <Targeting_Min_Attack_Distance>10</Targeting_Min_Attack_Distance>
+  <SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
+	<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+
+	<Lua_Script>ObjectScript_LayerZ_FullSalvo</Lua_Script>
+
+	<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Kadalbe</SFXEvent_Build_Complete>
+	<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+	<SFXEvent_Select>Unit_Select_Kadalbe</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_Kadalbe</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_Kadalbe</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_Kadalbe</SFXEvent_Attack>
+	<SFXEvent_Guard>Unit_Guard_Kadalbe</SFXEvent_Guard>
+	<SFXEvent_Barrage>Unit_Barrage_Kadalbe</SFXEvent_Barrage>
+	<SFXEvent_Move_Into_Nebula> Unit_Nebula_Kadalbe </SFXEvent_Move_Into_Nebula>
+
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Kadalbe </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Kadalbe </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Kadalbe </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Kadalbe </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Kadalbe </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Kadalbe </SFXEvent_Attack_Hardpoint>
+
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Kadalbe </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Kadalbe </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Kadalbe </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+	<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+	<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+	
+	<CategoryMask> Capital | AntiFrigate </CategoryMask>
+	<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+	<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+	<Idle_Chase_Range>0.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+	<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+	<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+	<Ranking_In_Category>5</Ranking_In_Category>
+	<Score_Cost_Credits> 42500 </Score_Cost_Credits>
+	<Population_Value>6</Population_Value>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>7000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+<Unit_Abilities_Data SubObjectList="Yes">
+<Unit_Ability>
+	<Type>FULL_SALVO</Type>
+	<Recharge_Seconds>60</Recharge_Seconds>
+	<Expiration_Seconds>15</Expiration_Seconds>
+	<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+	<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FAB_NAME</Alternate_Name_Text>
+	<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FAB_DESCRIPTION</Alternate_Description_Text>
+	<Alternate_Icon_Name>I_SA_FAB.tga</Alternate_Icon_Name>
+</Unit_Ability>
+
+<Unit_Ability>
+	<Type>DEPLOY_SQUAD</Type>
+	<Recharge_Seconds>6</Recharge_Seconds>
+</Unit_Ability>
+</Unit_Abilities_Data>
+
+</SpaceUnit>
+
+<SpaceUnit Name="Kandosii_Death_Clone">
+	<Text_ID>TEXT_UNIT_KEDALBE_BATTLESHIP</Text_ID>
+	<Space_Model_Name>Mandalorian_Kandosii_Deathclone.ALO</Space_Model_Name>
+	<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+	<Scale_Factor> 0.19 </Scale_Factor>
+	<Layer_Z_Adjust> 0 </Layer_Z_Adjust>
+	<Max_Speed> 0.25 </Max_Speed>
+	<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+	<Max_Thrust> 0.05 </Max_Thrust>
+	<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+	<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+	<Affiliation> Underworld </Affiliation>
+	<Ship_Class> capital_ship </Ship_Class>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+</SpaceUnit>
+
+
+
+</Kandosii_Data>

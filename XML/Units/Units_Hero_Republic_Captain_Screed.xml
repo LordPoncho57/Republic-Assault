@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Captain_Screed_Data>
+
+<UniqueUnit Name="The_Vanquisher">
+	<Variant_Of_Existing_Type>Victory_SD</Variant_Of_Existing_Type>
+		
+	<Text_ID>TEXT_UNIT_VANQUISHER</Text_ID>
+	<Encyclopedia_Text> TEXT_TOOLTIP_VANQUISHER </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_CAPTAIN</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Icon_Name>I_BUTTON_CAPTAIN_SCREED.tga</Icon_Name>
+
+	<Space_Model_Name>Rep_CF_Victory-I.alo</Space_Model_Name>
+	<Lua_Script>ObjectScript_LayerZ_DeployFighters</Lua_Script>
+
+	<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+	<Neutralization_Cost>5500.0</Neutralization_Cost>
+	<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+	<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+	<Tech_Level>99</Tech_Level>
+	<Ranking_In_Category>3</Ranking_In_Category>
+	<AI_Combat_Power>4000</AI_Combat_Power>
+	<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+	<Build_Cost_Credits>0</Build_Cost_Credits>
+	<CategoryMask> Frigate | SpaceHero | AntiFrigate </CategoryMask>
+	<Population_Value>3</Population_Value>
+	<Death_Clone>Damage_Normal, Vanquisher_Death_Clone</Death_Clone>
+
+	<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+
+	<HardPoints>
+		HP_Victory-I_Dummy,
+		HP_Victory-I_Beam_Cannon_01,
+		HP_Victory-I_Beam_Cannon_02,
+		HP_Victory-I_Ion_Cannon_01,
+		HP_Victory-I_Ion_Cannon_02,
+		HP_Victory-I_Ion_Cannon_03,
+		HP_Victory-I_Ion_Cannon_04,
+		HP_Victory-I_LTBL_01,
+		HP_Victory-I_LTBL_02,
+		HP_Victory-I_QTBL_01,
+		HP_Victory-I_QTBL_02,
+		HP_Victory-I_QTBL_03,
+		HP_Victory-I_QTBL_04,
+		HP_Victory-I_QTBL_05,
+		HP_Victory-I_QTBL_06,
+		HP_Victory-I_Hangar_Bay_01,
+		HP_Victory-I_Hangar_Bay_02,
+		HP_Victory-I_Shield,
+		HP_Victory-I_Engine
+	</HardPoints>
+		
+	<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+	<SFXEvent_Move_Into_Asteroid_Field>Unit_Move_Acclamator</SFXEvent_Move_Into_Asteroid_Field>
+	<SFXEvent_Move_Into_Nebula>Unit_Move_Acclamator</SFXEvent_Move_Into_Nebula>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+	<SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+	<SFXEvent_Health_Low_Warning> </SFXEvent_Health_Low_Warning>
+	<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
+
+	<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+	<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+	<SFXEvent_Bombard_Incoming></SFXEvent_Bombard_Incoming>
+	<Play_SFXEvent_On_Sighting>False</Play_SFXEvent_On_Sighting>
+
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Acclamator </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Acclamator </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Acclamator </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Acclamator </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Acclamator </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Acclamator </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Acclamator </SFXEvent_Attack_Hardpoint>
+		
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Acclamator </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Acclamator </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+	<SFXEvent_Ambient_Loop>Unit_Rep_Ship_Engine_Moving</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Rep_Ship_Engine_Idle_CIN</SFXEvent_Engine_Cinematic_Focus_Loop>
+
+	<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+	<SFXEvent_Build_Complete>Unit_Select_Acclamator</SFXEvent_Build_Complete>
+	<SFXEvent_Hero_Respawned>Unit_Select_Acclamator</SFXEvent_Hero_Respawned>
+
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>6200</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites />
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<Unit_Abilities_Data SubObjectList="Yes">
+        <Unit_Ability>
+	       <Type>FULL_SALVO</Type>
+	        <Recharge_Seconds>60</Recharge_Seconds>
+	        <Expiration_Seconds>15</Expiration_Seconds>
+	        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+	        <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FAB_NAME</Alternate_Name_Text>
+	        <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FAB_DESCRIPTION</Alternate_Description_Text>
+        	<Alternate_Icon_Name>I_SA_FAB.tga</Alternate_Icon_Name>
+        </Unit_Ability>
+
+		<Unit_Ability>
+			<Type>DEPLOY_SQUAD</Type>
+			<Recharge_Seconds>6</Recharge_Seconds>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_Fighters_Yularen</SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+
+	<Abilities SubObjectList="Yes">
+		<Combat_Bonus_Ability Name="Vanquisher_Combat_Bonus">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Unit_Strength_Category></Unit_Strength_Category>
+			<Applicable_Unit_Categories></Applicable_Unit_Categories>
+			<Applicable_Unit_Types>Arquitens_Light_Cruiser, Acclamator_Assault_Ship</Applicable_Unit_Types>
+			<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+			<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>
+			<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+			<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+			<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+			<Movement_Speed_Bonus_Percentage>0.2</Movement_Speed_Bonus_Percentage>
+			<Stacking_Category>0</Stacking_Category>
+		</Combat_Bonus_Ability>
+
+	</Abilities>
+</UniqueUnit>
+
+<UniqueUnit Name="Vanquisher_Death_Clone">
+	<Text_ID>TEXT_UNIT_JEDI_CRUISER</Text_ID>
+	<Space_Model_Name></Space_Model_Name>
+	<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+	<Scale_Factor>1.95</Scale_Factor>
+	<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+	<Max_Speed>0.025</Max_Speed>
+	<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+	<Max_Thrust>0.05</Max_Thrust>
+	<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>4</Bank_Turn_Angle>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+</UniqueUnit>
+
+</Captain_Screed_Data>

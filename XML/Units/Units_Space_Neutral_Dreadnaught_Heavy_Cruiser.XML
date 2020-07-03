@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<Dreadnaught_Heavy_Cruiser_Data>
+
+
+<SpaceUnit Name="Dreadnaught_Heavy_Cruiser">
+	<Text_ID>TEXT_UNIT_DREADNAUGHT_HEAVY_CRUISER</Text_ID>
+	<Encyclopedia_Text> 
+	TEXT_TOOLTIP_DREADNAUGHT
+	TEXT_TOOLTIP_SPACE
+	TEXT_TOOLTIP_DREADNAUGHT_STATS
+	</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_ns_dreadnaught_heavy_cruiser.tga</Icon_Name>
+
+	<!-- 2. Model Data -->
+
+	<Space_Model_Name>Ns_Dreadnaught_Heavy_Cruiser.ALO</Space_Model_Name>
+	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Ranking_In_Category>3</Ranking_In_Category>
+	<Size_Value>8</Size_Value>
+	<Select_Box_Scale>300</Select_Box_Scale>
+	<Select_Box_Z_Adjust>-35</Select_Box_Z_Adjust>
+	<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+	<HardPoints>
+	HP_Dreadnaught_Shield,
+	HP_Dreadnaught_Engine,
+	HP_Dreadnaught_LC_01,
+	HP_Dreadnaught_LC_02,
+	HP_Dreadnaught_LC_03,
+	HP_Dreadnaught_LC_04,
+	HP_Dreadnaught_LC_05,
+	HP_Dreadnaught_LC_06,
+	HP_Dreadnaught_TBL_01,
+	HP_Dreadnaught_TBL_02,
+	HP_Dreadnaught_TBL_03,
+	HP_Dreadnaught_TBL_04,
+	HP_Dreadnaught_TBL_05,
+	HP_Dreadnaught_TBL_06
+	</HardPoints>
+
+	<!-- 3. Targeting Data -->	
+
+	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
+	<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+	<!-- 4. Class Data -->
+
+	<Ship_Class>frigate</Ship_Class>
+	<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+
+	<Affiliation>Empire</Affiliation>
+	<Space_Layer> Frigate </Space_Layer>
+	<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+	<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+	<!-- 5. Autoresolve Data -->
+
+	<Damage>40</Damage>
+	<Autoresolve_Health>3000</Autoresolve_Health>
+	<AI_Combat_Power>3000</AI_Combat_Power>
+
+	<!-- 6. Hull Data -->
+
+	<Tactical_Health>10000</Tactical_Health>
+	<Armor_Type> Armor_Acclamator </Armor_Type>
+
+	<Shield_Points>2000</Shield_Points>
+	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+
+	<Energy_Capacity>3000</Energy_Capacity>
+	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+
+	<Mass>0.9995</Mass>
+	<Max_Speed>2.2</Max_Speed>
+	<Min_Speed>1.0</Min_Speed>
+	<OverrideAcceleration> .15 </OverrideAcceleration>
+	<OverrideDeceleration>0.1</OverrideDeceleration>
+
+	<Max_Thrust>1.5</Max_Thrust>
+	<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>35</Bank_Turn_Angle>
+
+	<Hyperspace>Yes</Hyperspace>
+	<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+	<MovementClass> Space </MovementClass>
+	<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+	<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+	<Idle_Chase_Range>0.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+
+	<!-- 8. Galactic Build Data -->
+
+	<Build_Cost_Credits>2500</Build_Cost_Credits>
+	<Build_Time_Seconds>20</Build_Time_Seconds>
+	<Population_Value>3</Population_Value>
+
+	<Required_Star_Base_Level>2</Required_Star_Base_Level>
+	<Required_Special_Structures />
+	<Required_Planets />
+	<Tech_Level>1</Tech_Level>
+
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	<Build_Initially_Locked>no</Build_Initially_Locked>
+
+	<!-- 9. Multiplayer Skirmish Build Data -->
+
+	<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+	<Tactical_Build_Prerequisites />
+	<Build_Limit_Current_Per_Player />
+	<Build_Limit_Lifetime_For_All_Allies />
+		
+	<!-- 10. Other Data -->
+
+	<Override_Bounty_SP>100</Override_Bounty_SP>
+	<Override_Bounty_MP>100</Override_Bounty_MP>
+	<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+	<Piracy_Value_Credits>100</Piracy_Value_Credits>
+	<Score_Cost_Credits>100</Score_Cost_Credits>
+	<Squadron_Capacity>15</Squadron_Capacity>
+	<Transport_Capacity>12</Transport_Capacity>
+
+	<!-- 11. Tactical Combat Data -->
+
+	<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+	<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+	<!-- 13. Ability Data -->
+
+	<!--<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Ability>
+		<Type>POWER_TO_WEAPONS</Type>
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.4f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.75f</Mod_Multiplier>
+			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	0.75f</Mod_Multiplier>
+			<Recharge_Seconds>40</Recharge_Seconds>
+			<Expiration_Seconds>12</Expiration_Seconds>
+
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_CS</SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
+	</Unit_Abilities_Data>-->
+
+	<!-- 14. Death Data -->
+	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+	<!--<Death_Clone>Damage_Normal, Acclamator_Death_Clone </Death_Clone>-->
+
+	<!-- 15. Sound Data -->
+	<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_CS</SFXEvent_Build_Complete>
+
+	<SFXEvent_Select>Unit_Select_CS</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_CS</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleetmove_CS</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_CS</SFXEvent_Attack>
+	<SFXEvent_Guard></SFXEvent_Guard>
+	<SFXEvent_Move_Opposite>Unit_Move_CS</SFXEvent_Move_Opposite>
+	<SFXEvent_Barrage>Unit_Attack_CS</SFXEvent_Barrage>
+	<SFXEvent_Stop></SFXEvent_Stop>
+	<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_CS</SFXEvent_Move_Into_Asteroid_Field>
+	<SFXEvent_Move_Into_Nebula>Unit_Move_CS</SFXEvent_Move_Into_Nebula>
+	<SFXEvent_Damaged_By_Asteroid></SFXEvent_Damaged_By_Asteroid>
+
+	<!--<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Attack_CS </SFXEvent_Attack_Hardpoint>
+
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>
+	<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_HP_Lost </SFXEvent_Hardpoint_Destroyed>-->
+         
+
+	<SFXEvent_Ambient_Loop>Unit_Rep_Ship_Engine_Moving</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Rep_Ship_Engine_Idle_CIN</SFXEvent_Engine_Cinematic_Focus_Loop>
+	<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+	<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+	<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+</SpaceUnit>
+
+<SpaceUnit Name="Dreadnaught_Heavy_Cruiser_CIS">
+	<Variant_Of_Existing_Type>Dreadnaught_Heavy_Cruiser</Variant_Of_Existing_Type>
+	<Affiliation>Rebel</Affiliation>
+
+	<Encyclopedia_Text> 
+	TEXT_TOOLTIP_PRAETOR
+	TEXT_TOOLTIP_SPACE
+	TEXT_TOOLTIP_PRAETOR_STATS
+	</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_cis_dreadnaught_heavy_cruiser.tga</Icon_Name>
+	<Space_Model_Name>CIS_Dreadnaught_Heavy_Cruiser.ALO</Space_Model_Name>
+</SpaceUnit>
+
+<SpaceUnit Name="Dreadnaught_Heavy_Cruiser_Rep">
+	<Variant_Of_Existing_Type>Dreadnaught_Heavy_Cruiser</Variant_Of_Existing_Type>
+
+	<Encyclopedia_Text> 
+	TEXT_TOOLTIP_PRAETOR
+	TEXT_TOOLTIP_SPACE
+	TEXT_TOOLTIP_PRAETOR_STATS
+	</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_rep_dreadnaught_heavy_cruiser.tga</Icon_Name>
+	<Space_Model_Name>Rep_Dreadnaught_Heavy_Cruiser.ALO</Space_Model_Name>
+</SpaceUnit>
+
+<SpaceUnit Name="Dreadnaught_Heavy_Cruiser_CorSec">
+	<Variant_Of_Existing_Type>Dreadnaught_Heavy_Cruiser</Variant_Of_Existing_Type>
+
+	<Encyclopedia_Text> 
+	TEXT_TOOLTIP_PRAETOR
+	TEXT_TOOLTIP_SPACE
+	TEXT_TOOLTIP_PRAETOR_STATS
+	</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_rep_corsec_dreadnaught_heavy_cruiser.tga</Icon_Name>
+	<Space_Model_Name>Rep_CorSec_Dreadnaught_Heavy_Cruiser.ALO</Space_Model_Name>
+</SpaceUnit>
+
+<!--<SpaceUnit Name="Acclamator_Death_Clone">
+	<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
+	<Space_Model_Name></Space_Model_Name>
+	<xxxSpace_Model_Name></xxxSpace_Model_Name>
+	<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+	<Scale_Factor>0.9</Scale_Factor>
+	<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+	<Max_Speed>1.2</Max_Speed>
+	<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+	<Max_Thrust>1</Max_Thrust>
+	<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>0</Bank_Turn_Angle>
+	<Affiliation>Empire</Affiliation>
+	<Ship_Class>frigate</Ship_Class>
+	<Remove_Upon_Death> True </Remove_Upon_Death>
+</SpaceUnit>-->
+
+
+</Dreadnaught_Heavy_Cruiser_Data>
