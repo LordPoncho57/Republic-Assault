@@ -1,0 +1,1910 @@
+﻿<?xml version="1.0"?>
+<GroundStructures>
+
+  	<GroundStructure Name="Empire_Wallx1">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>250</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+  	<GroundStructure Name="Empire_Wallx2">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>300</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+  	<GroundStructure Name="Empire_Wallx3">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>400</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>400</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+  	<GroundStructure Name="Empire_Wallx4">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+  	<GroundStructure Name="Empire_Wallx5">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+		<Energy_Capacity>900</Energy_Capacity>
+		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+  	<GroundStructure Name="Empire_Wallx6">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>3000</Tactical_Health>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+  	<GroundStructure Name="Empire_Wallx7">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>17.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+		
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+
+	<GroundStructure Name="Empire_Wall_Cornerx1">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall_Cornerx2">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall_Cornerx3">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>400</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall_Cornerx4">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall_Cornerx5">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall_Cornerx6">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall_Cornerx7">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>17.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx1">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx2">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx3">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>400</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx4">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx5">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx6">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+	<GroundStructure Name="Empire_Wall__Inside_Cornerx7">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-inside-crn.alo</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>17.0</Scale_Factor>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<OverridePassability> EmpireWall </OverridePassability>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+   </GroundStructure>
+
+	<GroundStructure Name="Wallx1">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wallx2">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wallx3">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>3.0</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>400</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wallx4">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wallx5">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wallx6">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>11.0</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wallx7">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-MID.ALO</Land_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>17.0</Scale_Factor>
+		
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+
+	<GroundStructure Name="Wall_Cornerx1">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Cornerx2">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Cornerx3">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>3.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>400</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Cornerx4">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Cornerx5">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Cornerx6">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>11.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Cornerx7">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-corn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>17.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+
+	<GroundStructure Name="Wall_Inside_Cornerx1">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>250</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Inside_Cornerx2">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Inside_Cornerx3">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>3.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>400</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Inside_Cornerx4">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Inside_Cornerx5">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>8.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>1000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Inside_Cornerx6">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>11.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>2000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+	<GroundStructure Name="Wall_Inside_Cornerx7">
+		<Text_ID>TEXT_STRUCTURE_WALL</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RB_BASEWALL-Inside-crn.ALO</Land_Model_Name>
+		<Behavior />
+		<LandBehavior>WALL</LandBehavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>17.0</Scale_Factor>
+
+		<OverridePassability> RebelWall </OverridePassability>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>4000</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Rebel</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Armor_Type> Armor_Wall </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Hide_Health_Bar>true</GUI_Hide_Health_Bar>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.04  0.04</Radar_Icon_Size>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
+		<CategoryMask>Wall</CategoryMask>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+	</GroundStructure>
+
+	<GroundStructure Name="Ysalamiri_Treex1">
+		<GUI_Bounds_Scale>0.1</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_YSALAMIRI_TREE</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_ANIMAL_NEST</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>NB_YSALAMIRI_TREE.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Icon_Name>i_button_nb_Ewok_tree.tga</Icon_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		
+		<Behavior>DUMMY_TOOLTIP</Behavior>
+		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, DISABLE_FORCE_ABILITIES</LandBehavior>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Is_Branched_Map_Discardable>False</Is_Branched_Map_Discardable>
+
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		
+		<Affiliation>Hostile</Affiliation>
+		
+		<Disable_Force_Abilities_Range>300</Disable_Force_Abilities_Range>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+	</GroundStructure>
+	<GroundStructure Name="Ysalamiri_Treex2">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_YSALAMIRI_TREE</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_ANIMAL_NEST</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>NB_YSALAMIRI_TREE.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Icon_Name>i_button_nb_Ewok_tree.tga</Icon_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		
+		<Behavior>DUMMY_TOOLTIP</Behavior>
+		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, DISABLE_FORCE_ABILITIES</LandBehavior>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Is_Branched_Map_Discardable>False</Is_Branched_Map_Discardable>
+
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+		
+		<Affiliation>Hostile</Affiliation>
+		
+		<Disable_Force_Abilities_Range>500</Disable_Force_Abilities_Range>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+	</GroundStructure>
+	<GroundStructure Name="Ysalamiri_Treex3">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_YSALAMIRI_TREE</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_ANIMAL_NEST</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>NB_YSALAMIRI_TREE.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Icon_Name>i_button_nb_Ewok_tree.tga</Icon_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		
+		<Behavior>DUMMY_TOOLTIP</Behavior>
+		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, DISABLE_FORCE_ABILITIES</LandBehavior>
+
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Is_Branched_Map_Discardable>False</Is_Branched_Map_Discardable>
+
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Mass>1.0</Mass>
+		<Scale_Factor>5.0</Scale_Factor>
+		
+		<Affiliation>Hostile</Affiliation>
+		
+		<Disable_Force_Abilities_Range>5000</Disable_Force_Abilities_Range>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+	</GroundStructure>
+
+
+	<GroundStructure Name="Empire_Landing_Platform_2Xx1">
+		<Text_ID>TEXT_STRUCTURE_LANDING_PAD</Text_ID>
+		<Land_Model_Name> EB_ICC_landingpad.alo </Land_Model_Name>	
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Landing_Platform_2Xx2">
+		<Text_ID>TEXT_STRUCTURE_LANDING_PAD</Text_ID>
+		<Land_Model_Name> EB_ICC_landingpad.alo </Land_Model_Name>	
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Landing_Platform_2Xx3">
+		<Text_ID>TEXT_STRUCTURE_LANDING_PAD</Text_ID>
+		<Land_Model_Name> EB_ICC_landingpad.alo </Land_Model_Name>	
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Landing_Platform_2Xx4">
+		<Text_ID>TEXT_STRUCTURE_LANDING_PAD</Text_ID>
+		<Land_Model_Name> EB_ICC_landingpad.alo </Land_Model_Name>	
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Landing_Platform_2Xx5">
+		<Text_ID>TEXT_STRUCTURE_LANDING_PAD</Text_ID>
+		<Land_Model_Name> EB_ICC_landingpad.alo </Land_Model_Name>	
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</GroundStructure>
+
+
+</GroundStructures>

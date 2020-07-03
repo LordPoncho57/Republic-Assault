@@ -1,0 +1,2833 @@
+<?xml version="1.0"?>
+<SpaceProps>
+
+    <SpecialEffect Name="Object_Highlight1">
+        <Land_Model_Name>W_HILIGHT_FX.ALO</Land_Model_Name>
+        <Space_Model_Name>W_HILIGHT_FX.ALO</Space_Model_Name>
+        <Scale_Factor>2.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Behavior>IDLE</Behavior>
+    </SpecialEffect>
+
+    <SpecialEffect Name="Object_Highlight2">
+        <Land_Model_Name>W_HILIGHT_FX.ALO</Land_Model_Name>
+        <Space_Model_Name>W_HILIGHT_FX.ALO</Space_Model_Name>
+        <Scale_Factor>3.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Behavior>IDLE</Behavior>
+    </SpecialEffect>
+
+    <SpecialEffect Name="Object_Highlight3">
+        <Land_Model_Name>W_HILIGHT_FX.ALO</Land_Model_Name>
+        <Space_Model_Name>W_HILIGHT_FX.ALO</Space_Model_Name>
+        <Scale_Factor>4.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Behavior>IDLE</Behavior>
+    </SpecialEffect>
+
+    <SpecialEffect Name="Object_Highlight4">
+        <Land_Model_Name>W_HILIGHT_FX.ALO</Land_Model_Name>
+        <Space_Model_Name>W_HILIGHT_FX.ALO</Space_Model_Name>
+        <Scale_Factor>8.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Is_Discardable>No</Is_Discardable>
+        <Behavior>IDLE</Behavior>
+    </SpecialEffect>
+
+
+	<SpaceProp Name="PLANET_deathstar2x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstar2x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstar2x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstar2x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstar2x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_deathstarx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstarx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstarx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstarx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_deathstarx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_deathstar02.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+
+	<SpaceProp Name="PLANET_Alderaan">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Alderaanx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Alderaanx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Alderaanx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Alderaanx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Alderaanx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Alderaanx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_alderaan_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Bonadan">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Bonadanx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Bonadanx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Bonadanx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Bonadanx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Bonadanx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Bonadanx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_bonadan_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Brentaal">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Brentaalx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Brentaalx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Brentaalx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Brentaalx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Brentaalx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Brentaalx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_desert00.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Coruscant">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Coruscantx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Coruscantx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Coruscantx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Coruscantx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Coruscantx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Coruscantx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_urban00.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="PLANET_Dagobah">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Dagobahx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Dagobahx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Dagobahx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Dagobahx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Dagobahx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="PLANET_Dagobahx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_dagobah_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Eriadu">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Eriadux1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Eriadux2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Eriadux3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Eriadux4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Eriadux5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Eriadux6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_eriadu_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Forest">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Forestx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Forestx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Forestx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Forestx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Forestx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Forestx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_forest00.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="PLANET_Gas">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Gasx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gasx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gasx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gasx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gasx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gasx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas00.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Gas_Silver">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Gas_Silverx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gas_Silverx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gas_Silverx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gas_Silverx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gas_Silverx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Gas_Silverx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_gas_silver.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Geonosis">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Geonosisx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Geonosisx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Geonosisx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Geonosisx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Geonosisx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Geonosisx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_geonosis_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="PLANET_Hoth-0">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hoth-1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hoth-2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Hoth">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Hothx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hothx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hothx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hothx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hothx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Hothx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_hoth_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Kamino">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Kaminox1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Kaminox2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Kaminox3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Kaminox4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Kaminox5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Kaminox6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_kamino_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Moon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Moonx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Moonx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Moonx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Moonx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Moonx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Moonx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Ocean">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Oceanx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Oceanx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Oceanx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Oceanx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Oceanx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Oceanx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_planet_ocean00.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Mustafar">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="PLANET_Mustafarx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Mustafarx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Mustafarx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>80</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Mustafarx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Mustafarx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>230</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="PLANET_Mustafarx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_mustafar_high.alo</Land_Model_Name>
+		<Scale_Factor>320</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Orbital_NightCloak_Dathomirx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_construction_pod.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Orbital_NightCloak_Dathomirx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_construction_pod.alo</Land_Model_Name>
+		<Scale_Factor>2.8</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Orbital_NightCloak_Dathomirx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_construction_pod.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Orbital_NightCloak_Dathomirx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_construction_pod.alo</Land_Model_Name>
+		<Scale_Factor>5.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="DeathStar Trenchx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="DeathStar Trenchx1a1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>1.3</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="DeathStar Trenchx1a2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>1.7</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Trenchx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Trenchx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Trenchx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Trenchx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Trench_A.alo</Land_Model_Name>
+		<Scale_Factor>4.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="DeathStar Flatsx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flatsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flatsx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>0.6</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flatsx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flatsx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flatsx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar Flatsx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Flat_A.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="DeathStar ExhaustPortx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Port.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar ExhaustPortx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Port.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar ExhaustPortx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Port.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar ExhaustPortx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Port.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="DeathStar ExhaustPortx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_DeathStar_Port.alo</Land_Model_Name>
+		<Scale_Factor>4.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Nebulax1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_nebula03.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Nebulax2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_nebula03.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Nebulax3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_nebula03.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Nebulax4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_nebula03.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Nebulax5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_nebula03.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="bBlack_holexx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_black_hole.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration> Yes </Is_Decoration>
+                <Is_Discardable> No </Is_Discardable>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<In_Background>Yes</In_Background>
+	</SpaceProp>
+
+
+	<SpaceProp Name="bBlack_holexx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_black_hole.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration> Yes </Is_Decoration>
+                <Is_Discardable> No </Is_Discardable>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<In_Background>Yes</In_Background>
+	</SpaceProp>
+
+	<SpaceProp Name="bBlack_holex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_black_hole.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration> Yes </Is_Decoration>
+                <Is_Discardable> No </Is_Discardable>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<In_Background>Yes</In_Background>
+	</SpaceProp>
+
+	<SpaceProp Name="bBlack_holex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_black_hole.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration> Yes </Is_Decoration>
+                <Is_Discardable> No </Is_Discardable>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<In_Background>Yes</In_Background>
+	</SpaceProp>
+
+	<SpaceProp Name="bBlack_holex5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_black_hole.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration> Yes </Is_Decoration>
+                <Is_Discardable> No </Is_Discardable>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-2000</Layer_Z_Adjust>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<In_Background>Yes</In_Background>
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Empire_Dockx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>eb_dock00.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Dockx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>eb_dock00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Dockx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>eb_dock00.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Dockx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>eb_dock00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Asteroidx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_asteroid02.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="Asteroidx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_asteroid00.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="Asteroidx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_asteroid01.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="Asteroidx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_asteroid03.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Space_Junkx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SpaceJunk.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="Space_Junkx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SpaceJunk.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+	<SpaceProp Name="Space_Junkx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SpaceJunk.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Star_Destroyer_Constructionx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Star_Destroyer_Construction.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Star_Destroyer_Constructionx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Star_Destroyer_Construction.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Star_Destroyer_Constructionx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Star_Destroyer_Construction.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Star_Destroyer_Constructionx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Star_Destroyer_Construction.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Star_Destroyer_Constructionx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Star_Destroyer_Construction.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Star_Destroyer_Constructionx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Star_Destroyer_Construction.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repairx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_MonCalCruiser_Hulk.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repairx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_MonCalCruiser_Hulk.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repairx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_MonCalCruiser_Hulk.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repairx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_MonCalCruiser_Hulk.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Mon_Cal_Cruiser_Under_Repairx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_MonCalCruiser_Hulk.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Laserx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_LDS.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Laserx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_LDS.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Laserx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_LDS.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Laserx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_LDS.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Empire_Defense_Satellite_Tractorx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_Satallite_TB.alo</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Tractorx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_Satallite_TB.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Tractorx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_Satallite_TB.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Empire_Defense_Satellite_Tractorx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_Satallite_TB.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Rebel_Defense_Satellite_Repairx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_SATALLITE_REPAIR.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Rebel_Defense_Satellite_Repairx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_SATALLITE_REPAIR.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Rebel_Defense_Satellite_Repairx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_SATALLITE_REPAIR.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Rebel_Defense_Satellite_Repairx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_SATALLITE_REPAIR.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Star_Dest_Shieldx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Star_Dest_Shieldx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Star_Dest_Shieldx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Star_Dest_Shieldx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Shield_Genx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_HomeOne_HP_SHG.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Shield_Genx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_HomeOne_HP_SHG.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Shield_Genx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_HomeOne_HP_SHG.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Shield_Genx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_HomeOne_HP_SHG.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_TBL_FLx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_TBL_FL.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_TBL_FLx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_TBL_FL.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_TBL_FLx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_TBL_FL.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_TBL_FLx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_TBL_FL.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_BLx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_BL.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_BLx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_BL.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_BLx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_BL.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_BLx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_BL.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_FLx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_FL.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_FLx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_FL.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_FLx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_FL.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_HomeOne_Weapon_IC_FLx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_homeone_hp_IC_FL.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Hvy_Turret_01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ht2.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Hvy_Turret_01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ht2.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Hvy_Turret_01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ht2.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Hvy_Turret_01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ht2.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Light_Laser_00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ll1.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Light_Laser_00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ll1.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Light_Laser_00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ll1.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Light_Laser_00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_ll1.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Turbolaser_00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_tl1.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Turbolaser_00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_tl1.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Turbolaser_00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_tl1.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Asteroid_Base_Turbolaser_00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Nb_apbase_hp_tl1.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_MDC_Leftx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_MDC.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_MDC_Leftx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_MDC.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_MDC_Leftx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_MDC.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_MDC_Leftx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_MDC.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Breakoff_Vengeance_Turbo_Leftx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_TB.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_Turbo_Leftx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_TB.alo</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_Turbo_Leftx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_TB.alo</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Vengeance_Turbo_Leftx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_Vengeance_HP_LFT_TB.alo</Land_Model_Name>
+		<Scale_Factor>16.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Thrawn_SD_Shield_Genx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_Thrawn_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Thrawn_SD_Shield_Genx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_Thrawn_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Thrawn_SD_Shield_Genx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_Thrawn_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Thrawn_SD_Shield_Genx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_StarDestroyer_Thrawn_HP00_M-C.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FLx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-L.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FLx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-L.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FLx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-L.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FLx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-L.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FRx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-R.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FRx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-R.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FRx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-R.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_AAFrigate_Weapon_FRx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_AssaultFrigate_HP00_F-R.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_CMx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_CM.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_CMx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_CM.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_CMx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_CM.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_CMx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_CM.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_ICx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_IC.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_ICx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_IC.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_ICx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_IC.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_ICx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_IC.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_PRTx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_PRT.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_PRTx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_PRT.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_PRTx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_PRT.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_PRTx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_PRT.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_TBLx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_TBL.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_TBLx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_TBL.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_TBLx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_TBL.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Empire_Station_Five_Weapon_TBLx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_Station_05_HP05_TBL.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Right_Turbox1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_LC_R_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Right_Turbox2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_LC_R_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Right_Turbox3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_LC_R_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Right_Turbox4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_LC_R_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Krayt_Shield_Genx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_hp_Shld_00.alo</Land_Model_Name>
+		<Scale_Factor>25.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>17.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>22.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>28.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Krayt_Megaweapon_Ionx9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KraytClassDestroyer_HP_ION_00.alo</Land_Model_Name>
+		<Scale_Factor>35.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_00x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>25.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Turbo_01x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_TB_LFT_01.alo</Land_Model_Name>
+		<Scale_Factor>25.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Ion_00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_ION_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Ion_00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_ION_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Ion_00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_ION_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_L_Ion_00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_ION_LFT_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_MassDriver_Frontx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_MassDriver_Frontx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_MassDriver_Frontx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_MassDriver_Frontx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_MassDriver_Frontx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_MassDriver_Frontx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_MDB_FRNT_00.alo</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Kedalbe_Shield_Leechx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_SHL_00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_Shield_Leechx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_SHL_00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_Shield_Leechx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_SHL_00.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Kedalbe_Shield_Leechx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KedalbeBattleship_HP_SHL_00.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Arc_Hammer_Laser_Leftx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ARCHAMMER_HP_LC_L_00.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Arc_Hammer_Laser_Leftx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ARCHAMMER_HP_LC_L_00.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Arc_Hammer_Laser_Leftx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ARCHAMMER_HP_LC_L_00.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Arc_Hammer_Laser_Leftx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ARCHAMMER_HP_LC_L_00.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Turbolaserx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_TBL.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Turbolaserx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_TBL.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Turbolaserx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_TBL.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Turbolaserx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_TBL.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Torpx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_PT.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Torpx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_PT.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Torpx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_PT.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_Torpx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_PT.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_ICx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_IC.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_ICx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_IC.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_ICx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_IC.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L5_ICx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_05_STATION_HP05_IC.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L3_Main_Gunx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_03_STATION_HP03_GUN.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L3_Main_Gunx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_03_STATION_HP03_GUN.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L3_Main_Gunx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_03_STATION_HP03_GUN.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_L3_Main_Gunx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_03_STATION_HP03_GUN.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_U_Station_Shield_Genx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_SHG.alo</Land_Model_Name>
+		<Scale_Factor>30.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="Breakoff_Comm_Arrayx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_COM.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Comm_Arrayx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_COM.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Comm_Arrayx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_COM.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="Breakoff_Comm_Arrayx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_01_Station_HP01_COM.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="N_Remote_Sensor_Podx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="N_Remote_Sensor_Podx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="N_Remote_Sensor_Podx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+	<SpaceProp Name="N_Remote_Sensor_Podx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="N_Remote_Sensor_Podx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="N_Remote_Sensor_Podx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+
+	<SpaceProp Name="N_Remote_Sensor_Podx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_SpaceSensorNode.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</SpaceProp>
+
+</SpaceProps>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HardPoints.XML</File>
+	<File>CIN_HardPoints.XML</File>
+	<File>HardPoints_Underworld.XML</File>
+
+	<File>Hardpoints/HardPoints_Neutral_Dreadnaught_Heavy_Cruiser.XML</File>
+	
+	<File>Hardpoints/HardPoints_Rep_Land_Vehicles.XML</File>
+	<File>Hardpoints/HardPoints_Rep_V-19_Torrent_Fighter.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Y-Wing_Bomber.XML</File>
+	<File>Hardpoints/HardPoints_Rep_ARC-170.XML</File>
+	<File>Hardpoints/HardPoints_Rep_V-Wing.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Z-95_Headhunter.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Stealthship.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Carrack_Cruiser.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Arquitens.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Acclamator.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Venator_SD.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Valiant_Star_Carrier.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Victory-I_SD.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Rothana_Battlecruiser.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Secutor_Battlecarrier.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Maelstrom_Battlecruiser.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Praetor_Battlecruiser.XML</File>
+	<File>Hardpoints/HardPoints_Republic_Space.XML</File>
+
+	<File>Hardpoints/HardPoints_CIS_Land_Vehicles.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Vulture_Droid.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Hyena_Bomber.XML</File>	
+	<File>Hardpoints/HardPoints_CIS_Tri-Fighter.XML</File>
+	<File>Hardpoints/HardPoints_CIS_HMP_Gunship.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Gozanti.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Captor.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Munificent.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Wavecrest.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Recusant.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Supply_Ship.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Bulwark.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Providence.XML</File>
+	<File>Hardpoints/HardPoints_CIS_Lucrehulk.XML</File>
+
+	<File>Hardpoints/HardPoints_Mandalorian_Komrk.XML</File>
+	<File>Hardpoints/HardPoints_Mandalorian_Kandosii.XML</File>
+</Hard_Point_Files>

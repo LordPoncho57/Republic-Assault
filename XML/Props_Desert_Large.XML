@@ -1,0 +1,1251 @@
+<?xml version="1.0" ?>
+<Props_Desert>
+
+
+
+	<Prop_Desert Name="Prop_MoistureCollectorx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Prop_MoistCollect.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_MoistureCollectorx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Prop_MoistCollect.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_MoistureCollectorx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Prop_MoistCollect.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_MoistureCollectorx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Prop_MoistCollect.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Tatooine_RockForm00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm00.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_RockForm00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm00.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_RockForm00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm00.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Tatooine_RockForm01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_RockForm01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm01.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_RockForm01veryx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm01.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Tatooine_RockForm02x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm02.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_RockForm02x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm02.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_RockForm02x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tat_RockForm02.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Geonosis_RockForm01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm00.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Geonosis_RockForm01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm00.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Geonosis_RockForm01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm00.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Geonosis_RockForm02x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geo_RockForm01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Geonosis_RockForm02x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geo_RockForm01.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Geonosis_RockForm02x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geo_RockForm01.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Civilian House Desertx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>nb_dch.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Civilian House Desertx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>nb_dch.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Civilian House Desertx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>nb_dch.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Civilian House Desertx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>nb_dch.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Civilian House Desertx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>nb_dch.ALO</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Civilian House Desertx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>nb_dch.ALO</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonRibsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonRibsx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonRibsx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonTailx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonTailx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Tatooine_KraytSkeletonTailx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Bx1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
+		<Scale_Factor>1.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Bx2">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Bx3">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Bx4">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Bx5">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Bx6">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Cx1">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
+		<Scale_Factor>1.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Cx2">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Cx3">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Cx4">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
+		<Scale_Factor>8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Cx5">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Desert_Civilian_House_Cx6">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_DESERT</Text_ID>
+		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Rock_Asteroid_veryBig">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_asteroid01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Utapau_Ribsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Ribsx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Ribsx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Prop_Utapau_Holex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>.1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Prop_Utapau_Holex9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Utapau_Hole.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+	<Prop_Desert Name="Sandpeople_Dwelling0">
+		<Text_ID>TEXT_STRUCTURE_SANDPERSON_DWELLING</Text_ID>
+		<Land_Model_Name>NB_Sandpeople_Tent.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Sandpeople_Dwellingx1">
+		<Text_ID>TEXT_STRUCTURE_SANDPERSON_DWELLING</Text_ID>
+		<Land_Model_Name>NB_Sandpeople_Tent.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Sandpeople_Dwellingx2">
+		<Text_ID>TEXT_STRUCTURE_SANDPERSON_DWELLING</Text_ID>
+		<Land_Model_Name>NB_Sandpeople_Tent.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Jawa_Sandcrawler0">
+		<Text_ID>TEXT_STRUCTURE_JAWA_SANDCRAWLER</Text_ID>
+		<Land_Model_Name>NV_SAND_CRAWLER.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Jawa_Sandcrawlerx1">
+		<Text_ID>TEXT_STRUCTURE_JAWA_SANDCRAWLER</Text_ID>
+		<Land_Model_Name>NV_SAND_CRAWLER.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Jawa_Sandcrawlerx2">
+		<Text_ID>TEXT_STRUCTURE_JAWA_SANDCRAWLER</Text_ID>
+		<Land_Model_Name>NV_SAND_CRAWLER.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Jawa_Sandcrawlerx3">
+		<Text_ID>TEXT_STRUCTURE_JAWA_SANDCRAWLER</Text_ID>
+		<Land_Model_Name>NV_SAND_CRAWLER.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Jawa_Sandcrawlerx4">
+		<Text_ID>TEXT_STRUCTURE_JAWA_SANDCRAWLER</Text_ID>
+		<Land_Model_Name>NV_SAND_CRAWLER.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Ground_Hutt_Palace">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Ground_Hutt_Palacex1">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>1.25</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex2">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex3">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex4">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex5">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex11">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Palacex12">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_HUTTPALACE.ALO</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Prop_Desert>
+
+
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding1">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding2">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding3">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding4">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding5">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding6">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding7">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>6</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding8">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding9">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>8</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding10">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding11">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Hutt_Spawnbuilding12">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_Hutt_Spawnbuilding.alo</Land_Model_Name>
+		<Scale_Factor>11</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Hutt_Command_Center_Palace0">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace1">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>1.3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace2">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace3">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace4">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace5">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace6">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace7">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>6</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace8">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>6.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace9">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Hutt_Command_Center_Palace10">
+		<Text_ID>TEXT_STRUCTURE_HUTT_HOUSE</Text_ID>
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>8</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+
+	<Prop_Desert Name="Ground_Tatooine_building01x1">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x2">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x3">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x4">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x5">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x6">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x7">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building01x8">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building01.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Ground_Tatooine_building02x1">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x2">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x3">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x4">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x5">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x6">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x7">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building02x8">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building02.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Ground_Tatooine_building03x1">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x2">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x3">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x4">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x5">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x6">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x7">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building03x8">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>W_Tatooine_building03.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+	<Prop_Desert Name="Ground_Tatooine_building04x1">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>Nb_idh.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building04x2">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>Nb_idh.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building04x3">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>Nb_idh.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building04x4">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>Nb_idh.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building04x5">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>Nb_idh.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+	<Prop_Desert Name="Ground_Tatooine_building04x6">
+		<Text_ID>TEXT_GROUND_HUTT_PALACE</Text_ID>
+		<Land_Model_Name>Nb_idh.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</Prop_Desert>
+
+
+
+
+
+
+</Props_Desert>

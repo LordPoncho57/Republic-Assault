@@ -1,0 +1,1319 @@
+<?xml version="1.0" ?>               
+<Prop_Forest>
+
+	<Prop_Forest Name="Prop_EndrRock_Cluster_00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr00.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 18.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 3.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -5.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr00.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 18.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 3.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -5.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr00.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 18.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 3.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -5.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr00.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 18.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 3.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -5.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_EndrRock_Cluster_01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr01.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 14.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 2.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -2.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 14.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 2.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -2.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr01.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 14.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 2.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -2.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr01.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Medium Obstacle </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 14.0 </Custom_Hard_YExtent>
+      <Custom_Hard_XExtent_Offset> 2.0 </Custom_Hard_XExtent_Offset>
+      <Custom_Hard_YExtent_Offset> -2.0 </Custom_Hard_YExtent_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_EndrRock_Cluster_02x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr02.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>20.0, 20.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_02x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr02.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>20.0, 20.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_02x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr02.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>20.0, 20.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_02x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr02.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>20.0, 20.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_EndrRock_Cluster_03_Largex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr03.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>			
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_03_Largex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr03.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>			
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_03_Largex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr03.ALO</Land_Model_Name>
+		<Scale_Factor>5.5</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>			
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Cluster_03_Largex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRockClstr03.ALO</Land_Model_Name>
+		<Scale_Factor>7.5</Scale_Factor>
+		<Space_Layer> Land </Space_Layer>			
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>60.0, 60.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_EndrRock_Slide00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRckSlide00.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Slide00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRckSlide00.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Slide00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRckSlide00.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_EndrRock_Slide00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_EndrRckSlide00.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Rock_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Tree_PineStump00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Tree_PineStump00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Tree_PineStump00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Tree_PineStump00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Tree_RedWoodStump00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreeRedWood_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Tree_RedWoodStump00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreeRedWood_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Tree_RedWoodStump00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreeRedWood_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Tree_RedWoodStump00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreeRedWood_Stmp00.ALO</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Ax1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>1.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Ax2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Ax3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>3.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Ax4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Ax5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Ax6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_A.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Bx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>1.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Bx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Bx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>3.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Bx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Bx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree_Canopy_Bx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_Canopy_B.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_Tree00_Clusterx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00_Clusterx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00_Clusterx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00_Clusterx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00_Clusterx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Tree00_Clusterx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_EvergreenTree00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Wookie_Tree_Plainx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Wookie_Tree_Plainx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<Scale_Factor>2.2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Wookie_Tree_Plainx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Wookie_Tree_Plainx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree_plain.ALO</Land_Model_Name>
+		<Scale_Factor>7.8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01_Clusterx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01_Clusterx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01_Clusterx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_EvergreenTree01_Clusterx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_DecTree00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x3.1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x3.2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x3.3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>5.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x3.4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_DecTree00_Clusterx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00_Clusterx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00_Clusterx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree00_Clusterx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Endor_DecTree01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01x3.1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01x3.2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01x3.3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_HI.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_DecTree01_Clusterx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01_Clusterx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01_Clusterx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_DecTree01_Clusterx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_00_Cluster.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>150.0, 150.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_PineCluster00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_PineCluster00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_PineCluster00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_PineCluster00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Ever_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_PineCluster01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine01.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_PineCluster01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_PineCluster01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine01.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_PineCluster01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_TreePine01.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	
+	<Prop_Forest Name="Prop_Endor_Uqalipx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Dec_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Uqalipx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Dec_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Uqalipx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Dec_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Endor_Uqalipx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Tree_Dec_01_HI.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+
+	<Prop_Forest Name="Prop_GroundCover_E1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_E.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_E2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_E.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_E3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_E.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_GroundCover_F1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_F.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_F2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_F.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_F3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_F.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_GroundCover_G1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_G.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_G2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_G.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_G3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_G.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_GroundCover_H1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_H.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_H2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_H.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_H3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_H.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_GroundCover_I1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_I.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_I2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_I.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_GroundCover_I3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GrndCvr_I.ALO</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Prop_Forest>
+
+	<Prop_Forest Name="Prop_Wookie_Treex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Wookie_Treex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Wookie_Treex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+	<Prop_Forest Name="Prop_Wookie_Treex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_wookiee_tree.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>1</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</Prop_Forest>
+
+        <Prop_Forest Name="Prop_Wookie_Tree_Ewok">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_Ewok_tree.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration> 
+                <Is_Discardable>No</Is_Discardable> 
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+                <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Forest>
+        <Prop_Forest Name="Prop_Wookie_Tree_Ewokx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_Ewok_tree.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration> 
+                <Is_Discardable>No</Is_Discardable> 
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+                <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Forest>
+        <Prop_Forest Name="Prop_Wookie_Tree_Ewokx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_Ewok_tree.alo</Land_Model_Name>
+		<Scale_Factor>8</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration> 
+                <Is_Discardable>No</Is_Discardable> 
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+                <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Forest>
+        <Prop_Forest Name="Prop_Wookie_Tree_Ewokx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_Ewok_tree.alo</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration> 
+                <Is_Discardable>No</Is_Discardable> 
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+                <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Forest>
+        <Prop_Forest Name="Prop_Wookie_Tree_Ewokx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_Ewok_tree.alo</Land_Model_Name>
+		<Scale_Factor>20</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration> 
+                <Is_Discardable>No</Is_Discardable> 
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+                <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Forest>
+        <Prop_Forest Name="Prop_Wookie_Tree_Ewokx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_Ewok_tree.alo</Land_Model_Name>
+		<Scale_Factor>32</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration> 
+                <Is_Discardable>No</Is_Discardable> 
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level> 
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level> 
+                <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Prop_Forest>
+
+</Prop_Forest>

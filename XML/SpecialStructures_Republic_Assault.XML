@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<SpecialStructures>
+
+<SpecialStructure Name="Rep_Golan_Platform">
+	<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+	<Space_Model_Name>NV_LDS.ALO</Space_Model_Name>
+	<GUI_Row> 0 </GUI_Row>
+	<Select_Box_Scale>330</Select_Box_Scale>
+	<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Affiliation>Empire</Affiliation>
+	<Political_Control>0</Political_Control>
+	<Build_Cost_Credits>1500</Build_Cost_Credits>
+	<Build_Time_Seconds>60</Build_Time_Seconds>
+	<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+	<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+	<Size_Value>90</Size_Value>
+	<Base_Position>Orbital</Base_Position>
+	<Tech_Level>4</Tech_Level>
+	<Is_Interdictor>Yes</Is_Interdictor>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>2</Required_Star_Base_Level>
+	<Required_Special_Structures />
+	<Required_Planets />
+	<Tactical_Health>800</Tactical_Health>
+	<Place_At_Every_Specific_Marker_Position>True</Place_At_Every_Specific_Marker_Position>
+
+	<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+	<SpaceBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,TURRET,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, STUNNABLE,EARTHQUAKE_TARGET,ION_STUN_EFFECT </SpaceBehavior>
+
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+	<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+	<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+	<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+	<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+	<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+	<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+	<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+	<Sabotage_Cost_Credits>3000</Sabotage_Cost_Credits>
+
+	<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+	<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+	<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+	<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+	<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+	
+	<GUI_Bracket_Size>2</GUI_Bracket_Size>
+	<Influences_Capture_Point>False</Influences_Capture_Point>
+	<Armor_Type> Armor_Satellite </Armor_Type>
+
+	<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+	<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+	
+	<CategoryMask> Structure </CategoryMask>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+	<Death_Clone>Damage_Normal, Rep_Golan_Platform_Death_Clone</Death_Clone>
+
+	<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00  </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+	<Score_Cost_Credits> 15000 </Score_Cost_Credits>
+	<Has_Space_Evaluator>True</Has_Space_Evaluator>
+	<Custom_Soft_Footprint_Radius> 500 </Custom_Soft_Footprint_Radius>
+	<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+	<Space_Layer> StaticObject </Space_Layer>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>INTERDICT</Type>
+                <Disable_Movement>Yes</Disable_Movement>
+                <Active_By_Default>Yes</Active_By_Default>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+</SpecialStructure>
+
+<SpecialStructure Name="Rep_Golan_Platform_Death_Clone">
+	<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+	<Space_Model_Name>NB_CommJamStation_D.alo</Space_Model_Name>
+	<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+	<Affiliation>Empire</Affiliation>
+	<Ship_Class>capital_ship</Ship_Class>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+</SpecialStructure>
+
+
+<SpecialStructure Name="CIS_Golan_Platform">
+	<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+	<Space_Model_Name>NV_LDS.ALO</Space_Model_Name>
+	<GUI_Row> 0 </GUI_Row>
+	<Select_Box_Scale>330</Select_Box_Scale>
+	<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Affiliation>Rebel</Affiliation>
+	<Political_Control>0</Political_Control>
+	<Build_Cost_Credits>1500</Build_Cost_Credits>
+	<Build_Time_Seconds>60</Build_Time_Seconds>
+	<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+	<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+	<Size_Value>90</Size_Value>
+	<Base_Position>Orbital</Base_Position>
+	<Tech_Level>4</Tech_Level>
+	<Is_Interdictor>Yes</Is_Interdictor>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>2</Required_Star_Base_Level>
+	<Required_Special_Structures />
+	<Required_Planets />
+	<Tactical_Health>800</Tactical_Health>
+	<Place_At_Every_Specific_Marker_Position>True</Place_At_Every_Specific_Marker_Position>
+
+	<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+	<SpaceBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,TURRET,TARGETING,WEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, STUNNABLE,EARTHQUAKE_TARGET,ION_STUN_EFFECT </SpaceBehavior>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+	<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+	<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+	<Icon_Name>i_button_comm_jamming.tga</Icon_Name>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+	<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+	<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+	<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+	<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+	<Sabotage_Cost_Credits>3000</Sabotage_Cost_Credits>
+
+	<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+	<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+	<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+	<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+	<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+	
+	<GUI_Bracket_Size>2</GUI_Bracket_Size>
+	<Influences_Capture_Point>False</Influences_Capture_Point>
+	<Armor_Type> Armor_Satellite </Armor_Type>
+
+	<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+	<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+	
+	<CategoryMask> Structure </CategoryMask>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+	<Death_Clone>Damage_Normal, CIS_Golan_Platform_Death_Clone</Death_Clone>
+
+	<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00  </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+	<Score_Cost_Credits> 15000 </Score_Cost_Credits>
+	<Has_Space_Evaluator>True</Has_Space_Evaluator>
+	<Custom_Soft_Footprint_Radius> 500 </Custom_Soft_Footprint_Radius>
+	<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+	<Space_Layer> StaticObject </Space_Layer>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <!-- Primary ability -->
+            <Unit_Ability>
+                <Type>INTERDICT</Type>
+                <Disable_Movement>Yes</Disable_Movement>
+                <Active_By_Default>Yes</Active_By_Default>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+</SpecialStructure>
+
+<SpecialStructure Name="CIS_Golan_Platform_Death_Clone">
+	<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+	<Space_Model_Name>NB_CommJamStation_D.alo</Space_Model_Name>
+	<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+	<Affiliation>Rebel</Affiliation>
+	<Ship_Class>capital_ship</Ship_Class>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+</SpecialStructure>
+
+
+</SpecialStructures>

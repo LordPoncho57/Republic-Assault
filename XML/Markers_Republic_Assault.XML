@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Markers>
+
+	<Marker Name="Golan Structure Position03">
+		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rep_Golan_Platform, CIS_Golan_Platform </Marker_For_Specific_Object_Type>
+
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+	</Marker>
+
+	<Marker Name="Golan Structure Position02">
+		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rep_Golan_Platform, CIS_Golan_Platform </Marker_For_Specific_Object_Type>
+
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+	</Marker>
+
+	<Marker Name="Golan Structure Position03">
+		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rep_Golan_Platform, CIS_Golan_Platform </Marker_For_Specific_Object_Type>
+
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+	</Marker>
+
+	<Marker Name="Golan Structure Position04">
+		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rep_Golan_Platform, CIS_Golan_Platform </Marker_For_Specific_Object_Type>
+
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
+	</Marker>
+
+</Markers>

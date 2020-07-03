@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Particles>
+
+<Particle Name="Conc_Buzz_Droid_Missile_Detonation_Particle">
+	<Land_Model_Name>p_b_droids.alo</Land_Model_Name>
+	<Space_Model_Name>p_b_droids.alo</Space_Model_Name>
+	<Scale_Factor>0.5</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+	<Particle_Lifetime_Frames>360</Particle_Lifetime_Frames></Particle>
+
+<Particle Name="Damage_assault_missile">
+	<Land_Model_Name>pd_assault_missile.alo</Land_Model_Name>
+	<Space_Model_Name>pd_assault_missile.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>	 
+	<Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+</Particle>
+
+			<!-- ION CANNON DEATH -->
+
+<Particle Name="Fancy_Ion_Death">
+	<Land_Model_Name>P_Explosion_Ion_Small.ALO</Land_Model_Name>
+	<Space_Model_Name>P_Explosion_Ion_Small.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Ion_Death_Very_Quad">
+	<Land_Model_Name>pd_ion_heavy_quad.ALO</Land_Model_Name>
+	<Space_Model_Name>pd_ion_heavy_quad.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames> 
+</Particle>
+
+<Particle Name="Ion_Death_Very_Triple">
+	<Land_Model_Name>pd_ion_heavy_triple.ALO</Land_Model_Name>
+	<Space_Model_Name>pd_ion_heavy_triple.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames> 
+</Particle>
+
+<Particle Name="Ion_Death_Very_Large">
+	<Land_Model_Name>pd_ion_heavy_dual.ALO</Land_Model_Name>
+	<Space_Model_Name>pd_ion_heavy_dual.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames> 
+</Particle>
+
+<Particle Name="Ion_Death_Large">
+	<Land_Model_Name>pd_ion_heavy.ALO</Land_Model_Name>
+	<Space_Model_Name>pd_ion_heavy.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames> 
+</Particle>
+
+<Particle Name="Ion_Death_Medium">
+	<Land_Model_Name>pd_ion.ALO</Land_Model_Name>
+	<Space_Model_Name>pd_ion.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>	 
+</Particle>
+
+<Particle Name="Ion_Death_Small">
+	<Land_Model_Name>pd_ion_light.ALO</Land_Model_Name>
+	<Space_Model_Name>pd_ion_light.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>	 
+</Particle>
+
+<Particle Name="Ion_Death_Very_Quad_Shield">
+	<Land_Model_Name>ps_ion_heavy_quad.ALO</Land_Model_Name>
+	<Space_Model_Name>ps_ion_heavy_quad.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>		 
+</Particle>
+
+<Particle Name="Ion_Death_Very_Triple_Shield">
+	<Land_Model_Name>ps_ion_heavy_triple.ALO</Land_Model_Name>
+	<Space_Model_Name>ps_ion_heavy_triple.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>	 
+</Particle>
+
+<Particle Name="Ion_Death_Very_Large_Shield">
+	<Land_Model_Name>ps_ion_heavy_dual.ALO</Land_Model_Name>
+	<Space_Model_Name>ps_ion_heavy_dual.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>	 
+</Particle>
+
+<Particle Name="Ion_Death_Large_Shield">
+	<Land_Model_Name>ps_ion_heavy.ALO</Land_Model_Name>
+	<Space_Model_Name>ps_ion_heavy.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>	 
+</Particle>
+
+<Particle Name="Ion_Death_Medium_Shield">
+	<Land_Model_Name>ps_ion.ALO</Land_Model_Name>
+	<Space_Model_Name>ps_ion.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>	 
+</Particle>
+
+<Particle Name="Ion_Death_Small_Shield">
+	<Land_Model_Name>ps_ion_light.ALO</Land_Model_Name>
+	<Space_Model_Name>ps_ion_light.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+		 <Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision> 
+</Particle>
+
+<Particle Name="Super_Ion_Death">
+	<Land_Model_Name>pd_ion_ultra_heavy.alo</Land_Model_Name>
+	<Space_Model_Name>pd_ion_ultra_heavy.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+	<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+</Particle>
+
+<Particle Name="Blaster_Hit_Armor">
+	<Land_Model_Name>pd_blaster.alo</Land_Model_Name>
+	<Space_Model_Name>pd_blaster.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+	<Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Blaster_Hit_Shield">
+	<Land_Model_Name>ps_blaster.alo</Land_Model_Name>
+	<Space_Model_Name>ps_blaster.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+	<Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames> 
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+</Particle>
+
+<Particle Name="Blaster_Dual_Hit_Shield">
+	<Land_Model_Name>ps_blaster_dual.alo</Land_Model_Name>
+	<Space_Model_Name>ps_blaster_dual.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+	<Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames> 
+	<Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+</Particle>
+
+</Particles>

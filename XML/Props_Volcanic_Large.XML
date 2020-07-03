@@ -1,0 +1,629 @@
+<?xml version="1.0" ?>
+<Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm01x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock00.ALO</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm02x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock01.ALO</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockForm03x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Editor_Placed>false</Is_Editor_Placed>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Ax7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr00.alo</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Bx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr01.alo</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>	
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Cx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr02.alo</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_RockClust_Dx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_LavaRockClstr03.alo</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Volcano_Civ_Building_NoSpawnx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_02x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower02.alo</Land_Model_Name>
+		<Scale_Factor>13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Tower_04x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geonosis_Tower03.alo</Land_Model_Name>
+		<Scale_Factor>6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Geonosis_Crackx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geo_Rockcrack01.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Crackx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geo_Rockcrack01.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Crackx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geo_Rockcrack01.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Crackx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geo_Rockcrack01.alo</Land_Model_Name>
+		<Scale_Factor>8.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_Crackx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_Geo_Rockcrack01.alo</Land_Model_Name>
+		<Scale_Factor>12.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+	<Props_Volcanic Name="Prop_Geonosis_RockForm00x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Geonosis_RockForm01.alo</Land_Model_Name>
+		<Scale_Factor>6</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Volcanic>
+
+</Props_Volcanic>

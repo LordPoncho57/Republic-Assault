@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SFXEvents>
+
+	<!-- ======================================= -->
+	<!-- =========== Starshp Engines =========== -->
+	<!-- ======================================= -->
+
+				<!-- Venator Engine SFX -->
+
+<SFXEvent Name="Unit_Venator_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Venator.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Venator_Engine_Idle">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Venator.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Venator_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Venator.wav</Samples>
+</SFXEvent>
+
+				<!-- BTL-B Y-Wing Engine SFX -->
+
+<SFXEvent Name="Unit_Y-Wing_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Y-Wing.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Y-Wing_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Y-Wing.wav</Samples>
+</SFXEvent>
+
+				<!-- Delta-7B Engine SFX -->
+
+<SFXEvent Name="Unit_Delta-7B_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Delta-7B.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Delta-7B_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Delta-7B.wav</Samples>
+</SFXEvent>
+
+			<!-- Generic Republic Engine SFX -->
+
+<SFXEvent Name="Unit_Rep_Ship_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Rep_Starship.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Rep_Ship_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Rep_Starship.wav</Samples>
+</SFXEvent>
+
+			<!-- Generic CIS Engine SFX -->
+
+<SFXEvent Name="Unit_CIS_Ship_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_CIS_Starship.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_CIS_Ship_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_CIS_Starship.wav</Samples>
+</SFXEvent>
+
+			<!-- Vulture Engine SFX -->
+
+<SFXEvent Name="Unit_Vulture_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Vulture_Droid.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Vulture_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Vulture_Droid.wav</Samples>
+</SFXEvent>
+			<!-- Tri-Fighter Engine SFX -->
+
+<SFXEvent Name="Unit_Tri-Fighter_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Tri_Fighter.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Tri-Fighter_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_Tri_Fighter.wav</Samples>
+</SFXEvent>
+
+			<!-- ARC-170 Engine SFX -->
+
+<SFXEvent Name="Unit_ARC-170_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_ARC-170.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_ARC-170_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_ARC-170.wav</Samples>
+</SFXEvent>
+
+			<!-- V-Wing Engine SFX -->
+
+<SFXEvent Name="Unit_V-Wing_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_V-Wing.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_V-Wing_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_V-Wing.wav</Samples>
+</SFXEvent>
+
+			<!-- AAT Engine SFX -->
+
+<SFXEvent Name="Unit_AAT_Engine_Moving">
+	<Use_Preset>Preset_EGL_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_AAT.wav</Samples>
+	<Min_Pitch>90</Min_Pitch>
+	<Max_Pitch>90</Max_Pitch>
+</SFXEvent>
+
+<SFXEvent Name="Unit_AAT_Engine_Idle_CIN">
+	<Use_Preset>Preset_EGL_CIN_1</Use_Preset>
+	<Samples>Data\Audio\SFX\Engines\ENG_AAT.wav</Samples>
+</SFXEvent>
+
+	<!-- ======================================= -->
+	<!-- =========== Hardpoint  Loss =========== -->
+	<!-- ======================================= -->
+
+<SFXEvent Name="Unit_HP_Lost">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>Data/Audio/SFX/Damage/DMG_HP_Loss.wav</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+	<!-- ======================================= -->
+	<!-- ============= Weapon Fire ============= -->
+	<!-- ======================================= -->
+
+<SFXEvent Name="Unit_CF_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_CF_Cannon.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_CF_Cannon_ALT_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_CF_Cannon_ALT.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Y-Wing_Gunner_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Y-Wing_Gunner.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Delta-7B_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Delta-7B.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Proton_Torp_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Proton_Torpedo.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_DC-15_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC-15.wav</Samples>
+	<Min_Volume>50</Min_Volume>
+	<Max_Volume>50</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_DC-17M_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC17M.wav</Samples>
+	<Min_Volume>50</Min_Volume>
+	<Max_Volume>50</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_DC-17X_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC17X.wav</Samples>
+	<Min_Volume>50</Min_Volume>
+	<Max_Volume>50</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_DC-17AA_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC17AA.wav</Samples>
+	<Min_Volume>50</Min_Volume>
+	<Max_Volume>50</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_DF_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DF_Cannon.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_CIS_Laser_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_CIS_Laser_Cannon.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_CIS_Turbolaser_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_CIS_Turbolaser.wav</Samples>
+	<Min_Volume>120</Min_Volume>
+	<Max_Volume>120</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Heavy_Turbolaser_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Heavy_Turbolaser.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Beam_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Beam_Cannon.wav</Samples>
+	<Min_Volume>120</Min_Volume>
+	<Max_Volume>120</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Turret_Gunner_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Turret.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fighter_IC_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Fighter_IC.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Republic_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Republic_Cannon.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_SPHAT_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_SPHAT_Cannon.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_AAT_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_AAT_Cannon.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_AAT_Laser_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_AAT_Laser.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+	<!-- ======================================= -->
+	<!-- ============ Misc. Effect ============= -->
+	<!-- ======================================= -->
+
+<SFXEvent Name="Unit_Turret_Rotate">
+	<Use_Preset>Preset_EGL_Land</Use_Preset>
+	<Samples>SFX_Turret_Rotate_01.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>70</Max_Volume>
+</SFXEvent>
+
+</SFXEvents>

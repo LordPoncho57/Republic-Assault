@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<!--
+==================== YVAW ====================
+@AUTHOR: Kad_Venku
+@created for Yuuzhan Vong at War
+@DATE: 24/02/2016
+@TIME: 11:42
+==================== YVAW ====================
+-->
+<Bombing_Run_Projectiles_Data>
+    <Projectile Name="Heavy_Space_Bomb">
+        <Text_ID>TEXT_HEAVY_SPACE_BOMB</Text_ID>
+        <Land_Model_Name>pp_proton_bomb.alo</Land_Model_Name>
+        <Space_Model_Name>pp_proton_bomb.alo</Space_Model_Name>
+        <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+        <Max_Speed>0.0</Max_Speed>
+<!--TODO: Adjust damage setting according to mod data-->
+        <Damage_Type> Damage_Hyper_Gun </Damage_Type>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, BOMB</Behavior>
+        <Projectile_Category>STATIC_BOMB</Projectile_Category>
+        <Projectile_Blast_Area_Range>1000.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Damage>1000.0</Projectile_Blast_Area_Damage>
+        <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+        <Projectile_Grenade_Sticks_On_Collision>no</Projectile_Grenade_Sticks_On_Collision>
+        <Projectile_Damage>1000.0</Projectile_Damage>
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Death_Explosions> Heavy_Bomb_Explosion </Death_Explosions>
+        <Death_SFXEvent_Start_Die> SFX_Sizemic_Detonation </Death_SFXEvent_Start_Die>
+        <AI_Combat_Power>300</AI_Combat_Power>
+        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+        <Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+        <!-- detonation particle and SFX -->
+        <Projectile_Object_Detonation_Particle> Heavy_Bomb_Explosion </Projectile_Object_Detonation_Particle>
+        <Projectile_Lifetime_Detonation_Particle> Heavy_Bomb_Explosion </Projectile_Lifetime_Detonation_Particle>
+        <Projectile_SFXEvent_Detonate> </Projectile_SFXEvent_Detonate>
+    </Projectile>
+
+    <Particle Name="Heavy_Bomb_Explosion">
+        <Space_Model_Name>p_bombing_run.ALO</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+        <Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
+    </Particle>
+
+    <Projectile Name="Heavy_Space_Bomb_AoE">
+        <Text_ID>TEXT_HEAVY_SPACE_BOMB</Text_ID>
+        <Land_Model_Name>pp_proton_bomb.alo</Land_Model_Name>
+        <Space_Model_Name>pp_proton_bomb.alo</Space_Model_Name>
+        <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+        <Max_Speed>0.0</Max_Speed>
+        <!--TODO: Adjust damage setting according to mod data-->
+        <Damage_Type> Damage_Hyper_Gun </Damage_Type>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, BOMB</Behavior>
+        <Projectile_Category>STATIC_BOMB</Projectile_Category>
+        <Projectile_Blast_Area_Range>200.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Damage>300.0</Projectile_Blast_Area_Damage>
+        <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+        <Projectile_Grenade_Sticks_On_Collision>Yes</Projectile_Grenade_Sticks_On_Collision>
+        <Projectile_Damage>800.0</Projectile_Damage>
+        <Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Death_Explosions> Heavy_Bomb_Explosion_AoE </Death_Explosions>
+        <Death_SFXEvent_Start_Die> SFX_Sizemic_Detonation </Death_SFXEvent_Start_Die>
+        <AI_Combat_Power>300</AI_Combat_Power>
+        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+        <Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+        <Lua_Script>AoE_Damage_Script_Space_Bomb</Lua_Script>
+
+
+        <!-- detonation particle and SFX -->
+        <Projectile_Object_Detonation_Particle> Heavy_Bomb_Explosion_AoE </Projectile_Object_Detonation_Particle>
+        <Projectile_Lifetime_Detonation_Particle> Heavy_Bomb_Explosion_AoE </Projectile_Lifetime_Detonation_Particle>
+        <Projectile_SFXEvent_Detonate> </Projectile_SFXEvent_Detonate>
+    </Projectile>
+
+    <Particle Name="Heavy_Bomb_Explosion_AoE">
+        <Space_Model_Name>p_bombing_run.ALO</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+        <Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
+        <!--<Lua_Script>AoE_Damage_Script_Space_Bomb</Lua_Script>-->
+    </Particle>
+</Bombing_Run_Projectiles_Data>

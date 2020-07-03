@@ -1,0 +1,2013 @@
+<?xml version="1.0" ?>
+<Props_Generic>
+
+	<Props_Generic Name="Prop_Turret_rebel_infantry1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_TURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_rebel_infantry2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_TURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_empire_infantry1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_INFANTRYTURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_empire_infantry2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_INFANTRYTURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Turret_rebel_Vehicle1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_VEHICLETURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_rebel_Vehicle2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_VEHICLETURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_empire_Vehicle1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_VEHICLETURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_empire_Vehicle2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EB_VEHICLETURRET.ALO</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_Underworld_Mass_Driver_Turret1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_TurretMST50.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_Underworld_Mass_Driver_Turret2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_TurretMST50.alo</Land_Model_Name>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_Underworld_Torpedo_Turret1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_TurretPTL05.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Turret_Underworld_Torpedo_Turret2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UB_TurretPTL05.alo</Land_Model_Name>
+		<Scale_Factor>1.3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	</Props_Generic>
+
+    <Props_Generic Name="Exploding_Container0">
+		<GUI_Bounds_Scale>.35</GUI_Bounds_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Text_ID>TEXT_PROP_EXPLODING_CONTAINER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Land_Model_Name>w_explosive_crate.alo</Land_Model_Name>
+		<Scale_Factor>.35</Scale_Factor>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		
+		<Override_Bounty_SP>0</Override_Bounty_SP>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation0</Death_Projectiles>
+		
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Props_Generic>
+    <Props_Generic Name="Exploding_Containerx1">
+		<GUI_Bounds_Scale>.35</GUI_Bounds_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Text_ID>TEXT_PROP_EXPLODING_CONTAINER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Land_Model_Name>w_explosive_crate.alo</Land_Model_Name>
+		<Scale_Factor>.65</Scale_Factor>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		
+		<Override_Bounty_SP>0</Override_Bounty_SP>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>40.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Land1</Death_Explosions>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation1</Death_Projectiles>
+		
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Props_Generic>
+    <Props_Generic Name="Exploding_Containerx2">
+		<GUI_Bounds_Scale>.35</GUI_Bounds_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Text_ID>TEXT_PROP_EXPLODING_CONTAINER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Land_Model_Name>w_explosive_crate.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		
+		<Override_Bounty_SP>0</Override_Bounty_SP>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+                <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>100.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Land1</Death_Explosions>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation2</Death_Projectiles>
+		
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Props_Generic>
+    <Props_Generic Name="Exploding_Containerx3">
+		<GUI_Bounds_Scale>.35</GUI_Bounds_Scale>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Text_ID>TEXT_PROP_EXPLODING_CONTAINER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Land_Model_Name>w_explosive_crate.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		
+		<Override_Bounty_SP>0</Override_Bounty_SP>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+                <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>100.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Huge_Explosion_Land2</Death_Explosions>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation3</Death_Projectiles>
+		
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Props_Generic>
+
+
+	<Props_Generic Name="Prop_Snowspeeder_dmgx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_Snowspeeder_dmg.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Snowspeeder_dmgx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_Snowspeeder_dmg.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Snowspeeder_dmgx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RV_Snowspeeder_dmg.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+
+	<Props_Generic Name="Prop_Crate01x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates01.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate0x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates01.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate02x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates02.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate02x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates02.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate03x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates03.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate03x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates03.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate04x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates04.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate04x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates04.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate04_Bigx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates04.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate04_Bigx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates04.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate05x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates05.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate05x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates05.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate05_Bigx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates05.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate05_Bigx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates05.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate06x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates06.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate06x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates06.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate06_Bigx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates06.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate06_Bigx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates06.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	
+	<Props_Generic Name="Prop_Crate07x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates07.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate07x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates07.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate07_Bigx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates07.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate07_Bigx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates07.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate08x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate08_Bigx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>14</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>16</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>18</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>20</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx11">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>22</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate08_Bigx12">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
+		<Scale_Factor>24</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate09x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates09.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate09x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates09.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	
+	<Props_Generic Name="Prop_Crate10x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates10.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate10x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates10.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate11x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates11.alo</Land_Model_Name>
+		<Space_Model_Name>W_crates11.alo</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate11x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates11.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate12x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates12.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate12x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates12.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate13x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates13.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate13x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates13.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate14x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates14.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate14x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates14.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate15x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates15.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate15x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates15.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate16x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>14</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>16</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>18</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x11">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>20</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x12">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>22</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate16x14">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates16.alo</Land_Model_Name>
+		<Scale_Factor>24</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate17x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates17.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate17x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates17.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate18_Partsx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates18.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate18_Partsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates18.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate19_Partsx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates19.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate19_Partsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates19.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate20x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates20.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate20x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates20.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate21x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates21.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate21x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates21.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate22_Partsx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates22.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate22_Partsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates22.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate23_Woodenx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates23.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate23_Woodenx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates23.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate24_Partsx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates24.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate24_Partsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates24.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate25_Partsx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates25.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate25_Partsx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates25.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Crate26x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates26.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate26x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates26.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate27_Woodenx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates27.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate27_Woodenx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates27.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate28x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates28.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate28x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates28.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Crate29_Woodenx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>7</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>9</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>12</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>14</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>16</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>18</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>20</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crate29_Woodenx10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_crates29.alo</Land_Model_Name>
+		<Scale_Factor>22</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Gungan_Head_Statuex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Gungan_Head_Statuex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Gungan_Head_Statuex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Fuel_Pipe_1x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_pipe00.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Fuel_Pipe_1x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_pipe00.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Fuel_Pipe_2x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_pipe01.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Fuel_Pipe_2x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_pipe01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Fuel_Pipe_3x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_pipe02.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Fuel_Pipe_3x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_pipe02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Fuel_Cell_1x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_cell_1.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Fuel_Cell_1x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_cell_1.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Fuel_Cell_2x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_cell_2.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Fuel_Cell_2x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_cell_2.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Fuel_Cell_3x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_cell_3.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Fuel_Cell_3x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_fuel_cell_3.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Massassi_Templex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Massassi_Templex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Massassi_Templex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Massassi_Templex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Massassi_Temple.alo</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Massassi_ObservationTowerx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
+		<Scale_Factor>2.75</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Massassi_ObservationTowerx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
+		<Scale_Factor>3.75</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Massassi_ObservationTowerx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
+		<Scale_Factor>4.75</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Massassi_ObservationTowerx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
+		<Scale_Factor>7.75</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	
+	<SpaceProp Name="Prop_Land_Movement_Compassx1">
+		<Text_ID />
+		<Land_Model_Name> I_FACING_ARROW.ALO </Land_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+		<Scale_Factor> .66f </Scale_Factor>
+		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+	</SpaceProp>
+	<SpaceProp Name="Prop_Land_Movement_Compassx2">
+		<Text_ID />
+		<Land_Model_Name> I_FACING_ARROW.ALO </Land_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+		<Scale_Factor> .99f </Scale_Factor>
+		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+	</SpaceProp>
+	<SpaceProp Name="Prop_Land_Movement_Compassx3">
+		<Text_ID />
+		<Land_Model_Name> I_FACING_ARROW.ALO </Land_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+		<Scale_Factor> 1.22f </Scale_Factor>
+		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+	</SpaceProp>
+	<SpaceProp Name="Prop_Land_Movement_Compassx4">
+		<Text_ID />
+		<Land_Model_Name> I_FACING_ARROW.ALO </Land_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+		<Scale_Factor> 2.99f </Scale_Factor>
+		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+	</SpaceProp>
+
+	<Props_Generic Name="Prop_Crashed_Shuttlex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_crashed_tyderium.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Crashed_Shuttlex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_crashed_tyderium.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Good_Ground_Areax1">
+		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_GROUND_BUNKER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<LandBehavior>DUMMY_TOOLTIP</LandBehavior>
+		<Land_Model_Name>W_GoodGround_Bags.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Affiliation>Neutral</Affiliation>
+		<LandBehavior>UNIT_AI</LandBehavior>
+		<CategoryMask>Wall</CategoryMask>
+		<Space_Layer> Land </Space_Layer>
+		<Avoidance_Disabled> true </Avoidance_Disabled>
+		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 60.0 </Custom_Hard_YExtent>		
+		<Snap_Movement_Orders_To_Center> true </Snap_Movement_Orders_To_Center>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Good_Ground_Areax2">
+		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_GROUND_BUNKER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<LandBehavior>DUMMY_TOOLTIP</LandBehavior>
+		<Land_Model_Name>W_GoodGround_Bags.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Valid_Target>No</Is_Valid_Target>
+		<Affiliation>Neutral</Affiliation>
+		<LandBehavior>UNIT_AI</LandBehavior>
+		<CategoryMask>Wall</CategoryMask>
+		<Space_Layer> Land </Space_Layer>
+		<Avoidance_Disabled> true </Avoidance_Disabled>
+		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 60.0 </Custom_Hard_YExtent>		
+		<Snap_Movement_Orders_To_Center> true </Snap_Movement_Orders_To_Center>
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Rancor_Prisonx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Icon_Name>i_button_cage.tga</Icon_Name>
+		<Land_Model_Name>NB_Cage.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Rancor_Prisonx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Icon_Name>i_button_cage.tga</Icon_Name>
+		<Land_Model_Name>NB_Cage.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Rancor_Prisonx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Icon_Name>i_button_cage.tga</Icon_Name>
+		<Land_Model_Name>NB_Cage.alo</Land_Model_Name>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Rancor_Prisonx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Icon_Name>i_button_cage.tga</Icon_Name>
+		<Land_Model_Name>NB_Cage.alo</Land_Model_Name>
+		<Scale_Factor>10</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Acclamator">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<HardPoints>
+			HP_Acclamator_Weapon_FL,
+			HP_Acclamator_Weapon_FR,
+			HP_Acclamator_Weapon_FC,
+			HP_Acclamator_Weapon_ML,
+			HP_Acclamator_Weapon_MR,
+			HP_Acclamator_Weapon_BL,
+			HP_Acclamator_Weapon_BL_00,
+			HP_Acclamator_Weapon_BR,
+			HP_Acclamator_Weapon_BR_00,
+			HP_Acclamator_Weapon_BC,
+			HP_Acclamator_Laser_00,
+			HP_Acclamator_Laser_01,
+			HP_Acclamator_Laser_02,
+			HP_Acclamator_Laser_03,
+			HP_Acclamator_Shield_Generator, 
+			HP_Acclamator_Engines, 
+			HP_Acclamator_Fighter_Bay
+		</HardPoints>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Generic>
+
+	
+	<Props_Generic Name="Prop_Acclamator_Wreck_3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator_Wreck_4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator_Wreck_5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator_Wreck_6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Acclamator_Wreck_7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>EV_ACCLAMATOR_wreck_a.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	
+	<Props_Generic Name="Prop_Venator_Wreck1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Venator_Wreck2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Venator_Wreck3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Venator_Wreck4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Venator_Wreck5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>8.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Venator_Wreck6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Venator_Wreck7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Krayt_Cine_Unit1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KRAYTCLASSDESTROYER_CINE.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>		
+	</Props_Generic>
+	<Props_Generic Name="Prop_Krayt_Cine_Unit2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KRAYTCLASSDESTROYER_CINE.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>		
+	</Props_Generic>
+	<Props_Generic Name="Prop_Krayt_Cine_Unit3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KRAYTCLASSDESTROYER_CINE.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>		
+	</Props_Generic>
+	<Props_Generic Name="Prop_Krayt_Cine_Unit4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KRAYTCLASSDESTROYER_CINE.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>		
+	</Props_Generic>
+	<Props_Generic Name="Prop_Krayt_Cine_Unit5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_KRAYTCLASSDESTROYER_CINE.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>		
+	</Props_Generic>
+
+	
+	<Props_Generic Name="Prop_Interceptor_Cine_Unit1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_InterceptorIV_cine.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Interceptor_Cine_Unit2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_InterceptorIV_cine.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Interceptor_Cine_Unit3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_InterceptorIV_cine.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Interceptor_Cine_Unit4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_InterceptorIV_cine.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Interceptor_Cine_Unit5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>UV_InterceptorIV_cine.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+
+	
+	<Props_Generic Name="Prop_Felucia_Planet_Cine_Unitx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_Endor_High.ALO</Land_Model_Name>
+		<Scale_Factor>100.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Felucia_Planet_Cine_Unitx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_Endor_High.ALO</Land_Model_Name>
+		<Scale_Factor>200.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Felucia_Planet_Cine_Unitx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_Endor_High.ALO</Land_Model_Name>
+		<Scale_Factor>300.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_Felucia_Planet_Cine_Unitx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_planet_Endor_High.ALO</Land_Model_Name>
+		<Scale_Factor>400.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_GirderWall_Bigx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_space_girder00.alo</Land_Model_Name>
+		<Space_Model_Name>w_space_girder00.alo</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_GirderWall_Bigx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_space_girder00.alo</Land_Model_Name>
+		<Space_Model_Name>w_space_girder00.alo</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_GirderWall_Bigx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_space_girder00.alo</Land_Model_Name>
+		<Space_Model_Name>w_space_girder00.alo</Space_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Prop_GirderWall_Bigx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_space_girder00.alo</Land_Model_Name>
+		<Space_Model_Name>w_space_girder00.alo</Space_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Debris_Gen_08x1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>0.50</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>0.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Debris_Gen_08x9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>RB_Station_01_HP01_CA.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Generic>
+
+
+    <Props_Generic Name="Exploding_Doorwayx1">
+		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Scale_Factor>2.5</Scale_Factor>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, LAND_OBSTACLE, REVEAL</Behavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>50</Energy_Capacity>
+		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+	        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Props_Generic>
+    <Props_Generic Name="Exploding_Doorwayx2">
+		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
+		<Land_Model_Name>EB_BaseWall-mid.alo</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<Property_Flags>NotOpportunityTarget</Property_Flags>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Behavior>SELECTABLE, UNIT_AI, IDLE, LAND_OBSTACLE, REVEAL</Behavior>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Mass>1.0</Mass>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>150</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>100</Energy_Capacity>
+		<Energy_Refresh_Rate>30</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<Base_Level_Available>0</Base_Level_Available>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+	        <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		<CategoryMask>Structure</CategoryMask>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</Props_Generic>
+
+	<Props_Generic Name="Droid_Factory_Holex1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>3.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>5.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>6.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>10.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>18.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Space_Model_Name>test_wall.alo</Space_Model_Name>
+		<Scale_Factor>25</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>40</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Droid_Factory_Holex8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>test_wall.alo</Land_Model_Name>
+		<Scale_Factor>70</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	
+	<Props_Generic Name="Alpha_Girdersx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_AlphaGirder.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Alpha_Girdersx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_AlphaGirder.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Alpha_Girdersx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_AlphaGirder.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Alpha_Girdersx4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_AlphaGirder.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+	<Props_Generic Name="Alpha_Girdersx5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_AlphaGirder.alo</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Artifact_Pedestalx1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Artifact_Pedestalx2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+	<Props_Generic Name="Prop_Artifact_Pedestalx3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Generic>
+
+</Props_Generic>

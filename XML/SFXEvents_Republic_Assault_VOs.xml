@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SFXEvents>
+
+	<!-- ======================================= -->
+	<!-- =========== Unit Voiceovers =========== -->
+	<!-- ======================================= -->
+
+			<!-- Republic Fighters -->
+
+<SFXEvent Name="Unit_Attack_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Attack_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_05.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_06.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_07.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_08.wav
+Data/Audio/Republic/Fighter/VO_CF_Attack_09.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Complete_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Critical_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Critical_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Critical_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Critical_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Critical_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Critical_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Enemy_Critical_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_05.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_06.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_07.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_08.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_09.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_10.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_11.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_12.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_13.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_14.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_15.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_16.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_17.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_18.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Critical_19.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Enemy_Low_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_05.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_06.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_07.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_08.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_09.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_10.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_11.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_12.wav
+Data/Audio/Republic/Fighter/VO_CF_Enemy_Low_13.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fleetmove_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Fleetmove_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Low_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Low_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_05.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_06.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_07.wav
+Data/Audio/Republic/Fighter/VO_CF_Low_08.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Move_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_05.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_06.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_07.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_08.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_09.wav
+Data/Audio/Republic/Fighter/VO_CF_Move_10.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Nebula_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Nebula_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Select_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Select_02.wav
+Data/Audio/Republic/Fighter/VO_CF_Select_03.wav
+Data/Audio/Republic/Fighter/VO_CF_Select_04.wav
+Data/Audio/Republic/Fighter/VO_CF_Select_05.wav
+Data/Audio/Republic/Fighter/VO_CF_Select_06.wav
+Data/Audio/Republic/Fighter/VO_CF_Select_07.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Enemt_Sighting_CF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Fighter/VO_CF_Sighting_01.wav
+Data/Audio/Republic/Fighter/VO_CF_Sighting_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+
+			<!-- Republic Starships -->
+
+<SFXEvent Name="Unit_Attack_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Attack_01.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_02.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_03.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_04.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_05.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_06.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_07.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_08.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_09.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_10.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_11.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_12.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_13.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_14.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_15.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_16.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_17.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Attack_Missiles_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Attack_Missiles_01.wav
+Data/Audio/Republic/Starship/VO_CS_Attack_Missiles_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Complete_01.wav
+Data/Audio/Republic/Starship/VO_CS_Complete_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fleetmove_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Fleetmove_01.wav
+Data/Audio/Republic/Starship/VO_CS_Fleetmove_02.wav
+Data/Audio/Republic/Starship/VO_CS_Fleetmove_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_HP_Attack_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_HP_Attack_01.wav
+Data/Audio/Republic/Starship/VO_CS_HP_Attack_02.wav
+Data/Audio/Republic/Starship/VO_CS_HP_Attack_03.wav
+Data/Audio/Republic/Starship/VO_CS_HP_Attack_04.wav
+Data/Audio/Republic/Starship/VO_CS_HP_Attack_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Move_01.wav
+Data/Audio/Republic/Starship/VO_CS_Move_02.wav
+Data/Audio/Republic/Starship/VO_CS_Move_03.wav
+Data/Audio/Republic/Starship/VO_CS_Move_04.wav
+Data/Audio/Republic/Starship/VO_CS_Move_05.wav
+Data/Audio/Republic/Starship/VO_CS_Move_06.wav
+Data/Audio/Republic/Starship/VO_CS_Move_07.wav
+Data/Audio/Republic/Starship/VO_CS_Move_08.wav
+Data/Audio/Republic/Starship/VO_CS_Move_09.wav
+Data/Audio/Republic/Starship/VO_CS_Move_10.wav
+Data/Audio/Republic/Starship/VO_CS_Move_11.wav
+Data/Audio/Republic/Starship/VO_CS_Move_12.wav
+Data/Audio/Republic/Starship/VO_CS_Move_13.wav
+Data/Audio/Republic/Starship/VO_CS_Move_14.wav
+Data/Audio/Republic/Starship/VO_CS_Move_15.wav
+Data/Audio/Republic/Starship/VO_CS_Move_16.wav
+Data/Audio/Republic/Starship/VO_CS_Move_17.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Select_01.wav
+Data/Audio/Republic/Starship/VO_CS_Select_02.wav
+Data/Audio/Republic/Starship/VO_CS_Select_03.wav
+Data/Audio/Republic/Starship/VO_CS_Select_04.wav
+Data/Audio/Republic/Starship/VO_CS_Select_05.wav
+Data/Audio/Republic/Starship/VO_CS_Select_06.wav
+Data/Audio/Republic/Starship/VO_CS_Select_07.wav
+Data/Audio/Republic/Starship/VO_CS_Select_08.wav
+Data/Audio/Republic/Starship/VO_CS_Select_09.wav
+Data/Audio/Republic/Starship/VO_CS_Select_10.wav
+Data/Audio/Republic/Starship/VO_CS_Select_11.wav
+Data/Audio/Republic/Starship/VO_CS_Select_12.wav
+Data/Audio/Republic/Starship/VO_CS_Select_13.wav
+Data/Audio/Republic/Starship/VO_CS_Select_14.wav
+Data/Audio/Republic/Starship/VO_CS_Select_15.wav
+Data/Audio/Republic/Starship/VO_CS_Select_16.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Barrage_CS">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Starship/VO_CS_Special_Barrage_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Tie_Defender </Overlap_Test>
+</SFXEvent>
+
+			<!-- Clone Troopers -->
+
+<SFXEvent Name="Unit_Assist_Move_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Assist_Move_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Assist_Move_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Assist_Attack_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Assist_Attack_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Assist_Attack_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Assist_Attack_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Assist_Attack_04.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Attack_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_11.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_12.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_13.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_14.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_15.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_16.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_17.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_18.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_19.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_21.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_22.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_23.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_24.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_25.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_26.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_27.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_28.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_29.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_30.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Attack_31.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Complete_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Complete_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Complete_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Cover_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Cover_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Cover_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Cover_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Enemy_Sighted_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_11.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_12.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_13.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_14.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_15.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_16.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Enemy_Sighted_17.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fleet_Move_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Fleet_Move_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Fleet_Move_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Fleet_Move_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Fleet_Move_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Fleet_Move_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Fleet_Move_06.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Guard_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Guard_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Guard_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Guard_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Guard_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Guard_06.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_11.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_12.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_13.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_14.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_15.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_16.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_17.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_18.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_19.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_21.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_22.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_23.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_24.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Move_31.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Clone_Trooper">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_11.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_12.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_13.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_14.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_15.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_16.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_17.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_18.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_19.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_21.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_22.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_23.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_24.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_25.wav
+Data/Audio/Republic/CloneTrooper/VO_Clone_Select_26.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+
+			<!-- General Obi-Wan -->
+
+<SFXEvent Name="Unit_Attack_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_11.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_12.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_13.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_14.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_15.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_16.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_17.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fleetmove_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Fleetmove_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Fleetmove_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Fleetmove_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Fleetmove_04.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Groupmove_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Groupmove_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Groupmove_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Groupmove_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Groupmove_04.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Move_11.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_01.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_02.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_03.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_04.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_05.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_06.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_07.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_08.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_09.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_10.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_11.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_12.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_13.wav
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Select_14.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Health_Low_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_12.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Overlap_Test> Unit_Luke_Land </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Health_Critical_Obi-Wan">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/CloneTrooper/VO_Obi-Wan_Attack_10.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_Luke_Land </Overlap_Test>
+</SFXEvent>
+
+			<!-- Admiral Yularen -->
+
+<SFXEvent Name="Unit_Attack_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_01.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_02.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_03.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_04.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_05.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_06.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_07.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_08.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_09.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_10.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_11.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_12.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_13.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_14.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_15.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Attack_16.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Bombard_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Bombard.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Concentrate_Fire_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Concentrate_Fire_01.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Concentrate_Fire_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Damage_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Damage_03.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Damage_01.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Damage_04.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Damage_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Death_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Damage_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Danger_Move_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Danger_Move.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Deploy_Fighters_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Deploy_01.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Deploy_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Fleet_Move_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Fleet_Move_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Move_01.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_02.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_03.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_04.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_05.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_06.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_07.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_08.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Move_09.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Respawn_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Respawn_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Yularen">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/Yularen/VO_Yularen_Select_01.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Select_02.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Select_03.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Select_04.wav
+Data/Audio/Republic/Yularen/VO_Yularen_Select_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- RC Boss -->
+
+
+<SFXEvent Name="Unit_Attack_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_02.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_03.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_04.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_05.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_06.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Attack_07.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Respawn_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Respawn_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Cover_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Cover_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Cover_02.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Cover_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Guard_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Move_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Move_02.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Move_03.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Move_04.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Select_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Select_02.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Select_03.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Select_04.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Low_Health_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Low_Health_01.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Critical_Health_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Critical_Health_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Critical_Health_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Death_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Death_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Death_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Grenade_Boss">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaBoss/VO_Boss_Grenade_01.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Grenade_02.wav
+Data/Audio/Republic/DeltaBoss/VO_Boss_Grenade_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- RC Fixer -->
+
+<SFXEvent Name="Unit_Attack_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_02.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_03.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_04.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_05.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_06.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Attack_07.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Cover_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Cover_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Cover_02.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Cover_03.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Cover_04.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Cover_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Guard_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Guard_02.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Guard_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_02.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_03.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_04.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_05.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_06.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_07.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_08.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Move_09.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_02.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_03.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_04.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_05.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_06.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_07.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_08.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_09.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Select_10.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Low_Health_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Low_Health_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Low_Health_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Critical_Health_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Critical_Health_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Critical_Health_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Death_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Death_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Death_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Hack_Fixer">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Hack_01.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Hack_02.wav
+Data/Audio/Republic/DeltaFixer/VO_Fixer_Hack_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- RC Sev -->
+
+<SFXEvent Name="Unit_Attack_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_02.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_03.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_04.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_05.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_06.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_07.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_08.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_09.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_10.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_11.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_12.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Attack_13.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Guard_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Guard_02.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Guard_03.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Guard_04.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_02.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_03.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_04.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_05.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_06.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_07.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_08.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_09.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_10.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_11.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_12.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_13.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Move_14.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_02.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_03.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_04.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_05.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_06.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_07.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_08.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Select_09.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Low_Health_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Low_Health_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Low_Health_02.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Low_Health_03.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Critical_Health_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Critical_Health_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Critical_Health_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Death_Sev">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaSev/VO_Sev_Death_01.wav
+Data/Audio/Republic/DeltaSev/VO_Sev_Death_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- RC Scorch -->
+
+<SFXEvent Name="Unit_Attack_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_02.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_03.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_04.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_05.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_06.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_07.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_08.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_09.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Attack_10.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Guard_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Guard_02.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Guard_03.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Guard_04.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Guard_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_02.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_03.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_04.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_05.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_06.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_07.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_08.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_09.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_10.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_11.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_12.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_13.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_14.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_15.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Move_16.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_02.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_03.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_04.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_05.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_06.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_07.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_08.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_09.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_10.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_11.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Select_12.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Low_Health_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Low_Health_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Low_Health_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Critical_Health_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Critical_Health_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Critical_Health_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Death_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Death_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Death_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Group_Attack_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Group_Attack_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Group_Attack_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Grenade_Scorch">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Grenade_01.wav
+Data/Audio/Republic/DeltaScorch/VO_Scorch_Grenade_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- CIS Fighters -->
+
+<SFXEvent Name="Unit_Acknowledgement_DF">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_01.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_02.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_03.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_04.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_05.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_06.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_07.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_08.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_09.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_10.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_11.wav
+Data/Audio/CIS/Fighter/VO_DF_Acknowledgement_12.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- B2 CIS Starship -->
+
+<SFXEvent Name="Unit_Attack_DS_B2">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_01.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_02.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_03.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_04.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_05.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_06.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_07.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Attack_08.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Complete_DS_B2">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Complete_01.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Complete_02.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Missile_Attack_DS_B2">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Missile_Attack_01.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Missile_Attack_02.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Missile_Attack_03.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Missile_Attack_04.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Missile_Attack_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_DS_B2">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Move_01.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Move_02.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Move_03.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Move_04.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Move_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_DS_B2">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_01.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_02.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_03.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_04.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_05.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_06.wav
+Data/Audio/CIS/Starship_B2/VO_DS_B2_Select_07.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+			<!-- B1 Battledroid -->
+
+<SFXEvent Name="Unit_Attack_B1">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/B1/VO_B1_Attack_01.wav
+Data/Audio/CIS/B1/VO_B1_Attack_02.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_01.wav
+Data/Audio/CIS/B1/VO_B1_Attack_03.wav
+Data/Audio/CIS/B1/VO_B1_Attack_04.wav
+Data/Audio/CIS/B1/VO_B1_Attack_05.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_02.wav
+Data/Audio/CIS/B1/VO_B1_Attack_06.wav
+Data/Audio/CIS/B1/VO_B1_Attack_07.wav
+Data/Audio/CIS/B1/VO_B1_Attack_08.wav
+Data/Audio/CIS/B1/VO_B1_Attack_09.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_01.wav
+Data/Audio/CIS/B1/VO_B1_Attack_10.wav
+Data/Audio/CIS/B1/VO_B1_Attack_11.wav
+Data/Audio/CIS/B1/VO_B1_Attack_12.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Cover_B1">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/B1/VO_B1_Cover_01.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_01.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_02.wav
+Data/Audio/CIS/B1/VO_B1_Cover_02.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_03.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_04.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Guard_B1">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/B1/VO_B1_Guard_01.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_01.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_02.wav
+Data/Audio/CIS/B1/VO_B1_Guard_02.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_03.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_04.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Move_B1">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/B1/VO_B1_Move_01.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_01.wav
+Data/Audio/CIS/B1/VO_B1_Move_02.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_02.wav
+Data/Audio/CIS/B1/VO_B1_Move_03.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_03.wav
+Data/Audio/CIS/B1/VO_B1_Move_04.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_04.wav
+Data/Audio/CIS/B1/VO_B1_Move_05.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Select_B1">
+	<Use_Preset>Preset_UR</Use_Preset>
+	<Samples>
+Data/Audio/CIS/B1/VO_B1_Select_01.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_01.wav
+Data/Audio/CIS/B1/VO_B1_Select_02.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_02.wav
+Data/Audio/CIS/B1/VO_B1_Select_03.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_03.wav
+Data/Audio/CIS/B1/VO_B1_Select_04.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_04.wav
+Data/Audio/CIS/B1/VO_B1_Select_05.wav
+Data/Audio/CIS/B1/VO_B1_Acknowledgement_05.wav
+	</Samples>
+	<Localize> Yes </Localize>
+	<Play_Sequentially> Yes </Play_Sequentially>
+	<Overlap_Test> Unit_X_Wing </Overlap_Test>
+</SFXEvent>
+
+</SFXEvents>
