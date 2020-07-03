@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+<!-- Hard points for the Munificent -->
+
+
+<HardPoint Name="HP_Captor_Dummy">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Fire_Bone_A>DUMMY_BONE</Fire_Bone_A>
+	<Fire_Bone_B>DUMMY_BONE</Fire_Bone_B>
+	<Fire_Cone_Width>10.0</Fire_Cone_Width>
+	<Fire_Cone_Height>10.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dummy</Fire_Projectile_Type>	<Fire_Min_Recharge_Seconds>2</Fire_Min_Recharge_Seconds>	<Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>5000.0</Fire_Range_Distance>
+	<Fire_SFXEvent />
+</HardPoint>
+
+<HardPoint Name="HP_Captor_Shield">
+	<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+	<Health>350.0</Health>
+
+	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>SHIELD</Attachment_Bone>
+	<Collision_Mesh>SHIELD</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>DMG_SHIELD</Damage_Particles>
+</HardPoint>
+	
+<HardPoint Name="HP_Captor_Engine">
+	<Type> HARD_POINT_ENGINE </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+	<Health>350.0</Health>
+
+	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>ENGINE</Attachment_Bone>
+	<Collision_Mesh>ENGINE</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>DMG_ENGINE</Damage_Particles>
+</HardPoint>
+
+<HardPoint Name="HP_Captor_Hangar_Bay">
+	<Type> HARD_POINT_FIGHTER_BAY </Type>
+	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+
+	<Attachment_Bone>HANGAR</Attachment_Bone>             
+	<Collision_Mesh>HANGAR</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>DMG_HANGAR</Damage_Particles>
+		
+	<Health>800.0</Health>
+	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+	</HardPoint>
+
+
+
+<HardPoint Name="HP_Captor_QTL_01">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+	<Health>400.0</Health>
+
+
+	<Model_To_Attach>QCTBL_01.ALO</Model_To_Attach>
+	<Attachment_Bone>QTBL_01</Attachment_Bone>
+	<Collision_Mesh>QTBL_01</Collision_Mesh>
+	<Damage_Particles>DMG_QTBL_01</Damage_Particles>
+
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.7 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 300.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 300.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret_Rotation </Turret_Bone_Name>
+	<Barrel_Bone_Name> Turret_Elevation </Barrel_Bone_Name>
+	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+	<Fire_Cone_Width>40</Fire_Cone_Width>
+	<Fire_Cone_Height>40</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+<HardPoint Name="HP_Captor_QTL_02">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+	<Health>400.0</Health>
+
+
+	<Model_To_Attach>QCTBL_02.ALO</Model_To_Attach>
+	<Attachment_Bone>QTBL_02</Attachment_Bone>
+	<Collision_Mesh>QTBL_02</Collision_Mesh>
+	<Damage_Particles>DMG_QTBL_02</Damage_Particles>
+
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.7 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 300.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 300.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret_Rotation </Turret_Bone_Name>
+	<Barrel_Bone_Name> Turret_Elevation </Barrel_Bone_Name>
+	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+	<Fire_Cone_Width>40</Fire_Cone_Width>
+	<Fire_Cone_Height>40</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>12</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>3000.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+
+
+</HardPoints>

@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+<HardPoint Name="HP_Stealth_Ship_Dummy">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_02</Fire_Bone_B>
+	<Fire_Cone_Width>20.0</Fire_Cone_Width>
+	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dummy</Fire_Projectile_Type>	<Fire_Min_Recharge_Seconds>2</Fire_Min_Recharge_Seconds>	<Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>15000.0</Fire_Range_Distance>
+	<Fire_SFXEvent />
+</HardPoint>
+
+<HardPoint Name="HP_Stealth_Ship_Conc_01">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>MUZZLEC_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEC_02</Fire_Bone_B>
+	<Fire_Cone_Width>90.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+<Fire_Min_Recharge_Seconds>16.0</Fire_Min_Recharge_Seconds>
+<Fire_Max_Recharge_Seconds>32.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.18</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>2200.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+<Full_Salvo_Weapon_Delay_Multiplier>0.1</Full_Salvo_Weapon_Delay_Multiplier>
+
+</HardPoint>
+
+<HardPoint Name="HP_Stealth_Ship_Conc_02">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>MUZZLEC_03</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEC_04</Fire_Bone_B>
+	<Fire_Cone_Width>90.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+<Fire_Min_Recharge_Seconds>16.0</Fire_Min_Recharge_Seconds>
+<Fire_Max_Recharge_Seconds>32.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.18</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>2200.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+<Full_Salvo_Weapon_Delay_Multiplier>0.1</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+<HardPoint Name="HP_Stealth_Ship_Conc_03">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>MUZZLEC_05</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEC_06</Fire_Bone_B>
+	<Fire_Cone_Width>90.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+<Fire_Min_Recharge_Seconds>16.0</Fire_Min_Recharge_Seconds>
+<Fire_Max_Recharge_Seconds>32.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.18</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>2200.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+<Full_Salvo_Weapon_Delay_Multiplier>0.1</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+<HardPoint Name="HP_Stealth_Ship_AA_01">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>400.0</Health>
+
+	<Model_To_Attach>SSAA_01.ALO</Model_To_Attach>
+	<Attachment_Bone>TURRET_01</Attachment_Bone>
+	<Collision_Mesh>TURRET_01</Collision_Mesh>
+
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 1.5 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret_Rotation </Turret_Bone_Name>
+	<Barrel_Bone_Name> Turret_Elevation </Barrel_Bone_Name>
+	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+	<Fire_Cone_Width>40</Fire_Cone_Width>
+	<Fire_Cone_Height>40</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_StealthShip_Laser</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.7</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Gunner_Fire</Fire_SFXEvent>	<SFXEvent_Turret_Rotating_Loop>Unit_Turret_Rotate</SFXEvent_Turret_Rotating_Loop>
+
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+<HardPoint Name="HP_Stealth_Ship_AA_02">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>400.0</Health>
+
+	<Model_To_Attach>SSAA_02.ALO</Model_To_Attach>
+	<Attachment_Bone>TURRET_02</Attachment_Bone>
+	<Collision_Mesh>TURRET_02</Collision_Mesh>
+
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 1.5 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret_Rotation </Turret_Bone_Name>
+	<Barrel_Bone_Name> Turret_Elevation </Barrel_Bone_Name>
+	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+	<Fire_Cone_Width>40</Fire_Cone_Width>
+	<Fire_Cone_Height>40</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_StealthShip_Laser</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.7</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Gunner_Fire</Fire_SFXEvent>	<SFXEvent_Turret_Rotating_Loop>Unit_Turret_Rotate</SFXEvent_Turret_Rotating_Loop>
+
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+
+</HardPoints>
+

@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardPoints>
+
+
+<HardPoint Name="HP_Kandosii_Dummy">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+	<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+	<Fire_Cone_Width>10.0</Fire_Cone_Width>
+	<Fire_Cone_Height>10.0</Fire_Cone_Height>
+       <Fire_Projectile_Type>Proj_Facing_Dummy</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>1</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>5000.0</Fire_Range_Distance>
+	<Fire_SFXEvent />
+</HardPoint>
+
+
+<HardPoint Name="HP_Kandosii_DTL_01">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>3500.0</Health>
+<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Model_To_Attach>Mandalorian_Kandosii_Turret_01.ALO</Model_To_Attach>
+	<Attachment_Bone>BT_01</Attachment_Bone>
+	<Collision_Mesh>BT_01</Collision_Mesh>
+	<Damage_Particles>BT_01_Fire</Damage_Particles>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.2 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 60.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret </Turret_Bone_Name>
+	<Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+	<Fire_Bone_A>FP_01</Fire_Bone_A>
+	<Fire_Bone_B>FP_01</Fire_Bone_B>
+	<Fire_Cone_Width>40</Fire_Cone_Width>
+	<Fire_Cone_Height>40</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>3500.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+
+
+<HardPoint Name="HP_Kandosii_DTL_02">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>3500.0</Health>
+<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Model_To_Attach>Mandalorian_Kandosii_Turret_02.ALO</Model_To_Attach>
+	<Attachment_Bone>BT_02</Attachment_Bone>
+	<Collision_Mesh>BT_02</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>BT_02_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.2 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 60.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret </Turret_Bone_Name>
+	<Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+	<Fire_Bone_A>FP_01</Fire_Bone_A>
+	<Fire_Bone_B>FP_01</Fire_Bone_B>
+	<Fire_Cone_Width>40</Fire_Cone_Width>
+	<Fire_Cone_Height>40</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>3500.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+
+<HardPoint Name="HP_Kandosii_QTL_01">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>2000.0</Health>
+<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Model_To_Attach>Mandalorian_Kandosii_Turret_03.ALO</Model_To_Attach>
+	<Attachment_Bone>QT_01</Attachment_Bone>
+	<Collision_Mesh>QT_01</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>QT_01_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.4 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 60.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret </Turret_Bone_Name>
+	<Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+	<Fire_Bone_A>FP_01</Fire_Bone_A>
+	<Fire_Bone_B>FP_01</Fire_Bone_B>
+	<Fire_Cone_Width>90</Fire_Cone_Width>
+	<Fire_Cone_Height>60</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Red_Beam</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.5</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+
+<HardPoint Name="HP_Kandosii_QTL_02">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>2000.0</Health>
+<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Model_To_Attach>Mandalorian_Kandosii_Turret_04.ALO</Model_To_Attach>
+	<Attachment_Bone>QT_02</Attachment_Bone>
+	<Collision_Mesh>QT_02</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>QT_02_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.4 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 60.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret </Turret_Bone_Name>
+	<Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+	<Fire_Bone_A>FP_01</Fire_Bone_A>
+	<Fire_Bone_B>FP_01</Fire_Bone_B>
+	<Fire_Cone_Width>90</Fire_Cone_Width>
+	<Fire_Cone_Height>60</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Red_Beam</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.5</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+
+
+<HardPoint Name="HP_Kandosii_QTL_03">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>2000.0</Health>
+<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Model_To_Attach>Mandalorian_Kandosii_Turret_05.ALO</Model_To_Attach>
+	<Attachment_Bone>QT_03</Attachment_Bone>
+	<Collision_Mesh>QT_03</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>QT_03_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+	<Is_Turret> Yes </Is_Turret>
+	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+	<Turret_Rotate_Speed> 0.4 </Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 60.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name> Turret </Turret_Bone_Name>
+	<Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+	<Fire_Bone_A>FP_01</Fire_Bone_A>
+	<Fire_Bone_B>FP_01</Fire_Bone_B>
+	<Fire_Cone_Width>90</Fire_Cone_Width>
+	<Fire_Cone_Height>60</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Red_Beam</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.5</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_LC_01">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_01</Attachment_Bone>
+	<Collision_Mesh>HP_01</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>HP_01_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_01_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_01_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_LC_02">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_02</Attachment_Bone>
+	<Collision_Mesh>HP_02</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>HP_02_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_02_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_02_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+
+<HardPoint Name="HP_Kandosii_LC_03">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_03</Attachment_Bone>
+	<Collision_Mesh>HP_03</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>HP_03_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_03_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_03_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+
+<HardPoint Name="HP_Kandosii_LC_04">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_04</Attachment_Bone>
+	<Collision_Mesh>HP_04</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>HP_04_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_04_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_04_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+
+<HardPoint Name="HP_Kandosii_LC_05">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_05</Attachment_Bone>
+	<Collision_Mesh>HP_05</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>HP_05_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_05_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_05_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_LC_06">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_06</Attachment_Bone>
+	<Collision_Mesh>HP_06</Collision_Mesh>
+	<Damage_Decal></Damage_Decal>
+	<Damage_Particles>HP_06_Fire</Damage_Particles>
+
+	<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_06_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_06_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_TBL_01">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_07</Attachment_Bone>
+	<Collision_Mesh>HP_07</Collision_Mesh>
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_07_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_07_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Turbolaser_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_TBL_02">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_08</Attachment_Bone>
+	<Collision_Mesh>HP_08</Collision_Mesh>
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_08_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_08_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Turbolaser_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_TBL_03">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_09</Attachment_Bone>
+	<Collision_Mesh>HP_09</Collision_Mesh>
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_09_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_09_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Turbolaser_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_TBL_04">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+	<Health>1500.0</Health>
+	<Death_Explosion_Particles></Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+	<Attachment_Bone>HP_10</Attachment_Bone>
+	<Collision_Mesh>HP_10</Collision_Mesh>
+	<Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+	<Fire_Bone_A>HP_10_FP_01</Fire_Bone_A>
+	<Fire_Bone_B>HP_10_FP_02</Fire_Bone_B>
+	<Fire_Cone_Width>120</Fire_Cone_Width>
+	<Fire_Cone_Height>90</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Turbolaser_Yellow</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>0.1</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+</HardPoint>
+
+<HardPoint Name="HP_Kandosii_Hanger_01">
+	<Type> HARD_POINT_FIGHTER_BAY </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+
+	<Attachment_Bone>Hanger_01</Attachment_Bone>	 
+	<Collision_Mesh>Hanger_01</Collision_Mesh>
+	<Fighter_Bay_Flyout_Distance>200.0</Fighter_Bay_Flyout_Distance>	   
+
+	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+	<Health>1200.0</Health>
+</HardPoint>   
+
+<HardPoint Name="HP_Kandosii_Hanger_02">
+	<Type> HARD_POINT_FIGHTER_BAY </Type>
+	<Is_Targetable>Yes</Is_Targetable>
+	<Is_Destroyable>Yes</Is_Destroyable>
+	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+
+	<Attachment_Bone>Hanger_02</Attachment_Bone>	 
+	<Collision_Mesh>Hanger_02</Collision_Mesh>
+	<Fighter_Bay_Flyout_Distance>200.0</Fighter_Bay_Flyout_Distance>	   
+
+	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+	<Health>1200.0</Health>
+</HardPoint>   
+
+
+</HardPoints>

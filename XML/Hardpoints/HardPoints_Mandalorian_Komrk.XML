@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<HardPoints_Fighters>
+
+<HardPoint Name="HP_Komrk_01">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Damage_Type> Damage_Fighter </Damage_Type>
+	<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Fighter_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>500.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+	 <Fire_Category_Restrictions> Missile, Laser, Air </Fire_Category_Restrictions>
+	<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+	<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+</HardPoint>
+
+<HardPoint Name="HP_Komrk_02">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Damage_Type> Damage_Fighter </Damage_Type>
+	<Fire_Bone_A>MUZZLEB_03</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Fighter_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>500.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+	 <Fire_Category_Restrictions> Missile, Laser, Air </Fire_Category_Restrictions>
+	<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+	<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+</HardPoint>
+
+</HardPoints_Fighters>

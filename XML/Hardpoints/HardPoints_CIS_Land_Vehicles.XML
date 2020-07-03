@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+<HardPoint Name="HP_AAT_Cannons_01">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_02</Fire_Bone_B>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>60.0</Fire_Cone_Height>
+
+	<Randomize_Between_Fire_Bones>Yes</Randomize_Between_Fire_Bones>
+	<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>2</Fire_Pulse_Count> <!-- from 6 -->
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>250.0</Fire_Range_Distance>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+
+	<Damage_Type>Damage_2M_Repulsortank</Damage_Type>
+	<Fire_SFXEvent>Unit_AAT_Laser_Fire</Fire_SFXEvent>
+	<Fire_Inaccuracy_Distance>LandHero, 15.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 15.0</Fire_Inaccuracy_Distance>
+	<Targeting_Fire_Inaccuracy>Vehicle, 15.0</Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
+	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+<HardPoint Name="HP_AAT_Cannons_02">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Fire_Bone_A>MUZZLEC_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEC_02</Fire_Bone_B>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>60.0</Fire_Cone_Height>
+
+	<Randomize_Between_Fire_Bones>Yes</Randomize_Between_Fire_Bones>
+	<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>16.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count> <!-- from 6 -->
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>100.0</Fire_Range_Distance>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+
+	<Damage_Type>Damage_2M_Repulsortank</Damage_Type>
+	<Fire_SFXEvent>Unit_AAT_Laser_Fire</Fire_SFXEvent>
+	<Fire_Inaccuracy_Distance>LandHero, 15.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 15.0</Fire_Inaccuracy_Distance>
+	<Targeting_Fire_Inaccuracy>Vehicle, 15.0</Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
+	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+<HardPoint Name="HP_AAT_Missiles_01">
+	<Type>HARD_POINT_WEAPON_MISSILE</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Fire_Bone_A>MUZZLED_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLED_02</Fire_Bone_B>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>60.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Vehicle_Missile_Missile</Fire_Projectile_Type>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+
+	<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>16.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>150.0</Fire_Range_Distance>
+
+	<Damage_Type> Damage_2M_Repulsortank </Damage_Type>
+	<Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
+	<Fire_Inaccuracy_Distance>LandHero, 30.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 30.0</Fire_Inaccuracy_Distance>
+	<Targeting_Fire_Inaccuracy>Vehicle, 30.0</Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy>Structure, 30.0</Targeting_Fire_Inaccuracy>
+	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+</HardPoint>
+
+
+</HardPoints>
