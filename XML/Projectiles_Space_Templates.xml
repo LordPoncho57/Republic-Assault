@@ -998,7 +998,6 @@
 	<Scale_Factor>8.0</Scale_Factor>
 	<Damage_Type>Damage_Proton_Torp</Damage_Type>
 	<Max_Speed>6.0</Max_Speed>
-	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
 
 <!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING,</Behavior>
