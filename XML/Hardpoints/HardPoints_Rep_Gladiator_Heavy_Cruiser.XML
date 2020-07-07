@@ -53,6 +53,7 @@
 
 <HardPoint Name="HP_Gladiator_Conc_01">
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>400.0</Health>
@@ -67,7 +68,7 @@
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -86,6 +87,7 @@
 
 <HardPoint Name="HP_Gladiator_Conc_02">
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>400.0</Health>
@@ -100,7 +102,7 @@
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -119,6 +121,7 @@
 
 <HardPoint Name="HP_Gladiator_Conc_03">
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>400.0</Health>
@@ -133,7 +136,7 @@
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -152,6 +155,7 @@
 
 <HardPoint Name="HP_Gladiator_Conc_04">
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>400.0</Health>
@@ -166,7 +170,7 @@
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
@@ -187,7 +191,7 @@
 
 <HardPoint Name="HP_Gladiator_DLC_01">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+	<Tooltip_Text> TEXT_WEAPON_LASERCANNON </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>250.0</Health>
@@ -229,7 +233,7 @@
 
 <HardPoint Name="HP_Gladiator_DLC_02">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+	<Tooltip_Text> TEXT_WEAPON_LASERCANNON </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>250.0</Health>
@@ -271,7 +275,7 @@
 
 <HardPoint Name="HP_Gladiator_DLC_03">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+	<Tooltip_Text> TEXT_WEAPON_LASERCANNON </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>250.0</Health>
@@ -313,7 +317,7 @@
 
 <HardPoint Name="HP_Gladiator_DLC_04">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+	<Tooltip_Text> TEXT_WEAPON_LASERCANNON </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Health>250.0</Health>
