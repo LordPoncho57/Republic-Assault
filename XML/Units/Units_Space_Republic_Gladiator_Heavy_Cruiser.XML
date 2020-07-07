@@ -37,12 +37,12 @@
 	HP_Gladiator_DLC_02,
 	HP_Gladiator_DLC_03,
 	HP_Gladiator_DLC_04,
-	HP_Gladiator_DLC_01,
-	HP_Gladiator_DLC_02,
-	HP_Gladiator_DLC_03,
-	HP_Gladiator_DLC_04,
-	HP_Gladiator_DLC_05,
-	HP_Gladiator_DLC_06
+	HP_Gladiator_DTBL_01,
+	HP_Gladiator_DTBL_02,
+	HP_Gladiator_DTBL_03,
+	HP_Gladiator_DTBL_04,
+	HP_Gladiator_DTBL_05,
+	HP_Gladiator_DTBL_06
 </HardPoints>
 
 	<!-- 3. Targeting Data -->	

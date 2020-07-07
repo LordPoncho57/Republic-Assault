@@ -44,8 +44,8 @@
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
-	<Attachment_Bone>ENGINE_01</Attachment_Bone>
-	<Collision_Mesh>ENGINE_01</Collision_Mesh>
+	<Attachment_Bone>ENGINES_01</Attachment_Bone>
+	<Collision_Mesh>ENGINES_01</Collision_Mesh>
 	<Damage_Particles></Damage_Particles>
 </HardPoint>
 
@@ -55,6 +55,7 @@
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>ML_01</Attachment_Bone>
 	<Collision_Mesh>ML_01</Collision_Mesh>
@@ -87,6 +88,7 @@
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>ML_02</Attachment_Bone>
 	<Collision_Mesh>ML_02</Collision_Mesh>
@@ -119,6 +121,7 @@
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>ML_03</Attachment_Bone>
 	<Collision_Mesh>ML_03</Collision_Mesh>
@@ -151,6 +154,7 @@
 	<Type> HARD_POINT_WEAPON_MISSILE </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>ML_04</Attachment_Bone>
 	<Collision_Mesh>ML_04</Collision_Mesh>
