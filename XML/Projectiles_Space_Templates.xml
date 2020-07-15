@@ -15,7 +15,8 @@
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
         <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
         <Projectile_Category>Laser</Projectile_Category>
-        <Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+        <Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>1.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
         <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -56,6 +57,58 @@
 	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Dual_Small_Laser_Cannon_Generic" Description="Generic dual small laser bolt template for star fighters">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.05</Scale_Factor>
+	<Max_Speed>45.0</Max_Speed> 
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>4.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>12</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>180</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Dual Starfighter Laser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Small_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
