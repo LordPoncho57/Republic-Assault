@@ -96,8 +96,8 @@
 	<Attachment_Bone>CONC_01</Attachment_Bone>
 	<Collision_Mesh>CONC_01</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_01</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_01</Fire_Bone_B>
+	<Fire_Bone_A>CONC_01</Fire_Bone_A>
+	<Fire_Bone_B>CONC_01</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -128,8 +128,8 @@
 	<Attachment_Bone>CONC_02</Attachment_Bone>
 	<Collision_Mesh>CONC_02</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_02</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_02</Fire_Bone_B>
+	<Fire_Bone_A>CONC_02</Fire_Bone_A>
+	<Fire_Bone_B>CONC_02</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -160,8 +160,8 @@
 	<Attachment_Bone>CONC_03</Attachment_Bone>
 	<Collision_Mesh>CONC_03</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_03</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_03</Fire_Bone_B>
+	<Fire_Bone_A>CONC_03</Fire_Bone_A>
+	<Fire_Bone_B>CONC_03</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -192,8 +192,8 @@
 	<Attachment_Bone>CONC_04</Attachment_Bone>
 	<Collision_Mesh>CONC_04</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_04</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_04</Fire_Bone_B>
+	<Fire_Bone_A>CONC_04</Fire_Bone_A>
+	<Fire_Bone_B>CONC_04</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -224,8 +224,8 @@
 	<Attachment_Bone>CONC_05</Attachment_Bone>
 	<Collision_Mesh>CONC_05</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_05</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_05</Fire_Bone_B>
+	<Fire_Bone_A>CONC_05</Fire_Bone_A>
+	<Fire_Bone_B>CONC_05</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -256,8 +256,8 @@
 	<Attachment_Bone>CONC_06</Attachment_Bone>
 	<Collision_Mesh>CONC_06</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_06</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_06</Fire_Bone_B>
+	<Fire_Bone_A>CONC_06</Fire_Bone_A>
+	<Fire_Bone_B>CONC_06</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -288,8 +288,8 @@
 	<Attachment_Bone>CONC_07</Attachment_Bone>
 	<Collision_Mesh>CONC_07</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_07</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_07</Fire_Bone_B>
+	<Fire_Bone_A>CONC_07</Fire_Bone_A>
+	<Fire_Bone_B>CONC_07</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -320,8 +320,8 @@
 	<Attachment_Bone>CONC_08</Attachment_Bone>
 	<Collision_Mesh>CONC_08</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_08</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_08</Fire_Bone_B>
+	<Fire_Bone_A>CONC_08</Fire_Bone_A>
+	<Fire_Bone_B>CONC_08</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -352,8 +352,8 @@
 	<Attachment_Bone>CONC_09</Attachment_Bone>
 	<Collision_Mesh>CONC_09</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_09</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_09</Fire_Bone_B>
+	<Fire_Bone_A>CONC_09</Fire_Bone_A>
+	<Fire_Bone_B>CONC_09</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -384,8 +384,8 @@
 	<Attachment_Bone>CONC_10</Attachment_Bone>
 	<Collision_Mesh>CONC_10</Collision_Mesh>
 
-	<Fire_Bone_A>_CONC_10</Fire_Bone_A>
-	<Fire_Bone_B>_CONC_10</Fire_Bone_B>
+	<Fire_Bone_A>CONC_10</Fire_Bone_A>
+	<Fire_Bone_B>CONC_10</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
 	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>

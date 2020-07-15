@@ -1,0 +1,1066 @@
+<?xml version="1.0" ?>
+<Projectiles>
+
+<!-- ************************************************************************************** -->
+<!-- ****** Generic Templates:  Used to reference all of the projectile Properties ******** -->
+<!-- ************************************************************************************** -->
+
+<!-- IMPORTANT!!!! -->
+<!-- You can find an example of the hardpoint data below each weapon type. Each example is for the Republic, so make sure to change the necessary weapon types and SFX for other factions -->
+
+    <Projectile Name="RA_Proj_Ship_Small_Laser_Cannon_Generic" Description="Generic small laser bolt template for star fighters">
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Scale_Factor>0.05</Scale_Factor>
+        <Max_Speed>45.0</Max_Speed>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+        <Projectile_Category>Laser</Projectile_Category>
+        <Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>	
+	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>160</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+    </Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Star Fighter Laser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Medium_Laser_Cannon_Generic" Description="Generic laser bolt template for point defence weapons">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Max_Speed>45.0</Max_Speed> 
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>2.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>160</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Medium Laser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Dual_Medium_Laser_Cannon_Generic" Description="Generic dual laser bolt template for point defence weapons">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Max_Speed>45.0</Max_Speed> 
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>4.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>12</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>180</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Dual Medium Laser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Large_Laser_Cannon_Generic" Description="Generic laser bolt template for point defence weapons">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Space_Model_Name>w_laser_bl.ALO</Space_Model_Name>
+	<Scale_Factor>0.2</Scale_Factor>
+	<Max_Speed>45.0</Max_Speed> 
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>3.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>15</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>200</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Large Laser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic" Description="Generic dual laser bolt template for point defence weapons">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Space_Model_Name>w_laser_b2.ALO</Space_Model_Name>
+	<Scale_Factor>0.2</Scale_Factor>
+	<Max_Speed>45.0</Max_Speed> 
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>6.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>30</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>200</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Dual Large Laser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+    <Projectile Name="RA_Proj_Ship_Light_Turbolaser_Generic" Description="Generic light turbo template used for targetting small frigates, corvettes and starfighters">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>50.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>7.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>35</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>500</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Light Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Dual_Light_Turbolaser_Generic" Description="Generic dual light turbo template used for targetting small frigates, corvettes and starfighters">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>50.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>10.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>40</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>510</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>	
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Dual Light Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Light_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Med_Turbolaser_Generic" Description="Generic medium turbo template used for targetting frigates and corvettes">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.25</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>12.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>50</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>550</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+    </Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Medium Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Dual_Med_Turbolaser_Generic" Description="Generic dual medium turbo template used for targetting frigates and corvettes">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.25</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>16.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>60</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>580</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>	
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Dual Medium Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Heavy_Turbolaser_Generic" Description="Generic heavy turbo template used for bombarding frigates and capitals at long range">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.3</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>19.5</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>90.0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>600</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Heavy Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 45.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="RA_Proj_Ship_Dual_Heavy_Turbolaser_Generic" Description="Generic dual heavy turbo template used for bombarding frigates and capitals at long range">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.3</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>27.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>135.0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>650</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Dual Heavy Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Triple_Turbolaser_Generic" Description="Generic triple turbo template used by heavy cruisers and capital ships">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.25</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>32.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>135</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>750</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Triple Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Triple_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Light_Quad_Turbolaser_Generic" Description="Generic light quad turbo template used for targetting frigates and corvettes">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>15.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>90</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>600</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Light Quad Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Quad_Turbolaser_Generic" Description="Generic quad turbo template used by heavy cruisers and capital ships">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.25</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>36.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>180</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Turbo_Death_Red_Triple </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>850</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Quad Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Quad_Turbolaser_Parted_Generic" Description="Generic quad turbo template used by heavy cruisers and capital ships">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>36.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>180</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>850</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>	
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Quad Parted Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue_X2</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Light_Quad_Square_Turbolaser_Generic" Description="Generic light quad turbo template used for targetting frigates and corvettes">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>15.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>90</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Turbo_Death_Red_Triple </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>600</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>	
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Light Square Quad Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Quad_Square_Turbolaser_Generic" Description="Generic quad turbo template used by heavy cruisers and capital ships">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.25</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>36.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>180</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Turbo_Death_Red_Triple </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>850</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>	
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Quad Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_2x2_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+	<Projectile Name="RA_Proj_Ship_Octuple_Turbolaser_Generic" Description="Generic octuple turbo template used by heavy cruisers and capital ships">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>0.25</Scale_Factor>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>55.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>55.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>250</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Turbo_Death_Red_Triple </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>1000</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>	
+
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->
+ <!-- Hard Point data for Quad Turbolaser --> 
+ <!-- Tweak as necessary -->
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Octuple_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
+<!-- ************************************************************************************** -->
+<!-- ************************************************************************************** -->	
+
+<!-- ******************************************************* -->
+<!-- **************** Missiles and Torpedoes *************** -->
+<!-- ******************************************************* -->
+
+<Projectile Name="RA_Proj_Ship_Concussion_Missile_Generic">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Damage_Type> Damage_Con_Missile </Damage_Type>
+	<Max_Speed>10.0</Max_Speed>
+	<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>MISSILE</Projectile_Category>
+	<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>50.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+	<Projectile_Damage>18.0</Projectile_Damage>
+	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
+	<AI_Combat_Power>300</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Torpedo_Generic">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Scale_Factor>8.0</Scale_Factor>
+	<Damage_Type>Damage_Proton_Torp</Damage_Type>
+	<Max_Speed>6.0</Max_Speed>
+
+<!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING,</Behavior>
+	<Ship_Class>bomber</Ship_Class>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Conc_Missile_Detonation_Particle</Death_Explosions>
+	<Tactical_Health>1</Tactical_Health>
+	<CategoryMask> Bomber | AntiCapital</CategoryMask>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Armor_Type> Armor_Fighter </Armor_Type>	
+	
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	<Projectile_Category>MISSILE</Projectile_Category>
+	<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>
+	<!-- was 750, changed so it doesn't reacquire targets -->
+
+	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
+	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
+
+	<Projectile_Damage>20.0</Projectile_Damage>
+	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+	<!--	<Projectile_Absorbed_By_Shields_Particle>Conc_Missile_Absorbed_By_Shields</Projectile_Absorbed_By_Shields_Particle> -->
+	<AI_Combat_Power>300</AI_Combat_Power>
+</Projectile>
+
+<!-- ******************************************************* -->
+<!-- **************** Ship Beam Projectiles **************** -->
+<!-- ******************************************************* -->
+
+<Projectile Name="RA_Proj_Ship_Beam_Generic">
+	<Projectile_Damages_Random_Hard_Points>yes</Projectile_Damages_Random_Hard_Points>
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Space_Model_Name>pw_beam_b.ALO</Space_Model_Name>
+	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Max_Speed>350.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>1.5</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle />
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>500</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+</Projectile>
+
+</Projectiles>
