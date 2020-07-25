@@ -21,17 +21,17 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Speed>6.0</Max_Speed>
-	<Min_Speed>3.5</Min_Speed>
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-	<Max_Thrust>1.0</Max_Thrust>
-	<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>40</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>0.5</Max_Lift>	
+	<Max_Speed>2.1</Max_Speed>
+	<Min_Speed>1.0</Min_Speed>
+	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1050.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>4</Max_Lift>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -151,17 +151,17 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Speed>6.0</Max_Speed>
-	<Min_Speed>3.5</Min_Speed>
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-	<Max_Thrust>1.0</Max_Thrust>
-	<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>40</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>0.5</Max_Lift>	
+	<Max_Speed>2.1</Max_Speed>
+	<Min_Speed>1.0</Min_Speed>
+	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1050.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>4</Max_Lift>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -269,13 +269,13 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-	<GUI_Row> 1 </GUI_Row>
+<GUI_Row> 1 </GUI_Row>
 	<Is_Dummy>Yes</Is_Dummy>
 	<Formation_Priority>1</Formation_Priority>
 	<Is_Escort>Yes</Is_Escort>
 	<Is_Bomber>no</Is_Bomber>
-	<Autoresolve_Health>300</Autoresolve_Health>
-	<Damage>25</Damage>
+	<Autoresolve_Health>250</Autoresolve_Health>
+	<Damage>35</Damage>
 	<Affiliation>Rebel</Affiliation>
 	<Political_Control>0</Political_Control>
 	<Build_Cost_Credits>300</Build_Cost_Credits>

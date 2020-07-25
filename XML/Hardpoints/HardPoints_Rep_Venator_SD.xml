@@ -618,7 +618,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -636,7 +636,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -673,7 +672,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -691,7 +690,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -728,7 +726,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -746,7 +744,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -783,7 +780,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -801,7 +798,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -838,7 +834,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -856,7 +852,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -893,7 +888,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -918,7 +913,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -955,7 +949,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -980,7 +974,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1017,7 +1010,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1042,7 +1035,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1079,7 +1071,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1097,7 +1089,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1134,7 +1125,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1152,7 +1143,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1189,7 +1179,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1207,7 +1197,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1244,7 +1233,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1262,7 +1251,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1299,7 +1287,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1317,7 +1305,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1354,10 +1341,11 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+	
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -1372,7 +1360,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1409,7 +1396,7 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
@@ -1427,7 +1414,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
@@ -1464,10 +1450,11 @@
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 92.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -1482,7 +1469,6 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>

@@ -61,7 +61,7 @@
 	<Begin_Turn_Towards_Distance>100</Begin_Turn_Towards_Distance>
 	<Strafe_Distance>1200</Strafe_Distance>
 	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>2400</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>4000</Targeting_Max_Attack_Distance>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -126,14 +126,14 @@
 	<!-- 7. Movement Data -->
 		
 	<Mass>1</Mass>
-	<Max_Speed>2.6</Max_Speed>
-	<Min_Speed>0.6</Min_Speed>
-	<OverrideAcceleration>0.12</OverrideAcceleration>
-	<OverrideDeceleration>0.12</OverrideDeceleration>
+	<Max_Speed>1.95</Max_Speed>
+	<Min_Speed>0.5</Min_Speed>
+	<OverrideAcceleration>0.025</OverrideAcceleration>
+	<OverrideDeceleration>0.025</OverrideDeceleration>
 
-	<Max_Thrust>1.2</Max_Thrust>		
-	<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.25</Max_Rate_Of_Roll>
+	<Max_Thrust>1.0</Max_Thrust>		
+	<Max_Rate_Of_Turn>0.12</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.22</Max_Rate_Of_Roll>
 	<Max_Lift>1.0</Max_Lift>		
 	<Bank_Turn_Angle>40</Bank_Turn_Angle>
 

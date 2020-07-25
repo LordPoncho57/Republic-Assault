@@ -21,14 +21,14 @@
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>3</Max_Lift>
-	<Max_Speed>2.5</Max_Speed>
+	<Max_Lift>0.5</Max_Lift>
+	<Max_Speed>1.9</Max_Speed>
 	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
-	<Max_Thrust>1.0</Max_Thrust>
-	<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>70</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+	<Max_Rate_Of_Turn>0.60</Max_Rate_Of_Turn>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Roll>0.60</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1200.0</Begin_Turn_Towards_Distance>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -209,14 +209,14 @@
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>3</Max_Lift>
-	<Max_Speed>2.5</Max_Speed>
+	<Max_Lift>0.5</Max_Lift>
+	<Max_Speed>1.9</Max_Speed>
 	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
-	<Max_Thrust>1.0</Max_Thrust>
-	<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>70</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+	<Max_Rate_Of_Turn>0.60</Max_Rate_Of_Turn>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Roll>0.60</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1200.0</Begin_Turn_Towards_Distance>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>

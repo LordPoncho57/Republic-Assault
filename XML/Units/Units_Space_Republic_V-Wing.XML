@@ -18,16 +18,16 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Speed>3.5</Max_Speed>
-	<Min_Speed>1.5</Min_Speed>
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-	<Max_Thrust>1.0</Max_Thrust>
-	<Max_Rate_Of_Roll>3.5</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>60</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>0.5</Max_Lift>	
+	<Max_Speed>2.9</Max_Speed>
+	<Min_Speed>2.0</Min_Speed>
+	<Max_Rate_Of_Turn>0.88</Max_Rate_Of_Turn>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Roll>0.88</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 
-	<Max_Lift>4</Max_Lift>
 	<Hyperspace>No</Hyperspace>
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -131,16 +131,16 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Speed>3.5</Max_Speed>
-	<Min_Speed>1.5</Min_Speed>
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-	<Max_Thrust>1.0</Max_Thrust>
-	<Max_Rate_Of_Roll>3.5</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>60</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>0.5</Max_Lift>	
+	<Max_Speed>2.9</Max_Speed>
+	<Min_Speed>2.0</Min_Speed>
+	<Max_Rate_Of_Turn>0.88</Max_Rate_Of_Turn>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Roll>0.90</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>950.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 
-	<Max_Lift>4</Max_Lift>
 	<Hyperspace>No</Hyperspace>
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>

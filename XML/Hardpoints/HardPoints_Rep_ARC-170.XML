@@ -8,23 +8,16 @@
 
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
-	<Fire_Cone_Width>65.0</Fire_Cone_Width>
-	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-
-	<Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>850.0</Fire_Range_Distance>
-
+	<Fire_Cone_Width>20.0</Fire_Cone_Width>
+	<Fire_Cone_Height>20.0</Fire_Cone_Height>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_ARC170_Laser</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
 	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
@@ -32,13 +25,13 @@
 	<Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_ARC-170_02">
@@ -107,28 +100,36 @@
 
 	<Fire_Bone_A>MUZZLED_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLED_01</Fire_Bone_B>
-	<Fire_Cone_Width>65.0</Fire_Cone_Width>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Fire_Projectile_Type>Proj_Ship_ARC170_Gunner_Laser</Fire_Projectile_Type>
 
-	<Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>350.0</Fire_Range_Distance>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->	
+	<Fire_Projectile_Type>Proj_Ship_ARC170_Gunner_Laser</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Gunner_Fire</Fire_SFXEvent>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super, Laser</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 </HardPoint>
 
-<HardPoint Name="HP_ARC-170_04">
+<HardPoint Name="HP_ARC-170_05">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>No</Is_Targetable>
 	<Is_Destroyable>No</Is_Destroyable>
@@ -141,10 +142,10 @@
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_ARC170_Gunner_Laser</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
 	<Fire_Range_Distance>800.0</Fire_Range_Distance>
@@ -152,13 +153,14 @@
 	<Fire_SFXEvent>Unit_Turret_Gunner_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super, Laser</Fire_Category_Restrictions>	
+	<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 </HardPoints_Fighters>

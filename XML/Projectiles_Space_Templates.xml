@@ -39,10 +39,10 @@
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Count>4</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
 	<Fire_Range_Distance>800.0</Fire_Range_Distance>
@@ -50,13 +50,13 @@
 	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -68,7 +68,7 @@
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>4.0</Projectile_Damage>
+	<Projectile_Damage>2.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -92,23 +92,23 @@
 	<Fire_Projectile_Type>Proj_Ship_Dual_Small_Laser_Cannon_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
 	<Fire_Range_Distance>800.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -154,13 +154,13 @@
 	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -206,13 +206,13 @@
 	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -259,12 +259,12 @@
 	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 35.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
@@ -312,12 +312,12 @@
 	<Fire_SFXEvent>Unit_Republic_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 35.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
@@ -337,7 +337,7 @@
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>35</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle />
 	<Projectile_Lifetime_Detonation_Particle />
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
@@ -367,9 +367,9 @@
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
@@ -390,7 +390,7 @@
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>40</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle />
 	<Projectile_Lifetime_Detonation_Particle />
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
@@ -418,11 +418,11 @@
 	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
@@ -443,7 +443,7 @@
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>50</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle />
 	<Projectile_Lifetime_Detonation_Particle />
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
@@ -496,7 +496,7 @@
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>60</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle />
 	<Projectile_Lifetime_Detonation_Particle />
 	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
@@ -584,7 +584,7 @@
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 45.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -704,14 +704,14 @@
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 	<Projectile_Damage>15.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>90</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle />
 	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
@@ -859,20 +859,20 @@
 
 	<Projectile Name="RA_Proj_Ship_Light_Quad_Square_Turbolaser_Generic" Description="Generic light quad turbo template used for targetting frigates and corvettes">
 	<Text_ID>TEXT_NONE</Text_ID>
-	<Scale_Factor>0.1</Scale_Factor>
+	<Scale_Factor>0.08</Scale_Factor>
 	<Damage_Type> Damage_Turbolaser </Damage_Type>
 	<Max_Speed>55.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 	<Projectile_Damage>15.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>90</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Turbo_Death_Red_Triple </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle />
 	<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
@@ -1026,8 +1026,8 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage_Type> Damage_Con_Missile </Damage_Type>
-	<Max_Speed>10.0</Max_Speed>
-	<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
+	<Max_Speed>4.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>MISSILE</Projectile_Category>
 	<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
@@ -1040,7 +1040,7 @@
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
 	<AI_Combat_Power>300</AI_Combat_Power>
@@ -1050,7 +1050,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>8.0</Scale_Factor>
 	<Damage_Type>Damage_Proton_Torp</Damage_Type>
-	<Max_Speed>6.0</Max_Speed>
+	<Max_Speed>3.0</Max_Speed>
 
 <!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING,</Behavior>
@@ -1069,7 +1069,7 @@
 	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>
 	<!-- was 750, changed so it doesn't reacquire targets -->
 
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
 	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
 
@@ -1081,7 +1081,7 @@
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
 	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 	<!--	<Projectile_Absorbed_By_Shields_Particle>Conc_Missile_Absorbed_By_Shields</Projectile_Absorbed_By_Shields_Particle> -->
