@@ -75,9 +75,9 @@
 	<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 	<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>4000.0</Targeting_Max_Attack_Distance>
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 

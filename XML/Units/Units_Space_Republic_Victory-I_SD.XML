@@ -31,11 +31,11 @@
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Max_Speed>1.65</Max_Speed>
-	<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.17</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>60</Bank_Turn_Angle>
-	<OverrideAcceleration> .1 </OverrideAcceleration>
-	<OverrideDeceleration> .1 </OverrideDeceleration>
+	<OverrideAcceleration> 0.1 </OverrideAcceleration>
+	<OverrideDeceleration> 0.1 </OverrideDeceleration>
 	<Layer_Z_Adjust> 0 </Layer_Z_Adjust>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
@@ -45,7 +45,7 @@
 	<Armor_Type> Armor_Star_Destroyer </Armor_Type>
 	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		
-	<Max_Thrust>1.0</Max_Thrust>
+	<Max_Thrust>0.5</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -133,8 +133,8 @@
 <Projectile_Fire_Pulse_Count>36</Projectile_Fire_Pulse_Count>
 <Projectile_Fire_Pulse_Delay_Seconds>0.08</Projectile_Fire_Pulse_Delay_Seconds>
 <Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
-<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-<Targeting_Min_Attack_Distance>300</Targeting_Min_Attack_Distance>
+<Targeting_Max_Attack_Distance>3900.0</Targeting_Max_Attack_Distance>
+<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
 <SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
 <Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
 

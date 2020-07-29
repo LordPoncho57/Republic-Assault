@@ -24,17 +24,18 @@
 
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-	<Max_Speed>2.2</Max_Speed>
-	<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+	<Max_Speed>2.4</Max_Speed>
+	<Max_Rate_Of_Turn>0.14</Max_Rate_Of_Turn>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Layer_Z_Adjust>-110.0</Layer_Z_Adjust>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Max_Rate_Of_Roll>0.17</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>35</Bank_Turn_Angle>
-	<OverrideAcceleration> .04 </OverrideAcceleration>
+	<OverrideAcceleration>0.03</OverrideAcceleration>
+	<OverrideDeceleration>0.03</OverrideDeceleration>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 	
-	<Max_Thrust>1.5</Max_Thrust>
+	<Max_Thrust>0.5</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -81,7 +82,7 @@
 	<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 
 	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-	<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	
 	
 	<HardPoints>
@@ -167,7 +168,7 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 

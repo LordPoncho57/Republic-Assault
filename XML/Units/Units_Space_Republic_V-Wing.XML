@@ -32,8 +32,8 @@
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Empire</Affiliation>
-	<Shield_Points>15</Shield_Points>
-	<Tactical_Health>28</Tactical_Health>
+	<Shield_Points>5</Shield_Points>
+	<Tactical_Health>12</Tactical_Health>
 	<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>

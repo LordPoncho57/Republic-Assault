@@ -30,16 +30,16 @@
 
 	<Ranking_In_Category>6</Ranking_In_Category>
 	<Max_Speed>1.7</Max_Speed>
-	<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.11</Max_Rate_Of_Roll>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Capital </Space_Layer>
 	<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
 	<Bank_Turn_Angle>30</Bank_Turn_Angle>
-	<OverrideAcceleration> .03 </OverrideAcceleration>
-	<OverrideDeceleration> .03 </OverrideDeceleration>
+	<OverrideAcceleration> .02 </OverrideAcceleration>
+	<OverrideDeceleration> .02 </OverrideDeceleration>
 
 	<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 	<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
@@ -77,8 +77,8 @@
 	<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
 	<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior> 
 
-	<Space_FOW_Reveal_Range>1400.0</Space_FOW_Reveal_Range>
-	<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+	<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>4000.0</Targeting_Max_Attack_Distance>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -171,7 +171,7 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
