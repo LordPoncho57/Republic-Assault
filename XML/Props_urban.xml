@@ -799,5 +799,25 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
 	</Props_Urban>
-	
+
+	<Props_Urban Name="Prop_Military_Crate_Med">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Militar_Crate_M.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Urban>
+
+	<Props_Urban Name="Prop_Military_Crate_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Militar_Crate_L.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Urban>
+
 </Props_Urban>
