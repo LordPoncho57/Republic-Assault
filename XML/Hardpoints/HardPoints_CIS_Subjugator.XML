@@ -1,7 +1,24 @@
 <?xml version="1.0"?>
 <HardPoints>
 
-<HardPoint Name="HP_Subjugator_Shield_01">
+<HardPoint Name="HP_Sbj_Dummy">
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Fire_Bone_A>TBL_01</Fire_Bone_A>
+	<Fire_Bone_B>TBL_01</Fire_Bone_B>
+	<Fire_Cone_Width>10.0</Fire_Cone_Width>
+	<Fire_Cone_Height>10.0</Fire_Cone_Height>
+	<Fire_Projectile_Type>Proj_Ship_Dummy</Fire_Projectile_Type>
+	<Fire_Min_Recharge_Seconds>2</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+	<Fire_Range_Distance>5000.0</Fire_Range_Distance>
+	<Fire_SFXEvent />
+</HardPoint>	
+
+<HardPoint Name="HP_Sbj_Shield_01">
 	<Type> HARD_POINT_SHIELD_GENERATOR </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
@@ -17,7 +34,7 @@
 	<Damage_Particles>DMG_SHIELD_01</Damage_Particles>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Shield_02">
+<HardPoint Name="HP_Sbj_Shield_02">
 	<Type> HARD_POINT_SHIELD_GENERATOR </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
@@ -33,7 +50,7 @@
 	<Damage_Particles>DMG_SHIELD_02</Damage_Particles>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Shield_03">
+<HardPoint Name="HP_Sbj_Shield_03">
 	<Type> HARD_POINT_SHIELD_GENERATOR </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
@@ -49,7 +66,7 @@
 	<Damage_Particles>DMG_SHIELD_03</Damage_Particles>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Shield_04">
+<HardPoint Name="HP_Sbj_Shield_04">
 	<Type> HARD_POINT_SHIELD_GENERATOR </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
@@ -67,7 +84,7 @@
 
 
 
-<HardPoint Name="HP_Subjugator_Hangar_01">
+<HardPoint Name="HP_Sbj_Hangar_01">
 	<Type> HARD_POINT_FIGHTER_BAY </Type>
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -80,10 +97,10 @@
 	<Attachment_Bone>HANGAR_01</Attachment_Bone>
 	<Collision_Mesh>HANGAR_01</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_01</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_01</Damage_Particles>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Hangar_02">
+<HardPoint Name="HP_Sbj_Hangar_02">
 	<Type> HARD_POINT_FIGHTER_BAY </Type>
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -96,10 +113,10 @@
 	<Attachment_Bone>HANGAR_02</Attachment_Bone>
 	<Collision_Mesh>HANGAR_02</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_02</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_02</Damage_Particles>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Hangar_03">
+<HardPoint Name="HP_Sbj_Hangar_03">
 	<Type> HARD_POINT_FIGHTER_BAY </Type>
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -112,10 +129,10 @@
 	<Attachment_Bone>HANGAR_03</Attachment_Bone>
 	<Collision_Mesh>HANGAR_03</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_03</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_03</Damage_Particles>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Hangar_04">
+<HardPoint Name="HP_Sbj_Hangar_04">
 	<Type> HARD_POINT_FIGHTER_BAY </Type>
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -128,12 +145,12 @@
 	<Attachment_Bone>HANGAR_04</Attachment_Bone>
 	<Collision_Mesh>HANGAR_04</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_04</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_04</Damage_Particles>
 </HardPoint>
 
 
 
-<HardPoint Name="HP_Subjugator_Ion_Cannon_01">
+<HardPoint Name="HP_Sbj_Ion_Cannon_01">
 	<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -156,7 +173,7 @@
 	<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>6000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>3000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -169,7 +186,7 @@
 	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_Ion_Cannon_02">
+<HardPoint Name="HP_Sbj_Ion_Cannon_02">
 	<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -192,7 +209,7 @@
 	<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>6000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>3000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -207,7 +224,7 @@
 
 
 
-<HardPoint Name="HP_Subjugator_TBL_01">
+<HardPoint Name="HP_Sbj_TBL_01">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -253,7 +270,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_02">
+<HardPoint Name="HP_Sbj_TBL_02">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -299,7 +316,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_03">
+<HardPoint Name="HP_Sbj_TBL_03">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -345,7 +362,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_04">
+<HardPoint Name="HP_Sbj_TBL_04">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -391,7 +408,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_05">
+<HardPoint Name="HP_Sbj_TBL_05">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -437,7 +454,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_06">
+<HardPoint Name="HP_Sbj_TBL_06">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -483,7 +500,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_07">
+<HardPoint Name="HP_Sbj_TBL_07">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -529,7 +546,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_08">
+<HardPoint Name="HP_Sbj_TBL_08">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -575,7 +592,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_09">
+<HardPoint Name="HP_Sbj_TBL_09">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -621,7 +638,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_10">
+<HardPoint Name="HP_Sbj_TBL_10">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -667,7 +684,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_11">
+<HardPoint Name="HP_Sbj_TBL_11">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -713,7 +730,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_12">
+<HardPoint Name="HP_Sbj_TBL_12">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -759,7 +776,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_13">
+<HardPoint Name="HP_Sbj_TBL_13">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -805,7 +822,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_14">
+<HardPoint Name="HP_Sbj_TBL_14">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -851,7 +868,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_15">
+<HardPoint Name="HP_Sbj_TBL_15">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -897,7 +914,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_16">
+<HardPoint Name="HP_Sbj_TBL_16">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -943,7 +960,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>		
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_17">
+<HardPoint Name="HP_Sbj_TBL_17">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -989,7 +1006,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_18">
+<HardPoint Name="HP_Sbj_TBL_18">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1035,7 +1052,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_19">
+<HardPoint Name="HP_Sbj_TBL_19">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1081,7 +1098,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_20">
+<HardPoint Name="HP_Sbj_TBL_20">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1127,7 +1144,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_21">
+<HardPoint Name="HP_Sbj_TBL_21">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1173,7 +1190,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_22">
+<HardPoint Name="HP_Sbj_TBL_22">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1219,7 +1236,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_23">
+<HardPoint Name="HP_Sbj_TBL_23">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1265,7 +1282,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_24">
+<HardPoint Name="HP_Sbj_TBL_24">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1311,7 +1328,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_25">
+<HardPoint Name="HP_Sbj_TBL_25">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1357,7 +1374,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_26">
+<HardPoint Name="HP_Sbj_TBL_26">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1403,7 +1420,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_27">
+<HardPoint Name="HP_Sbj_TBL_27">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1449,7 +1466,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_28">
+<HardPoint Name="HP_Sbj_TBL_28">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1495,7 +1512,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_29">
+<HardPoint Name="HP_Sbj_TBL_29">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1541,7 +1558,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_30">
+<HardPoint Name="HP_Sbj_TBL_30">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1587,7 +1604,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_31">
+<HardPoint Name="HP_Sbj_TBL_31">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1633,7 +1650,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_32">
+<HardPoint Name="HP_Sbj_TBL_32">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1679,7 +1696,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_33">
+<HardPoint Name="HP_Sbj_TBL_33">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1725,7 +1742,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_34">
+<HardPoint Name="HP_Sbj_TBL_34">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1771,7 +1788,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_35">
+<HardPoint Name="HP_Sbj_TBL_35">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1817,7 +1834,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_36">
+<HardPoint Name="HP_Sbj_TBL_36">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1863,7 +1880,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_37">
+<HardPoint Name="HP_Sbj_TBL_37">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1909,7 +1926,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_38">
+<HardPoint Name="HP_Sbj_TBL_38">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -1955,7 +1972,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_39">
+<HardPoint Name="HP_Sbj_TBL_39">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2001,7 +2018,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_40">
+<HardPoint Name="HP_Sbj_TBL_40">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2047,7 +2064,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_41">
+<HardPoint Name="HP_Sbj_TBL_41">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2093,7 +2110,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_42">
+<HardPoint Name="HP_Sbj_TBL_42">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2139,7 +2156,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_43">
+<HardPoint Name="HP_Sbj_TBL_43">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2185,7 +2202,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_44">
+<HardPoint Name="HP_Sbj_TBL_44">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2231,7 +2248,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_45">
+<HardPoint Name="HP_Sbj_TBL_45">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2277,7 +2294,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_46">
+<HardPoint Name="HP_Sbj_TBL_46">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2323,7 +2340,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_47">
+<HardPoint Name="HP_Sbj_TBL_47">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2369,7 +2386,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_48">
+<HardPoint Name="HP_Sbj_TBL_48">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2415,7 +2432,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_49">
+<HardPoint Name="HP_Sbj_TBL_49">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2461,7 +2478,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_50">
+<HardPoint Name="HP_Sbj_TBL_50">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2507,7 +2524,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_51">
+<HardPoint Name="HP_Sbj_TBL_51">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2553,7 +2570,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_52">
+<HardPoint Name="HP_Sbj_TBL_52">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2599,7 +2616,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_53">
+<HardPoint Name="HP_Sbj_TBL_53">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2645,7 +2662,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_54">
+<HardPoint Name="HP_Sbj_TBL_54">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2691,7 +2708,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_55">
+<HardPoint Name="HP_Sbj_TBL_55">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2737,7 +2754,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_56">
+<HardPoint Name="HP_Sbj_TBL_56">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2783,7 +2800,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_57">
+<HardPoint Name="HP_Sbj_TBL_57">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2829,7 +2846,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_58">
+<HardPoint Name="HP_Sbj_TBL_58">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2875,7 +2892,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_59">
+<HardPoint Name="HP_Sbj_TBL_59">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2920,7 +2937,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_60">
+<HardPoint Name="HP_Sbj_TBL_60">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -2966,7 +2983,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_61">
+<HardPoint Name="HP_Sbj_TBL_61">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3012,7 +3029,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_62">
+<HardPoint Name="HP_Sbj_TBL_62">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3058,7 +3075,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_63">
+<HardPoint Name="HP_Sbj_TBL_63">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3104,7 +3121,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_64">
+<HardPoint Name="HP_Sbj_TBL_64">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3150,7 +3167,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_65">
+<HardPoint Name="HP_Sbj_TBL_65">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3196,7 +3213,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_66">
+<HardPoint Name="HP_Sbj_TBL_66">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3242,7 +3259,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_67">
+<HardPoint Name="HP_Sbj_TBL_67">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3288,7 +3305,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_68">
+<HardPoint Name="HP_Sbj_TBL_68">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3334,7 +3351,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_69">
+<HardPoint Name="HP_Sbj_TBL_69">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3379,7 +3396,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_70">
+<HardPoint Name="HP_Sbj_TBL_70">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3425,7 +3442,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_71">
+<HardPoint Name="HP_Sbj_TBL_71">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3471,7 +3488,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_72">
+<HardPoint Name="HP_Sbj_TBL_72">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3517,7 +3534,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_73">
+<HardPoint Name="HP_Sbj_TBL_73">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3563,7 +3580,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_74">
+<HardPoint Name="HP_Sbj_TBL_74">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3609,7 +3626,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_75">
+<HardPoint Name="HP_Sbj_TBL_75">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3655,7 +3672,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_76">
+<HardPoint Name="HP_Sbj_TBL_76">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3701,7 +3718,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_77">
+<HardPoint Name="HP_Sbj_TBL_77">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3747,7 +3764,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_78">
+<HardPoint Name="HP_Sbj_TBL_78">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3793,7 +3810,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_79">
+<HardPoint Name="HP_Sbj_TBL_79">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3838,7 +3855,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_80">
+<HardPoint Name="HP_Sbj_TBL_80">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3884,7 +3901,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_81">
+<HardPoint Name="HP_Sbj_TBL_81">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3930,7 +3947,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_82">
+<HardPoint Name="HP_Sbj_TBL_82">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -3976,7 +3993,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_83">
+<HardPoint Name="HP_Sbj_TBL_83">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4022,7 +4039,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_84">
+<HardPoint Name="HP_Sbj_TBL_84">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4068,7 +4085,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_85">
+<HardPoint Name="HP_Sbj_TBL_85">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4114,7 +4131,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_86">
+<HardPoint Name="HP_Sbj_TBL_86">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4160,7 +4177,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_87">
+<HardPoint Name="HP_Sbj_TBL_87">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4206,7 +4223,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_88">
+<HardPoint Name="HP_Sbj_TBL_88">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4252,7 +4269,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_89">
+<HardPoint Name="HP_Sbj_TBL_89">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4297,7 +4314,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_90">
+<HardPoint Name="HP_Sbj_TBL_90">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4343,7 +4360,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_91">
+<HardPoint Name="HP_Sbj_TBL_91">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4389,7 +4406,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_92">
+<HardPoint Name="HP_Sbj_TBL_92">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4435,7 +4452,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_93">
+<HardPoint Name="HP_Sbj_TBL_93">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4481,7 +4498,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_94">
+<HardPoint Name="HP_Sbj_TBL_94">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4527,7 +4544,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_95">
+<HardPoint Name="HP_Sbj_TBL_95">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4573,7 +4590,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_96">
+<HardPoint Name="HP_Sbj_TBL_96">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4619,7 +4636,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_97">
+<HardPoint Name="HP_Sbj_TBL_97">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4665,7 +4682,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_98">
+<HardPoint Name="HP_Sbj_TBL_98">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4711,7 +4728,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_99">
+<HardPoint Name="HP_Sbj_TBL_99">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4756,7 +4773,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_100">
+<HardPoint Name="HP_Sbj_TBL_100">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4802,7 +4819,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_101">
+<HardPoint Name="HP_Sbj_TBL_101">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4848,7 +4865,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_102">
+<HardPoint Name="HP_Sbj_TBL_102">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4894,7 +4911,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_103">
+<HardPoint Name="HP_Sbj_TBL_103">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4940,7 +4957,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_104">
+<HardPoint Name="HP_Sbj_TBL_104">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -4986,7 +5003,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_105">
+<HardPoint Name="HP_Sbj_TBL_105">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5032,7 +5049,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_106">
+<HardPoint Name="HP_Sbj_TBL_106">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5078,7 +5095,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_107">
+<HardPoint Name="HP_Sbj_TBL_107">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5124,7 +5141,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_108">
+<HardPoint Name="HP_Sbj_TBL_108">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5170,7 +5187,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_109">
+<HardPoint Name="HP_Sbj_TBL_109">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5215,7 +5232,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_110">
+<HardPoint Name="HP_Sbj_TBL_110">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5261,7 +5278,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_111">
+<HardPoint Name="HP_Sbj_TBL_111">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5307,7 +5324,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_112">
+<HardPoint Name="HP_Sbj_TBL_112">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5353,7 +5370,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_113">
+<HardPoint Name="HP_Sbj_TBL_113">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5399,7 +5416,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_114">
+<HardPoint Name="HP_Sbj_TBL_114">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5445,7 +5462,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_115">
+<HardPoint Name="HP_Sbj_TBL_115">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5491,7 +5508,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_116">
+<HardPoint Name="HP_Sbj_TBL_116">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5537,7 +5554,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_117">
+<HardPoint Name="HP_Sbj_TBL_117">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5583,7 +5600,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_118">
+<HardPoint Name="HP_Sbj_TBL_118">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5629,7 +5646,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_119">
+<HardPoint Name="HP_Sbj_TBL_119">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5674,7 +5691,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_120">
+<HardPoint Name="HP_Sbj_TBL_120">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5720,7 +5737,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_121">
+<HardPoint Name="HP_Sbj_TBL_121">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5766,7 +5783,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_122">
+<HardPoint Name="HP_Sbj_TBL_122">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5812,7 +5829,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_123">
+<HardPoint Name="HP_Sbj_TBL_123">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5858,7 +5875,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_124">
+<HardPoint Name="HP_Sbj_TBL_124">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5904,7 +5921,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_125">
+<HardPoint Name="HP_Sbj_TBL_125">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5950,7 +5967,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_126">
+<HardPoint Name="HP_Sbj_TBL_126">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -5996,7 +6013,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_127">
+<HardPoint Name="HP_Sbj_TBL_127">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6042,7 +6059,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_128">
+<HardPoint Name="HP_Sbj_TBL_128">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6088,7 +6105,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_129">
+<HardPoint Name="HP_Sbj_TBL_129">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6133,7 +6150,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_130">
+<HardPoint Name="HP_Sbj_TBL_130">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6179,7 +6196,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_131">
+<HardPoint Name="HP_Sbj_TBL_131">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6225,7 +6242,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_132">
+<HardPoint Name="HP_Sbj_TBL_132">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6271,7 +6288,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_133">
+<HardPoint Name="HP_Sbj_TBL_133">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6317,7 +6334,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_134">
+<HardPoint Name="HP_Sbj_TBL_134">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6363,7 +6380,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_135">
+<HardPoint Name="HP_Sbj_TBL_135">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6409,7 +6426,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_136">
+<HardPoint Name="HP_Sbj_TBL_136">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6455,7 +6472,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_137">
+<HardPoint Name="HP_Sbj_TBL_137">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6501,7 +6518,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_138">
+<HardPoint Name="HP_Sbj_TBL_138">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6547,7 +6564,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_139">
+<HardPoint Name="HP_Sbj_TBL_139">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6592,7 +6609,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_140">
+<HardPoint Name="HP_Sbj_TBL_140">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6638,7 +6655,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_141">
+<HardPoint Name="HP_Sbj_TBL_141">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6684,7 +6701,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_142">
+<HardPoint Name="HP_Sbj_TBL_142">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6730,7 +6747,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_143">
+<HardPoint Name="HP_Sbj_TBL_143">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6776,7 +6793,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_144">
+<HardPoint Name="HP_Sbj_TBL_144">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6822,7 +6839,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_145">
+<HardPoint Name="HP_Sbj_TBL_145">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6868,7 +6885,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_146">
+<HardPoint Name="HP_Sbj_TBL_146">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6914,7 +6931,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_147">
+<HardPoint Name="HP_Sbj_TBL_147">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -6960,7 +6977,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_148">
+<HardPoint Name="HP_Sbj_TBL_148">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7006,7 +7023,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_149">
+<HardPoint Name="HP_Sbj_TBL_149">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7051,7 +7068,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_150">
+<HardPoint Name="HP_Sbj_TBL_150">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7097,7 +7114,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_151">
+<HardPoint Name="HP_Sbj_TBL_151">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7143,7 +7160,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_152">
+<HardPoint Name="HP_Sbj_TBL_152">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7189,7 +7206,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_153">
+<HardPoint Name="HP_Sbj_TBL_153">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7235,7 +7252,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_154">
+<HardPoint Name="HP_Sbj_TBL_154">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7281,7 +7298,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_155">
+<HardPoint Name="HP_Sbj_TBL_155">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7327,7 +7344,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_156">
+<HardPoint Name="HP_Sbj_TBL_156">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7373,7 +7390,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_157">
+<HardPoint Name="HP_Sbj_TBL_157">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7419,7 +7436,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_158">
+<HardPoint Name="HP_Sbj_TBL_158">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7465,7 +7482,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_159">
+<HardPoint Name="HP_Sbj_TBL_159">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7510,7 +7527,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
-<HardPoint Name="HP_Subjugator_TBL_160">
+<HardPoint Name="HP_Sbj_TBL_160">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7556,7 +7573,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_161">
+<HardPoint Name="HP_Sbj_TBL_161">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7602,7 +7619,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_162">
+<HardPoint Name="HP_Sbj_TBL_162">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7648,7 +7665,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_163">
+<HardPoint Name="HP_Sbj_TBL_163">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7694,7 +7711,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_164">
+<HardPoint Name="HP_Sbj_TBL_164">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7740,7 +7757,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_165">
+<HardPoint Name="HP_Sbj_TBL_165">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7786,7 +7803,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_166">
+<HardPoint Name="HP_Sbj_TBL_166">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7832,7 +7849,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_167">
+<HardPoint Name="HP_Sbj_TBL_167">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7878,7 +7895,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_168">
+<HardPoint Name="HP_Sbj_TBL_168">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7924,7 +7941,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_TBL_169">
+<HardPoint Name="HP_Sbj_TBL_169">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -7970,7 +7987,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_HTBL_01">
+<HardPoint Name="HP_Sbj_HTBL_01">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -8016,7 +8033,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_HTBL_02">
+<HardPoint Name="HP_Sbj_HTBL_02">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -8062,7 +8079,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_HTBL_03">
+<HardPoint Name="HP_Sbj_HTBL_03">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -8108,7 +8125,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_HTBL_04">
+<HardPoint Name="HP_Sbj_HTBL_04">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -8154,7 +8171,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_HTBL_05">
+<HardPoint Name="HP_Sbj_HTBL_05">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
@@ -8200,7 +8217,7 @@
 	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
-<HardPoint Name="HP_Subjugator_HTBL_06">
+<HardPoint Name="HP_Sbj_HTBL_06">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
