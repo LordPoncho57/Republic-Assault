@@ -80,7 +80,7 @@
 	<Attachment_Bone>HANGAR_01</Attachment_Bone>
 	<Collision_Mesh>HANGAR_01</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_01</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_01</Damage_Particles>
 </HardPoint>
 
 <HardPoint Name="HP_Subjugator_Hangar_02">
@@ -96,7 +96,7 @@
 	<Attachment_Bone>HANGAR_02</Attachment_Bone>
 	<Collision_Mesh>HANGAR_02</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_02</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_02</Damage_Particles>
 </HardPoint>
 
 <HardPoint Name="HP_Subjugator_Hangar_03">
@@ -112,7 +112,7 @@
 	<Attachment_Bone>HANGAR_03</Attachment_Bone>
 	<Collision_Mesh>HANGAR_03</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_03</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_03</Damage_Particles>
 </HardPoint>
 
 <HardPoint Name="HP_Subjugator_Hangar_04">
@@ -128,7 +128,7 @@
 	<Attachment_Bone>HANGAR_04</Attachment_Bone>
 	<Collision_Mesh>HANGAR_04</Collision_Mesh>
 	<Damage_Decal></Damage_Decal>
-	<Damage_Particles>HANGAR_DMG_04</Damage_Particles>
+	<Damage_Particles>DMG_HANGAR_04</Damage_Particles>
 </HardPoint>
 
 
