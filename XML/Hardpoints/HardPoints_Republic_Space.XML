@@ -11,10 +11,10 @@
 		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
-		<Attachment_Bone>Hangar_05</Attachment_Bone>		 
-		<Collision_Mesh>Hangar_05</Collision_Mesh>
+		<Attachment_Bone>Dock</Attachment_Bone>
+		<Collision_Mesh>Dock</Collision_Mesh>
 		<Damage_Decal></Damage_Decal>
-		<Damage_Particles>Hangar_05_Fire</Damage_Particles>
+		<Damage_Particles>Dock_Fire</Damage_Particles>
 
 		<Death_Explosion_Particles>  </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -35,10 +35,10 @@
 
 		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 		<Model_To_Attach></Model_To_Attach>
-		<Attachment_Bone>SG_02</Attachment_Bone>		 
-		<Collision_Mesh>SG_02</Collision_Mesh>
+		<Attachment_Bone>Comm</Attachment_Bone>
+		<Collision_Mesh>Comm</Collision_Mesh>
 		<Damage_Decal></Damage_Decal>
-		<Damage_Particles>SG_02_Fire</Damage_Particles>
+		<Damage_Particles>Comm_Fire</Damage_Particles>
 
 		<Death_Explosion_Particles>  </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -221,10 +221,10 @@
 		<Repair_Cost_Per_Frame>0.25</Repair_Cost_Per_Frame>
 		<Repair_Amount_Per_Frame>1.0</Repair_Amount_Per_Frame>
 
-		<Attachment_Bone>Hangar_01</Attachment_Bone>
-		<Collision_Mesh>Hangar_01</Collision_Mesh>
+		<Attachment_Bone>Shield</Attachment_Bone>
+		<Collision_Mesh>Shield</Collision_Mesh>
 		<Damage_Decal></Damage_Decal>
-		<Damage_Particles>Hangar_01_Fire</Damage_Particles>
+		<Damage_Particles>Shield_Fire</Damage_Particles>
 
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
