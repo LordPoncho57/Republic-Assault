@@ -102,7 +102,6 @@
 	<Is_Targetable>No</Is_Targetable>
 	<Is_Destroyable>No</Is_Destroyable>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
 	<Fire_Bone_A>MUZZLED_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLED_02</Fire_Bone_B>
 	<Fire_Cone_Width>30.0</Fire_Cone_Width>
@@ -230,7 +229,6 @@
 	<Is_Targetable>No</Is_Targetable>
 	<Is_Destroyable>No</Is_Destroyable>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
 	<Fire_Bone_A>MUZZLED_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLED_02</Fire_Bone_B>
 	<Fire_Cone_Width>30.0</Fire_Cone_Width>

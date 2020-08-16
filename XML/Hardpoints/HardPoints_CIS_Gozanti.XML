@@ -31,7 +31,6 @@
 
 	<Attachment_Bone>TORPEDO</Attachment_Bone>
 	<Collision_Mesh>TORPEDO</Collision_Mesh>
-	<Damage_Type> Damage_Proton_Torp_Light</Damage_Type>
 
 	<Fire_Bone_A>TORPEDO</Fire_Bone_A>
 	<Fire_Bone_B>TORPEDO</Fire_Bone_B>
@@ -65,7 +64,6 @@
 	<Attachment_Bone>GOZTL_01</Attachment_Bone>
 	<Collision_Mesh>GOZTL_01</Collision_Mesh>
 
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -115,7 +113,6 @@
 	<Attachment_Bone>GOZTL_02</Attachment_Bone>
 	<Collision_Mesh>GOZTL_02</Collision_Mesh>
 
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -165,8 +162,6 @@
 	<Model_To_Attach>FTAAB_03.ALO</Model_To_Attach>
 	<Attachment_Bone>GOZTL_03</Attachment_Bone>
 	<Collision_Mesh>GOZTL_03</Collision_Mesh>
-
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -215,8 +210,6 @@
 	<Model_To_Attach>FTAAB_04.ALO</Model_To_Attach>
 	<Attachment_Bone>GOZTL_04</Attachment_Bone>
 	<Collision_Mesh>GOZTL_04</Collision_Mesh>
-
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -265,8 +258,6 @@
 	<Model_To_Attach>FTAAB_05.ALO</Model_To_Attach>
 	<Attachment_Bone>GOZTL_05</Attachment_Bone>
 	<Collision_Mesh>GOZTL_05</Collision_Mesh>
-
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -315,8 +306,6 @@
 	<Model_To_Attach>FTAAB_06.ALO</Model_To_Attach>
 	<Attachment_Bone>GOZTL_06</Attachment_Bone>
 	<Collision_Mesh>GOZTL_06</Collision_Mesh>
-
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>

@@ -13,7 +13,7 @@
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -24,8 +24,8 @@
 	<Fire_SFXEvent>Unit_DF_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -38,7 +38,6 @@
 	<Is_Targetable>No</Is_Targetable>
 	<Is_Destroyable>No</Is_Destroyable>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
 	<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
 	<Fire_Cone_Width>30.0</Fire_Cone_Width>
@@ -68,7 +67,7 @@
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Small_Laser_Cannon_Red_Pen</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -79,8 +78,8 @@
 	<Fire_SFXEvent>Unit_DF_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -93,7 +92,6 @@
 	<Is_Targetable>No</Is_Targetable>
 	<Is_Destroyable>No</Is_Destroyable>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
 	<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
 	<Fire_Cone_Width>30.0</Fire_Cone_Width>

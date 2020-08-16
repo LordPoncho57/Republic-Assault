@@ -37,13 +37,13 @@
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Rebel</Affiliation>
 	<Shield_Points>0</Shield_Points>
-	<Tactical_Health>15</Tactical_Health>
+	<Tactical_Health>10</Tactical_Health>
 	<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
-	<Armor_Type> Armor_Fighter </Armor_Type>
-	<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Fighter</Shield_Armor_Type>
 	<Formation_Priority>1</Formation_Priority>
 	<Is_Escort>yes</Is_Escort>
 	<Is_Bomber>no</Is_Bomber>
@@ -177,13 +177,13 @@
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Rebel</Affiliation>
 	<Shield_Points>0</Shield_Points>
-	<Tactical_Health>15</Tactical_Health>
+	<Tactical_Health>10</Tactical_Health>
 	<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
-	<Armor_Type> Armor_Fighter </Armor_Type>
-	<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Fighter</Shield_Armor_Type>
 	<Formation_Priority>1</Formation_Priority>
 	<Is_Escort>yes</Is_Escort>
 	<Is_Bomber>no</Is_Bomber>
@@ -328,6 +328,118 @@
         <Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+	<Icon_Name>i_button_vulture.tga</Icon_Name>
+	<GUI_Model_Name>CIS_Vulture_Droid.ALO</GUI_Model_Name>
+	<GUI_Distance>95</GUI_Distance>
+	<GUI_Offset>0 0 0</GUI_Offset>
+	<GUI_Velocity>45</GUI_Velocity>
+
+	<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Acknowledgement_DF</SFXEvent_Build_Complete>
+
+	<FormationOrder>2</FormationOrder>
+	<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+	<Idle_Chase_Range>200.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+	<Property_Flags> SmallShip </Property_Flags>
+	<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+
+<Unit_Abilities_Data SubObjectList="Yes">
+	<Unit_Ability>
+		<Type>HUNT</Type>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Acknowledgement_DF</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+
+	<Unit_Ability>
+		<Type>SPOILER_LOCK</Type>
+		<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+		<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+		<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	            1.3</Mod_Multiplier>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Acknowledgement_DF</SFXEvent_GUI_Unit_Ability_Activated>
+		<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Acknowledgement_DF</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+	<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+	<Tactical_Build_Prerequisites/>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+	<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	<Population_Value>1</Population_Value>
+	<Score_Cost_Credits> 600</Score_Cost_Credits>
+</Squadron>
+
+
+<Squadron Name="CIS_Vulture_Droid_Squadron_Double">
+	<LOD_Bias>10</LOD_Bias>
+
+	<Text_ID>TEXT_VULTURE_SQUADRON</Text_ID>	<Encyclopedia_Text>TEXT_TOOLTIP_VULTURE </Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>Yes</Is_Escort>
+	<Is_Bomber>no</Is_Bomber>
+	<Autoresolve_Health>300</Autoresolve_Health>
+	<Damage>25</Damage>
+	<Affiliation>Rebel</Affiliation>
+	<Political_Control>0</Political_Control>
+	<Build_Cost_Credits>300</Build_Cost_Credits>
+	<Piracy_Value_Credits>50</Piracy_Value_Credits>
+	<Build_Time_Seconds>10</Build_Time_Seconds>
+	<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	<Build_Initially_Locked>No</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Tech_Level>99</Tech_Level>
+	<Required_Timeline/>
+	<Required_Star_Base_Level>1</Required_Star_Base_Level>
+	<Required_Special_Structures/>
+	<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	<Squadron_Units>CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid</Squadron_Units>
+	<Squadron_Units>CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid</Squadron_Units>
+	<Squadron_Units>CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid</Squadron_Units>
+	<Squadron_Units>CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid, CIS_Vulture_Droid</Squadron_Units>
+	<Squadron_Units>CIS_Vulture_Droid_Pen, CIS_Vulture_Droid_Pen, CIS_Vulture_Droid_Pen, CIS_Vulture_Droid_Pen</Squadron_Units>
+	<Squadron_Units>CIS_Vulture_Droid_Pen, CIS_Vulture_Droid_Pen, CIS_Vulture_Droid_Pen, CIS_Vulture_Droid_Pen</Squadron_Units>
+        <Max_Squad_Size>24</Max_Squad_Size>
+
+        <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+        <Squadron_Offsets>150.0,0.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,0.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,-50.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,50.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,150.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,100.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets> -50.0,100.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-150.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,-100.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets> 50.0,-100.0,50.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,50.0</Squadron_Offsets>
+
 	<Icon_Name>i_button_vulture.tga</Icon_Name>
 	<GUI_Model_Name>CIS_Vulture_Droid.ALO</GUI_Model_Name>
 	<GUI_Distance>95</GUI_Distance>

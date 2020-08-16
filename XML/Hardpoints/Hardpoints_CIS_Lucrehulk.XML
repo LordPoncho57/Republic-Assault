@@ -36,7 +36,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_01_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_01_FP_02</Fire_Bone_B>
@@ -81,7 +81,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_02_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_02_FP_02</Fire_Bone_B>
@@ -126,7 +126,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_03_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_03_FP_02</Fire_Bone_B>
@@ -171,7 +171,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_04_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_04_FP_02</Fire_Bone_B>
@@ -216,7 +216,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_05_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_05_FP_02</Fire_Bone_B>
@@ -262,7 +262,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_06_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_06_FP_02</Fire_Bone_B>
@@ -308,7 +308,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_07_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_07_FP_02</Fire_Bone_B>
@@ -354,7 +354,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_08_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_08_FP_02</Fire_Bone_B>
@@ -400,7 +400,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_09_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_09_FP_02</Fire_Bone_B>
@@ -446,7 +446,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_10_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_10_FP_02</Fire_Bone_B>
@@ -491,7 +491,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_11_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_11_FP_02</Fire_Bone_B>
@@ -536,7 +536,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_12_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_12_FP_02</Fire_Bone_B>
@@ -581,7 +581,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_13_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_13_FP_02</Fire_Bone_B>
@@ -627,7 +627,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_14_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_14_FP_02</Fire_Bone_B>
@@ -672,7 +672,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 
 	<Fire_Bone_A>LC_15_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_15_FP_02</Fire_Bone_B>
@@ -717,7 +717,6 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
 
 	<Fire_Bone_A>LC_16_FP_01</Fire_Bone_A>
 	<Fire_Bone_B>LC_16_FP_02</Fire_Bone_B>
@@ -763,7 +762,6 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -816,7 +814,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -869,7 +867,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -922,7 +920,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -975,7 +973,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1027,7 +1025,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1079,7 +1077,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1131,7 +1129,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1183,7 +1181,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1236,7 +1234,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1288,7 +1286,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1340,7 +1338,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1392,7 +1390,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1445,7 +1443,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1498,7 +1496,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1550,7 +1548,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1602,7 +1600,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1654,7 +1652,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1706,7 +1704,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1759,7 +1757,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1813,7 +1811,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1865,7 +1863,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1917,7 +1915,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1970,7 +1968,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2023,7 +2021,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2075,7 +2073,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2127,7 +2125,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2179,7 +2177,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2231,7 +2229,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2284,7 +2282,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2336,7 +2334,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2388,7 +2386,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2440,7 +2438,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2493,7 +2491,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2547,7 +2545,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2601,7 +2599,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2655,7 +2653,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2709,7 +2707,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2763,7 +2761,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2817,7 +2815,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2871,7 +2869,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2925,7 +2923,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -2979,7 +2977,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3033,7 +3031,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3087,7 +3085,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3141,7 +3139,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3195,7 +3193,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3249,7 +3247,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3303,7 +3301,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3357,7 +3355,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3411,7 +3409,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3465,7 +3463,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3519,7 +3517,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3573,7 +3571,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3627,7 +3625,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3681,7 +3679,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3735,7 +3733,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3789,7 +3787,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3843,7 +3841,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3897,7 +3895,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -3951,7 +3949,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -4005,7 +4003,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Default </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>

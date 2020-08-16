@@ -22,9 +22,9 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>2200</Autoresolve_Health>
-	<Shield_Points>5500</Shield_Points>
+	<Shield_Points>2500</Shield_Points>
 	<Tactical_Health>2200</Tactical_Health>
-	<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+	<Shield_Refresh_Rate>4.1</Shield_Refresh_Rate>
 	<Energy_Capacity>3000</Energy_Capacity>
 	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
@@ -41,8 +41,8 @@
 	<OverrideAcceleration> .04 </OverrideAcceleration>
 	<OverrideDeceleration> .04 </OverrideDeceleration>
 
-	<Armor_Type> Armor_Pirate_Frigate </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Light </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKII</Shield_Armor_Type> <!-- MKII shields are weaker but faster to regen. Take more damage from ion cannons and proton weapons. -->
 	<Max_Thrust>0.75</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Select_Box_Scale>250</Select_Box_Scale>

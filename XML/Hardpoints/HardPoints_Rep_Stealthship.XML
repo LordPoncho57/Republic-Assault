@@ -84,7 +84,7 @@
 	<Attachment_Bone>TURRET_01</Attachment_Bone>
 	<Collision_Mesh>TURRET_01</Collision_Mesh>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -126,7 +126,7 @@
 	<Attachment_Bone>TURRET_02</Attachment_Bone>
 	<Collision_Mesh>TURRET_02</Collision_Mesh>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -160,4 +160,3 @@
 
 
 </HardPoints>
-

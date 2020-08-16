@@ -146,7 +146,7 @@
 	<Attachment_Bone>CONC_01</Attachment_Bone>
 	<Collision_Mesh>CONC_01</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_01</Fire_Bone_A>
 	<Fire_Bone_B>CONC_01</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -177,7 +177,7 @@
 	<Attachment_Bone>CONC_02</Attachment_Bone>
 	<Collision_Mesh>CONC_02</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_02</Fire_Bone_A>
 	<Fire_Bone_B>CONC_02</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -208,7 +208,7 @@
 	<Attachment_Bone>CONC_03</Attachment_Bone>
 	<Collision_Mesh>CONC_03</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_03</Fire_Bone_A>
 	<Fire_Bone_B>CONC_03</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -239,7 +239,7 @@
 	<Attachment_Bone>CONC_04</Attachment_Bone>
 	<Collision_Mesh>CONC_04</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_04</Fire_Bone_A>
 	<Fire_Bone_B>CONC_04</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -270,7 +270,7 @@
 	<Attachment_Bone>CONC_05</Attachment_Bone>
 	<Collision_Mesh>CONC_05</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_05</Fire_Bone_A>
 	<Fire_Bone_B>CONC_05</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -301,7 +301,7 @@
 	<Attachment_Bone>CONC_06</Attachment_Bone>
 	<Collision_Mesh>CONC_06</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_06</Fire_Bone_A>
 	<Fire_Bone_B>CONC_06</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -334,7 +334,7 @@
 	<Collision_Mesh>QTBL_01</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_01</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -389,7 +389,7 @@
 	<Collision_Mesh>QTBL_02</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_02</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -443,7 +443,7 @@
 	<Collision_Mesh>QTBL_03</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_03</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -497,7 +497,7 @@
 	<Collision_Mesh>QTBL_04</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_04</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -551,7 +551,7 @@
 	<Collision_Mesh>QTBL_05</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_05</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -605,7 +605,7 @@
 	<Collision_Mesh>QTBL_06</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_06</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -659,7 +659,7 @@
 	<Collision_Mesh>QTBL_07</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_07</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -713,7 +713,7 @@
 	<Collision_Mesh>QTBL_08</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_08</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -767,7 +767,7 @@
 	<Collision_Mesh>QTBL_09</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_09</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -821,7 +821,7 @@
 	<Collision_Mesh>QTBL_10</Collision_Mesh>
 	<Damage_Particles>DMG_QTBL_10</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -875,7 +875,7 @@
 	<Collision_Mesh>LBC_01</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_01</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -921,7 +921,7 @@
 	<Collision_Mesh>LBC_02</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_02</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -967,7 +967,7 @@
 	<Collision_Mesh>LBC_03</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_03</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1013,7 +1013,7 @@
 	<Collision_Mesh>LBC_04</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_04</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1059,7 +1059,7 @@
 	<Collision_Mesh>LBC_05</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_05</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1105,7 +1105,7 @@
 	<Collision_Mesh>LBC_06</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_06</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -1152,7 +1152,7 @@
 	<Attachment_Bone>LC_01</Attachment_Bone>
 	<Collision_Mesh>LC_01</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1205,7 +1205,7 @@
 	<Attachment_Bone>LC_02</Attachment_Bone>
 	<Collision_Mesh>LC_02</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1258,7 +1258,7 @@
 	<Attachment_Bone>LC_03</Attachment_Bone>
 	<Collision_Mesh>LC_03</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1311,7 +1311,7 @@
 	<Attachment_Bone>LC_04</Attachment_Bone>
 	<Collision_Mesh>LC_04</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1364,7 +1364,7 @@
 	<Attachment_Bone>LC_05</Attachment_Bone>
 	<Collision_Mesh>LC_05</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1417,7 +1417,7 @@
 	<Attachment_Bone>LC_06</Attachment_Bone>
 	<Collision_Mesh>LC_06</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1470,7 +1470,7 @@
 	<Attachment_Bone>LC_07</Attachment_Bone>
 	<Collision_Mesh>LC_07</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1523,7 +1523,7 @@
 	<Attachment_Bone>LC_08</Attachment_Bone>
 	<Collision_Mesh>LC_08</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1576,7 +1576,7 @@
 	<Attachment_Bone>LC_09</Attachment_Bone>
 	<Collision_Mesh>LC_09</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1629,7 +1629,7 @@
 	<Attachment_Bone>LC_10</Attachment_Bone>
 	<Collision_Mesh>LC_10</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1682,7 +1682,7 @@
 	<Attachment_Bone>LC_11</Attachment_Bone>
 	<Collision_Mesh>LC_11</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1735,7 +1735,7 @@
 	<Attachment_Bone>LC_12</Attachment_Bone>
 	<Collision_Mesh>LC_12</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1788,7 +1788,7 @@
 	<Attachment_Bone>LC_13</Attachment_Bone>
 	<Collision_Mesh>LC_13</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1841,7 +1841,7 @@
 	<Attachment_Bone>LC_14</Attachment_Bone>
 	<Collision_Mesh>LC_14</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1894,7 +1894,7 @@
 	<Attachment_Bone>LC_15</Attachment_Bone>
 	<Collision_Mesh>LC_15</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1947,7 +1947,7 @@
 	<Attachment_Bone>LC_16</Attachment_Bone>
 	<Collision_Mesh>LC_16</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2001,7 +2001,7 @@
 	<Attachment_Bone>AA_01</Attachment_Bone>
 	<Collision_Mesh>AA_01</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2054,7 +2054,7 @@
 	<Attachment_Bone>AA_02</Attachment_Bone>
 	<Collision_Mesh>AA_02</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2107,7 +2107,7 @@
 	<Attachment_Bone>AA_03</Attachment_Bone>
 	<Collision_Mesh>AA_03</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2160,7 +2160,7 @@
 	<Attachment_Bone>AA_04</Attachment_Bone>
 	<Collision_Mesh>AA_04</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2213,7 +2213,7 @@
 	<Attachment_Bone>AA_05</Attachment_Bone>
 	<Collision_Mesh>AA_05</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2266,7 +2266,7 @@
 	<Attachment_Bone>AA_06</Attachment_Bone>
 	<Collision_Mesh>AA_06</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -2320,7 +2320,7 @@
 	<Attachment_Bone>IC_01</Attachment_Bone>
 	<Collision_Mesh>IC_01</Collision_Mesh>
 
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 	<Fire_Bone_A>FP_01</Fire_Bone_A>
 	<Fire_Bone_B>FP_01</Fire_Bone_B>
@@ -2373,7 +2373,7 @@
 	<Attachment_Bone>IC_02</Attachment_Bone>
 	<Collision_Mesh>IC_02</Collision_Mesh>
 
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 	<Fire_Bone_A>FP_01</Fire_Bone_A>
 	<Fire_Bone_B>FP_01</Fire_Bone_B>
@@ -2426,7 +2426,7 @@
 	<Attachment_Bone>IC_03</Attachment_Bone>
 	<Collision_Mesh>IC_03</Collision_Mesh>
 
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 	<Fire_Bone_A>FP_01</Fire_Bone_A>
 	<Fire_Bone_B>FP_01</Fire_Bone_B>
@@ -2479,7 +2479,7 @@
 	<Attachment_Bone>IC_04</Attachment_Bone>
 	<Collision_Mesh>IC_04</Collision_Mesh>
 
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 	<Fire_Bone_A>FP_01</Fire_Bone_A>
 	<Fire_Bone_B>FP_01</Fire_Bone_B>
@@ -2532,7 +2532,7 @@
 	<Attachment_Bone>IC_05</Attachment_Bone>
 	<Collision_Mesh>IC_05</Collision_Mesh>
 
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 	<Fire_Bone_A>FP_01</Fire_Bone_A>
 	<Fire_Bone_B>FP_01</Fire_Bone_B>
@@ -2585,7 +2585,7 @@
 	<Attachment_Bone>IC_06</Attachment_Bone>
 	<Collision_Mesh>IC_06</Collision_Mesh>
 
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 	<Fire_Bone_A>FP_01</Fire_Bone_A>
 	<Fire_Bone_B>FP_01</Fire_Bone_B>
@@ -2640,7 +2640,7 @@
 	<Collision_Mesh>HTBL_01</Collision_Mesh>
 	<Damage_Particles>DMG_HTBL_01</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>

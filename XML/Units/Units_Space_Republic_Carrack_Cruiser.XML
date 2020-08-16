@@ -25,15 +25,15 @@
         	<Ranking_In_Category>7</Ranking_In_Category>
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Max_Speed>2.5</Max_Speed>
-	<Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Layer_Z_Adjust>0</Layer_Z_Adjust>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Max_Rate_Of_Roll>0.7</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>35</Bank_Turn_Angle>
-	<OverrideAcceleration> .065 </OverrideAcceleration>
-	<Armor_Type> Armor_Tartan </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<OverrideAcceleration> .055 </OverrideAcceleration>
+	<Armor_Type> RA_Space_Armour_Light </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Light_MKII</Shield_Armor_Type>
 	<Max_Thrust>0.8</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -44,12 +44,12 @@
 	<Tech_Level>2</Tech_Level>
 	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 	<Required_Star_Base_Level>2</Required_Star_Base_Level>
-	<Shield_Points>6500</Shield_Points>
+	<Shield_Points>1000</Shield_Points>
 	<Tactical_Health>2500</Tactical_Health>
 	<Damage>25</Damage>
 	<Autoresolve_Health>1250</Autoresolve_Health> 
-	<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
-	<Energy_Capacity>4500</Energy_Capacity>
+	<Shield_Refresh_Rate>1.7</Shield_Refresh_Rate>
+	<Energy_Capacity>1000</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>frigate</Ship_Class>
 	<Formation_Priority>3</Formation_Priority>
@@ -70,8 +70,8 @@
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 	<Death_Clone>Damage_Normal, Carrack_Light_Cruiser_Death_Clone </Death_Clone>
-	<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+	<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
 
 	<Hardpoints>
 			HP_Carrack_Dummy,
@@ -133,7 +133,7 @@
 	<MovementClass> Space </MovementClass>
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>400.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>600.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>

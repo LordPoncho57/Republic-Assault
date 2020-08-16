@@ -40,15 +40,15 @@
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 
-	<Armor_Type> Armor_Acclamator </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Medium </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKI</Shield_Armor_Type> <!-- MKI shields are stronger but slower to regen. Take less damage from ion cannons and proton weapons. -->
 	<Damage>40</Damage>
 	<Autoresolve_Health>3000</Autoresolve_Health>
-	<Shield_Points>6000</Shield_Points>
+	<Shield_Points>3000</Shield_Points>
 	<Tactical_Health>3500</Tactical_Health>
-	<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+	<Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>
 	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
 	<Affiliation>Empire</Affiliation>
 	<Tech_Level>1</Tech_Level>

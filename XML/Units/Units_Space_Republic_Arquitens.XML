@@ -87,11 +87,11 @@ HP_Arquitens_Conc_02,
 	<!-- 6. Hull Data -->
 
 	<Tactical_Health>3200</Tactical_Health>
-	<Armor_Type>Armor_Nebulon_B</Armor_Type>
+	<Armor_Type>RA_Space_Armour_Light</Armor_Type>
 
-	<Shield_Points>6600</Shield_Points>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-	<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+	<Shield_Points>2000</Shield_Points>
+	<Shield_Armor_Type>RA_Space_Shield_Light_MKI</Shield_Armor_Type>
+	<Shield_Refresh_Rate>1.7</Shield_Refresh_Rate>
 
 	<Energy_Capacity>1000</Energy_Capacity>
 	<Energy_Refresh_Rate>80</Energy_Refresh_Rate>

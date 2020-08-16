@@ -51,6 +51,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Blue</Variant_Of_Existing_Type>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>1.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Dual_Small_Laser_Cannon_Blue" Description="Blue dual small laser bolt for star fighters">
@@ -62,6 +63,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Dual_Small_Laser_Cannon_Blue</Variant_Of_Existing_Type>	
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>1.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Blue" Description="Blue laser bolt for point defence weapons">
@@ -73,6 +75,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Medium_Laser_Cannon_Blue</Variant_Of_Existing_Type>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>2.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Blue" Description="Blue dual laser bolt for point defence weapons">
@@ -84,6 +87,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Variant_Of_Existing_Type>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>3.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>	
 	
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Blue" Description="Blue laser bolt for point defence weapons">
@@ -269,6 +273,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>1.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Dual_Small_Laser_Cannon_Red" Description="Red dual small laser bolt for star fighters">
@@ -280,6 +285,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Dual_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>	
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>1.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Red" Description="Red laser bolt for point defence weapons">
@@ -291,6 +297,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Medium_Laser_Cannon_Red</Variant_Of_Existing_Type>	
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>1.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Red" Description="Red dual laser bolt for point defence weapons">
@@ -302,6 +309,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Variant_Of_Existing_Type>	
 		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 		<Projectile_Damage>2.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
 	</Projectile>	
 	
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Red" Description="Red laser bolt for point defence weapons"> 
@@ -391,7 +399,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>w_turbolaser_r4c.ALO</Space_Model_Name>
 		<Scale_Factor>0.1</Scale_Factor>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
+		<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>
 		<Max_Speed>60.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -554,7 +562,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_Fighter_IonCannon.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Max_Speed>30.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -582,7 +590,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon_Small.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -610,7 +618,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -638,7 +646,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon_Dual.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -667,7 +675,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>w_turbolaser_c3.ALO</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -696,7 +704,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>w_turbolaser_c4b.ALO</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -725,7 +733,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon.ALO</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon_LRG</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Heavy_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -765,7 +773,7 @@
 <Projectile Name="Proj_SPHAT_Cannon">
     <Variant_Of_Existing_Type>RA_Proj_Ship_Beam_Generic</Variant_Of_Existing_Type>
 	<Space_Model_Name>pw_beam_b.ALO</Space_Model_Name>
-	<Damage_Type>Damage_Hyper_Gun</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Super_Laser</Damage_Type>
 </Projectile>
 
 <Projectile Name="Proj_Ship_Red_Beam">
@@ -794,7 +802,7 @@
     <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
 	<Space_Model_Name>w_projectile_assault_missile.alo</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-	<Scale_Factor>4.0</Scale_Factor>
+	<Scale_Factor>5.0</Scale_Factor>
 	<Max_Speed>2.5</Max_Speed>
 	<Projectile_Category>ROCKET</Projectile_Category>
 	<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
@@ -824,9 +832,9 @@
 <Projectile Name="Proj_Fighter_Concussion_Missile">
     <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
 	<Space_Model_Name>W_Fighter_Conc_Missile.alo</Space_Model_Name>
-	<Damage_Type> Damage_Proton_Torp </Damage_Type>
-	<Max_Speed>6.0</Max_Speed>
+	<Max_Speed>7.0</Max_Speed>
 	<Projectile_Damage>18.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
 	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE</Behavior>
 
@@ -844,17 +852,19 @@
 
 <Projectile Name="Proj_Fighter_Concussion_Missile_Pen">
     <Variant_Of_Existing_Type>Proj_Fighter_Concussion_Missile</Variant_Of_Existing_Type>
-	<Projectile_Damage>4.0</Projectile_Damage>
+	<Projectile_Damage>7.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>
 </Projectile>
 
 <Projectile Name="Proj_Ship_Small_Buzz_Droid_Missile">
 	<Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
 	<Space_Model_Name>W_CIS_Missile.ALO</Space_Model_Name>
-	<Max_Speed>6.0</Max_Speed> 
+	<Max_Speed>7.0</Max_Speed> 
 	<Scale_Factor>0.02</Scale_Factor>
 	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	<Projectile_Damage>30.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
 	<AI_Combat_Power>150</AI_Combat_Power>
 
 	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
@@ -874,9 +884,9 @@
 <Projectile Name="Proj_CIS_Fighter_Concussion_Missile">
 	<Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
 	<Space_Model_Name>W_CIS_Missile.alo</Space_Model_Name>
-	<Damage_Type> Damage_Proton_Torp </Damage_Type>
-	<Max_Speed>6.0</Max_Speed>
+	<Max_Speed>7.0</Max_Speed>
 	<Projectile_Damage>20.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Behavior>PROJECTILE</Behavior>
 
@@ -899,15 +909,17 @@
 	<Variant_Of_Existing_Type>Proj_CIS_Fighter_Concussion_Missile</Variant_Of_Existing_Type>
 	<Projectile_Damage>4.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>
 </Projectile>
 
 <Projectile Name="Proj_CIS_HMP_Missile">
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>W_CIS_HMP_Missile.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Proton_Torp </Damage_Type>
-	<Max_Speed>6.0</Max_Speed>
+	<Max_Speed>7.0</Max_Speed>
 	<Projectile_Damage>20.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
+	<Damage_Type> RA_Space_Damage_Concussion_Missile </Damage_Type>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
@@ -937,7 +949,8 @@
 <Projectile Name="Proj_CIS_HMP_Missile_Pen">
 	<Variant_Of_Existing_Type>Proj_CIS_HMP_Missile</Variant_Of_Existing_Type>
 	<Projectile_Damage>4.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>	
 </Projectile>
 
 <Projectile Name="Proj_Proton_Bomb">
@@ -945,15 +958,15 @@
 	<Space_Model_Name>pp_proton_bomb.ALO</Space_Model_Name>
 	<Land_Model_Name>pp_proton_bomb.ALO</Land_Model_Name>
 	<Scale_Factor>2.1</Scale_Factor>
-	<Damage_Type>Damage_Proton_Torp</Damage_Type>
-	<Max_Speed>4.0</Max_Speed>
+	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
+	<Max_Speed>5.0</Max_Speed>
 	<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 	<Projectile_Max_Scan_Range>10.0</Projectile_Max_Scan_Range>
 	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_Damage>100.0</Projectile_Damage>
+	<Projectile_Damage>30.0</Projectile_Damage>
 	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
@@ -977,10 +990,10 @@
 <Projectile Name="Proj_Proton_Torpedo_Light">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
 	<Scale_Factor>3.5</Scale_Factor>
-	<Max_Speed>5.0</Max_Speed>
+	<Max_Speed>6.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>	
 	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>	
-	<Damage_Type> Damage_Proton_Torp_Light </Damage_Type>
+	<Damage_Type> RA_Space_Damage_Light_Proton_Torpedo </Damage_Type>
 	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 </Projectile>
@@ -988,7 +1001,8 @@
 <Projectile Name="Proj_Proton_Torpedo_Light_Pen">
 	<Variant_Of_Existing_Type>Proj_Proton_Torpedo_Light</Variant_Of_Existing_Type>
 	<Projectile_Damage>12.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>		
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>	
 </Projectile>
 
 <Projectile Name="Proj_Proton_Torpedo_SSD">
@@ -1009,10 +1023,10 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_Z95.ALO</Space_Model_Name>
 	<Projectile_Damage>2.0</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
-	<Max_Speed>60.0</Max_Speed>
+	<Max_Speed>45.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
@@ -1034,7 +1048,8 @@
 <Projectile Name="Proj_Ship_Z95_Laser_Pen">
 	<Variant_Of_Existing_Type>Proj_Ship_Z95_Laser</Variant_Of_Existing_Type>
 	<Projectile_Damage>1.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>		
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type>RA_Space_Damage_Fighter_Pen</Damage_Type>	
 </Projectile>
 
 <!-- ******************************************************* -->
@@ -1046,7 +1061,7 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_ARC170.ALO</Space_Model_Name>
 	<Projectile_Damage>2.5</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
 	<Max_Speed>45.0</Max_Speed>
@@ -1071,7 +1086,8 @@
 <Projectile Name="Proj_Ship_ARC170_Laser_Pen">
 	<Variant_Of_Existing_Type>Proj_Ship_ARC170_Laser</Variant_Of_Existing_Type>
 	<Projectile_Damage>1.5</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>		
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Damage_Type>RA_Space_Damage_Fighter_Pen</Damage_Type>		
 </Projectile>
 
 <Projectile Name="Proj_Ship_ARC170_Gunner_Laser">
@@ -1079,7 +1095,7 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_ARC170_Gunner.ALO</Space_Model_Name>
 	<Projectile_Damage>1.5</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
 	<Max_Speed>45.0</Max_Speed>
@@ -1104,6 +1120,7 @@
 	<Variant_Of_Existing_Type>Proj_Ship_ARC170_Gunner_Laser</Variant_Of_Existing_Type>
 	<Projectile_Damage>1.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>		
+	<Damage_Type>RA_Space_Damage_Fighter_Pen</Damage_Type>
 </Projectile>	
 
 <!-- ******************************************************* -->
@@ -1115,7 +1132,7 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_StealthShip.ALO.ALO</Space_Model_Name>
 	<Projectile_Damage>10.0</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Laser</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
 	<Max_Speed>55.0</Max_Speed>

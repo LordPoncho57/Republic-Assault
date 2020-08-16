@@ -30,8 +30,8 @@
 	<OverrideDeceleration> .1 </OverrideDeceleration>
 
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-	<Armor_Type> Armor_Corellian_Gunboat </Armor_Type>
-	<Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Light </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Light_MKII</Shield_Armor_Type>
 	<Max_Thrust>0.8</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>2.0</Hyperspace_Speed>
@@ -48,10 +48,10 @@
 	<Required_Star_Base_Level>2</Required_Star_Base_Level>
 	<Required_Special_Structures />
 	<Required_Planets>The_Maw</Required_Planets>
-	<Shield_Points>3200</Shield_Points>
+	<Shield_Points>1000</Shield_Points>
 	<Tactical_Health>1200</Tactical_Health>
 	<Autoresolve_Health>1200</Autoresolve_Health>
-	<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+	<Shield_Refresh_Rate>1.7</Shield_Refresh_Rate>
 	<Energy_Capacity>1500</Energy_Capacity>
 	<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
 	<Damage>25</Damage>

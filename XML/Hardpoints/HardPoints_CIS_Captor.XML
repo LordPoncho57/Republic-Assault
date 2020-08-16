@@ -87,7 +87,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -137,7 +137,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>

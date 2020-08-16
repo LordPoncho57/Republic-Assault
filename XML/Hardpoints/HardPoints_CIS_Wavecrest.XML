@@ -73,7 +73,7 @@
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 
 	<Attachment_Bone>PTL_01</Attachment_Bone>
 	<Collision_Mesh>PTL_01</Collision_Mesh>
@@ -111,7 +111,7 @@
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 
 	<Attachment_Bone>PTL_02</Attachment_Bone>
 	<Collision_Mesh>PTL_02</Collision_Mesh>
@@ -157,7 +157,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -209,7 +209,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -261,7 +261,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -313,7 +313,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -365,7 +365,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -417,7 +417,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -469,7 +469,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -521,7 +521,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Tartan_Cruiser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -575,7 +575,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -628,7 +628,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -681,7 +681,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -734,7 +734,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -786,7 +786,7 @@
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>

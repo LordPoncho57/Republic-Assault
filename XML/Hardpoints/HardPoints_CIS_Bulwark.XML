@@ -84,7 +84,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_01_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -140,7 +140,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_02_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -195,7 +195,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_03_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -250,7 +250,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_04_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -305,7 +305,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_05_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -360,7 +360,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_06_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -415,7 +415,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DHTLT_08_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -471,7 +471,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DIC_01_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -526,7 +526,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_01_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -581,7 +581,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_02_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -636,7 +636,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_03_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -691,7 +691,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_04_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -746,7 +746,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_05_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -801,7 +801,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_06_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -856,7 +856,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_07_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -911,7 +911,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_08_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -966,7 +966,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_09_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -1021,7 +1021,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_10_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -1076,7 +1076,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_11_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -1131,7 +1131,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>LLT_12_EMITDAMAGE</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>

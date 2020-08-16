@@ -38,7 +38,7 @@
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 
 	<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
@@ -71,7 +71,7 @@
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 
 
 	<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
@@ -112,7 +112,7 @@
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
@@ -153,7 +153,7 @@
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
@@ -194,7 +194,7 @@
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
@@ -235,7 +235,7 @@
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-	<Damage_Type> Damage_IonCannon </Damage_Type>
+
 
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
@@ -261,7 +261,7 @@
 	<Model_To_Attach>LTBL_01.ALO</Model_To_Attach>
 	<Attachment_Bone>LTBL_01</Attachment_Bone>
 	<Collision_Mesh>LTBL_01</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
@@ -314,7 +314,7 @@
 	<Model_To_Attach>LTBL_02.ALO</Model_To_Attach>
 	<Attachment_Bone>LTBL_02</Attachment_Bone>
 	<Collision_Mesh>LTBL_02</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
@@ -371,7 +371,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
@@ -430,7 +430,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
@@ -488,7 +488,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
@@ -547,7 +547,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
@@ -606,7 +606,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
 	<Turret_Rotate_Extent_Degrees> 130.0 </Turret_Rotate_Extent_Degrees>
@@ -664,7 +664,7 @@
 
 	<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 	<Is_Turret> Yes </Is_Turret>
 
 	<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>

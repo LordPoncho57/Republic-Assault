@@ -24,7 +24,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -40,7 +40,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -59,7 +59,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>600.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -103,7 +103,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -114,7 +114,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_19</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -159,7 +159,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -170,7 +170,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_20</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -215,7 +215,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -226,7 +226,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_21</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -271,7 +271,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -282,7 +282,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_22</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -327,7 +327,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -338,7 +338,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_23</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -383,7 +383,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -394,7 +394,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_24</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -439,7 +439,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -450,7 +450,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_25</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -495,7 +495,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>200.0</Health>
+	<Health>50.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -506,7 +506,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_26</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -569,7 +569,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_01</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -624,7 +624,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_02</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -678,7 +678,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_03</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -732,7 +732,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_04</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -786,7 +786,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_05</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -840,7 +840,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_06</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -894,7 +894,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_07</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -948,7 +948,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_08</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1002,7 +1002,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_09</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1056,7 +1056,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_10</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1110,7 +1110,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_11</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1164,7 +1164,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_12</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1218,7 +1218,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_13</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1272,7 +1272,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_14</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1326,7 +1326,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_15</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1380,7 +1380,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_16</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1434,7 +1434,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_17</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -1488,7 +1488,7 @@
 	<Damage_Decal></Damage_Decal>
 	<Damage_Particles>DMG_TBL_18</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>

@@ -108,11 +108,11 @@
 	<!-- 6. Hull Data -->
 
 	<Tactical_Health>50000</Tactical_Health>
-	<Armor_Type>Armor_Star_Destroyer</Armor_Type>
+	<Armor_Type>RA_Space_Armour_Super_Heavy</Armor_Type>
 
-	<Shield_Points>15000</Shield_Points>
-	<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-	<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
+	<Shield_Points>6000</Shield_Points>
+	<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKII</Shield_Armor_Type>
+	<Shield_Refresh_Rate>10.0</Shield_Refresh_Rate>
 
 	<Energy_Capacity>30000</Energy_Capacity>
 	<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>

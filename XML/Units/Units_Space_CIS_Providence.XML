@@ -22,11 +22,11 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>2200</Autoresolve_Health>
-	<Shield_Points>22000</Shield_Points>
+	<Shield_Points>4000</Shield_Points>
 	<Tactical_Health>13500</Tactical_Health>
-	<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Shield_Refresh_Rate>6.7</Shield_Refresh_Rate>
+	<Energy_Capacity>4000</Energy_Capacity>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
 	<Ranking_In_Category>6</Ranking_In_Category>
 	<Max_Speed>2.1</Max_Speed>
@@ -41,8 +41,8 @@
 	<OverrideAcceleration> 0.033 </OverrideAcceleration>
 	<OverrideDeceleration> 0.033 </OverrideDeceleration>
 
-	<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
-	<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Medium </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Heavy_MKII</Shield_Armor_Type>
 	<Max_Thrust>1.0</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Select_Box_Scale>250</Select_Box_Scale>

@@ -1045,7 +1045,7 @@
 
 	<HardPoint Name="HP_Valor_LC_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1090,7 +1090,7 @@
 
 	<HardPoint Name="HP_Valor_LC_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1135,7 +1135,7 @@
 
 	<HardPoint Name="HP_Valor_LC_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1180,7 +1180,7 @@
 
 	<HardPoint Name="HP_Valor_LC_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1225,7 +1225,7 @@
 
 	<HardPoint Name="HP_Valor_LC_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1270,7 +1270,7 @@
 
 	<HardPoint Name="HP_Valor_LC_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1315,7 +1315,7 @@
 
 	<HardPoint Name="HP_Valor_LC_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1360,7 +1360,7 @@
 
 	<HardPoint Name="HP_Valor_LC_08">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1405,7 +1405,7 @@
 
 	<HardPoint Name="HP_Valor_LC_09">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1450,7 +1450,7 @@
 
 	<HardPoint Name="HP_Valor_LC_10">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1495,7 +1495,7 @@
 
 	<HardPoint Name="HP_Valor_LC_11">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1540,7 +1540,7 @@
 
 	<HardPoint Name="HP_Valor_LC_12">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1585,7 +1585,7 @@
 
 	<HardPoint Name="HP_Valor_LC_13">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1630,7 +1630,7 @@
 
 	<HardPoint Name="HP_Valor_LC_14">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1675,7 +1675,7 @@
 
 	<HardPoint Name="HP_Valor_LC_15">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1720,7 +1720,7 @@
 
 	<HardPoint Name="HP_Valor_LC_16">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1765,7 +1765,7 @@
 
 	<HardPoint Name="HP_Valor_LC_17">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>
@@ -1810,7 +1810,7 @@
 
 	<HardPoint Name="HP_Valor_LC_18">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>500.0</Health>

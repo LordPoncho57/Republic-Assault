@@ -76,14 +76,15 @@
 	<!-- 6. Hull Data -->
 
 	<Tactical_Health>10000</Tactical_Health>
-	<Armor_Type> Armor_Acclamator </Armor_Type>
+	<Armor_Type> RA_Space_Armour_V_Heavy </Armor_Type>
 
-	<Shield_Points>2000</Shield_Points>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-	<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+	<Shield_Points>3000</Shield_Points>
+	<Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>	
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKI</Shield_Armor_Type> <!-- MKI shields are stronger but slower to regen. Take less damage from ion cannons and proton weapons. -->
 
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+
+	<Energy_Capacity>10000</Energy_Capacity>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
 	<Mass>0.9995</Mass>
 	<Max_Speed>2.2</Max_Speed>

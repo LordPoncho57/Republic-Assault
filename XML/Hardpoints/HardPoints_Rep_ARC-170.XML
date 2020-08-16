@@ -51,7 +51,6 @@
 	<Fire_Range_Distance>650.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
 	<Fire_Category_Restrictions> Missile, Laser, Air</Fire_Category_Restrictions>
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
@@ -70,7 +69,6 @@
 	<Is_Targetable>No</Is_Targetable>
 	<Is_Destroyable>No</Is_Destroyable>
 
-	<Damage_Type> Damage_Fighter </Damage_Type>
 	<Fire_Bone_A>MUZZLEC_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEC_01</Fire_Bone_B>
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
