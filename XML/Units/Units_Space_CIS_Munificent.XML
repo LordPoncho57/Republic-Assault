@@ -37,8 +37,8 @@
 	<Autonomous_Move_Extension_Vs_Attacker>1.0</Autonomous_Move_Extension_Vs_Attacker>
 
 	<Bank_Turn_Angle>35</Bank_Turn_Angle>
-	<OverrideAcceleration> .04 </OverrideAcceleration>
-	<OverrideDeceleration> .04 </OverrideDeceleration>
+	<OverrideAcceleration> 0.14 </OverrideAcceleration>
+	<OverrideDeceleration> 0.14 </OverrideDeceleration>
 
 	<Armor_Type> RA_Space_Armour_Light </Armor_Type>
 	<Shield_Armor_Type>RA_Space_Shield_Medium_MKII</Shield_Armor_Type> <!-- MKII shields are weaker but faster to regen. Take more damage from ion cannons and proton weapons. -->

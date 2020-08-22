@@ -44,7 +44,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>50.0</Health>
+	<Health>30.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -90,7 +90,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>50.0</Health>
+	<Health>30.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -135,7 +135,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>50.0</Health>
+	<Health>30.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -180,7 +180,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>50.0</Health>
+	<Health>30.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -225,7 +225,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>50.0</Health>
+	<Health>30.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -270,7 +270,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>50.0</Health>
+	<Health>30.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>

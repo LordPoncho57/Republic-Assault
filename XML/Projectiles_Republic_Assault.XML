@@ -989,7 +989,7 @@
 
 <Projectile Name="Proj_Proton_Torpedo_Light">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
-	<Scale_Factor>3.5</Scale_Factor>
+	<Scale_Factor>0.9</Scale_Factor>
 	<Max_Speed>6.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>	
 	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>	

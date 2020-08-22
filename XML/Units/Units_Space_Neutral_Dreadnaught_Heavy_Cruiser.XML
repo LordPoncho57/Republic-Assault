@@ -87,15 +87,15 @@
 	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
 	<Mass>0.9995</Mass>
-	<Max_Speed>2.2</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<OverrideAcceleration> .15 </OverrideAcceleration>
+	<Max_Speed>1.7</Max_Speed>
+	<Min_Speed>0.5</Min_Speed>
+	<OverrideAcceleration> 0.15 </OverrideAcceleration>
 	<OverrideDeceleration>0.1</OverrideDeceleration>
 
-	<Max_Thrust>1.5</Max_Thrust>
-	<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>35</Bank_Turn_Angle>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.18</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>40</Bank_Turn_Angle>
 
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
