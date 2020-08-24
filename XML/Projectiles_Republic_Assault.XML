@@ -96,7 +96,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Blue" Description="Blue dual laser bolt for point defence weapons">
-		<Variant_Of_Existing_Type>RA_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
 		<Space_Model_Name>w_laser_b2.ALO</Space_Model_Name>
 	</Projectile>
 
@@ -201,7 +201,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Green" Description="Green dual laser bolt for point defence weapons">
-		<Variant_Of_Existing_Type>RA_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
 		<Space_Model_Name>w_laser_g2.ALO</Space_Model_Name>
 	</Projectile>
 
@@ -243,6 +243,11 @@
 	<Projectile Name="Proj_Ship_Light_Quad_Turbolaser_Green" Description="Green light quad turbo used for targetting frigates and corvettes">
 		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
 		<Space_Model_Name>w_turbolaser_g4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_2x2_Turbolaser_Green" Description="Green light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g4c.ALO</Space_Model_Name>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Quad_Turbolaser_Green" Description="Green quad turbo used by heavy cruisers and capital ships">
@@ -324,7 +329,7 @@
 	</Projectile>		
 
 	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Red" Description="Red dual laser bolt for point defence weapons">
-		<Variant_Of_Existing_Type>RA_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
 		<Space_Model_Name>w_laser_r2.ALO</Space_Model_Name>
 	</Projectile>
 
@@ -446,7 +451,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Purple" Description="Purple dual laser bolt for point defence weapons">
-		<Variant_Of_Existing_Type>RA_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
 		<Space_Model_Name>w_laser_w2.ALO</Space_Model_Name>
 	</Projectile>
 
@@ -512,7 +517,7 @@
 	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Yellow" Description="Yellow dual laser bolt for point defence weapons">
-		<Variant_Of_Existing_Type>RA_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
 		<Space_Model_Name>w_laser_y2.ALO</Space_Model_Name>
 	</Projectile>
 

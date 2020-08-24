@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<Mandator_Dreadnaught_Data>
+
+<SpaceUnit Name="Mandator_Dreadnaught">
+	<Text_ID>TEXT_UNIT_MANDATOR</Text_ID>
+	<Encyclopedia_Text> 
+	TEXT_TOOLTIP_MANDATOR
+	TEXT_TOOLTIP_SPACE
+	TEXT_TOOLTIP_MANDATOR_STATS
+	</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DREADNAUGHT</Encyclopedia_Unit_Class>
+	<Icon_Name>i_button_mandator.tga</Icon_Name>
+
+	<!-- 2. Model Data -->
+
+	<Space_Model_Name>Rep_Mandator_Dreadnaught.alo</Space_Model_Name>
+	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Ranking_In_Category>5</Ranking_In_Category>
+	<Size_Value>8</Size_Value>		
+	<Select_Box_Scale>1000</Select_Box_Scale>
+	<Select_Box_Z_Adjust>10</Select_Box_Z_Adjust>
+	<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+	<Target_Bones />
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		
+	<HardPoints>
+	H_M_Shield_01,
+	H_M_Shield_02,
+	H_M_Shield_03,
+	H_M_Shield_04,
+	H_M_Shield_05,
+	H_M_Shield_06,
+	H_M_Hangar_01,
+	H_M_Hangar_02,
+	H_M_Conc_01,
+	H_M_Conc_02,
+	H_M_Conc_03,
+	H_M_Conc_04,
+	H_M_Conc_05,
+	H_M_Conc_06,
+	H_M_Conc_07,
+	H_M_Conc_08,
+	H_M_Conc_09,
+	H_M_Conc_10,
+	H_M_Conc_11,
+	H_M_Conc_12,
+	H_M_Conc_13,
+	H_M_Conc_14,
+	H_M_Conc_15,
+	H_M_Conc_16,
+	H_M_TBL_01,
+	H_M_TBL_02,
+	H_M_TBL_03,
+	H_M_TBL_04,
+	H_M_TBL_05,
+	H_M_TBL_06,
+	H_M_TBL_07,
+	H_M_TBL_08,
+	H_M_TBL_09,
+	H_M_TBL_10,
+	H_M_TBL_11,
+	H_M_TBL_12,
+	H_M_TBL_13,
+	H_M_TBL_14,
+	H_M_TBL_15,
+	H_M_TBL_16,
+	H_M_TBL_17,
+	H_M_TBL_18,
+	H_M_TBL_19,
+	H_M_TBL_20,
+	H_M_TBL_21,
+	H_M_TBL_22,
+	H_M_TBL_23,
+	H_M_TBL_24,
+	H_M_TBL_25,
+	H_M_TBL_26,
+	H_M_TBL_27,
+	H_M_TBL_28,
+	H_M_TBL_29,
+	H_M_TBL_30,
+	H_M_TBL_31,
+	H_M_TBL_32,
+	H_M_TBL_33,
+	H_M_TBL_34,
+	H_M_TBL_35,
+	H_M_TBL_36,
+	H_M_TBL_37,
+	H_M_TBL_38,
+	H_M_TBL_39,
+	H_M_TBL_40,
+	H_M_TBL_41,
+	H_M_TBL_42,
+	H_M_TBL_43,
+	H_M_TBL_44,
+	H_M_TBL_45,
+	H_M_TBL_46,
+	H_M_TBL_47,
+	H_M_TBL_48,
+	H_M_TBL_49,
+	H_M_TBL_50,
+	H_M_TBL_51,
+	H_M_TBL_52,
+	H_M_TBL_53,
+	H_M_TBL_54,
+	H_M_TBL_55,
+	H_M_TBL_56,
+	H_M_TBL_57,
+	H_M_TBL_58,
+	H_M_TBL_59,
+	H_M_TBL_60,
+	H_M_TBL_61,
+	H_M_TBL_62,
+	H_M_TBL_63,
+	H_M_TBL_64,
+	H_M_TBL_65,
+	H_M_TBL_66,
+	H_M_TBL_67,
+	H_M_TBL_68,
+	H_M_TBL_69,
+	H_M_TBL_70,
+	H_M_TBL_71,
+	H_M_TBL_72,
+	H_M_TBL_73,
+	H_M_TBL_74,
+	H_M_TBL_75,
+	H_M_TBL_76,
+	H_M_TBL_77,
+	H_M_TBL_78,
+	H_M_TBL_79,
+	H_M_TBL_80,
+	H_M_TBL_81,
+	H_M_TBL_82,
+	H_M_TBL_83,
+	H_M_TBL_84,
+	H_M_TBL_85,
+	H_M_TBL_86,
+	H_M_TBL_87,
+	H_M_TBL_88,
+	H_M_TBL_89,
+	H_M_TBL_90,
+	H_M_TBL_91,
+	H_M_TBL_92,
+	H_M_TBL_93,
+	H_M_TBL_94,
+	H_M_TBL_95,
+	H_M_TBL_96,
+	H_M_TBL_97,
+	H_M_TBL_98,
+	H_M_TBL_99,
+	H_M_TBL_100,
+	H_M_TBL_101,
+	H_M_TBL_102,
+	H_M_TBL_103,
+	H_M_TBL_104,
+	H_M_TBL_105,
+	H_M_TBL_106,
+	H_M_HDTBL_01,
+	H_M_HDTBL_02,
+	H_M_HDTBL_03,
+	H_M_HDTBL_04,
+	H_M_HDTBL_05,
+	H_M_HDTBL_06,
+	H_M_HDTBL_07,
+	H_M_HDTBL_08,
+	H_M_HDTBL_09,
+	H_M_HDTBL_10,
+	H_M_HDTBL_11,
+	H_M_HDTBL_12,
+	H_M_HDTBL_13,
+	H_M_HDTBL_14,
+	H_M_HDTBL_15,
+	H_M_HDTBL_16,
+	H_M_HDTBL_17,
+	H_M_HDTBL_18,
+	H_M_HDTBL_19,
+	H_M_HDTBL_20,
+	H_M_HDTBL_21,
+	H_M_HDTBL_22,
+	H_M_HDTBL_23,
+	H_M_HDTBL_24,
+	H_M_HDTBL_25,
+	H_M_HDTBL_26,
+	H_M_HDTBL_27,
+	H_M_HDTBL_28,
+	H_M_HDTBL_29,
+	H_M_HDTBL_30,
+	H_M_LC_01,
+	H_M_LC_02,
+	H_M_LC_03,
+	H_M_LC_04,
+	H_M_LC_05,
+	H_M_LC_06,
+	H_M_LC_07,
+	H_M_LC_08,
+	H_M_LC_09,
+	H_M_LC_10,
+	H_M_LC_11,
+	H_M_LC_12,
+	H_M_LC_13,
+	H_M_LC_14,
+	H_M_LC_15,
+	H_M_LC_16,
+	H_M_LC_17,
+	H_M_LC_18,
+	H_M_LC_19,
+	H_M_LC_20,
+	H_M_LC_21,
+	H_M_LC_22,
+	H_M_LC_23,
+	H_M_LC_24,
+	H_M_LC_25,
+	H_M_LC_26,
+	H_M_LC_27,
+	H_M_LC_28,
+	H_M_LC_29,
+	H_M_LC_30,
+	H_M_LC_31,
+	H_M_LC_32,
+	H_M_LC_33,
+	H_M_LC_34,
+	H_M_LC_35,
+	H_M_LC_36,
+	H_M_LC_37,
+	H_M_LC_38
+	</HardPoints>
+    
+	<!-- 3. Targeting Data -->	
+		
+	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
+	<Targeting_Max_Attack_Distance>4000</Targeting_Max_Attack_Distance>
+	<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+	<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
+		
+	<!-- 4. Class Data -->
+		
+	<Ship_Class>capital</Ship_Class>
+	<CategoryMask> Capital | AntiFrigate | AntiCapital </CategoryMask>  
+
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+
+	<Affiliation>Empire</Affiliation>
+	<Space_Layer>SuperCapital</Space_Layer>		
+	<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		
+	<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+	<Radar_Icon_Name>i_radar_Executor.tga</Radar_Icon_Name>
+	<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+	<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
+		
+	<Space_FOW_Reveal_Range>3500</Space_FOW_Reveal_Range>
+	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
+		
+	<!-- 5. Autoresolve Data -->
+
+	<Damage>80</Damage>
+	<Autoresolve_Health>20000</Autoresolve_Health>
+	<AI_Combat_Power>50000</AI_Combat_Power>
+
+	<!-- 6. Hull Data -->
+
+	<Tactical_Health>50000</Tactical_Health>
+	<Armor_Type>RA_Space_Armour_Super_Heavy</Armor_Type>
+
+	<Shield_Points>8000</Shield_Points>
+	<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKI</Shield_Armor_Type>
+	<Shield_Refresh_Rate>6.6</Shield_Refresh_Rate>
+
+	<Energy_Capacity>30000</Energy_Capacity>
+	<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
+
+	<!--<Abilities SubObjectList="Yes">
+	<Force_Healing_Ability Name="Venator_Repair_Crew">
+		<Activation_Style>Combat_Automatic</Activation_Style>
+		<Heal_Range>1</Heal_Range>
+		<Heal_Percent>0.1</Heal_Percent>
+		<Heal_Amount>40</Heal_Amount>
+		<Heal_Interval_In_Secs>15</Heal_Interval_In_Secs>
+		<Single_Target_Heal>yes</Single_Target_Heal>
+		<Applicable_Unit_Categories />
+		<Applicable_Unit_Types />
+	</Force_Healing_Ability>
+	</Abilities>-->
+		
+	<!-- 7. Movement Data -->
+		
+	<Mass>.99</Mass>
+	<Max_Speed>3.0</Max_Speed>
+	<Min_Speed>1.0</Min_Speed>
+	<OverrideAcceleration>0.08</OverrideAcceleration>
+	<OverrideDeceleration>0.03</OverrideDeceleration>
+
+	<Max_Thrust>0.15</Max_Thrust>		
+	<Max_Rate_Of_Turn>0.055</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.04</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		
+	<Hyperspace>yes</Hyperspace>
+	<Hyperspace_Speed>0.5</Hyperspace_Speed>
+
+	<MovementClass>space</MovementClass>
+	<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
+	<Has_Space_Evaluator>true</Has_Space_Evaluator>
+
+	<Guard_Chase_Range>800.0</Guard_Chase_Range>
+	<Idle_Chase_Range>100.0</Idle_Chase_Range>
+	<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		
+	<!-- 8. Galactic Build Data -->
+		
+	<Build_Cost_Credits>5000</Build_Cost_Credits>
+	<Build_Time_Seconds>10</Build_Time_Seconds>
+
+<!--<Abilities SubObjectList="Yes">
+<Planet_Income_Bonus_Ability Name="Venator_Maintenance">
+	<Specific_Mod_Source_Text>TEXT_TOOLTIP_STARSHIP_MAINTENANCE</Specific_Mod_Source_Text>
+	<Absolute_Income_Modifier>-20</Absolute_Income_Modifier>
+</Planet_Income_Bonus_Ability>
+</Abilities>-->
+	
+	<Required_Star_Base_Level>5</Required_Star_Base_Level>
+	<Required_Special_Structures />
+	<Required_Planets />
+
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		
+	<GUI_Row>0</GUI_Row>
+	<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	<Build_Initially_Locked>no</Build_Initially_Locked>
+
+	<Tech_Level>4</Tech_Level>
+		
+	<Population_Value>8</Population_Value>
+	
+	<!-- 9. Multiplayer Skirmish Build Data -->
+
+	<Tactical_Build_Cost_Multiplayer>10000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<Tactical_Build_Prerequisites />
+	<Build_Limit_Current_Per_Player />
+	<Build_Limit_Lifetime_For_All_Allies />
+		
+	<!-- 10. Other Data -->
+
+	<Override_Bounty_SP>100</Override_Bounty_SP>
+	<Override_Bounty_MP>100</Override_Bounty_MP>
+	<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+	<Piracy_Value_Credits>100</Piracy_Value_Credits>
+	<Score_Cost_Credits>100</Score_Cost_Credits>
+	<Squadron_Capacity>15</Squadron_Capacity>
+	<Transport_Capacity>12</Transport_Capacity>
+
+	<!-- 11. Tactical Combat Data -->
+		
+	<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+	<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+	<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+	<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+
+			<!-- Tech 1 -->
+
+	<Starting_Spawned_Units_Tech_0>V19_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
+
+	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
+
+			<!-- Tech 3 -->
+
+	<Starting_Spawned_Units_Tech_3>V19_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>V19_Squadron, 6</Reserve_Spawned_Units_Tech_3> 
+
+	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 6</Reserve_Spawned_Units_Tech_3> 
+
+	<Starting_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_3> 
+
+	<Starting_Spawned_Units_Tech_3>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>ARC170_Squadron, 3</Reserve_Spawned_Units_Tech_3> 
+
+			<!-- Tech 5 -->
+
+	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>V19_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>V19_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>Z95_Squadron, 1</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>Z95_Squadron, 6</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
+
+	<Starting_Spawned_Units_Tech_5>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>ARC170_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
+
+	<!-- 13. Ability Data -->
+
+
+<!--<Unit_Abilities_Data SubObjectList="Yes">
+	<Unit_Ability>
+		<Type>FULL_SALVO</Type>
+		<Recharge_Seconds>60</Recharge_Seconds>
+		<Expiration_Seconds>15</Expiration_Seconds>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+		<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FAB_NAME</Alternate_Name_Text>
+		<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FAB_DESCRIPTION</Alternate_Description_Text>
+		<Alternate_Icon_Name>I_SA_FAB.tga</Alternate_Icon_Name>
+	</Unit_Ability>
+
+	<Unit_Ability>
+		<Type>DEPLOY_SQUAD</Type>
+		<Recharge_Seconds>6</Recharge_Seconds>
+	</Unit_Ability>
+</Unit_Abilities_Data>-->
+
+
+	<!-- 14. Death Data -->
+
+	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Death_Explosions>Death_Star_Reactor_Explosion</Death_Explosions>
+
+	<!-- 15. Sound Data -->
+		
+	<SFXEvent_Build_Started>EHD_build_vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_unit_canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_CS</SFXEvent_Build_Complete>
+
+	<SFXEvent_Select>Unit_Select_CS</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_CS</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleetmove_CS</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_CS</SFXEvent_Attack>
+	<SFXEvent_Guard></SFXEvent_Guard>
+	<SFXEvent_Assist_Move>Unit_Move_CS</SFXEvent_Assist_Move>
+	<SFXEvent_Assist_Attack>Unit_Attack_CS</SFXEvent_Assist_Attack>
+
+	<SFXEvent_Ambient_Loop>Unit_Venator_Engine_Idle</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Venator_Engine_Idle</SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Venator_Engine_Moving</SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Venator_Engine_Idle_CIN</SFXEvent_Engine_Cinematic_Focus_Loop>
+	<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+	<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+	<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+</SpaceUnit>
+
+
+</Mandator_Dreadnaught_Data>
