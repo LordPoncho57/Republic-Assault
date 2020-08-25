@@ -249,7 +249,7 @@
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 			 <!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
@@ -298,7 +298,7 @@
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 			 <!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
@@ -336,7 +336,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -384,7 +384,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -432,7 +432,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -480,7 +480,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -528,7 +528,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -576,7 +576,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -624,7 +624,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -672,7 +672,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>

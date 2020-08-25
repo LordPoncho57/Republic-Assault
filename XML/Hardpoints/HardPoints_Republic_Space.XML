@@ -253,7 +253,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -298,7 +298,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -343,7 +343,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -388,7 +388,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -433,7 +433,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -478,7 +478,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -523,7 +523,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -568,7 +568,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -613,7 +613,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -658,7 +658,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -703,7 +703,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -748,7 +748,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -793,7 +793,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -838,7 +838,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -883,7 +883,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -928,7 +928,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -973,7 +973,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -1018,7 +1018,7 @@
 		<Fire_Cone_Height>190.0</Fire_Cone_Height>
 		
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Med_Dual_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>

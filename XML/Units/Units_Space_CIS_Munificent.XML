@@ -24,8 +24,8 @@
 	<Shield_Points>2500</Shield_Points>
 	<Tactical_Health>2200</Tactical_Health>
 	<Shield_Refresh_Rate>4.1</Shield_Refresh_Rate>
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Energy_Capacity>5000</Energy_Capacity>
+	<Energy_Refresh_Rate>2000</Energy_Refresh_Rate>
 
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Max_Speed>2.1</Max_Speed>
