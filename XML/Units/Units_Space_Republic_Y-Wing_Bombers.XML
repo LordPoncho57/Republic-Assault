@@ -65,7 +65,7 @@
 
 	<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 	<HardPoints>
-		HP_Y_Wing_00, HP_Y_Wing_01, HP_Y_Wing_Turret
+		HP_Y_Wing_00, HP_Y_Wing_01, HP_Y_Wing_02, HP_Y_Wing_Turret
 	</HardPoints>
 
     <Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -253,7 +253,7 @@
 
 	<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 	<HardPoints>
-		HP_Y_Wing_00_Pen, HP_Y_Wing_01_Pen, HP_Y_Wing_Turret_Pen
+		HP_Y_Wing_00_Pen, HP_Y_Wing_01_Pen, HP_Y_Wing_02_Pen, HP_Y_Wing_Turret_Pen
 	</HardPoints>
 
     <Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>

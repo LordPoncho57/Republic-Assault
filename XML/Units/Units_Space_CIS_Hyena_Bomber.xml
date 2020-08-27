@@ -55,7 +55,7 @@
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
         <HardPoints>
-		HP_Hyena_Bomber_01, HP_Hyena_Bomber_02, HP_Hyena_Bomber_03
+		HP_Hyena_Bomber_01, HP_Hyena_Bomber_02, HP_Hyena_Bomber_03, HP_Hyena_Bomber_04
 	</HardPoints>
 
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
@@ -196,7 +196,7 @@
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
         <HardPoints>
-		HP_Hyena_Bomber_01_Pen, HP_Hyena_Bomber_02_Pen, HP_Hyena_Bomber_03_Pen
+		HP_Hyena_Bomber_01_Pen, HP_Hyena_Bomber_02_Pen, HP_Hyena_Bomber_03_Pen, HP_Hyena_Bomber_04_Pen
 	</HardPoints>
 
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>

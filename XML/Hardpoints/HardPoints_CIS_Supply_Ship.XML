@@ -104,7 +104,7 @@
 	<Fire_Bone_B>CONC_01</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -135,7 +135,7 @@
 	<Fire_Bone_B>CONC_02</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -166,7 +166,7 @@
 	<Fire_Bone_B>CONC_03</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -197,7 +197,7 @@
 	<Fire_Bone_B>CONC_04</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -336,7 +336,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -384,7 +384,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -432,7 +432,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -480,7 +480,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -528,7 +528,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -576,7 +576,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -624,7 +624,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -672,7 +672,7 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
 			
 			 <!-- Reload Rate -->
 	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
@@ -721,7 +721,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -772,7 +772,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -823,7 +823,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -874,7 +874,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -925,7 +925,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -976,7 +976,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1027,7 +1027,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1078,7 +1078,7 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1129,7 +1129,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1176,7 +1176,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1223,7 +1223,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1270,7 +1270,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1317,7 +1317,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1364,7 +1364,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1411,7 +1411,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1458,7 +1458,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1505,7 +1505,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1552,7 +1552,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1599,7 +1599,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->
@@ -1646,7 +1646,7 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 			
 			<!-- Reload Rate -->

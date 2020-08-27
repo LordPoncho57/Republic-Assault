@@ -1032,9 +1032,21 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage_Type> RA_Space_Damage_Concussion_Missile </Damage_Type>
-	<Max_Speed>6.0</Max_Speed>
+	<Max_Speed>9.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+
+<!-- Below behaviour makes all concussion missiles be able to be shot down. They are targeted as bombers -->
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING,</Behavior>
+	<Ship_Class>bomber</Ship_Class>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Conc_Missile_Detonation_Particle</Death_Explosions>
+	<Tactical_Health>1</Tactical_Health>
+	<CategoryMask> Bomber | AntiCapital</CategoryMask>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>	
+	
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+
 	<Projectile_Category>MISSILE</Projectile_Category>
 	<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
 	<Projectile_Max_Scan_Range>50.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
@@ -1056,7 +1068,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>8.0</Scale_Factor>
 	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
-	<Max_Speed>5.0</Max_Speed>
+	<Max_Speed>7.0</Max_Speed>
 
 <!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING,</Behavior>

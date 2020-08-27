@@ -36,7 +36,7 @@
 	<Fire_Bone_B>TORPEDO</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo_Light</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo_Light</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>3</Fire_Pulse_Count>

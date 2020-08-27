@@ -86,6 +86,8 @@
 	<Energy_Capacity>10000</Energy_Capacity>
 	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
+	<!-- 7. Movement Data -->
+
 	<Mass>0.9995</Mass>
 	<Max_Speed>1.7</Max_Speed>
 	<Min_Speed>0.5</Min_Speed>
@@ -107,6 +109,10 @@
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
 	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
 
 	<!-- 8. Galactic Build Data -->
 

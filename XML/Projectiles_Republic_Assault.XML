@@ -798,14 +798,14 @@
 <!-- IMPORTANT!!!! -->	
 <!-- Hard Point Data for missiles and torpedoes can be found in Projectiles_Space_Templates, please use this data to determine the characteristics of each weapon you use -->
 
-	<Projectile Name="Proj_Ship_Concussion_Missile">
+	<Projectile Name="RA_Proj_Ship_Concussion_Missile">
     <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
-	<Space_Model_Name>w_projectile_assault_missile.alo</Space_Model_Name>
+	<Space_Model_Name>w_projectile_concussion_missile_b.alo</Space_Model_Name>
 </Projectile>
 
-	<Projectile Name="Proj_Ship_Concussion_Missile_Super_Heavy">
+	<Projectile Name="RA_Proj_Ship_Concussion_Missile_Super_Heavy">
     <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
-	<Space_Model_Name>w_projectile_assault_missile.alo</Space_Model_Name>
+	<Space_Model_Name>w_projectile_concussion_missile_b.alo</Space_Model_Name>
 <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Scale_Factor>5.0</Scale_Factor>
 	<Max_Speed>2.5</Max_Speed>
@@ -958,23 +958,23 @@
 	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>	
 </Projectile>
 
-<Projectile Name="Proj_Proton_Bomb">
+<Projectile Name="RA_Proj_Proton_Bomb">
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>pp_proton_bomb.ALO</Space_Model_Name>
 	<Land_Model_Name>pp_proton_bomb.ALO</Land_Model_Name>
-	<Scale_Factor>2.1</Scale_Factor>
+	<Scale_Factor>1.0</Scale_Factor>
 	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
 	<Max_Speed>5.0</Max_Speed>
-	<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 	<Projectile_Max_Scan_Range>10.0</Projectile_Max_Scan_Range>
 	<!-- was 750, changed so it doesn't reacquire targets -->
 	<Projectile_Damage>30.0</Projectile_Damage>
 	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
@@ -986,16 +986,23 @@
 	<AI_Combat_Power>300</AI_Combat_Power>
 </Projectile>
 
+<Projectile Name="RA_Proj_Proton_Bomb_Pen">
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Bomb</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
+	<Projectile_Damage>18.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>		
+</Projectile>
 
-<Projectile Name="Proj_Proton_Torpedo">
+<Projectile Name="RA_Proj_Proton_Torpedo">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
 	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
 </Projectile>
 
-<Projectile Name="Proj_Proton_Torpedo_Light">
+<Projectile Name="RA_Proj_Proton_Torpedo_Light">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
 	<Scale_Factor>0.9</Scale_Factor>
-	<Max_Speed>6.0</Max_Speed>
+	<Max_Speed>7.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>	
 	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>	
 	<Damage_Type> RA_Space_Damage_Light_Proton_Torpedo </Damage_Type>
@@ -1003,14 +1010,14 @@
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
 </Projectile>
 
-<Projectile Name="Proj_Proton_Torpedo_Light_Pen">
-	<Variant_Of_Existing_Type>Proj_Proton_Torpedo_Light</Variant_Of_Existing_Type>
+<Projectile Name="RA_Proj_Proton_Torpedo_Light_Pen">
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Light</Variant_Of_Existing_Type>
 	<Projectile_Damage>12.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
 	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>	
 </Projectile>
 
-<Projectile Name="Proj_Proton_Torpedo_SSD">
+<Projectile Name="RA_Proj_Proton_Torpedo_SSD">
 	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
 	<Scale_Factor>10.0</Scale_Factor>
 	<Projectile_Damage>24.0</Projectile_Damage>

@@ -101,7 +101,7 @@
 	<Fire_Bone_B>TORP_01</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -129,7 +129,7 @@
 	<Fire_Bone_B>TORP_02</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -157,7 +157,7 @@
 	<Fire_Bone_B>TORP_03</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -185,7 +185,7 @@
 	<Fire_Bone_B>TORP_04</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -213,7 +213,7 @@
 	<Fire_Bone_B>TORP_05</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -241,7 +241,7 @@
 	<Fire_Bone_B>TORP_06</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -269,7 +269,7 @@
 	<Fire_Bone_B>TORP_07</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -297,7 +297,7 @@
 	<Fire_Bone_B>TORP_08</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -325,7 +325,7 @@
 	<Fire_Bone_B>TORP_09</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -353,7 +353,7 @@
 	<Fire_Bone_B>TORP_10</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -381,7 +381,7 @@
 	<Fire_Bone_B>TORP_11</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -409,7 +409,7 @@
 	<Fire_Bone_B>TORP_12</Fire_Bone_B>
 	<Fire_Cone_Width>90.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Proton_Torpedo</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo</Fire_Projectile_Type>
 <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
 <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
