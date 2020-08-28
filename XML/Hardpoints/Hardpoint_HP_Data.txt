@@ -1,0 +1,19 @@
+Hardpoint HP Data:
+
+All hardpoint types across RA will have standardized HP values. Below is a list of types and HP values.
+
+Laser Cannons: 30 (set as mass driver hardpoint)
+Light Turbolasers: 100 (set as mass driver hardpoint)
+Light Quad Turbolasers: 300 
+Turbolasers: 400 
+Heavy Turbolasers: 500 
+Torpedo/Missile Tubes: 400
+Light Ion Cannons: 100 
+Ion Cannons: 400 (-100HP if the weapon is exposed)
+Heavy Ion Cannons: 500 (-50HP if the weapon is exposed)
+Beam Weapons: 300
+Engines: 1000
+Shields: 1000 (-200HP if the hardpoint is exposed)
+Hangars: 800 
+
+

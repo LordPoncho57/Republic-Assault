@@ -26,7 +26,7 @@
 	<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>400.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -57,7 +57,7 @@
 	<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>400.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -91,7 +91,7 @@
 	<Tooltip_Text> TEXT_WEAPON_IONCANNON </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -136,7 +136,7 @@
 	<Tooltip_Text> TEXT_WEAPON_IONCANNON </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -180,11 +180,11 @@
 		<!-- Laser Cannon Batteries -->
 
 <HardPoint Name="HP_Venator_Laser_Battery_01">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -224,11 +224,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_02">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -268,11 +268,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_03">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -312,11 +312,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_04">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -356,11 +356,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_05">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -400,11 +400,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_06">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -444,11 +444,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_07">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -488,11 +488,11 @@
 </HardPoint>
 
 <HardPoint Name="HP_Venator_Laser_Battery_08">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text> TEXT_WEAPON_TURBOLASER </Tooltip_Text>
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>50.0</Health>
+	<Health>100.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -541,7 +541,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>300.0</Health>
+	<Health>400.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -571,8 +571,8 @@
 	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
@@ -587,7 +587,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>300.0</Health>
+	<Health>400.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -617,23 +617,23 @@
 	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 			<!-- Heavy DBY Turrets -->
 
 <HardPoint Name="HP_Venator_DBY_01">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>200.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -684,10 +684,10 @@
 
 <HardPoint Name="HP_Venator_DBY_02">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -738,10 +738,10 @@
 	
 <HardPoint Name="HP_Venator_DBY_03">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -792,10 +792,10 @@
 
 <HardPoint Name="HP_Venator_DBY_04">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -846,10 +846,10 @@
 
 <HardPoint Name="HP_Venator_DBY_05">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -900,10 +900,10 @@
 
 <HardPoint Name="HP_Venator_DBY_06">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -961,10 +961,10 @@
 
 <HardPoint Name="HP_Venator_DBY_07">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1022,10 +1022,10 @@
 
 <HardPoint Name="HP_Venator_DBY_08">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1083,10 +1083,10 @@
 
 <HardPoint Name="HP_Venator_DBY_09">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1137,10 +1137,10 @@
 
 <HardPoint Name="HP_Venator_DBY_10">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1191,10 +1191,10 @@
 
 <HardPoint Name="HP_Venator_DBY_11">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1245,10 +1245,10 @@
 
 <HardPoint Name="HP_Venator_DBY_12">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1299,10 +1299,10 @@
 
 <HardPoint Name="HP_Venator_DBY_13">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1353,10 +1353,10 @@
 
 <HardPoint Name="HP_Venator_DBY_14">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1408,10 +1408,10 @@
 
 <HardPoint Name="HP_Venator_DBY_15">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1462,10 +1462,10 @@
 
 <HardPoint Name="HP_Venator_DBY_16">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>300.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1523,7 +1523,7 @@
 	<Tooltip_Text> TEXT_WEAPON_SPHAT </Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -1557,7 +1557,7 @@
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>500.0</Health>
+	<Health>800.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
@@ -1572,7 +1572,7 @@
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>500.0</Health>
+	<Health>800.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
@@ -1589,7 +1589,7 @@
 	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>500.0</Health>
+	<Health>800.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -1604,7 +1604,7 @@
 	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>500.0</Health>
+	<Health>800.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -1622,7 +1622,7 @@
 	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1637,7 +1637,7 @@
 	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>

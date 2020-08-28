@@ -130,7 +130,7 @@
 
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			CIS_Vulture_Droid_Squadron, CIS_Vulture_Droid_Squadron, CIS_Vulture_Droid_Squadron, CIS_Hyena_Bomber_Squadron, Dreadnaught_Heavy_Cruiser_CIS,
+			CIS_Vulture_Droid_Squadron, CIS_Vulture_Droid_Squadron, CIS_Vulture_Droid_Squadron, CIS_Hyena_Bomber_Squadron, Dreadnaught_Heavy_Cruiser_CIS, Bulwark_MKI
         </Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
@@ -919,7 +919,7 @@
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			V19_Squadron, V19_Squadron, V19_Squadron, Dreadnaught_Heavy_Cruiser_Rep,
+			V19_Squadron, V19_Squadron, V19_Squadron, Dreadnaught_Heavy_Cruiser_Rep, Venator, Venator,
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>

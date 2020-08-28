@@ -22,7 +22,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_BEAMCANNON</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>300.0</Health>
 
 	<Attachment_Bone>LBC_01</Attachment_Bone>
 	<Collision_Mesh>LBC_01</Collision_Mesh>
@@ -55,7 +55,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_BEAMCANNON</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>300.0</Health>
 
 	<Attachment_Bone>LBC_02</Attachment_Bone>
 	<Collision_Mesh>LBC_02</Collision_Mesh>
@@ -88,7 +88,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>Ion_02</Attachment_Bone>
 	<Collision_Mesh>Ion_02</Collision_Mesh>
@@ -130,7 +130,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>Ion_01</Attachment_Bone>
 	<Collision_Mesh>Ion_01</Collision_Mesh>
@@ -171,7 +171,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>Ion_03</Attachment_Bone>
 	<Collision_Mesh>Ion_03</Collision_Mesh>
@@ -212,7 +212,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Attachment_Bone>Ion_04</Attachment_Bone>
 	<Collision_Mesh>Ion_04</Collision_Mesh>
@@ -357,8 +357,8 @@
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>830.0</Health>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -416,8 +416,8 @@
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>830.0</Health>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+	<Health>500.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -474,8 +474,8 @@
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>830.0</Health>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -533,8 +533,8 @@
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>830.0</Health>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -592,8 +592,8 @@
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>830.0</Health>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+	<Health>500.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -650,8 +650,8 @@
 	<Type> HARD_POINT_WEAPON_LASER </Type>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>830.0</Health>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -713,7 +713,7 @@
 	<Collision_Mesh>HANGAR_00</Collision_Mesh>
 		<Fighter_Bay_Flyout_Distance>250.0</Fighter_Bay_Flyout_Distance>           
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-	<Health>1000.0</Health>
+	<Health>800.0</Health>
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 </HardPoint>
@@ -726,7 +726,7 @@
 	<Collision_Mesh>HANGAR_01</Collision_Mesh>
 		<Fighter_Bay_Flyout_Distance>250.0</Fighter_Bay_Flyout_Distance>           
 	<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-	<Health>1000.0</Health>
+	<Health>800.0</Health>
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 </HardPoint> 
@@ -737,7 +737,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-	<Health>1400.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -753,7 +753,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>

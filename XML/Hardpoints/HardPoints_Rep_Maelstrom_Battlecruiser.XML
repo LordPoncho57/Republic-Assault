@@ -6,7 +6,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -22,7 +22,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -40,7 +40,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -56,7 +56,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-	<Health>500.0</Health>
+	<Health>1000.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -100,11 +100,11 @@
 	<Fire_Bone_B>CONC_01</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -132,11 +132,11 @@
 	<Fire_Bone_B>CONC_02</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -164,11 +164,11 @@
 	<Fire_Bone_B>CONC_03</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -196,11 +196,11 @@
 	<Fire_Bone_B>CONC_04</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -228,11 +228,11 @@
 	<Fire_Bone_B>CONC_05</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -260,11 +260,11 @@
 	<Fire_Bone_B>CONC_06</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -292,11 +292,11 @@
 	<Fire_Bone_B>CONC_07</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -324,11 +324,11 @@
 	<Fire_Bone_B>CONC_08</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -356,11 +356,11 @@
 	<Fire_Bone_B>CONC_09</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -388,11 +388,11 @@
 	<Fire_Bone_B>CONC_10</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 	
@@ -415,7 +415,7 @@
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>600.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -429,28 +429,28 @@
 	<Fire_Cone_Width>170.0</Fire_Cone_Width>
 	<Fire_Cone_Height>150.0</Fire_Cone_Height> 
     
-	
-    <!-- Projectile type, this defines range, damage and VFX of the projectile -->	
-	<Fire_Projectile_Type>Proj_Ion_Cannon</Fire_Projectile_Type>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Heavy_Ion_Cannon</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
-	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Maelstrom_Ion_Cannon_02">
@@ -458,7 +458,7 @@
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>600.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -472,27 +472,28 @@
 	<Fire_Cone_Width>170.0</Fire_Cone_Width>
 	<Fire_Cone_Height>150.0</Fire_Cone_Height> 
 	
-    <!-- Projectile type, this defines range, damage and VFX of the projectile -->	
-	<Fire_Projectile_Type>Proj_Ion_Cannon</Fire_Projectile_Type>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Heavy_Ion_Cannon</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
-	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Maelstrom_Ion_Cannon_03">
@@ -500,7 +501,7 @@
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>600.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -514,27 +515,28 @@
 	<Fire_Cone_Width>170.0</Fire_Cone_Width>
 	<Fire_Cone_Height>150.0</Fire_Cone_Height> 
 	
-    <!-- Projectile type, this defines range, damage and VFX of the projectile -->	
-	<Fire_Projectile_Type>Proj_Ion_Cannon</Fire_Projectile_Type>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Heavy_Ion_Cannon</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
-	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Maelstrom_Ion_Cannon_04">
@@ -542,7 +544,7 @@
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>600.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -556,27 +558,28 @@
 	<Fire_Cone_Width>170.0</Fire_Cone_Width>
 	<Fire_Cone_Height>150.0</Fire_Cone_Height> 
 	
-    <!-- Projectile type, this defines range, damage and VFX of the projectile -->	
-	<Fire_Projectile_Type>Proj_Ion_Cannon</Fire_Projectile_Type>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Heavy_Ion_Cannon</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
-	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Maelstrom_Ion_Cannon_05">
@@ -584,7 +587,7 @@
 	<Tooltip_Text>TEXT_WEAPON_IONCANNON_HEAVY</Tooltip_Text>
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>600.0</Health>
+	<Health>500.0</Health>
 
 	<Death_Explosion_Particles> </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -598,27 +601,28 @@
 	<Fire_Cone_Width>170.0</Fire_Cone_Width>
 	<Fire_Cone_Height>150.0</Fire_Cone_Height> 
 
-    <!-- Projectile type, this defines range, damage and VFX of the projectile -->	
-	<Fire_Projectile_Type>Proj_Ion_Cannon</Fire_Projectile_Type>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Heavy_Ion_Cannon</Fire_Projectile_Type>
 	<!-- Reload Rate -->
-	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
-	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 50.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 
@@ -630,7 +634,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -676,7 +680,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -722,7 +726,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -768,7 +772,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -814,7 +818,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -860,7 +864,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -906,7 +910,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -952,7 +956,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -998,7 +1002,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1044,7 +1048,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1090,7 +1094,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1136,7 +1140,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1182,7 +1186,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1228,7 +1232,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1274,7 +1278,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1320,7 +1324,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1366,7 +1370,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1412,7 +1416,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1458,7 +1462,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>
@@ -1504,7 +1508,7 @@
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Death_Explosion_Particles></Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-	<Health>800.0</Health>
+	<Health>500.0</Health>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 
 	<Model_To_Attach></Model_To_Attach>

@@ -37,6 +37,10 @@
  <!-- Hard Point data for Star Fighter Laser --> 
  <!-- Tweak as necessary -->
 
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>   
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -89,6 +93,10 @@
 <!-- ************************************************************************************** -->
  <!-- Hard Point data for Dual Starfighter Laser --> 
  <!-- Tweak as necessary -->
+
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text> 
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Small_Laser_Cannon_Blue</Fire_Projectile_Type>
@@ -143,6 +151,10 @@
  <!-- Hard Point data for Medium Laser --> 
  <!-- Tweak as necessary -->
 
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text> 
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -195,6 +207,10 @@
 <!-- ************************************************************************************** -->
  <!-- Hard Point data for Dual Medium Laser --> 
  <!-- Tweak as necessary -->
+
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text> 
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
@@ -250,6 +266,10 @@
  <!-- Hard Point data for Large Laser --> 
  <!-- Tweak as necessary -->
 
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text> 
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -304,6 +324,10 @@
  <!-- Hard Point data for Dual Large Laser --> 
  <!-- Tweak as necessary -->
 
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text> 
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -357,6 +381,13 @@
  <!-- Hard Point data for Light Turbolaser --> 
  <!-- Tweak as necessary -->
 
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text> 
+
+    <!-- Targeting type and text definitions -->
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text> 
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -377,7 +408,7 @@
 	<Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -410,6 +441,9 @@
  <!-- Hard Point data for Dual Light Turbolaser --> 
  <!-- Tweak as necessary -->
 
+ 	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text> 
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Light_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -430,7 +464,7 @@
 	<Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -463,6 +497,9 @@
  <!-- Hard Point data for Medium Turbolaser --> 
  <!-- Tweak as necessary -->
 
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Medium_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -478,12 +515,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->	
 
@@ -516,6 +553,9 @@
  <!-- Hard Point data for Dual Medium Turbolaser --> 
  <!-- Tweak as necessary -->
 
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -531,12 +571,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
 
@@ -568,6 +608,9 @@
 <!-- ************************************************************************************** -->
  <!-- Hard Point data for Heavy Turbolaser --> 
  <!-- Tweak as necessary -->
+
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
@@ -623,6 +666,9 @@
  <!-- Hard Point data for Dual Heavy Turbolaser --> 
  <!-- Tweak as necessary -->
 
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -676,6 +722,9 @@
 <!-- ************************************************************************************** -->
  <!-- Hard Point data for Triple Turbolaser --> 
  <!-- Tweak as necessary -->
+
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Triple_Turbolaser_Blue</Fire_Projectile_Type>
@@ -731,6 +780,9 @@
  <!-- Hard Point data for Light Quad Turbolaser --> 
  <!-- Tweak as necessary -->
 
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Light_Quad_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -746,12 +798,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->	
 
@@ -783,6 +835,9 @@
 <!-- ************************************************************************************** -->
  <!-- Hard Point data for Quad Turbolaser --> 
  <!-- Tweak as necessary -->
+
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue</Fire_Projectile_Type>
@@ -838,6 +893,9 @@
  <!-- Hard Point data for Quad Parted Turbolaser --> 
  <!-- Tweak as necessary -->
 
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Blue_X2</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -892,6 +950,9 @@
  <!-- Hard Point data for Light Square Quad Turbolaser --> 
  <!-- Tweak as necessary -->
 
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Blue</Fire_Projectile_Type>
 	<!-- Reload Rate -->
@@ -906,13 +967,13 @@
 	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 50.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>		
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->	
 
@@ -942,8 +1003,11 @@
 
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
- <!-- Hard Point data for Quad Turbolaser --> 
+ <!-- Hard Point data for Square Quad Turbolaser --> 
  <!-- Tweak as necessary -->
+
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_2x2_Turbolaser_Blue</Fire_Projectile_Type>
@@ -996,8 +1060,11 @@
 
 <!-- ************************************************************************************** -->
 <!-- ************************************************************************************** -->
- <!-- Hard Point data for Quad Turbolaser --> 
+ <!-- Hard Point data for Octuple Turbolaser --> 
  <!-- Tweak as necessary -->
+
+	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
 
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Octuple_Turbolaser_Blue</Fire_Projectile_Type>
