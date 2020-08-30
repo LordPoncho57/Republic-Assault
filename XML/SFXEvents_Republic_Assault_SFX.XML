@@ -286,6 +286,13 @@
 	<Max_Volume>70</Max_Volume>
 </SFXEvent>
 
+<SFXEvent Name="Unit_Republic_Laser_Cannon_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_Rep_Laser_Cannon.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
 <SFXEvent Name="Unit_SPHAT_Cannon_Fire">
 	<Use_Preset>Preset_GUN</Use_Preset>
 	<Samples>Data/Audio/SFX/Weapons/WPN_SPHAT_Cannon.wav</Samples>
