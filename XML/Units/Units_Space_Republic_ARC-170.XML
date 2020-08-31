@@ -53,6 +53,8 @@
 
 	<HardPoints>HP_ARC-170_01, HP_ARC-170_02, HP_ARC-170_03, HP_ARC-170_04, HP_ARC-170_05</HardPoints>
 
+			<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>	
+
 	<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>

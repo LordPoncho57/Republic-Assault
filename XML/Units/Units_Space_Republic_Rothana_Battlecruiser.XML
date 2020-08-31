@@ -17,6 +17,7 @@
 	<Moniker>Venator_SD.txt</Moniker>	
 
 	<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	
 	<Ranking_In_Category>6</Ranking_In_Category>
 	<Damage>60</Damage>
 	<Autoresolve_Health>6000</Autoresolve_Health>

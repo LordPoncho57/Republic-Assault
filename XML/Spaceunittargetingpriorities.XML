@@ -24,8 +24,8 @@
 
 	<Priority_Set Name="Fighter">
 		<Attack_Priorities>
-			Fighter, 1.0,
-			Bomber, 2.0,
+			Fighter, 2.0,
+			Bomber, 1.0,
 			Transport, 3.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
@@ -42,8 +42,8 @@
 
 	<Priority_Set Name="Bomber">
 		<Attack_Priorities>
-			Capital, 1.0,
-			Frigate, 2.0,
+			Capital, 2.0,
+			Frigate, 1.0,
 			SpaceHero, 2.5,
 			Transport, 3.0,
 			Corvette, 4.0,
@@ -76,12 +76,12 @@
 
 	<Priority_Set Name="Frigate">
 		<Attack_Priorities>
-			Corvette, 1.0,
-			Frigate, 2.0,
-			Capital, 3.0,
+			Corvette, 3.0,
+			Frigate, 1.0,
+			Capital, 2.0,
 			SpaceHero, 3.5,
-			Bomber, 4.0,
-			Fighter, 4.5,
+			Bomber, 1.0,
+			Fighter, 4.0,
 			Transport, 5.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
@@ -95,12 +95,12 @@
 
 	<Priority_Set Name="Capital">
 		<Attack_Priorities>
-			Frigate, 1.0,
-			Capital, 2.0,
-			Corvette, 3.0,
-			Bomber, 4.0,
+			Frigate, 2.0,
+			Capital, 1.0,
+			Corvette, 5.0,
+			Bomber, 3.0,
 			Fighter, 5.0,
-			SpaceHero, 6.0,
+			SpaceHero, 4.0,
 			Transport, 7.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
@@ -119,8 +119,8 @@
 			Capital, 1.0,
 			SpaceHero, 6.0,
 			Corvette, 3.0,
-			Bomber, 4.0,
-			Fighter, 5.0,
+			Bomber, 1.0,
+			Fighter, 4.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
@@ -134,9 +134,9 @@
 	<Priority_Set Name="SpaceArtillery">
 		<Attack_Priorities>
 
-			Corvette, 1.0,
-			Frigate, 2.0,
-			Capital, 3.0,
+			Corvette, 3.0,
+			Frigate, 1.0,
+			Capital, 2.0,
 			Transport, 4.0,
 			SpaceHero, 4.5,
 			Bomber, 5.0,
@@ -195,13 +195,13 @@
 
 	<Priority_Set Name="Fighter_Attack_Move">
 		<Attack_Priorities>
-			Fighter, 1.0,
-			Bomber, 2.0,
+			Fighter, 2.0,
+			Bomber, 1.0,
 			Transport, 3.0,
 			SpaceHero, 4.0,
-			Corvette, 5.0,
-			Frigate, 6.0,
-			Capital, 7.0,
+			Corvette, 7.0,
+			Frigate, 5.0,
+			Capital, 6.0,
 		</Attack_Priorities>
 		<Hard_Point_Priorities>
 			WEAPON_MASS_DRIVER
@@ -216,8 +216,8 @@
 
 	<Priority_Set Name="Bomber_Attack_Move">
 		<Attack_Priorities>
-			Capital, 1.0,
-			Frigate, 2.0,
+			Capital, 2.0,
+			Frigate, 1.0,
 			Corvette, 3.0,
 			Transport, 4.0,
 			SpaceHero, 4.5,
@@ -258,12 +258,12 @@
 
 	<Priority_Set Name="Frigate_Attack_Move">
 		<Attack_Priorities>
-			Corvette, 1.0,
-			Frigate, 2.0,
-			Capital, 3.0,
+			Corvette, 3.0,
+			Frigate, 1.0,
+			Capital, 2.0,
 			SpaceHero, 3.5,
 			Transport, 4.0,
-			Bomber, 5.0,
+			Bomber, 3.0,
 			Fighter, 6.0,
 		</Attack_Priorities>
 		<Hard_Point_Priorities>
@@ -279,8 +279,8 @@
 
 	<Priority_Set Name="Capital_Attack_Move">
 		<Attack_Priorities>
-			Frigate, 1.0,
-			Capital, 2.0,
+			Frigate, 2.0,
+			Capital, 1.0,
 			Corvette, 3.0,
 			Transport, 4.0,
 			SpaceHero, 4.5,

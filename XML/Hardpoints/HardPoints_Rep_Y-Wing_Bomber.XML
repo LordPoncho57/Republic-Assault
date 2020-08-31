@@ -77,8 +77,8 @@
 	<Fire_Projectile_Type>RA_Proj_Proton_Bomb</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>400.0</Fire_Range_Distance>
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
@@ -219,8 +219,8 @@
 	<Fire_Projectile_Type>RA_Proj_Proton_Bomb_Pen</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>400.0</Fire_Range_Distance>
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
