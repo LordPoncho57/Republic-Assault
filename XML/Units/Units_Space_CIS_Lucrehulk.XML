@@ -86,15 +86,15 @@
 	<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
 	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-	<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
-	<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+	<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron_Double, 3</Starting_Spawned_Units_Tech_0>
+	<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
 	<Starting_Spawned_Units_Tech_0>CIS_HMP_Gunship_Squadron, 1</Starting_Spawned_Units_Tech_0>
 
     <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 
 		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron_Double, 20</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>CIS_HMP_Gunship_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 14</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>CIS_HMP_Gunship_Squadron, 15</Reserve_Spawned_Units_Tech_0> 
 
 		<HardPoints> 
 HP_Lucrehulk_LC_01,

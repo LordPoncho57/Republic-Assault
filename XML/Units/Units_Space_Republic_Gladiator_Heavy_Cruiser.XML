@@ -221,7 +221,9 @@
 	<Reserve_Spawned_Units_Tech_5>Z95_Squadron, 2</Reserve_Spawned_Units_Tech_5> 
 
 	<Starting_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_5> 
+		<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_5>
+		
+  <Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>		
 
 	<!-- 13. Ability Data -->
 

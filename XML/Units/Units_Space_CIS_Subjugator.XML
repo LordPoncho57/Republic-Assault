@@ -354,14 +354,16 @@
 
 			<!-- Tech 1 -->
 
-	<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 4</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
+	<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron_Double, 20</Reserve_Spawned_Units_Tech_0> 
 
 	<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
+	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
 
 	<Starting_Spawned_Units_Tech_0>CIS_HMP_Gunship_Squadron, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_HMP_Gunship_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+	<Reserve_Spawned_Units_Tech_0>CIS_HMP_Gunship_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+
+  <Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>	
 
 	<!-- 13. Ability Data -->
 
@@ -377,9 +379,6 @@
 	</Unit_Ability>
 
 	<Unit_Ability>
-		<Type>DEPLOY_SQUAD</Type>
-		<Recharge_Seconds>6</Recharge_Seconds>
-	</Unit_Ability>
 </Unit_Abilities_Data>-->
 
 

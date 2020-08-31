@@ -77,8 +77,8 @@
 
 			<!-- Tech 1 -->
 
-	<Starting_Spawned_Units_Tech_0>V19_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>V19_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 5</Reserve_Spawned_Units_Tech_0> 
 
 			<!-- Tech 3 -->
 
@@ -95,7 +95,8 @@
 
 	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
 	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_5> 
-			<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+
+  <Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
 
 	<HardPoints>
 		HP_Victory-I_Dummy,
@@ -127,7 +128,7 @@
 	<Death_Clone>Damage_Normal, Victory-I_Death_Clone</Death_Clone>
 
 
-<Projectile_Types>Proj_Ship_Concussion_Missile</Projectile_Types>
+<Projectile_Types>RA_Proj_Ship_Concussion_Missile</Projectile_Types>
 <Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 <Turret_Elevate_Extent_Degrees>360</Turret_Elevate_Extent_Degrees>
 <Projectile_Fire_Pulse_Count>36</Projectile_Fire_Pulse_Count>
@@ -214,10 +215,6 @@
 	<Alternate_Icon_Name>I_SA_FAB.tga</Alternate_Icon_Name>
 </Unit_Ability>
 
-<Unit_Ability>
-	<Type>DEPLOY_SQUAD</Type>
-	<Recharge_Seconds>6</Recharge_Seconds>
-</Unit_Ability>
 </Unit_Abilities_Data>
 
 

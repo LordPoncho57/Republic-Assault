@@ -30,15 +30,13 @@ HP_C70_Charger_TBL_01
 
 	<!-- 3. Targeting Data -->	
 
-	<Begin_Turn_Towards_Distance>1000.0</Begin_Turn_Towards_Distance>
-	<Strafe_Distance>500.0</Strafe_Distance>
+	<Begin_Turn_Towards_Distance>1500.0</Begin_Turn_Towards_Distance>
+	<Strafe_Distance>850.0</Strafe_Distance>
 	<Targeting_Min_Attack_Distance>1</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>200</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>1000</Targeting_Max_Attack_Distance>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 
-	<Damage_Type>Damage_Fighter</Damage_Type>
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
@@ -59,7 +57,7 @@ HP_C70_Charger_TBL_01
 
 	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>750.0</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
 	<!-- 5. Autoresolve Data -->
@@ -81,14 +79,14 @@ HP_C70_Charger_TBL_01
 
 	<!-- 7. Movement Data -->
 
-	<Mass>0.98</Mass>
-	<Max_Speed>2.3</Max_Speed>
-	<Min_Speed>1.8</Min_Speed>
+	<Mass>0.99</Mass>
+	<Max_Speed>2.8</Max_Speed>
+	<Min_Speed>2.2</Min_Speed>
 
 	<Max_Thrust>0.5</Max_Thrust>
 	<Max_Rate_Of_Turn>0.75</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.77</Max_Rate_Of_Roll>
-	<Max_Lift>0.7</Max_Lift>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
+	<Max_Lift>0.8</Max_Lift>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
 
 	<Hyperspace>No</Hyperspace>

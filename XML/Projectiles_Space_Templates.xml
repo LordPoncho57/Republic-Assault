@@ -1158,7 +1158,7 @@
 	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
 	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
 
-	<Projectile_Damage>20.0</Projectile_Damage>
+	<Projectile_Damage>30.0</Projectile_Damage>
 	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

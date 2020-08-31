@@ -52,7 +52,7 @@
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Super, Capital, Frigate</Fire_Category_Restrictions>
+	<Fire_Category_Restrictions> Super, Capital, Frigate </Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -83,7 +83,7 @@
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette</Fire_Category_Restrictions>
+	<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 
@@ -140,7 +140,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
-	<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>	
+	<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>	
 </HardPoint>
 
 <HardPoint Name="HP_Y_Wing_00_Pen">
@@ -194,7 +194,7 @@
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Super, Capital, Frigate</Fire_Category_Restrictions>
+	<Fire_Category_Restrictions> Super, Capital, Frigate </Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -225,7 +225,7 @@
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette</Fire_Category_Restrictions>
+	<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 
@@ -282,7 +282,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
-	<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>	
+	<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>	
 </HardPoint>
 
 </HardPoints_Fighters>

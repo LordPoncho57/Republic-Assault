@@ -250,7 +250,7 @@
 	<Starting_Spawned_Units_Tech_5>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>ARC170_Squadron, 5</Reserve_Spawned_Units_Tech_5> 
 
-  <Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>
+  <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
 
 	<!-- 13. Ability Data -->
 

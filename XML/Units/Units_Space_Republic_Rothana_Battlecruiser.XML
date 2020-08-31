@@ -85,52 +85,46 @@
 
 			<!-- Tech 1 -->
 
-	<Starting_Spawned_Units_Tech_0>V19_Squadron, 8</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>V19_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>V19_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+	<Reserve_Spawned_Units_Tech_0>V19_Squadron_Double, 10</Reserve_Spawned_Units_Tech_0> 
 
-	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+	<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0> 
 
 			<!-- Tech 2 -->
 
-	<Starting_Spawned_Units_Tech_2>V19_Squadron, 7</Starting_Spawned_Units_Tech_2>
-	<Reserve_Spawned_Units_Tech_2>V19_Squadron, 17</Reserve_Spawned_Units_Tech_2> 
+	<Starting_Spawned_Units_Tech_2>V19_Squadron_Double, 1</Starting_Spawned_Units_Tech_2>
+	<Reserve_Spawned_Units_Tech_2>V19_Squadron_Double, 7</Reserve_Spawned_Units_Tech_2> 
 
 	<Starting_Spawned_Units_Tech_2>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_2>
 	<Reserve_Spawned_Units_Tech_2>ARC170_Squadron, 3</Reserve_Spawned_Units_Tech_2> 
 
-	<Starting_Spawned_Units_Tech_2>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
-	<Reserve_Spawned_Units_Tech_2>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_2> 
+	<Starting_Spawned_Units_Tech_2>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+	<Reserve_Spawned_Units_Tech_2>Rep_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_2> 
 
 			<!-- Tech 3 -->
 
-	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 4</Starting_Spawned_Units_Tech_3>
-	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 9</Reserve_Spawned_Units_Tech_3> 
+	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 1</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 10</Reserve_Spawned_Units_Tech_3>  
 
-	<Starting_Spawned_Units_Tech_3>V19_Squadron, 2</Starting_Spawned_Units_Tech_3>
-	<Reserve_Spawned_Units_Tech_3>V19_Squadron, 5</Reserve_Spawned_Units_Tech_3> 
-
-	<Starting_Spawned_Units_Tech_3>ARC170_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Starting_Spawned_Units_Tech_3>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_3>
 	<Reserve_Spawned_Units_Tech_3>ARC170_Squadron, 6</Reserve_Spawned_Units_Tech_3> 
 
-	<Starting_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
-	<Reserve_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_3> 
+	<Starting_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_3> 
 
 			<!-- Tech 5 -->
-	<Starting_Spawned_Units_Tech_5>V19_Squadron, 1</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>V19_Squadron, 2</Reserve_Spawned_Units_Tech_5> 
 
-	<Starting_Spawned_Units_Tech_5>Z95_Squadron, 3</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>Z95_Squadron, 7</Reserve_Spawned_Units_Tech_5> 
+	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron_Double, 12</Reserve_Spawned_Units_Tech_5>
 
-	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_5>
+	<Starting_Spawned_Units_Tech_5>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>ARC170_Squadron, 7</Reserve_Spawned_Units_Tech_5> 
 
-	<Starting_Spawned_Units_Tech_5>ARC170_Squadron, 2</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>ARC170_Squadron, 6</Reserve_Spawned_Units_Tech_5> 
+	<Starting_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
+	<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_5> 
 
-	<Starting_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_5> 
+  <Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>	
 
 	<HardPoints>
 		HP_Rothana_BC_Dummy,
@@ -279,10 +273,6 @@
 			<Supports_Autofire>True</Supports_Autofire>
 		</Unit_Ability>
 
-	      <Unit_Ability>
-                <Type>DEPLOY_SQUAD</Type>
-	            <Recharge_Seconds>6</Recharge_Seconds>
-          </Unit_Ability>
 	</Unit_Abilities_Data>
 
 
