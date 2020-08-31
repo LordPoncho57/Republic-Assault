@@ -961,8 +961,8 @@
 
 <Projectile Name="RA_Proj_Proton_Bomb">
 	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>pp_proton_bomb.ALO</Space_Model_Name>
-	<Land_Model_Name>pp_proton_bomb.ALO</Land_Model_Name>
+	<Space_Model_Name>W_proton_bomb.ALO</Space_Model_Name>
+	<Land_Model_Name>W_proton_bomb.ALO</Land_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
 	<Max_Speed>5.0</Max_Speed>
