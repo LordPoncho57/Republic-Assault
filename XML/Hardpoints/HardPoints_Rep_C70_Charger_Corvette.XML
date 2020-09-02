@@ -149,7 +149,7 @@
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->
@@ -181,7 +181,7 @@
 	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
 	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>.8.0</Fire_Pulse_Delay_Seconds>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
 	<!-- Weapon Range -->
 	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
     <!-- Weapon Fire Sound Effect -->

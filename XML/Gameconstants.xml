@@ -1102,8 +1102,8 @@
 	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Armour_Light, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_Light, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_Light, 6 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Armour_Light, 2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Concussion_Missile, RA_Space_Armour_Light, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Armour_Light, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Concussion_Missile, RA_Space_Armour_Light, 4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Beam, RA_Space_Armour_Light, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Super_Laser, RA_Space_Armour_Light, 6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Ion_Cannon, RA_Space_Armour_Light, 3 </Damage_To_Armor_Mod>
@@ -1116,10 +1116,10 @@
 	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter_Payload_Pen, RA_Space_Armour_Medium, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Armour_Medium, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Armour_Medium, 1.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_Medium, 3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_Medium, 4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Armour_Medium, 1.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Concussion_Missile, RA_Space_Armour_Medium, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_Medium, 4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_Medium, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Armour_Medium, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Concussion_Missile, RA_Space_Armour_Medium, 2.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Beam, RA_Space_Armour_Medium, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Super_Laser, RA_Space_Armour_Medium, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Ion_Cannon, RA_Space_Armour_Medium, 2 </Damage_To_Armor_Mod>
@@ -1131,9 +1131,9 @@
 	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter_Pen, RA_Space_Armour_Heavy, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter_Payload_Pen, RA_Space_Armour_Heavy, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Armour_Heavy, 0.4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Armour_Heavy, 0.6 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_Heavy, 2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_Heavy, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Armour_Heavy, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_Heavy, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_Heavy, 3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Armour_Heavy, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Concussion_Missile, RA_Space_Armour_Heavy, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Beam, RA_Space_Armour_Heavy, 1 </Damage_To_Armor_Mod>
@@ -1148,8 +1148,8 @@
 	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter_Payload_Pen, RA_Space_Armour_V_Heavy, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Armour_V_Heavy, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Armour_V_Heavy, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_V_Heavy, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_V_Heavy, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Armour_V_Heavy, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Armour_V_Heavy, 1.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Armour_V_Heavy, 0.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Concussion_Missile, RA_Space_Armour_V_Heavy, 0.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Beam, RA_Space_Armour_V_Heavy, 0.6 </Damage_To_Armor_Mod>
