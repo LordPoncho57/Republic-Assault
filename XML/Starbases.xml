@@ -8,8 +8,8 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
 		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL1.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T1.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T1_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Is_Dummy>No</Is_Dummy>
@@ -65,19 +65,24 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04
+</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_01.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T1.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -159,8 +164,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_02.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL2.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T2.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T2_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -216,22 +221,34 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_02.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T2.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -312,8 +329,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_03.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL3.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T3.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T3_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -375,25 +392,42 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_03.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T3.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -473,8 +507,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_04.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL4.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T4.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T4_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -541,29 +575,51 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
 		
-		<GUI_Model_Name>RB_STATION_04.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T4.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -647,8 +703,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL5.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T5.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T5_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -719,33 +775,59 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_TBL_09,
+HP_CIS_Station_TBL_10,
+HP_CIS_Station_TBL_11,
+HP_CIS_Station_TBL_12,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_LC_09,
+HP_CIS_Station_LC_10,
+HP_CIS_Station_LC_11,
+HP_CIS_Station_LC_12,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
 		
-		<GUI_Model_Name>RB_STATION_05.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T5.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -1846,9 +1928,20 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_One_ShieldGen, HP_Rebel_Station_One_Fighter_Bay
-		</HardPoints>
+<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04
+</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1919,18 +2012,30 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -2004,9 +2109,38 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_One_ShieldGen, HP_Rebel_Station_One_Fighter_Bay, HP_Rebel_Station_Two_LC, HP_Rebel_Station_Two_PRT, HP_Rebel_Station_Two_TBL, HP_Rebel_Station_Three_CCM, HP_Rebel_Station_Three_IC, HP_Rebel_Station_Three_PRT		
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 		
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -2087,9 +2221,46 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_Four_ShieldGen, HP_Rebel_Station_One_Fighter_Bay, HP_Rebel_Station_Two_LC, HP_Rebel_Station_Two_PRT, HP_Rebel_Station_Two_TBL, HP_Rebel_Station_Three_CCM, HP_Rebel_Station_Three_IC, HP_Rebel_Station_Three_PRT, HP_Rebel_Station_Four_IC, HP_Rebel_Station_Four_LC, HP_Rebel_Station_Four_TBL			
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -2172,28 +2343,54 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL			
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_TBL_09,
+HP_CIS_Station_TBL_10,
+HP_CIS_Station_TBL_11,
+HP_CIS_Station_TBL_12,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_LC_09,
+HP_CIS_Station_LC_10,
+HP_CIS_Station_LC_11,
+HP_CIS_Station_LC_12,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
