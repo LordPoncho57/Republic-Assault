@@ -31,8 +31,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type> RA_Space_Armour_Super_Heavy </Armor_Type>
+		<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKI</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -53,17 +53,17 @@
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Autoresolve_Health>15000</Autoresolve_Health>
 		<Damage>35</Damage>
-		<Shield_Points>10000</Shield_Points>
+		<Shield_Points>8000</Shield_Points>
 		<Tactical_Health>7500</Tactical_Health>
-		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
-		<Energy_Capacity>5000</Energy_Capacity>
-		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>6.6</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
 <HardPoints>
 HP_CIS_Station_Hangar_01,
@@ -929,17 +929,17 @@ HP_CIS_Station_Torp_06
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
-		<Shield_Points>300</Shield_Points>
+		<Shield_Points>8000</Shield_Points>
 		<Tactical_Health>1600</Tactical_Health>
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
-		<Energy_Capacity>5000</Energy_Capacity>
-		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>6.6</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type> RA_Space_Armour_Super_Heavy </Armor_Type>
+		<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKI</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>

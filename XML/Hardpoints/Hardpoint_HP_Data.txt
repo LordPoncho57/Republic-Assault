@@ -9,11 +9,11 @@ Turbolasers: 400
 Heavy Turbolasers: 500 
 Torpedo/Missile Tubes: 400
 Light Ion Cannons: 100 
-Ion Cannons: 400 (-100HP if the weapon is exposed)
-Heavy Ion Cannons: 500 (-50HP if the weapon is exposed)
+Ion Cannons: 400 
+Heavy Ion Cannons: 500 
 Beam Weapons: 300
 Engines: 1000
-Shields: 1000 (-200HP if the hardpoint is exposed)
+Shields: 1000 
 Hangars: 800 
 
 

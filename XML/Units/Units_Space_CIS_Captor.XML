@@ -23,11 +23,11 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>3800</Autoresolve_Health>
-	<Shield_Points>3700</Shield_Points>
+	<Shield_Points>3000</Shield_Points>
 	<Tactical_Health>3800</Tactical_Health>
-	<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>
+	<Energy_Capacity>6000</Energy_Capacity>
+	<Energy_Refresh_Rate>2000</Energy_Refresh_Rate>
 
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Max_Speed>2.3</Max_Speed>
@@ -42,8 +42,8 @@
 	<OverrideAcceleration> .05 </OverrideAcceleration>
 	<OverrideDeceleration> .05 </OverrideDeceleration>
 
-	<Armor_Type> Armor_Pirate_Frigate </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_V_Heavy </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKI</Shield_Armor_Type>
 	<Max_Thrust>1.75</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Select_Box_Scale>250</Select_Box_Scale>

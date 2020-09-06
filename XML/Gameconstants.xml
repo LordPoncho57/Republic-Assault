@@ -1209,7 +1209,7 @@
 	<Damage_To_Armor_Mod> Damage_Default, RA_Space_Shield_Heavy_MKII, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter, RA_Space_Shield_Heavy_MKII, 0.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_Heavy_MKII, 0.7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_Heavy_MKII, 0.9 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_Heavy_MKII, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Shield_Heavy_MKII, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Shield_Heavy_MKII, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Shield_Heavy_MKII, 4 </Damage_To_Armor_Mod>
@@ -1235,9 +1235,9 @@
 
 	<!-- RA_Space_Shield_Medium_MKII -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Space_Shield_Heavy_MKII, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter, RA_Space_Shield_Heavy_MKII, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_Heavy_MKII, 0.6 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_Heavy_MKII, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter, RA_Space_Shield_Heavy_MKII, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_Heavy_MKII, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_Heavy_MKII, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Shield_Heavy_MKII, 4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Shield_Heavy_MKII, 4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Shield_Heavy_MKII, 3.2 </Damage_To_Armor_Mod>
@@ -1263,9 +1263,9 @@
 
 	<!-- RA_Space_Shield_Heavy_MKII -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Space_Shield_Heavy_MKII, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter, RA_Space_Shield_Heavy_MKII, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_Heavy_MKII, 0.4 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_Heavy_MKII, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter, RA_Space_Shield_Heavy_MKII, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_Heavy_MKII, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_Heavy_MKII, 0.3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Shield_Heavy_MKII, 2.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Shield_Heavy_MKII, 3.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Shield_Heavy_MKII, 2.8 </Damage_To_Armor_Mod>
@@ -1292,8 +1292,8 @@
 	<!-- RA_Space_Shield_V_Heavy_MKII -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Space_Shield_V_Heavy_MKII, 0.8 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Fighter, RA_Space_Shield_V_Heavy_MKII, 0.1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_V_Heavy_MKII, 0.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_V_Heavy_MKII, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Laser, RA_Space_Shield_V_Heavy_MKII, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Space_Damage_Turbolaser, RA_Space_Shield_V_Heavy_MKII, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Heavy_Turbolaser, RA_Space_Shield_V_Heavy_MKII, 0.9 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Proton_Torpedo, RA_Space_Shield_V_Heavy_MKII, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Space_Damage_Light_Proton_Torpedo, RA_Space_Shield_V_Heavy_MKII, 1.5 </Damage_To_Armor_Mod>
