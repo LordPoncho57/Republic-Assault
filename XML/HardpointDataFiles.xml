@@ -7,7 +7,8 @@
 
 	<File>Hardpoints/HardPoints_Neutral_Dreadnaught_Heavy_Cruiser.XML</File>
 	
-	<File>Hardpoints/HardPoints_Rep_Land_Vehicles.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Land_Infantry.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Land_Vehicles.XML</File>	
 	<File>Hardpoints/HardPoints_Rep_V-19_Torrent_Fighter.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Y-Wing_Bomber.XML</File>
 	<File>Hardpoints/HardPoints_Rep_ARC-170.XML</File>
@@ -29,6 +30,7 @@
 	<File>Hardpoints/HardPoints_Rep_Mandator_Dreadnaught.XML</File>
 	<File>Hardpoints/HardPoints_Republic_Space.XML</File>
 
+	<File>Hardpoints/HardPoints_CIS_Land_Infantry.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Land_Vehicles.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Vulture_Droid.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Hyena_Bomber.XML</File>	

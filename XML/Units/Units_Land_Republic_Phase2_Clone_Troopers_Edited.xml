@@ -1,0 +1,3554 @@
+<?xml version="1.0"?>
+<Clone_Troopers_P2_Data>
+
+   	<!-- Phase 2 Clone Trooper Variants -->
+	
+	
+	
+   	<!-- Phase 2 Grunts -->
+	
+	<GroundInfantry Name="P2_Clone_DC15S_T1">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P2_Clone_DC15S.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P2_Clone_DC15S.ALO,
+    	Urban,          Rep_P2_Clone_DC15S.ALO,
+    	Arctic,     	Rep_P2_Clone_DC15S.ALO,
+    	Volcanic,     	Rep_P2_Clone_DC15S.ALO,
+    	Desert,     	Rep_P2_Clone_DC15S.ALO,
+    	Forest,     	Rep_P2_Clone_DC15S.ALO,
+    	Swamp,          Rep_P2_Clone_DC15S.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P2_Clone_DC15S.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>100</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T1
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+	<GroundInfantry Name="P2_Clone_DC15A_T1">
+	<Text_ID>TEXT_UNIT_P2_DC15A</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15A TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P2_Clone_DC15A.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15A.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P2_Clone_DC15A.ALO,
+    	Urban,          Rep_P2_Clone_DC15A.ALO,
+    	Arctic,     	Rep_P2_Clone_DC15A.ALO,
+    	Volcanic,     	Rep_P2_Clone_DC15A.ALO,
+    	Desert,     	Rep_P2_Clone_DC15A.ALO,
+    	Forest,     	Rep_P2_Clone_DC15A.ALO,
+    	Swamp,          Rep_P2_Clone_DC15A.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P2_Clone_DC15A.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>100</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>550.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15A_T1
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+   	<!-- Phase 2 Grunts T2 -->
+
+	<GroundInfantry Name="P2_Clone_DC15S_T2">
+    <Variant_Of_Existing_Type>P2_Clone_DC15S_T1</Variant_Of_Existing_Type>	
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T2
+    </HardPoints>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P2_Clone_DC15A_T2">
+    <Variant_Of_Existing_Type>P2_Clone_DC15A_T1</Variant_Of_Existing_Type>	
+    <HardPoints>
+        HP_Clone_Trooper_DC15A_T2
+    </HardPoints>	
+</GroundInfantry>	
+
+
+
+   	<!-- Phase 2 Grunts T3 -->
+	
+	<GroundInfantry Name="P2_Clone_DC15S_T3">
+    <Variant_Of_Existing_Type>P2_Clone_DC15S_T1</Variant_Of_Existing_Type>	
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T3
+    </HardPoints>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P2_Clone_DC15A_T3">
+    <Variant_Of_Existing_Type>P2_Clone_DC15A_T1</Variant_Of_Existing_Type>	
+    <HardPoints>
+        HP_Clone_Trooper_DC15A_T3
+    </HardPoints>	
+</GroundInfantry>	
+
+
+
+
+
+
+
+   	<!-- Phase 2 Specialists -->	
+	
+	<GroundInfantry Name="P2_Clone_Medic_T1">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_Medic.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_Medic.ALO,
+    	Urban,         Rep_P1_501_Medic.ALO,
+    	Arctic,     	Rep_P1_501_Medic.ALO,
+    	Volcanic,     	Rep_P1_501_Medic.ALO,
+    	Desert,     	Rep_P1_501_Medic.ALO,
+    	Forest,     	Rep_P1_501_Medic.ALO,
+    	Swamp,         Rep_P1_501_Medic.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_Medic.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>100</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T1
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+	
+	<!-- Non-Hero unit abilities definition -->
+    <Abilities SubObjectList="Yes">
+	<Force_Healing_Ability Name="Medic_Heal">
+		<Activation_Style>Ground_Automatic</Activation_Style>
+		<Heal_Range>50.0</Heal_Range>
+		<Heal_Amount> 0.0 </Heal_Amount>
+		<Heal_Percent> 0.07 </Heal_Percent>
+		<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+		<Single_Target_Heal>No</Single_Target_Heal>
+		<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+
+		<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+		<Applicable_Unit_Types />
+		<Excluded_Unit_Types />
+		
+		<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+		<Target_Particle_Bone_Name>HEAD</Target_Particle_Bone_Name>
+		<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+		<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+		<Target_Light_Effect_Color2 />
+		<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+		<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+		<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+		<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+		<Owner_Light_Effect_Color2 />
+		<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+		<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+	</Force_Healing_Ability>	
+</Abilities>
+</GroundInfantry>
+
+
+	<GroundInfantry Name="P2_Clone_Medic_T2">
+    <Variant_Of_Existing_Type>P2_Clone_Medic_T1</Variant_Of_Existing_Type>	
+    <HardPoints>
+        HP_Clone_Trooper_DC15A_T2
+    </HardPoints>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P2_Clone_Medic_T3">
+    <Variant_Of_Existing_Type>P2_Clone_Medic_T1</Variant_Of_Existing_Type>	
+    <HardPoints>
+        HP_Clone_Trooper_DC15A_T3
+    </HardPoints>	
+</GroundInfantry>	
+
+
+
+
+	<!-- Need to edit Missile Values -->
+	<GroundInfantry Name="P2_Clone_Vanguard">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P2_Clone_Vanguard.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P2_Clone_Vanguard.ALO,
+    	Urban,          Rep_P2_Clone_Vanguard.ALO,
+    	Arctic,     	Rep_P2_Clone_Vanguard.ALO,
+    	Volcanic,     	Rep_P2_Clone_Vanguard.ALO,
+    	Desert,     	Rep_P2_Clone_Vanguard.ALO,
+    	Forest,     	Rep_P2_Clone_Vanguard.ALO,
+    	Swamp,         Rep_P2_Clone_Vanguard.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P2_Clone_Vanguard.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+	<Damage_Type> Damage_Blaster_Hand </Damage_Type>  <!-- Needs Correct Damage Type -->
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>100</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Dummy</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_Vanguard
+    </HardPoints>			
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+
+
+	<GroundInfantry Name="P2_Clone_Z-6">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P2_Clone_Grenadier.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P2_Clone_Grenadier.ALO,
+    	Urban,         Rep_P2_Clone_Grenadier.ALO,
+    	Arctic,     	Rep_P2_Clone_Grenadier.ALO,
+    	Volcanic,     	Rep_P2_Clone_Grenadier.ALO,
+    	Desert,     	Rep_P2_Clone_Grenadier.ALO,
+    	Forest,     	Rep_P2_Clone_Grenadier.ALO,
+    	Swamp,         Rep_P2_Clone_Grenadier.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P2_Clone_Grenadier.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>100</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Dummy</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>450.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_Z-6_T3
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+
+
+
+	<GroundInfantry Name="P2_Clone_Sniper">
+	<Text_ID>TEXT_UNIT_P2_DC15A</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15A TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P2_Clone_DC15X.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15A.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P2_Clone_DC15X.ALO,
+    	Urban,          Rep_P2_Clone_DC15X.ALO,
+    	Arctic,     	Rep_P2_Clone_DC15X.ALO,
+    	Volcanic,     	Rep_P2_Clone_DC15X.ALO,
+    	Desert,     	Rep_P2_Clone_DC15X.ALO,
+    	Forest,     	Rep_P2_Clone_DC15X.ALO,
+    	Swamp,          Rep_P2_Clone_DC15X.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P2_Clone_DC15X.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>100</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Dummy</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>800.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>800.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>780.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15X
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+	
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 1000.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>			
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+
+
+
+   	<!-- Phase 2 Officers -->	
+	
+	<GroundInfantry Name="P2_Clone_Sergeant">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S.ALO,
+    	Urban,         Rep_P1_501_DC15S.ALO,
+    	Arctic,     	Rep_P1_501_DC15S.ALO,
+    	Volcanic,     	Rep_P1_501_DC15S.ALO,
+    	Desert,     	Rep_P1_501_DC15S.ALO,
+    	Forest,     	Rep_P1_501_DC15S.ALO,
+    	Swamp,         Rep_P1_501_DC15S.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>25</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T3
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+
+	<GroundInfantry Name="P2_Clone_Lieutenant">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S.ALO,
+    	Urban,         Rep_P1_501_DC15S.ALO,
+    	Arctic,     	Rep_P1_501_DC15S.ALO,
+    	Volcanic,     	Rep_P1_501_DC15S.ALO,
+    	Desert,     	Rep_P1_501_DC15S.ALO,
+    	Forest,     	Rep_P1_501_DC15S.ALO,
+    	Swamp,         Rep_P1_501_DC15S.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>25</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T3
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+	<GroundInfantry Name="P2_Clone_Captain">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S.ALO,
+    	Urban,         Rep_P1_501_DC15S.ALO,
+    	Arctic,     	Rep_P1_501_DC15S.ALO,
+    	Volcanic,     	Rep_P1_501_DC15S.ALO,
+    	Desert,     	Rep_P1_501_DC15S.ALO,
+    	Forest,     	Rep_P1_501_DC15S.ALO,
+    	Swamp,         Rep_P1_501_DC15S.ALO
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S.ALO</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.3</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>25</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>1.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC15S_T3
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+
+
+
+
+
+
+   	<!-- Phase 2 Squads -->	
+	
+	
+	<GroundInfantry Name="Squad_P2_Clone_DC15S_T1">
+		<Variant_Of_Existing_Type>P2_Clone_DC15S_T1</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+	
+	<GroundInfantry Name="Squad_P2_Clone_DC15S_T2">
+		<Variant_Of_Existing_Type>P2_Clone_DC15S_T2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>		
+	
+	<GroundInfantry Name="Squad_P2_Clone_DC15S_T3">
+		<Variant_Of_Existing_Type>P2_Clone_DC15S_T3</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+	
+	
+	
+	<GroundInfantry Name="Squad_P2_Clone_DC15A_T1">
+		<Variant_Of_Existing_Type>P2_Clone_DC15A_T1</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+	
+	<GroundInfantry Name="Squad_P2_Clone_DC15A_T2">
+		<Variant_Of_Existing_Type>P2_Clone_DC15A_T2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>		
+	
+	<GroundInfantry Name="Squad_P2_Clone_DC15A_T3">
+		<Variant_Of_Existing_Type>P2_Clone_DC15A_T3</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>
+
+	
+	
+	<GroundInfantry Name="Squad_P2_Clone_Medic_T1">
+		<Variant_Of_Existing_Type>P2_Clone_Medic_T1</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+	
+	<GroundInfantry Name="Squad_P2_Clone_Medic_T2">
+		<Variant_Of_Existing_Type>P2_Clone_Medic_T2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>		
+	
+	<GroundInfantry Name="Squad_P2_Clone_Medic_T3">
+		<Variant_Of_Existing_Type>P2_Clone_Medic_T3</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>		
+
+
+	<GroundInfantry Name="Squad_P2_Clone_Vanguard">
+		<Variant_Of_Existing_Type>P2_Clone_Vanguard</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+	
+	
+	<GroundInfantry Name="Squad_P2_Clone_Z-6">
+		<Variant_Of_Existing_Type>P2_Clone_Z-6</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+
+
+	<GroundInfantry Name="Squad_P2_Clone_Sniper">
+		<Variant_Of_Existing_Type>P2_Clone_Sniper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+
+	
+	<GroundInfantry Name="Squad_P2_Clone_Spotter">
+		<Variant_Of_Existing_Type>P2_Clone_Spotter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+	
+
+	<GroundInfantry Name="Squad_P2_Clone_Sergeant">
+		<Variant_Of_Existing_Type>P2_Clone_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+
+
+	<GroundInfantry Name="Squad_P2_Clone_Lieutenant">
+		<Variant_Of_Existing_Type>P2_Clone_Lieutenant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
+
+
+	<GroundInfantry Name="Squad_P2_Clone_Captain">
+		<Variant_Of_Existing_Type>P2_Clone_Captain</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>			
+	
+	
+	
+	
+	
+	
+	
+	
+<Container Name="Clonetrooper_P2_Team">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Select_Box_Scale>65</Select_Box_Scale>
+	<Show_Name>No</Show_Name>
+	<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+	<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+	<SpaceBehavior>REVEAL</SpaceBehavior>
+	<Garrison_Category> Infantry </Garrison_Category>
+	<CategoryMask>Infantry</CategoryMask>
+	<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+	<MovementClass>Infantry</MovementClass>
+
+	<Max_Speed> 1.0 </Max_Speed>
+	<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
+	<Space_Layer> Land </Space_Layer>
+	<UnitCollisionClass> Infantry </UnitCollisionClass>
+	<FormationSpacing> 1 </FormationSpacing>
+	<MovementClass> Infantry </MovementClass>
+	<OccupationStyle>1x1</OccupationStyle>
+	<Is_Squashable> true </Is_Squashable>
+	<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+	<ContainerArrangement> Rows </ContainerArrangement>
+	<FormationOrder> 2 </FormationOrder>
+  <OverrideAcceleration> .05 </OverrideAcceleration>
+<OverrideDeceleration> .05 </OverrideDeceleration>
+
+	<Armor_Type> Armor_Infantry </Armor_Type>
+
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+
+	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Idle_Chase_Range>1.0</Idle_Chase_Range>
+	<Guard_Chase_Range>100.0</Guard_Chase_Range>
+	<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+	<Autonomous_Move_Extension_Vs_Attacker>1.0</Autonomous_Move_Extension_Vs_Attacker>
+
+   	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+	<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>	  		
+	</Unit_Ability>	
+</Unit_Abilities_Data>
+</Container>	
+
+
+
+
+
+
+
+
+
+<Container Name="Clonetrooper_P2_Medic_Team">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Select_Box_Scale>65</Select_Box_Scale>
+	<Show_Name>No</Show_Name>
+	<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+	<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+	<SpaceBehavior>REVEAL</SpaceBehavior>
+	<Garrison_Category> Infantry </Garrison_Category>
+	<CategoryMask>Infantry</CategoryMask>
+	<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+	<MovementClass>Infantry</MovementClass>
+
+	<Max_Speed> 1.0 </Max_Speed>
+	<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+	<Space_Layer> Land </Space_Layer>
+	<UnitCollisionClass> Infantry </UnitCollisionClass>
+	<FormationSpacing> 1 </FormationSpacing>
+	<MovementClass> Infantry </MovementClass>
+	<OccupationStyle>1x1</OccupationStyle>
+	<Is_Squashable> true </Is_Squashable>
+	<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+	<ContainerArrangement> Rows </ContainerArrangement>
+	<FormationOrder> 2 </FormationOrder>
+  <OverrideAcceleration> .05 </OverrideAcceleration>
+<OverrideDeceleration> .05 </OverrideDeceleration>
+
+	<Armor_Type> Armor_Infantry </Armor_Type>
+
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+
+	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Idle_Chase_Range>1.0</Idle_Chase_Range>
+	<Guard_Chase_Range>200.0</Guard_Chase_Range>
+	<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	<Autonomous_Move_Extension_Vs_Attacker>1.0</Autonomous_Move_Extension_Vs_Attacker>
+
+   	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+	<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>	  		
+	</Unit_Ability>	
+</Unit_Abilities_Data>
+</Container>	
+
+
+
+
+<Container Name="Clonetrooper_P2_Sniper_Team">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Select_Box_Scale>65</Select_Box_Scale>
+	<Show_Name>No</Show_Name>
+	<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+	<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+	<SpaceBehavior>REVEAL</SpaceBehavior>
+	<Garrison_Category> Infantry </Garrison_Category>
+	<CategoryMask>Infantry</CategoryMask>
+	<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+	<MovementClass>Infantry</MovementClass>
+
+	<Max_Speed> 1.0 </Max_Speed>
+	<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+	<Space_Layer> Land </Space_Layer>
+	<UnitCollisionClass> Infantry </UnitCollisionClass>
+	<FormationSpacing> 1 </FormationSpacing>
+	<MovementClass> Infantry </MovementClass>
+	<OccupationStyle>1x1</OccupationStyle>
+	<Is_Squashable> true </Is_Squashable>
+	<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+	<ContainerArrangement> Rows </ContainerArrangement>
+	<FormationOrder> 2 </FormationOrder>
+  <OverrideAcceleration> .05 </OverrideAcceleration>
+<OverrideDeceleration> .05 </OverrideDeceleration>
+
+	<Armor_Type> Armor_Infantry </Armor_Type>
+
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+
+	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Idle_Chase_Range>1.0</Idle_Chase_Range>
+	<Guard_Chase_Range>200.0</Guard_Chase_Range>
+	<Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	<Autonomous_Move_Extension_Vs_Attacker>1.0</Autonomous_Move_Extension_Vs_Attacker>
+
+   	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+	<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>	  		
+	</Unit_Ability>	
+	
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>			
+</Unit_Abilities_Data>
+</Container>
+	
+	
+	
+   	<!-- Phase 2 Companies -->		
+
+   	<!-- Phase 2 Survivors -->
+<GroundCompany Name="Republic_Survivors_Small">
+	<Text_ID>TEXT_UNIT_CLONETROOPER_P1_SQUAD</Text_ID>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>3</Damage>
+	<Autoresolve_Health>100</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+	<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>no</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Units>Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1</Company_Units>
+	<Icon_Name>I_BUTTON_CLONE_P1_SQUAD.tga</Icon_Name>
+	<Score_Cost_Credits>36</Score_Cost_Credits>
+	<Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER_P1_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+		<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+	<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+</GroundCompany>
+
+
+
+
+
+<GroundCompany Name="Republic_Survivors_Medium">
+	<Text_ID>TEXT_UNIT_CLONETROOPER_P1_SQUAD</Text_ID>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>6</Damage>
+	<Autoresolve_Health>100</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+	<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>no</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Units>Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1</Company_Units>
+	<Icon_Name>I_BUTTON_CLONE_P1_SQUAD.tga</Icon_Name>
+	<Score_Cost_Credits>48</Score_Cost_Credits>
+	<Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER_P1_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+		<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+	<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+</GroundCompany>
+
+
+
+
+<GroundCompany Name="Republic_Survivors_Large">
+	<Text_ID>TEXT_UNIT_CLONETROOPER_P1_SQUAD</Text_ID>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>9</Damage>
+	<Autoresolve_Health>100</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+	<Build_Initially_Locked>Yes</Build_Initially_Locked>
+	<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>no</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Units>Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1, Squad_P2_Clone_DC15S_T1</Company_Units>
+	<Icon_Name>I_BUTTON_CLONE_P1_SQUAD.tga</Icon_Name>
+	<Score_Cost_Credits>54</Score_Cost_Credits>
+	<Encyclopedia_Text>TEXT_TOOLTIP_CLONETROOPER_P1_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
+		<!-- Primary ability -->
+		<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+	<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+</GroundCompany>
+  
+
+
+
+
+   	<!-- Phase 2 Units Tier 1 -->
+	
+<GroundCompany Name="Republic_Clonetrooper_P2_Squad_T1">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Damage>25</Damage>
+	<Autoresolve_Health>125</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Medic_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1
+	</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+
+
+
+	
+
+<GroundCompany Name="Republic_Clonetrooper_P2_Platoon_T1">
+	<Text_ID>TEXT_UNIT_P2_PLATOON</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>175</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>100</Build_Cost_Credits>
+	<Build_Time_Seconds>15</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+		<Company_Units>       
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Lieutenant,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Medic_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1
+	</Company_Units>
+	<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_LIEUTENANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+	
+	
+	
+	
+<GroundCompany Name="Republic_Clonetrooper_P2_Company_T1">
+	<Text_ID>TEXT_UNIT_P2_COMPANY</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>225</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>150</Build_Cost_Credits>
+	<Build_Time_Seconds>18</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	    <Company_Units>       
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Lieutenant,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Medic_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_Captain,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Medic_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1
+	</Company_Units>
+	<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_CAPTAIN.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	   	<!-- Phase 2 Units Tier 2 -->
+	
+<GroundCompany Name="Republic_Clonetrooper_P2_Squad_T2">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>125</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Medic_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2
+	</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+
+
+
+	
+
+<GroundCompany Name="Republic_Clonetrooper_P2_Platoon_T2">
+	<Text_ID>TEXT_UNIT_P2_PLATOON</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>175</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>100</Build_Cost_Credits>
+	<Build_Time_Seconds>15</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+		<Company_Units>       
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Lieutenant,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Medic_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2
+	</Company_Units>
+	<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_LIEUTENANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+	
+	
+	
+	
+<GroundCompany Name="Republic_Clonetrooper_P2_Company_T2">
+	<Text_ID>TEXT_UNIT_P2_COMPANY</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>225</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>150</Build_Cost_Credits>
+	<Build_Time_Seconds>18</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	    <Company_Units>       
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Lieutenant,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Medic_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_Captain,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Medic_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2
+	</Company_Units>
+	<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_CAPTAIN.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>	
+	
+	
+	
+	
+	
+	
+	
+	   	<!-- Phase 2 Units Tier 3 -->
+	
+<GroundCompany Name="Republic_Clonetrooper_P2_Squad_T3">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>125</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_Z-6,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Medic_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3
+	</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+
+
+
+	
+
+<GroundCompany Name="Republic_Clonetrooper_P2_Platoon_T3">
+	<Text_ID>TEXT_UNIT_P2_PLATOON</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>175</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>100</Build_Cost_Credits>
+	<Build_Time_Seconds>15</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+		<Company_Units>       
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_Z-6,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Lieutenant,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Medic_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3
+	</Company_Units>
+	<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_LIEUTENANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+	
+	
+	
+	
+<GroundCompany Name="Republic_Clonetrooper_P2_Company_T3">
+	<Text_ID>TEXT_UNIT_P2_COMPANY</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_COMPANY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>225</Autoresolve_Health>
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>150</Build_Cost_Credits>
+	<Build_Time_Seconds>18</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>2</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	    <Company_Units>       
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_Z-6,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Lieutenant,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Medic_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Sergeant,
+	Squad_P2_Clone_Z-6,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Vanguard,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Captain,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Medic_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3
+	</Company_Units>
+	<Max_Squad_Size> 9 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_CAPTAIN.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<!-- Phase 2 Specialist Squads -->	
+		
+		
+		
+	<GroundCompany Name="Republic_Clonetrooper_P2_Medic_Squad_T1">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>125</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Medic_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_DC15A_T1,
+	Squad_P2_Clone_DC15S_T1,
+	Squad_P2_Clone_Medic_T1,
+	Squad_P2_Clone_DC15A_T1,
+	</Company_Units>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>65</Score_Cost_Credits>
+	</GroundCompany>
+
+
+
+
+
+	
+	
+	
+	
+	
+	<GroundCompany Name="Republic_Clonetrooper_P2_Medic_Squad_T2">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>125</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Medic_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_DC15A_T2,
+	Squad_P2_Clone_DC15S_T2,
+	Squad_P2_Clone_Medic_T2,
+	Squad_P2_Clone_DC15A_T2,
+	</Company_Units>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>65</Score_Cost_Credits>
+	</GroundCompany>	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+		<GroundCompany Name="Republic_Clonetrooper_P2_Medic_Squad_T3">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>125</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Medic_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_DC15S_T3,
+	Squad_P2_Clone_Medic_T3,
+	Squad_P2_Clone_DC15A_T3,
+	</Company_Units>
+		<Max_Squad_Size> 4 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>65</Score_Cost_Credits>
+	</GroundCompany>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	<GroundCompany Name="Republic_Clonetrooper_P2_Sniper_Squad">
+	<Text_ID>TEXT_UNIT_P2_SQUAD</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<GUI_Row> 1 </GUI_Row>
+	<Is_Dummy>Yes</Is_Dummy>
+	<Autoresolve_Health>80</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
+	<Affiliation>Empire</Affiliation>
+	<Build_Cost_Credits>50</Build_Cost_Credits>
+	<Build_Time_Seconds>5</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	<Tech_Level>1</Tech_Level>
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+	<Required_Star_Base_Level>0</Required_Star_Base_Level>
+	<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+	<Required_Planets />
+	<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Ship_Class>infantry</Ship_Class>
+	<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+	<Create_Team_Type>Clonetrooper_P2_Sniper_Team</Create_Team_Type>
+
+	<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+
+	<Company_Units>
+	Squad_P2_Clone_Sniper,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Sniper,
+	Squad_P2_Clone_DC15A_T3,
+	Squad_P2_Clone_Sniper,
+	Squad_P2_Clone_DC15A_T3,
+	</Company_Units>
+		<Max_Squad_Size> 2 </Max_Squad_Size>
+	<Icon_Name>I_BUTTON_P2_SERGEANT.tga</Icon_Name>
+
+	<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_Clone_Trooper</SFXEvent_Build_Complete>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Clone_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>1</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+		<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+					<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>					
+
+		</Unit_Abilities_Data>				
+
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>80</Score_Cost_Credits>
+	</GroundCompany>
+
+</Clone_Troopers_P2_Data>
