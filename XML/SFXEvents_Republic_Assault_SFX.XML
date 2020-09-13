@@ -314,6 +314,41 @@
 	<Max_Volume>80</Max_Volume>
 </SFXEvent>
 
+<SFXEvent Name="Unit_Clone_Blaster_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC-15.wav</Samples>
+	<Min_Volume>70</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Clone_Sniper_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC-15X.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Clone_DC17M_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC17M.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Clone_DC17M_Grenade_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC17AA.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
+<SFXEvent Name="Unit_Clone_DC17M_Sniper_Fire">
+	<Use_Preset>Preset_GUN</Use_Preset>
+	<Samples>Data/Audio/SFX/Weapons/WPN_DC17X.wav</Samples>
+	<Min_Volume>80</Min_Volume>
+	<Max_Volume>80</Max_Volume>
+</SFXEvent>
+
 	<!-- ======================================= -->
 	<!-- ============ Misc. Effect ============= -->
 	<!-- ======================================= -->

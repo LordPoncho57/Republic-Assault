@@ -776,13 +776,13 @@
 	<Display_Bink_Movie_Frames>False</Display_Bink_Movie_Frames>  
 
 	<!-- Global speed modifier to everything with engines, and when they are destroyed -->
-	<Engines_Disabled_Speed_Modifier> 0.4 </Engines_Disabled_Speed_Modifier>	
+	<Engines_Disabled_Speed_Modifier> 0.2 </Engines_Disabled_Speed_Modifier>	
 
 	<Crouch_Move_Fire_Angle_Cutoff> 20 </Crouch_Move_Fire_Angle_Cutoff>
 	
 	<Max_Move_Frame_Delay> 6 </Max_Move_Frame_Delay>
 	
-	<Spread_Out_Spacing_Coefficient> 1.8 </Spread_Out_Spacing_Coefficient>
+	<Spread_Out_Spacing_Coefficient> 2.2 </Spread_Out_Spacing_Coefficient>
 
 	<Max_Formation_Area> 14.0 </Max_Formation_Area>	
 	
@@ -790,7 +790,7 @@
 
 	<Solo_Attack_Range> 60.0 </Solo_Attack_Range>
 
-	<Base_Land_Targeting_Arc_Angle_Coefficient> .2 </Base_Land_Targeting_Arc_Angle_Coefficient>	
+	<Base_Land_Targeting_Arc_Angle_Coefficient> 0.2 </Base_Land_Targeting_Arc_Angle_Coefficient>	
 	
 	<Rotate_Formation_Facing_Moves> true </Rotate_Formation_Facing_Moves>
 	

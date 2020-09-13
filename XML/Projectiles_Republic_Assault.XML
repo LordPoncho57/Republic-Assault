@@ -1167,18 +1167,23 @@
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 </Projectile>
 
+
+
 <!-- ******************************************************* -->
 <!-- ****************** Land Projectiles ******************* -->
 <!-- ******************************************************* -->
 
+<!-- ******************************************************* -->
+<!-- ************* Blasters and Laser Cannons ************** -->
+<!-- ******************************************************* -->
 
 <Projectile Name="RA_Proj_Hand_Blaster_Blue">
 	<Text_ID>TEXT_NONE</Text_ID>
     <Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
     <Damage_Type> Damage_Blaster_Hand </Damage_Type>
-	<Projectile_Width>0.85</Projectile_Width>
-	<Projectile_Length>2.0</Projectile_Length>
-	<Scale_Factor>0.08</Scale_Factor>
+	<Projectile_Width>1.0</Projectile_Width>
+	<Projectile_Length>1.85</Projectile_Length>
+	<Scale_Factor>0.09</Scale_Factor>
 	<Max_Speed>28.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1213,7 +1218,7 @@
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>600.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
 	<Projectile_Damage>10.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1343,6 +1348,23 @@
 	<AI_Combat_Power>80</AI_Combat_Power>
 </Projectile>
 
+<!-- ******************************************************* -->
+<!-- ***************** Grenades and Rockets **************** -->
+<!-- ******************************************************* -->
+
+
+<Projectile Name="RA_Proj_Thermal_Det">
+	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Droid_Popper">
+	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
+		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+	    <Damage_Type> RA_Land_EMP_Grenade </Damage_Type>
+</Projectile>
+
+
 <Projectile Name="RA_Proj_Vehicle_Missile_Missile">
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
@@ -1379,6 +1401,10 @@
 	<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>120</AI_Combat_Power>
 </Projectile>
+
+<!-- ******************************************************* -->
+<!-- **************** Land Beam Projectiles **************** -->
+<!-- ******************************************************* -->
 
 <Projectile Name="RA_Proj_Ground_Sabertank_Beam">
 	<Text_ID>TEXT_NONE</Text_ID>

@@ -645,15 +645,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -699,15 +699,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -753,15 +753,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -807,15 +807,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -861,15 +861,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -915,15 +915,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
@@ -976,15 +976,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
@@ -1037,15 +1037,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
@@ -1098,15 +1098,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -1152,15 +1152,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -1206,15 +1206,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -1260,15 +1260,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -1314,15 +1314,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -1368,15 +1368,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 	
@@ -1423,15 +1423,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
@@ -1477,15 +1477,15 @@
 
 	<Fire_Bone_A>Muzzle_A</Fire_Bone_A>
 	<Fire_Bone_B>Muzzle_A</Fire_Bone_B>
-	<Fire_Cone_Width>20.0</Fire_Cone_Width>
-	<Fire_Cone_Height>20.0</Fire_Cone_Height>
+	<Fire_Cone_Width>40.0</Fire_Cone_Width>
+	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 		
 	<Is_Turret> Yes </Is_Turret>
 	<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 	<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 	<Turret_Rotate_Speed> 0.35 </Turret_Rotate_Speed>
-	<Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
-	<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+	<Turret_Rotate_Extent_Degrees> 110.0 </Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 

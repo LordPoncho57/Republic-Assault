@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<Projectiles>
+
+<!-- ************************************************************************************** -->
+<!-- ****** Generic Templates:  Used to reference all of the projectile Properties ******** -->
+<!-- ************************************************************************************** -->
+
+
+
+<!-- ******************************************************* -->
+<!-- ***************** Grenades and Rockets **************** -->
+<!-- ******************************************************* -->
+
+    <Projectile Name="RA_Proj_Infantry_Grenade_Template">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Damage_Type> Damage_Con_Grenade </Damage_Type>
+		<Max_Speed>7.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>GRENADE</Projectile_Category>
+		<Projectile_Grenade_Gravity>0.1</Projectile_Grenade_Gravity>
+		<Projectile_Grenade_Gravity_Lob_Mod>0.1</Projectile_Grenade_Gravity_Lob_Mod>
+		<Projectile_Grenade_Can_Lob_Slower>yes</Projectile_Grenade_Can_Lob_Slower>
+		<Projectile_Max_Lifetime>1000.0</Projectile_Max_Lifetime>
+
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 13 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 18 </Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+        <Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>		
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		
+		<Projectile_Object_Detonation_Particle>Thermal_Detonator_Explosion</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Thermal_Detonator_Explosion</Projectile_Ground_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Thermal_Detonator_Explosion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Thermal_Detonator_Explosion</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>5</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
+    </Projectile>
+
+</Projectiles>
