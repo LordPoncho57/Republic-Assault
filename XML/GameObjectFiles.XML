@@ -65,6 +65,7 @@
 <File>UpgradeObjects.XML</File>
 <File>SecondaryStructures.XML</File>
 
+<File>Props_Christophsis.XML</File>
 <File>Props_Temperate.XML</File>
 <File>Props_Swamp.XML</File>
 <File>Props_Volcanic.XML</File>
