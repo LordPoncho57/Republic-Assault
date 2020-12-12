@@ -17,7 +17,7 @@
         <Projectile_Category>Laser</Projectile_Category>
         <Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 		<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
-		<Projectile_Damage>1.0</Projectile_Damage>
+		<Projectile_Damage>2.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
         <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -74,7 +74,7 @@
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
-	<Projectile_Damage>2.0</Projectile_Damage>
+	<Projectile_Damage>3.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -589,7 +589,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>22.0</Projectile_Damage>
+	<Projectile_Damage>40.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -646,7 +646,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>27.0</Projectile_Damage>
+	<Projectile_Damage>60.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -703,7 +703,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>32.0</Projectile_Damage>
+	<Projectile_Damage>65.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -816,7 +816,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>36.0</Projectile_Damage>
+	<Projectile_Damage>70.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -873,7 +873,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>36.0</Projectile_Damage>
+	<Projectile_Damage>70.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -986,7 +986,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>36.0</Projectile_Damage>
+	<Projectile_Damage>70.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1043,7 +1043,7 @@
 	<Behavior>PROJECTILE</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>55.0</Projectile_Damage>
+	<Projectile_Damage>80.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1099,7 +1099,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage_Type> RA_Space_Damage_Concussion_Missile </Damage_Type>
-	<Max_Speed>9.0</Max_Speed>
+	<Max_Speed>10.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 
 <!-- Below behaviour makes all concussion missiles be able to be shot down. They are targeted as bombers -->
@@ -1135,7 +1135,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>8.0</Scale_Factor>
 	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
-	<Max_Speed>7.0</Max_Speed>
+	<Max_Speed>8.0</Max_Speed>
 
 <!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING,</Behavior>
@@ -1158,7 +1158,7 @@
 	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
 	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
 
-	<Projectile_Damage>30.0</Projectile_Damage>
+	<Projectile_Damage>100.0</Projectile_Damage>
 	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>

@@ -157,7 +157,7 @@
 	<Score_Cost_Credits> 1250</Score_Cost_Credits>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-	<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites />
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

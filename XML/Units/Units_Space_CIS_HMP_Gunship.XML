@@ -105,7 +105,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -236,7 +236,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -335,7 +335,7 @@
         </Unit_Abilities_Data>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-	<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites/>
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

@@ -219,7 +219,7 @@
 
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites />
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

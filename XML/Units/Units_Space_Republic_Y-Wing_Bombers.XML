@@ -344,17 +344,23 @@
 	<Required_Star_Base_Level>2</Required_Star_Base_Level>
 	<Required_Special_Structures/>
 	<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing_Pen</Squadron_Units>
-	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing_Pen</Squadron_Units>
-	<Squadron_Units>Rep_Y-Wing_Pen</Squadron_Units>
-	<Max_Squad_Size>7</Max_Squad_Size>
+	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing </Squadron_Units>
+	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing </Squadron_Units>
+	<Squadron_Units>Rep_Y-Wing, Rep_Y-Wing, Rep_Y-Wing </Squadron_Units>
+	<Squadron_Units>Rep_Y-Wing_Pen, Rep_Y-Wing_Pen, Rep_Y-Wing_Pen</Squadron_Units>
+	<Max_Squad_Size>12</Max_Squad_Size>
         <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 	<Icon_Name>i_button_rep_y_wing.tga</Icon_Name>
 	<GUI_Model_Name>Rep_BTL-B_Y-Wing_Starfighter.ALO</GUI_Model_Name>
 	<GUI_Distance>120</GUI_Distance>

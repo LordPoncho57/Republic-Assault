@@ -180,7 +180,7 @@
 	
 	<!-- 9. Multiplayer Skirmish Build Data -->
 
-	<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	<Tactical_Build_Prerequisites />

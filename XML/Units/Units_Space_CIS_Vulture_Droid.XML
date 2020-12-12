@@ -105,7 +105,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -245,7 +245,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>

@@ -105,7 +105,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -246,7 +246,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -311,18 +311,23 @@
 	<Required_Star_Base_Level>1</Required_Star_Base_Level>
 	<Required_Special_Structures/>
 	<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-	<Squadron_Units>CIS_Hyena_Bomber, CIS_Hyena_Bomber</Squadron_Units>
-	<Squadron_Units>CIS_Hyena_Bomber, CIS_Hyena_Bomber</Squadron_Units>
-	<Squadron_Units>CIS_Hyena_Bomber_Pen, CIS_Hyena_Bomber_Pen</Squadron_Units>
-	<Squadron_Units>CIS_Hyena_Bomber_Pen</Squadron_Units>
-	<Max_Squad_Size>7</Max_Squad_Size>
+	<Squadron_Units>CIS_Hyena_Bomber, CIS_Hyena_Bomber, CIS_Hyena_Bomber</Squadron_Units>
+	<Squadron_Units>CIS_Hyena_Bomber, CIS_Hyena_Bomber, CIS_Hyena_Bomber</Squadron_Units>
+	<Squadron_Units>CIS_Hyena_Bomber, CIS_Hyena_Bomber, CIS_Hyena_Bomber</Squadron_Units>
+	<Squadron_Units>CIS_Hyena_Bomber_Pen, CIS_Hyena_Bomber_Pen, CIS_Hyena_Bomber_Pen</Squadron_Units>
+	<Max_Squad_Size>12</Max_Squad_Size>
         <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 	<Icon_Name>i_button_hyena.tga</Icon_Name>
 	<GUI_Model_Name>CIS_Hyena_Bomber.ALO</GUI_Model_Name>
 	<GUI_Distance>95</GUI_Distance>

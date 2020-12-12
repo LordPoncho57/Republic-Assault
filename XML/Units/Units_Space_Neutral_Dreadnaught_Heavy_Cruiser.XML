@@ -255,6 +255,10 @@
 
 <SpaceUnit Name="Dreadnaught_Heavy_Cruiser_CorSec">
 	<Variant_Of_Existing_Type>Dreadnaught_Heavy_Cruiser</Variant_Of_Existing_Type>
+	<Armor_Type> RA_Space_Armour_Medium </Armor_Type>
+
+	<Build_Cost_Credits>1500</Build_Cost_Credits>
+	<Build_Time_Seconds>15</Build_Time_Seconds>
 
 	<Encyclopedia_Text> 
 	TEXT_TOOLTIP_PRAETOR

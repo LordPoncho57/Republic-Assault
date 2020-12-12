@@ -44,11 +44,13 @@
 				RS_Improved_Weapons_L1_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_CIS, 1</Starting_Spawned_Units_Tech_0>		
 
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Autoresolve_Health>15000</Autoresolve_Health>
@@ -199,14 +201,14 @@ HP_CIS_Station_LC_04
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 1</Reserve_Spawned_Units_Tech_0>
 
 	<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
@@ -367,16 +369,16 @@ HP_CIS_Station_Conc_08
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
 		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
 
 		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 1</Reserve_Spawned_Units_Tech_0>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -544,20 +546,20 @@ HP_CIS_Station_Conc_08
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 8</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 4</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Recusant_Frigate, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -740,20 +742,19 @@ HP_CIS_Station_Torp_06
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 16</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 8</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 6</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 4</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Recusant_Frigate, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 
 
 		<Tactical_Buildable_Objects_Campaign> 
@@ -941,12 +942,13 @@ HP_CIS_Station_Torp_06
 		<Armor_Type> RA_Space_Armour_Super_Heavy </Armor_Type>
 		<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKI</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_CorSec, 1</Starting_Spawned_Units_Tech_0>	
+
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1083,15 +1085,11 @@ HP_Valor_LC_04
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 2</Starting_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0> 
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_CorSec, 3</Starting_Spawned_Units_Tech_0>	
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1235,17 +1233,19 @@ HP_Valor_LC_06
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_Rep, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_Rep, 1</Reserve_Spawned_Units_Tech_0>		
+
+		<Starting_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 1</Reserve_Spawned_Units_Tech_0>		
 		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1396,20 +1396,20 @@ HP_Valor_LC_08
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 8</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 16</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Venator, 1</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>C70_Charger_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>C70_Charger_Squadron, 1</Reserve_Spawned_Units_Tech_0> 		
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1565,20 +1565,22 @@ HP_Valor_LC_12
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 14</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 28</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 7</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 14</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Venator, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Venator, 3</Reserve_Spawned_Units_Tech_0> 		
+
+		<Starting_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Reserve_Spawned_Units_Tech_0> 	
+
+		<Starting_Spawned_Units_Tech_0>C70_Charger_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>C70_Charger_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
