@@ -10,7 +10,7 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-	<Space_Model_Name>CIS_Tri_Fighter.ALO</Space_Model_Name>
+	<Space_Model_Name>CIS_Tri-Fighter.ALO</Space_Model_Name>
 	<Icon_Name>i_button_trifighter.tga</Icon_Name>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Select_Box_Scale>70</Select_Box_Scale>
@@ -21,14 +21,14 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>0.5</Max_Lift>	
-	<Max_Speed>2.1</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
-	<Max_Thrust>0.5</Max_Thrust>
-	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>50</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>1050.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>1.0</Max_Lift>	
+	<Max_Speed>3.8</Max_Speed>
+	<Min_Speed>3.6</Min_Speed>
+	<Max_Rate_Of_Turn>0.78</Max_Rate_Of_Turn>
+	<Max_Thrust>0.55</Max_Thrust>
+	<Max_Rate_Of_Roll>0.78</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>90</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1100.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
@@ -59,7 +59,7 @@
 	</HardPoints>
 
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -140,7 +140,7 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-	<Space_Model_Name>CIS_Tri_Fighter.ALO</Space_Model_Name>
+	<Space_Model_Name>CIS_Tri-Fighter.ALO</Space_Model_Name>
 	<Icon_Name>i_button_trifighter.tga</Icon_Name>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Select_Box_Scale>70</Select_Box_Scale>
@@ -151,14 +151,14 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>0.5</Max_Lift>	
-	<Max_Speed>2.1</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
-	<Max_Thrust>0.5</Max_Thrust>
-	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>50</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>1050.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>1.0</Max_Lift>	
+	<Max_Speed>3.8</Max_Speed>
+	<Min_Speed>3.6</Min_Speed>
+	<Max_Rate_Of_Turn>0.78</Max_Rate_Of_Turn>
+	<Max_Thrust>0.55</Max_Thrust>
+	<Max_Rate_Of_Roll>0.78</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>90</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1100.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
@@ -189,7 +189,7 @@
 	</HardPoints>
 
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>

@@ -3280,5 +3280,14 @@
         
     </TradeRoute>
 
+    	<TradeRoute Name="Christophsis_Ryloth">
+            <Point_A>Christophsis</Point_A>
+            <Point_B>Ryloth</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
 
 </TradeRoutes>

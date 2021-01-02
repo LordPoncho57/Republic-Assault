@@ -24,8 +24,8 @@
 	<Fire_SFXEvent>Unit_CF_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -44,16 +44,16 @@
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 	<Fire_Projectile_Type>RA_Proj_Proton_Torpedo_Light</Fire_Projectile_Type>
-	<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Super, Capital, Frigate </Fire_Category_Restrictions>
-	<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
@@ -75,17 +75,17 @@
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>40.0</Fire_Cone_Height>
 	<Fire_Projectile_Type>RA_Proj_Proton_Bomb</Fire_Projectile_Type>
-	<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>400.0</Fire_Range_Distance>
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-	<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
@@ -132,8 +132,8 @@
 	<Fire_SFXEvent>Unit_Y-Wing_Gunner_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -190,12 +190,12 @@
 	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Super, Capital, Frigate </Fire_Category_Restrictions>
-	<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
@@ -221,13 +221,13 @@
 	<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>3</Fire_Pulse_Count>
 	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>400.0</Fire_Range_Distance>
+	<Fire_Range_Distance>800.0</Fire_Range_Distance>
 
 	<Fire_SFXEvent>Unit_Proton_Torp_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Fighter, Bomber, Transport, Corvette </Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-	<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
@@ -274,8 +274,8 @@
 	<Fire_SFXEvent>Unit_Y-Wing_Gunner_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>

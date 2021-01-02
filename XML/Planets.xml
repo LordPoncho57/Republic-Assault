@@ -1331,7 +1331,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-		<Space_Tactical_Map>_Space_Planet_Corellia_01.ted</Space_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Bestine_01.ted</Space_Tactical_Map>
 		<Land_Tactical_Map> _LAND_PLANET_CHRISTOPHSIS_02.ted </Land_Tactical_Map>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>

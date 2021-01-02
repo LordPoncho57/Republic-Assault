@@ -8,7 +8,7 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 	<Space_Model_Name>Rep_BTL-B_Y-Wing_Starfighter.alo</Space_Model_Name>
-	<Scale_Factor>0.9</Scale_Factor>
+	<Scale_Factor>0.80</Scale_Factor>
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -21,14 +21,14 @@
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>0.6</Max_Lift>
-	<Max_Speed>1.9</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
+	<Max_Lift>0.5</Max_Lift>
+	<Max_Speed>3.2</Max_Speed>
+	<Min_Speed>3.0</Min_Speed>
 	<Max_Rate_Of_Turn>0.60</Max_Rate_Of_Turn>
 	<Max_Thrust>0.5</Max_Thrust>
 	<Max_Rate_Of_Roll>0.60</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>1200.0</Begin_Turn_Towards_Distance>
+	<Begin_Turn_Towards_Distance>1500.0</Begin_Turn_Towards_Distance>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -36,8 +36,8 @@
 	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 	<Required_Star_Base_Level>2</Required_Star_Base_Level>
 	<Shield_Points>15</Shield_Points>
-	<Tactical_Health>15</Tactical_Health>
-	<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+	<Tactical_Health>50</Tactical_Health>
+	<Shield_Refresh_Rate>0.5</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>bomber</Ship_Class>
@@ -58,7 +58,7 @@
 	<Damage>5</Damage>
 	<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -196,7 +196,7 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 	<Space_Model_Name>Rep_BTL-B_Y-Wing_Starfighter.alo</Space_Model_Name>
-	<Scale_Factor>0.9</Scale_Factor>
+	<Scale_Factor>0.80</Scale_Factor>
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -210,13 +210,13 @@
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 	<Max_Lift>0.5</Max_Lift>
-	<Max_Speed>1.9</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
+	<Max_Speed>3.2</Max_Speed>
+	<Min_Speed>3.0</Min_Speed>
 	<Max_Rate_Of_Turn>0.60</Max_Rate_Of_Turn>
-	<Max_Thrust>0.6</Max_Thrust>
+	<Max_Thrust>0.5</Max_Thrust>
 	<Max_Rate_Of_Roll>0.60</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>1200.0</Begin_Turn_Towards_Distance>
+	<Begin_Turn_Towards_Distance>1500.0</Begin_Turn_Towards_Distance>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -224,8 +224,8 @@
 	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 	<Required_Star_Base_Level>2</Required_Star_Base_Level>
 	<Shield_Points>15</Shield_Points>
-	<Tactical_Health>15</Tactical_Health>
-	<Shield_Refresh_Rate>0.25</Shield_Refresh_Rate>
+	<Tactical_Health>50</Tactical_Health>
+	<Shield_Refresh_Rate>0.5</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>bomber</Ship_Class>
@@ -246,7 +246,7 @@
 	<Damage>5</Damage>
 	<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>

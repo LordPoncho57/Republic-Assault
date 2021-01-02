@@ -22,16 +22,16 @@
 
         <Locations> 
 				Galaxy_Core_Art_Model, 
-				Geonosis, 
+				Christophsis, 
 				Ryloth, 
 		</Locations>
 
         <Trade_Routes>
-                Geonosis_Ryloth
+                Christophsis_Ryloth
 		</Trade_Routes>
 
         <Home_Location> Rebel, Ryloth </Home_Location>
-        <Home_Location> Empire, Geonosis </Home_Location>
+        <Home_Location> Empire, Christophsis </Home_Location>
 
         <Starting_Active_Player> Empire </Starting_Active_Player>
 
@@ -75,7 +75,7 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, Rebel_Star_Base_5 </Starting_Forces>				
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>				
                                 
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
@@ -91,24 +91,21 @@
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
         <!-- Thyferra Space Forces -->
-		<Starting_Forces> Empire, Geonosis, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Venator </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, C70_Charger_Squadron </Starting_Forces>	
-		<Starting_Forces> Empire, Geonosis, C70_Charger_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Arquitens_Light_Cruiser </Starting_Forces>		
-		<Starting_Forces> Empire, Geonosis, Arquitens_Light_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Arquitens_Light_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Dreadnaught_Heavy_Cruiser_Rep </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Dreadnaught_Heavy_Cruiser_Rep </Starting_Forces>				
+		<Starting_Forces> Empire, Christophsis, V19_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Rep_Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, ARC170_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Z95_Squadron </Starting_Forces>	
+		<Starting_Forces> Empire, Christophsis, V-Wing_Squadron </Starting_Forces>			
+			
+			
 
 									
 						
 
         <!-- Thyferra Land Forces -->
-		<Starting_Forces> Empire, Geonosis, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
 		
     </Campaign>
 
@@ -126,16 +123,16 @@
 
         <Locations> 
 				Galaxy_Core_Art_Model, 
-				Geonosis, 
+				Christophsis, 
 				Ryloth, 
 		</Locations>
 
         <Trade_Routes>
-                Geonosis_Ryloth
+                Christophsis_Ryloth
 		</Trade_Routes>
 
         <Home_Location> Rebel, Ryloth </Home_Location>
-        <Home_Location> Empire, Geonosis </Home_Location>
+        <Home_Location> Empire, Christophsis </Home_Location>
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
@@ -179,14 +176,13 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, Captor_Carrier </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Captor_Carrier </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, CIS_Providence_IKM </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Lucrehulk </Starting_Forces>	
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>		
 		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Lucrehulk </Starting_Forces>							
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>						
+				
+
+										
                                 
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
@@ -202,12 +198,18 @@
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
         <!-- Thyferra Space Forces -->
-		<Starting_Forces> Empire, Geonosis, Empire_Star_Base_5 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Venator </Starting_Forces>	
+		<Starting_Forces> Empire, Christophsis, Arquitens_Light_Cruiser </Starting_Forces>			
+		<Starting_Forces> Empire, Christophsis, Arquitens_Light_Cruiser </Starting_Forces>		
+			
+								
+	
 
         <!-- Thyferra Land Forces -->
-		<Starting_Forces> Empire, Geonosis, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
 		
     </Campaign>
 
