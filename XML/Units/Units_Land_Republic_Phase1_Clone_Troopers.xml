@@ -95,28 +95,27 @@
     <Create_Team>Yes</Create_Team>
     
 	
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Deploys>No</Deploys>		
+
 	    <!-- Weapon Stats -->
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+        <Projectile_Types>RA_Proj_Hand_Blaster_Blue</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<!-- Fire Range -->
-        <Fire_Range_Distance>700.0</Fire_Range_Distance>
-		
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>	
 
 	<!-- Unit line of sight and engagement range and targeting -->	
     <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -135,7 +134,7 @@
 	<!-- Hardpoint to allow infantry to fire on the move -->
     <HardPoints>
         HP_Clone_Trooper_DC15S_T1
-    </HardPoints>	
+    </HardPoints>	    
     
 
     <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
@@ -279,30 +278,28 @@
     <Is_Squashable> Yes </Is_Squashable>
 	<!-- This defines whether the unit is in a squad or as individual soldiers -->
     <Create_Team>Yes</Create_Team>
-    
-	
+
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Deploys>No</Deploys>		
+
 	    <!-- Weapon Stats -->
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+        <Projectile_Types>RA_Proj_Hand_Blaster_Blue</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
-		<!-- Fire Range -->
-        <Fire_Range_Distance>800.0</Fire_Range_Distance>
-		
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>	
 
 	<!-- Unit line of sight and engagement range and targeting -->	
     <Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
@@ -322,8 +319,7 @@
 	<!-- Hardpoint to allow infantry to fire on the move -->
     <HardPoints>
         HP_Clone_Trooper_DC15A_T1
-    </HardPoints>	
-    
+    </HardPoints>	    
 
     <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
     <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
@@ -509,28 +505,27 @@
     <Create_Team>Yes</Create_Team>
     
 	
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Deploys>No</Deploys>		
+
 	    <!-- Weapon Stats -->
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+        <Projectile_Types>RA_Proj_Hand_Blaster_Blue</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<!-- Fire Range -->
-        <Fire_Range_Distance>700.0</Fire_Range_Distance>
-		
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>	
 
 	<!-- Unit line of sight and engagement range and targeting -->	
     <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -739,26 +734,26 @@
     <Create_Team>Yes</Create_Team>
     
 	
+		<Deploys>No</Deploys>		
+
 	    <!-- Weapon Stats -->
-        <Fire_Projectile_Type>Proj_Dummy</Fire_Projectile_Type>
+        <Projectile_Types>Proj_Dummy</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<!-- Fire Range -->
-        <Fire_Range_Distance>500.0</Fire_Range_Distance>
-		
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>	
+		
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 		
@@ -860,7 +855,7 @@
     <Land_Model_Anim_Override_Name>Rep_P1_Clone_Z6.ALO</Land_Model_Anim_Override_Name>
 
     <Behavior>SELECTABLE</Behavior>
-    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TURRET,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
     <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
     <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
     <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -927,38 +922,53 @@
 	<!-- This defines whether the unit is in a squad or as individual soldiers -->
     <Create_Team>Yes</Create_Team>
     
-	
+
+		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>120.0</Turret_Elevate_Extent_Degrees>
+
+		<Turret_Bone_Name>HIP</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else>4</Turret_Targets_Anything_Else>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Deploys>No</Deploys>		
+
 	    <!-- Weapon Stats -->
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+        <Projectile_Types>Proj_Dummy</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<!-- Fire Range -->
-        <Fire_Range_Distance>800.0</Fire_Range_Distance>
-		
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>		
+		
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 	<!-- Unit line of sight and engagement range and targeting -->	
-    <Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
+    <Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
     <Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 	<Autonomous_Move_Extension_Vs_Attacker>1.0</Autonomous_Move_Extension_Vs_Attacker>
 	
     <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
 	
-    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Targeting_Stickiness_Time_Threshold>1.0</Targeting_Stickiness_Time_Threshold>
     <Idle_Chase_Range>1.0</Idle_Chase_Range>
     <Guard_Chase_Range>200.0</Guard_Chase_Range>
     <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
@@ -967,7 +977,7 @@
     <Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
 	
 	<!-- Hardpoint to allow infantry to fire on the move -->
-    <HardPoints>
+  	<HardPoints>
         HP_Clone_Trooper_Z-6_T3
     </HardPoints>	
     

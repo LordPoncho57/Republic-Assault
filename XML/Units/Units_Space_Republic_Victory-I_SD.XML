@@ -158,6 +158,11 @@
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 25.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>	
+
 		<!-- SFX Events -->
 
 <SFXEvent_Select>Unit_Select_CS</SFXEvent_Select>

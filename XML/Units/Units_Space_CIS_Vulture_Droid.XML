@@ -31,7 +31,7 @@
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>1.0</Max_Lift>
+	<Max_Lift>0.5</Max_Lift>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -171,7 +171,7 @@
 	<Fires_Forward>no</Fires_Forward>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>1.0</Max_Lift>
+	<Max_Lift>0.5</Max_Lift>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>

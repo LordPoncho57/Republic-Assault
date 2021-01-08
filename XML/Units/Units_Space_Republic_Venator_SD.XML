@@ -154,8 +154,8 @@
 	<Reinforcement_Prevention_Radius>1.0</Reinforcement_Prevention_Radius>
 
     <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
-	<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
-	<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 	<!-- 8. Galactic Build Data -->
 		

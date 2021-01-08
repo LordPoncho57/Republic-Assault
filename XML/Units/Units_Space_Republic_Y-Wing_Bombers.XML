@@ -21,7 +21,7 @@
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>0.5</Max_Lift>
+	<Max_Lift>0.42</Max_Lift>
 	<Max_Speed>3.2</Max_Speed>
 	<Min_Speed>3.0</Min_Speed>
 	<Max_Rate_Of_Turn>0.60</Max_Rate_Of_Turn>
@@ -209,7 +209,7 @@
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 	<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
-	<Max_Lift>0.5</Max_Lift>
+	<Max_Lift>0.42</Max_Lift>
 	<Max_Speed>3.2</Max_Speed>
 	<Min_Speed>3.0</Min_Speed>
 	<Max_Rate_Of_Turn>0.60</Max_Rate_Of_Turn>

@@ -21,7 +21,7 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>1.0</Max_Lift>
+	<Max_Lift>0.45</Max_Lift>
 	<Max_Speed>3.5</Max_Speed>
 	<Min_Speed>3.2</Min_Speed>
 	<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
@@ -162,7 +162,7 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>1.0</Max_Lift>
+	<Max_Lift>0.45</Max_Lift>
 	<Max_Speed>3.5</Max_Speed>
 	<Min_Speed>3.2</Min_Speed>
 	<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>

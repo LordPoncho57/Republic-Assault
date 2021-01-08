@@ -75,12 +75,11 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>				
+		<Starting_Forces> Rebel, Ryloth, Bulwark_MKI </Starting_Forces>			
+
                                 
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		
 
 
@@ -91,11 +90,13 @@
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
         <!-- Thyferra Space Forces -->
-		<Starting_Forces> Empire, Christophsis, V19_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Rep_Y-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, ARC170_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Z95_Squadron </Starting_Forces>	
-		<Starting_Forces> Empire, Christophsis, V-Wing_Squadron </Starting_Forces>			
+		<Starting_Forces> Empire, Christophsis, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Venator </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Valiant </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Victory_SD </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>
+
 			
 			
 
@@ -104,8 +105,8 @@
 
         <!-- Thyferra Land Forces -->
 		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, AT_TE_Heavy_Walker_Company </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Delta_Squad </Starting_Forces>
 		
     </Campaign>
 
@@ -176,10 +177,10 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, Lucrehulk </Starting_Forces>	
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>		
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>						
+		<Starting_Forces> Rebel, Ryloth, CIS_Vulture_Droid_Squadron </Starting_Forces>	
+		<Starting_Forces> Rebel, Ryloth, CIS_Tri_Fighter_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Ryloth, CIS_HMP_Gunship </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, CIS_Hyena_Bomber_Squadron </Starting_Forces>						
 				
 
 										
@@ -198,10 +199,8 @@
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
         <!-- Thyferra Space Forces -->
-		<Starting_Forces> Empire, Christophsis, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Venator </Starting_Forces>	
-		<Starting_Forces> Empire, Christophsis, Arquitens_Light_Cruiser </Starting_Forces>			
-		<Starting_Forces> Empire, Christophsis, Arquitens_Light_Cruiser </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Dreadnaught_Heavy_Cruiser_CorSec </Starting_Forces>			
+		<Starting_Forces> Empire, Christophsis, Dreadnaught_Heavy_Cruiser_CorSec </Starting_Forces>		
 			
 								
 	
