@@ -7,7 +7,8 @@
 	<Scale_Factor>0.5</Scale_Factor>
 	<Is_Decoration>Yes</Is_Decoration>
 	<Behavior>PARTICLE</Behavior>
-	<Particle_Lifetime_Frames>360</Particle_Lifetime_Frames></Particle>
+	<Particle_Lifetime_Frames>360</Particle_Lifetime_Frames>
+</Particle>
 
 <Particle Name="Damage_assault_missile">
 	<Land_Model_Name>pd_assault_missile.alo</Land_Model_Name>
