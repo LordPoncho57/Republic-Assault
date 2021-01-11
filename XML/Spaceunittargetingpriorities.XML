@@ -24,12 +24,14 @@
 
 	<Priority_Set Name="Fighter">
 		<Attack_Priorities>
-			Fighter, 2.0,
-			Bomber, 1.0,
-			Transport, 3.0,
+			Fighter, 1.0,
+			Bomber, 0.5,
+			Transport, 2.0,
+			Frigate, 2.0,
+			Capital, 3.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
-		<Hard_Point_Priorities>
+		<Hard_Point_Priorities> <!-- fighters should always try to take out the surface cannons, so bombers can come in after -->
 			WEAPON_MASS_DRIVER
 		</Hard_Point_Priorities>		
 		<Unit_Exclusions>

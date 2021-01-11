@@ -107,8 +107,8 @@
 	<Shield_Armor_Type>RA_Space_Shield_Heavy_MKII</Shield_Armor_Type> <!-- MKII shields are weaker but faster to regen. Take more damage from ion cannons and proton weapons. -->
 	<Shield_Refresh_Rate>6.7</Shield_Refresh_Rate>
 
-	<Energy_Capacity>2500</Energy_Capacity>
-	<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
+	<Energy_Capacity>5000</Energy_Capacity>
+	<Energy_Refresh_Rate>3000</Energy_Refresh_Rate>
 
 	<!--<Abilities SubObjectList="Yes">
 	<Force_Healing_Ability Name="Venator_Repair_Crew">
@@ -154,8 +154,8 @@
 	<Reinforcement_Prevention_Radius>1.0</Reinforcement_Prevention_Radius>
 
     <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
-	<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
-	<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 	<!-- 8. Galactic Build Data -->
 		
@@ -189,7 +189,7 @@
 	
 	<!-- 9. Multiplayer Skirmish Build Data -->
 
-	<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	<Tactical_Build_Prerequisites />
@@ -216,16 +216,16 @@
 
 			<!-- Tech 1 -->
 
-	<Starting_Spawned_Units_Tech_0>V19_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V19_Squadron_Double, 7</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>V19_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 16</Reserve_Spawned_Units_Tech_0> 
 
 	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_0> 
 
 			<!-- Tech 3 -->
 
-	<Starting_Spawned_Units_Tech_3>V19_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>V19_Squadron_Double, 5</Reserve_Spawned_Units_Tech_3> 
+	<Starting_Spawned_Units_Tech_3>V19_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>V19_Squadron, 10</Reserve_Spawned_Units_Tech_3> 
 
 	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 1</Starting_Spawned_Units_Tech_3>
 	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 4</Reserve_Spawned_Units_Tech_3> 

@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **** SANDBOX CAMPAIGN "Republic Assault Space Balancing" ***** -->
+<!-- ************************************************************** -->
+
+
+	<Campaign Name="Sandbox_RA_Space_Test_Empire">
+
+		<Campaign_Set> Sandbox_RA_Space_Test </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_RA_SPACE_TEST </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_RA_SPACE_TEST </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Christophsis, 
+				Ryloth, 
+		</Locations>
+
+        <Trade_Routes>
+                Christophsis_Ryloth
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Ryloth </Home_Location>
+        <Home_Location> Empire, Christophsis </Home_Location>
+
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+
+	<!--	<Rebel_Story_Name>Story_Plots_Rebel_AI_Heroes_EXP.xml</Rebel_Story_Name> -->
+    <!--    <Empire_Story_Name>Story_Plots_Empire_AI_Heroes_EXP.xml</Empire_Story_Name> -->
+    <!--    <Underworld_Story_Name>Story_Plots_Sandbox_27_Underworld.xml</Underworld_Story_Name> -->
+
+        <AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>                
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+        <AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+        
+        <!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Ryloth, Bulwark_MKI </Starting_Forces>			
+
+                                
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
+		
+
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+        <!-- Thyferra Space Forces -->
+		<Starting_Forces> Empire, Christophsis, Venator </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Venator </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Valiant </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Victory_SD </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>
+
+			
+			
+
+									
+						
+
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, AT_TE_Heavy_Walker_Company </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Delta_Squad </Starting_Forces>
+		
+    </Campaign>
+
+	<Campaign Name="Sandbox_RA_Space_Test_Rebellion">
+
+		<Campaign_Set> Sandbox_RA_Space_Test </Campaign_Set>
+		<Sort_Order>1</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_RA_SPACE_TEST </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_RA_SPACE_TEST </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Christophsis, 
+				Ryloth, 
+		</Locations>
+
+        <Trade_Routes>
+                Christophsis_Ryloth
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Ryloth </Home_Location>
+        <Home_Location> Empire, Christophsis </Home_Location>
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+	<!--	<Rebel_Story_Name>Story_Plots_Rebel_AI_Heroes_EXP.xml</Rebel_Story_Name> -->
+    <!--    <Empire_Story_Name>Story_Plots_Empire_AI_Heroes_EXP.xml</Empire_Story_Name> -->
+    <!--    <Underworld_Story_Name>Story_Plots_Sandbox_27_Underworld.xml</Underworld_Story_Name> -->
+
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+        <AI_Player_Control> Empire, None </AI_Player_Control>                
+        <AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+        <!-- Special Case Planets for Cantinas and Hutt Palaces -->
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Cantina_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Cantina_R</Special_Case_Production>
+		
+		<Special_Case_Production> Empire, Ryloth, Ground_Hutt_Palace_E</Special_Case_Production>
+		<Special_Case_Production> Rebel, Ryloth, Ground_Hutt_Palace_R</Special_Case_Production>
+
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+        
+        <!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Ryloth, CIS_Vulture_Droid_Squadron </Starting_Forces>	
+		<Starting_Forces> Rebel, Ryloth, CIS_Tri_Fighter_Squadron </Starting_Forces>		
+		<Starting_Forces> Rebel, Ryloth, CIS_HMP_Gunship </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, CIS_Hyena_Bomber_Squadron </Starting_Forces>						
+				
+
+										
+                                
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
+		
+
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+        <!-- Thyferra Space Forces -->
+		<Starting_Forces> Empire, Christophsis, Dreadnaught_Heavy_Cruiser_CorSec </Starting_Forces>			
+		<Starting_Forces> Empire, Christophsis, Dreadnaught_Heavy_Cruiser_CorSec </Starting_Forces>		
+			
+								
+	
+
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		
+    </Campaign>
+
+</Campaigns>

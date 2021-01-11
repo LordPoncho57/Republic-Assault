@@ -571,8 +571,8 @@
 	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
@@ -617,8 +617,8 @@
 	<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 45.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 35.0 </Fire_Inaccuracy_Distance>
@@ -656,8 +656,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+	
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -670,8 +672,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -710,8 +712,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -724,8 +728,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -764,8 +768,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -778,8 +784,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -818,8 +824,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -832,8 +840,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -872,8 +880,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -886,8 +896,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -926,15 +936,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
 
-	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -947,8 +952,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -987,15 +992,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
 
-	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -1008,8 +1008,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1048,15 +1048,10 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 	<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
 
-	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>1</Fire_Pulse_Count>
-	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>4000.0</Fire_Range_Distance>
     <!-- Projectile type, this defines range, damage and VFX of the projectile -->
 	<Fire_Projectile_Type>Proj_Ship_Dual_Heavy_Turbolaser_Blue</Fire_Projectile_Type>
+	<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>	
 	<!-- Reload Rate -->
 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
@@ -1069,8 +1064,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1123,8 +1118,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1177,8 +1172,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1231,8 +1226,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1285,8 +1280,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1339,8 +1334,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1394,8 +1389,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1448,8 +1443,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>
@@ -1503,8 +1498,8 @@
 	<Fire_SFXEvent>Unit_Heavy_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 100.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 100.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 65.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 60.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 55.0 </Fire_Inaccuracy_Distance>

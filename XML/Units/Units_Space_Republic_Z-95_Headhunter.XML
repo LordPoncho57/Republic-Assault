@@ -10,7 +10,7 @@
 
 	<Icon_Name>I_BUTTON_Z95_HEADHUNTER.tga</Icon_Name>
 	<Space_Model_Name>Rep_Z-95_Headhunter.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor> <!-- From 0.1 -->
+	<Scale_Factor>0.85</Scale_Factor> 
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -18,22 +18,22 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>0.5</Max_Lift>	
-	<Max_Speed>2.3</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>0.80</Max_Rate_Of_Turn>
-	<Max_Thrust>0.5</Max_Thrust>
-	<Max_Rate_Of_Roll>0.80</Max_Rate_Of_Roll>
+	<Max_Lift>0.53</Max_Lift>	
+	<Max_Speed>3.8</Max_Speed>
+	<Min_Speed>3.6</Min_Speed>
+	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
+	<Max_Thrust>0.53</Max_Thrust>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>970.0</Begin_Turn_Towards_Distance>
+	<Begin_Turn_Towards_Distance>1250.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 	<Hyperspace>No</Hyperspace>
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Empire</Affiliation>
 	<Shield_Points>5</Shield_Points>
-	<Tactical_Health>12</Tactical_Health>
-	<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
+	<Tactical_Health>30</Tactical_Health>
+	<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
@@ -54,7 +54,7 @@
 
 	<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -121,7 +121,7 @@
 
 	<Icon_Name>I_BUTTON_Z95_HEADHUNTER.tga</Icon_Name>
 	<Space_Model_Name>Rep_Z-95_Headhunter.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor> <!-- From 0.1 -->
+	<Scale_Factor>0.85</Scale_Factor> 
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -129,22 +129,22 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>0.5</Max_Lift>	
-	<Max_Speed>2.3</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>0.80</Max_Rate_Of_Turn>
-	<Max_Thrust>0.5</Max_Thrust>
-	<Max_Rate_Of_Roll>0.80</Max_Rate_Of_Roll>
+	<Max_Lift>0.53</Max_Lift>	
+	<Max_Speed>3.8</Max_Speed>
+	<Min_Speed>3.6</Min_Speed>
+	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
+	<Max_Thrust>0.53</Max_Thrust>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>970.0</Begin_Turn_Towards_Distance>
+	<Begin_Turn_Towards_Distance>1250.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
 	<Hyperspace>No</Hyperspace>
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Empire</Affiliation>
 	<Shield_Points>5</Shield_Points>
-	<Tactical_Health>12</Tactical_Health>
-	<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
+	<Tactical_Health>30</Tactical_Health>
+	<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
@@ -165,7 +165,7 @@
 
 	<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>

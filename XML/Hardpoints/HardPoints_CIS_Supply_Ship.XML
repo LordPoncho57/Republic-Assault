@@ -351,13 +351,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_02">
@@ -403,13 +403,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>		
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_03">
@@ -455,13 +455,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>			
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>		
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_04">
@@ -507,13 +507,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>		
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_05">
@@ -559,13 +559,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_06">
@@ -611,13 +611,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_07">
@@ -663,13 +663,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>		
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_08">
@@ -715,13 +715,13 @@
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 45.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_01">
@@ -729,7 +729,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -769,12 +769,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_02">
@@ -782,7 +782,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -821,12 +821,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_03">
@@ -834,7 +834,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -873,12 +873,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_04">
@@ -886,7 +886,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -925,12 +925,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_05">
@@ -938,7 +938,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -977,12 +977,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_06">
@@ -990,7 +990,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1029,12 +1029,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_07">
@@ -1042,7 +1042,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1081,12 +1081,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_08">
@@ -1094,7 +1094,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1133,12 +1133,12 @@
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
 	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>	
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 
@@ -1147,7 +1147,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1186,8 +1186,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1200,7 +1200,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1239,8 +1239,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1253,7 +1253,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1291,8 +1291,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1305,7 +1305,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1343,8 +1343,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1357,7 +1357,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1395,8 +1395,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1409,7 +1409,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1447,8 +1447,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1461,7 +1461,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1499,8 +1499,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1513,7 +1513,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1551,8 +1551,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1565,7 +1565,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1603,8 +1603,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1617,7 +1617,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1655,8 +1655,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1669,7 +1669,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1707,8 +1707,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
@@ -1721,7 +1721,7 @@
 	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Health>30.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1759,8 +1759,8 @@
 	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>

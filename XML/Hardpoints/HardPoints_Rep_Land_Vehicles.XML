@@ -1,62 +1,5 @@
 <?xml version="1.0"?>
 <HardPoints>
-				<!--Infantry-->
-
-    <HardPoint Name="HP_Clone_Trooper_DC15S_T1">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
-        <Fire_Cone_Width>30.0</Fire_Cone_Width>
-        <Fire_Cone_Height>60.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
-
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>300.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Clone_Infantry_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-       <!-- <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>-->
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-
-	    <Fire_Category_Restrictions> Wall </Fire_Category_Restrictions>
-    </HardPoint>
-
-    <HardPoint Name="HP_Clone_Trooper_DC17">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
-        <Fire_Cone_Width>30.0</Fire_Cone_Width>
-        <Fire_Cone_Height>60.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
-
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>300.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_DC-17M_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-       <!-- <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>-->
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-
-	    <Fire_Category_Restrictions> Wall </Fire_Category_Restrictions>
-    </HardPoint>
-
-
 
 				<!--AT-XT-->
 
@@ -80,7 +23,8 @@
 	<Fire_Inaccuracy_Distance>Infantry, 35.0</Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance>Vehicle, 4.0</Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance>Air, 0.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 2.0</Fire_Inaccuracy_Distance>            <Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+	<Fire_Inaccuracy_Distance>Structure, 2.0</Fire_Inaccuracy_Distance>            
+	<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
 </HardPoint>
 
 			<!--HAVw A6 Juggernaut-->

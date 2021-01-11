@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AT-TE_Walker>
+
+        <!-- 1. Description Data -->
+
+        <GroundVehicle Name="AT_TE_Heavy_Walker">   
+
+        <Text_ID>TEXT_UNIT_ATTE_WALKER</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_ATTE_WALKER</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ATTE_WALKER</Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <!-- 2. Model Data -->
+
+        <Land_Model_Name>Rep_AT_TE.alo</Land_Model_Name>
+        <Land_Model_Anim_Override_Name>Rep_AT_TE.alo</Land_Model_Anim_Override_Name>        
+        <Icon_Name>i_button_atte.TGA</Icon_Name>
+	    <Scale_Factor>0.8</Scale_Factor>
+	    <Size_Value>75</Size_Value>        
+        <Select_Box_Scale>50</Select_Box_Scale>
+        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>        
+        <Space_Layer> Land </Space_Layer>
+        <UnitCollisionClass> Large Vehicle </UnitCollisionClass>
+
+        <LOD_Bias>4</LOD_Bias>
+        <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+        <Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+        <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+
+        <No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+        <No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+
+        <Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>             
+
+        <!-- Turret based info, only needed if vehicle has turret --> 
+        <Target_Bones> B_TURRET, B_BARREL_00 </Target_Bones>
+	    <Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target> 
+
+        <Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
+
+        <Turret_Bone_Name>B_TURRET</Turret_Bone_Name>
+        <Barrel_Bone_Name>B_BARREL_00</Barrel_Bone_Name>
+
+        <Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
+        <Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+        <Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+        <Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
+
+        <Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+        <Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
+        <Turret_Targets_Air_Vehicles> 2 </Turret_Targets_Air_Vehicles>
+        <Turret_Targets_Anything_Else> 9999 </Turret_Targets_Anything_Else>
+		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>  
+		<Must_Face_Target_To_Attack_When_Deployed>No</Must_Face_Target_To_Attack_When_Deployed>
+		<Max_Dist_Walk_While_Deployed>1.0</Max_Dist_Walk_While_Deployed>      
+
+        <Turret_Deployed_Rest_Angle>0.0, 0.0, 0.0</Turret_Deployed_Rest_Angle>
+
+        <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+        <Projectile_Types>RA_Proj_Super_Heavy_Blaster_Cannon_Blue</Projectile_Types>
+		<!-- Reload Rate -->
+        <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>  
+		<!-- Burst Rate -->
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+
+		<!-- 3. Targeting Data -->		
+
+	    <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>      
+	    <Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>   
+		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>   
+        <Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>          
+
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>10.0</Autonomous_Move_Extension_Vs_Attacker>  
+
+		<!-- 4. Class Data -->
+
+        <CategoryMask> Vehicle | AntiVehicle</CategoryMask>
+        <MovementClass>LargeWalker</MovementClass>
+		<Weather_Category>LargeWalker</Weather_Category>		
+        <OccupationStyle>1x1</OccupationStyle>
+        <Victory_Relevant>yes</Victory_Relevant>
+    	<Ship_Class>tank</Ship_Class>   
+        <Property_Flags>CanContainGarrison | DoNotKite</Property_Flags>
+        <!--	<Create_Team>yes</Create_Team>   (Used for creating unit teams for ground companies) -->   
+		<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
+		<Is_Visible_On_Radar>n</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_atte.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>80</Radar_Icon_Size>
+
+		<Overall_Length>20.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
+		<Overall_Width>0.0</Overall_Width> <!-- 0.0 means don't roll left and right on terrain -->
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
+		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Deploys>Yes</Deploys>
+		<Auto_Deploys>Yes</Auto_Deploys>        
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Required_Timeline>0</Required_Timeline>		
+
+
+        <Score_Cost_Credits>400</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>300</Tactical_Bribe_Cost>	        
+        <Influences_Capture_Point> false </Influences_Capture_Point>    
+		<Should_Reinforcements_Move> false </Should_Reinforcements_Move>                   		
+
+
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>100</Damage>
+		<Autoresolve_Health>450</Autoresolve_Health>
+		<AI_Combat_Power>207</AI_Combat_Power>
+
+
+		<!-- 6. Tactical Combat Data -->
+
+        <Behavior>SELECTABLE</Behavior>
+		<LandBehavior>WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,GARRISON_VEHICLE,AFFECTED_BY_SHIELD</LandBehavior>
+
+
+		<!-- 7. Garrison Data -->
+		<Garrison_Category> Infantry, Vehicle, LandHero </Garrison_Category>
+		<Num_Garrison_Slots>2</Num_Garrison_Slots>
+		<Garrison_Bone_Names>B_ROPEMASTER</Garrison_Bone_Names>
+		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>30</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>	
+
+		<!-- 8. Movement Data -->
+
+		<Mass>1.0</Mass>
+        <Movement_Animation_Speed>0.65</Movement_Animation_Speed>	
+        <Rotation_Animation_Speed>0.47</Rotation_Animation_Speed>
+
+        <Max_Speed>0.8 </Max_Speed>
+        <Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+        <Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
+
+        <Walk_Transition>Yes</Walk_Transition>
+        <Has_Pre_Turn_Anim> Yes </Has_Pre_Turn_Anim>
+        <Min_Speed_Fraction_For_Turn> 0.1 </Min_Speed_Fraction_For_Turn>
+
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<UseSecondaryFacing>false</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>0.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+
+		<MinSecondaryTurnROTCoefficient>0.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>0.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>500</SecondaryTurnLookaheadDistance>
+
+        <MaxJiggleDistance> 4 </MaxJiggleDistance>  
+
+        <!-- This value defines how large the radius is around which other land units cannot manouevre/land in -->
+        <Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+
+        <!-- 9. Formation Data -->
+
+        <FormationOrder> 2 </FormationOrder>
+        <FormationSpacing> 0.7 </FormationSpacing>
+        <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+        <WaitsForFormationFormup>false</WaitsForFormationFormup>
+        <FormationRaggedness> 300.0 </FormationRaggedness>
+        <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>   
+        <FormationGrouping> Solo </FormationGrouping>   
+
+        <Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+        <Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+        <Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<!-- 10. Hull Data -->
+
+        <Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Points>0</Shield_Points>
+        <Tactical_Health>750</Tactical_Health>
+        <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+        <Energy_Capacity>5000</Energy_Capacity>
+        <Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+	
+
+		<!-- 11. Death Data -->
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>20.0</Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
+		
+		<!-- 12. Sound Data -->
+
+		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
+	    <SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>        
+		<SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>	
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>	
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>	
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>	
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+        <GUI_Bracket_Size>1</GUI_Bracket_Size>
+        <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+
+        <Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+    </GroundVehicle>
+
+    <GroundCompany Name="AT_TE_Heavy_Walker_Company">
+        <LOD_Bias>4</LOD_Bias>
+        <Text_ID>TEXT_UNIT_ATTE_WALKER</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_ATTE_WALKER</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Damage>30</Damage>
+        <Autoresolve_Health>100</Autoresolve_Health>
+        <Affiliation>Empire</Affiliation>
+        <Build_Cost_Credits>900</Build_Cost_Credits>
+        <Piracy_Value_Credits>50</Piracy_Value_Credits>
+        <Build_Time_Seconds>25</Build_Time_Seconds>
+        <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Tech_Level>2</Tech_Level>
+            
+            <Required_Timeline>0</Required_Timeline>
+            <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+            <Required_Star_Base_Level>0</Required_Star_Base_Level>
+            <Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+            <Required_Planets />
+            
+        <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+
+        <Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+        <Company_Units>AT_TE_Heavy_Walker, AT_TE_Heavy_Walker</Company_Units>
+        <Max_Squad_Size> 1 </Max_Squad_Size>
+        <Icon_Name>i_button_p1_atap.TGA</Icon_Name>
+        <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Complete_ATRT</SFXEvent_Build_Complete>
+        <SFXEvent_Fleet_Move>Unit_Fleet_Move_ATAP</SFXEvent_Fleet_Move>
+        <Score_Cost_Credits>150</Score_Cost_Credits>
+
+
+        <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+        <Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites>REPC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+        <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+        <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+        <Population_Value>1</Population_Value>
+    </GroundCompany>
+
+</AT-TE_Walker>

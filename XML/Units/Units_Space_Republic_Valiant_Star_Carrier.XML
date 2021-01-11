@@ -147,6 +147,10 @@
 	<Idle_Chase_Range>800</Idle_Chase_Range>
 	<Attack_Move_Response_Range>2400</Attack_Move_Response_Range>
 	<Reinforcement_Prevention_Radius>0.0</Reinforcement_Prevention_Radius>
+
+	<!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 	<!-- 8. Galactic Build Data -->
 		
@@ -180,7 +184,7 @@
 	
 	<!-- 9. Multiplayer Skirmish Build Data -->
 
-	<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	<Tactical_Build_Prerequisites />

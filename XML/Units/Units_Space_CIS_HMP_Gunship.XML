@@ -21,12 +21,12 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>0.5</Max_Lift>
-	<Max_Speed>1.6</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>0.53</Max_Rate_Of_Turn>
-	<Max_Thrust>0.5</Max_Thrust>
-	<Max_Rate_Of_Roll>0.53</Max_Rate_Of_Roll>
+	<Max_Lift>0.4</Max_Lift>
+	<Max_Speed>3.5</Max_Speed>
+	<Min_Speed>3.2</Min_Speed>
+	<Max_Rate_Of_Turn>0.63</Max_Rate_Of_Turn>
+	<Max_Thrust>0.55</Max_Thrust>
+	<Max_Rate_Of_Roll>0.63</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
 	<Begin_Turn_Towards_Distance>1350.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
@@ -36,9 +36,9 @@
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Rebel</Affiliation>
-	<Shield_Points>80</Shield_Points>
-	<Tactical_Health>15</Tactical_Health>
-	<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+	<Shield_Points>30</Shield_Points>
+	<Tactical_Health>50</Tactical_Health>
+	<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
@@ -59,7 +59,7 @@
 	</HardPoints>
 
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -105,7 +105,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -152,12 +152,12 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Lift>0.5</Max_Lift>
-	<Max_Speed>1.6</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<Max_Rate_Of_Turn>0.53</Max_Rate_Of_Turn>
-	<Max_Thrust>0.5</Max_Thrust>
-	<Max_Rate_Of_Roll>0.53</Max_Rate_Of_Roll>
+	<Max_Lift>0.4</Max_Lift>
+	<Max_Speed>3.5</Max_Speed>
+	<Min_Speed>3.2</Min_Speed>
+	<Max_Rate_Of_Turn>0.63</Max_Rate_Of_Turn>
+	<Max_Thrust>0.55</Max_Thrust>
+	<Max_Rate_Of_Roll>0.63</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>50</Bank_Turn_Angle>
 	<Begin_Turn_Towards_Distance>1350.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
@@ -167,9 +167,9 @@
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Rebel</Affiliation>
-	<Shield_Points>80</Shield_Points>
-	<Tactical_Health>15</Tactical_Health>
-	<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+	<Shield_Points>15</Shield_Points>
+	<Tactical_Health>50</Tactical_Health>
+	<Shield_Refresh_Rate>0.5</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
@@ -190,7 +190,7 @@
 	</HardPoints>
 
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -236,7 +236,7 @@
 	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
 	<Create_Team>Yes</Create_Team>
-	<AI_Combat_Power>60</AI_Combat_Power>
+	<AI_Combat_Power>6</AI_Combat_Power>
 	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -335,7 +335,7 @@
         </Unit_Abilities_Data>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-	<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites/>
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

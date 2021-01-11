@@ -31,12 +31,12 @@
     <Mass>1.0</Mass>
     <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 
-    <Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
-    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-    <Max_Speed>1.3</Max_Speed>
-    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Movement_Animation_Speed> 1.3 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 10.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .266 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .337 </Crouch_Animation_Speed>
+    <Max_Speed>0.7</Max_Speed>
+    <Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
     <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
     <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
     <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
@@ -75,23 +75,25 @@
     <Damage>2</Damage>
     <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
     
-    <Projectile_Types>Proj_Hand_Blaster_Blue</Projectile_Types>
+    <Projectile_Types>RA_Proj_Hand_Blaster_Blue</Projectile_Types>
         <Projectile_Damage>0.0</Projectile_Damage>
         <Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
         <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
         <Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
     
-    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
-    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+    <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>800.0</Land_FOW_Reveal_Range>
     
     <Targeting_Fire_Inaccuracy> Infantry, 15.0 </Targeting_Fire_Inaccuracy>
     <Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
     <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
     <Targeting_Fire_Inaccuracy> Structure, 30.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
+
+
 	
     <Sensor_Range>20</Sensor_Range>
-    <Shield_Points>0</Shield_Points>
+    <Shield_Points>100</Shield_Points>
     <Stealth_Capable>No</Stealth_Capable>
 
     <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
@@ -163,12 +165,12 @@
     <!-- Non-Hero unit abilities description -->
     <Unit_Abilities_Data SubObjectList="Yes">
     	<!-- Primary ability -->
-    	<Unit_Ability>
-        <Type>SPREAD_OUT</Type>
-        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
-    </Unit_Ability>
+	<Unit_Ability>
+		<Type>SPREAD_OUT</Type>
+		<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+	</Unit_Ability>
         	
     <Unit_Ability>
         <Type>SPRINT</Type>
@@ -259,22 +261,23 @@
     <!-- Non-Hero unit abilities description -->
     <Unit_Abilities_Data SubObjectList="Yes">
     	<!-- Primary ability -->
-    	<Unit_Ability>
-        <Type>SPREAD_OUT</Type>
-        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
-    </Unit_Ability>
-        	
-    <Unit_Ability>
-        <Type>SPRINT</Type>
-        <Expiration_Seconds> 7.0 </Expiration_Seconds>
-        <Recharge_Seconds> 45.0 </Recharge_Seconds>
-        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
-        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
-	</Unit_Ability>
-    </Unit_Abilities_Data>
+		<Unit_Ability>
+			<Type>SPREAD_OUT</Type>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+		</Unit_Ability>
+				
+		<Unit_Ability>
+			<Type>SPRINT</Type>
+			<Expiration_Seconds> 7.0 </Expiration_Seconds>
+			<Recharge_Seconds> 45.0 </Recharge_Seconds>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
+	</Unit_Abilities_Data>
+
 <Abilities SubObjectList="Yes">
 
 <Generic_Attack_Ability Name="RC_Fixer_Melee">
@@ -352,26 +355,27 @@
     <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
     <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-<!-- Non-Hero unit abilities description -->
-<Unit_Abilities_Data SubObjectList="Yes">
+	<!-- Non-Hero unit abilities description -->
+	<Unit_Abilities_Data SubObjectList="Yes">
 
-	<!-- Primary ability -->
-<Unit_Ability>
-	<Type>PROXIMITY_MINES</Type>
-	<Recharge_Seconds>70.0</Recharge_Seconds>
-	<GUI_Activated_Ability_Name> Sev_Mines </GUI_Activated_Ability_Name> 
-	<Effective_Radius> 500.0 </Effective_Radius>
-	<SFXEvent_Target_Ability />  
-	<Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
-	<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-</Unit_Ability>
+		<!-- Primary ability -->
+		<Unit_Ability>
+			<Type>PROXIMITY_MINES</Type>
+			<Recharge_Seconds>70.0</Recharge_Seconds>
+			<GUI_Activated_Ability_Name> Sev_Mines </GUI_Activated_Ability_Name> 
+			<Effective_Radius> 500.0 </Effective_Radius>
+			<SFXEvent_Target_Ability />  
+			<Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
+			<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+		</Unit_Ability>
 
-<Unit_Ability>
-	<Type>SPREAD_OUT</Type>
-	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
-	<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-</Unit_Ability>
-</Unit_Abilities_Data>
+		<Unit_Ability>
+			<Type>SPREAD_OUT</Type>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+		</Unit_Ability>
+	</Unit_Abilities_Data>
 
 
 <Abilities SubObjectList="Yes">
@@ -476,8 +480,9 @@
 
 <Unit_Ability>
 	<Type>SPREAD_OUT</Type>
-	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 	<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+	<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
 </Unit_Ability>
 </Unit_Abilities_Data>
 
@@ -585,9 +590,9 @@
 	<!-- Primary ability -->
 <Unit_Ability>
 	<Type>SPREAD_OUT</Type>
-	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.3f</Mod_Multiplier>
+	<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 	<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-	<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cover_Boss</SFXEvent_GUI_Unit_Ability_Activated>	 
+	<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
 </Unit_Ability>
 
 <Unit_Ability>

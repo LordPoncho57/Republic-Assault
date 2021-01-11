@@ -255,6 +255,17 @@
 
 <SpaceUnit Name="Dreadnaught_Heavy_Cruiser_CorSec">
 	<Variant_Of_Existing_Type>Dreadnaught_Heavy_Cruiser</Variant_Of_Existing_Type>
+	<Armor_Type> RA_Space_Armour_Medium </Armor_Type>
+	<Shield_Type> RA_Space_Shield_Light_MKI </Shield_Type>
+	
+	<Shield_Points>1500</Shield_Points> 
+	<Shield_Refresh_Rate>1.25</Shield_Refresh_Rate>
+
+	<Energy_Capacity>10000</Energy_Capacity>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+
+	<Build_Cost_Credits>1500</Build_Cost_Credits>
+	<Build_Time_Seconds>15</Build_Time_Seconds>
 
 	<Encyclopedia_Text> 
 	TEXT_TOOLTIP_PRAETOR

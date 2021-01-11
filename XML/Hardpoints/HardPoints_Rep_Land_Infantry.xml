@@ -323,18 +323,19 @@
         <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 35.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 25.0 </Fire_Inaccuracy_Distance>
+        
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 

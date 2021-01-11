@@ -113,13 +113,13 @@
 	<SFXEvent_Turret_Rotating_Loop>Unit_Turret_Rotate</SFXEvent_Turret_Rotating_Loop>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 	
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -164,13 +164,13 @@
 	<SFXEvent_Turret_Rotating_Loop>Unit_Turret_Rotate</SFXEvent_Turret_Rotating_Loop>
 
 	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
-	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Bomber, 12.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
