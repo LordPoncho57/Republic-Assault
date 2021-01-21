@@ -712,6 +712,7 @@
 	<Tool_Tip_Small_Font_Size>5</Tool_Tip_Small_Font_Size>
 	<Command_Bar_Default_Font_Name>EmpireAtWar-Medium</Command_Bar_Default_Font_Name>
 	<Command_Bar_Default_Font_Size>7</Command_Bar_Default_Font_Size>
+	<Strategic_Command_Bar_Buildable_Row_Count>36</Strategic_Command_Bar_Buildable_Row_Count>
 	<Text_Button_Default_Font_Name>EmpireAtWar-Medium</Text_Button_Default_Font_Name>
 	<Text_Button_Default_Font_Size>7</Text_Button_Default_Font_Size>
 	<Game_Object_Name_Font_Name>EmpireAtWar-Medium</Game_Object_Name_Font_Name>

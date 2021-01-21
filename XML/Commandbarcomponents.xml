@@ -728,7 +728,245 @@
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 
+    <CommandBarComponent Name="b_Create_26">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
 
+    <CommandBarComponent Name="b_Create_27">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_28">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_29">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_30">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_31">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_32">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_33">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_34">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_35">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
 
 
 
