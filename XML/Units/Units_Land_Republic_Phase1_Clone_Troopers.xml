@@ -155,7 +155,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -339,7 +339,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -566,7 +566,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -737,22 +737,22 @@
 		<Deploys>No</Deploys>		
 
 	    <!-- Weapon Stats -->
-        <Projectile_Types>Proj_Dummy</Projectile_Types>
+        <Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
 		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>  
+        <Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
         <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
         <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>	
+        <Targeting_Fire_Inaccuracy> LandHero, 60.0 </Targeting_Fire_Inaccuracy>	
 		
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
@@ -796,7 +796,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Plex_Soldier_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -854,8 +854,9 @@
     </Land_Terrain_Model_Mapping>
     <Land_Model_Anim_Override_Name>Rep_P1_Clone_Z6.ALO</Land_Model_Anim_Override_Name>
 
+  
     <Behavior>SELECTABLE</Behavior>
-    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TURRET,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
     <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
     <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
     <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -921,45 +922,29 @@
     <Is_Squashable> Yes </Is_Squashable>
 	<!-- This defines whether the unit is in a squad or as individual soldiers -->
     <Create_Team>Yes</Create_Team>
-    
 
-		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>120.0</Turret_Elevate_Extent_Degrees>
-
-		<Turret_Bone_Name>HIP</Turret_Bone_Name>
-		<Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-		<Turret_Targets_Ground_Vehicles>2</Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Ground_Infantry>1</Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Air_Vehicles>3</Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else>4</Turret_Targets_Anything_Else>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
 		<Deploys>No</Deploys>		
 
 	    <!-- Weapon Stats -->
-        <Projectile_Types>Proj_Dummy</Projectile_Types>
+        <Projectile_Types>RA_Proj_Hand_Blaster_Blue</Projectile_Types>
 		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
 		<Projectile_Damage>0.0</Projectile_Damage>		
 		<!-- Reload Rate -->
-        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>  
+        <Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
         <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+        <Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+
 
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 35.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>		
-		
-        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Targeting_Fire_Inaccuracy> LandHero, 30.0 </Targeting_Fire_Inaccuracy>	
 
 	<!-- Unit line of sight and engagement range and targeting -->	
     <Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
@@ -968,7 +953,7 @@
 	
     <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
 	
-    <Targeting_Stickiness_Time_Threshold>1.0</Targeting_Stickiness_Time_Threshold>
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
     <Idle_Chase_Range>1.0</Idle_Chase_Range>
     <Guard_Chase_Range>200.0</Guard_Chase_Range>
     <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
@@ -1000,7 +985,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -1190,7 +1175,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -1382,7 +1367,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -1570,7 +1555,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -1759,7 +1744,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -1942,7 +1927,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -2133,7 +2118,7 @@
     <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
     <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
     <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
-    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <SFXEvent_Fire>Unit_Clone_Blaster_Fire</SFXEvent_Fire>
     <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
     <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
     <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
@@ -2408,7 +2393,20 @@
 		<Create_Team>Yes</Create_Team>
 	</GroundInfantry>			
 	
-	
+	<GroundInfantry Name="Squad_P1_Clone_Commander">
+		<Variant_Of_Existing_Type>P1_Clone_Commander</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_CARBINE_SOLDER</Text_ID>
+		<LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Max_Speed> 1 </Max_Speed>
+		<Space_Layer> None </Space_Layer>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<FormationRaggedness> .2 </FormationRaggedness>
+
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+		<Create_Team>Yes</Create_Team>
+	</GroundInfantry>	
 	
 	
 	

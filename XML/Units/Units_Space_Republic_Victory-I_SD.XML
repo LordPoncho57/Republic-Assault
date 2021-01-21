@@ -129,8 +129,8 @@
 
 
 <Projectile_Types>RA_Proj_Ship_Concussion_Missile</Projectile_Types>
-<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-<Turret_Elevate_Extent_Degrees>360</Turret_Elevate_Extent_Degrees>
+<Turret_Rotate_Extent_Degrees>30</Turret_Rotate_Extent_Degrees>
+<Turret_Elevate_Extent_Degrees>30</Turret_Elevate_Extent_Degrees>
 <Projectile_Fire_Pulse_Count>36</Projectile_Fire_Pulse_Count>
 <Projectile_Fire_Pulse_Delay_Seconds>0.08</Projectile_Fire_Pulse_Delay_Seconds>
 <Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
@@ -138,6 +138,15 @@
 <Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
 <SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
 <Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+
+	<Targeting_Fire_Inaccuracy> Fighter, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Bomber, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Transport, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Corvette, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Capital, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Super, 10.0 </Targeting_Fire_Inaccuracy>	
+
 
 	<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 	<Icon_Name>I_BUTTON_SD_VICTORY.tga</Icon_Name>
