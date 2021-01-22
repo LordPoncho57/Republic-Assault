@@ -150,7 +150,11 @@
 	<Guard_Chase_Range>800.0</Guard_Chase_Range>
 	<Idle_Chase_Range>100.0</Idle_Chase_Range>
 	<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
-		
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
+
 	<!-- 8. Galactic Build Data -->
 		
 	<Build_Cost_Credits>5000</Build_Cost_Credits>

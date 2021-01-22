@@ -37,6 +37,10 @@
 	<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 7.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 7.0 </Custom_Hard_YExtent>
+
 	<Bank_Turn_Angle>30</Bank_Turn_Angle>
 	<OverrideAcceleration> .05 </OverrideAcceleration>
 	<OverrideDeceleration> .05 </OverrideDeceleration>
