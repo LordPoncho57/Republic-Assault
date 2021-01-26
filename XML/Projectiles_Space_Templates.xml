@@ -1099,7 +1099,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Damage_Type> RA_Space_Damage_Concussion_Missile </Damage_Type>
-	<Max_Speed>10.0</Max_Speed>
+	<Max_Speed>9.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1124,7 +1124,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>8.0</Scale_Factor>
 	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
-	<Max_Speed>8.0</Max_Speed>
+	<Max_Speed>7.0</Max_Speed>
 
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>MISSILE</Projectile_Category>

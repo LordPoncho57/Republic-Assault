@@ -75,7 +75,11 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>			
+		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>	
+		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>										
 
 
                                 
@@ -108,6 +112,7 @@
 		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Company_T3 </Starting_Forces>
 		<Starting_Forces> Empire, Christophsis, Delta_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, AT_TE_Heavy_Walker_Company </Starting_Forces>		
 		
     </Campaign>
 

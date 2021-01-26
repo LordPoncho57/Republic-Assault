@@ -1369,11 +1369,11 @@
 <Projectile Name="RA_Proj_Super_Heavy_Blaster_Cannon_Blue">
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Projectile_Width>1.0</Projectile_Width>
-	<Projectile_Length>1.85</Projectile_Length>	
+	<Scale_Factor>0.8</Scale_Factor>
+	<Projectile_Width>0.8</Projectile_Width>
+	<Projectile_Length>1.2</Projectile_Length>	
 	<Damage_Type> Damage_ATAT </Damage_Type>
-	<Max_Speed>20.0</Max_Speed>
+	<Max_Speed>25.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>

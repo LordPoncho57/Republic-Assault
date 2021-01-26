@@ -31,7 +31,7 @@
     <Mass>1.0</Mass>
     <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 
-    <Movement_Animation_Speed> 1.3 </Movement_Animation_Speed>
+    <Movement_Animation_Speed> 1.4 </Movement_Animation_Speed>
     <Rotation_Animation_Speed> 10.0 </Rotation_Animation_Speed>
     <Walk_Animation_Speed> .266 </Walk_Animation_Speed>
     <Crouch_Animation_Speed> .337 </Crouch_Animation_Speed>
@@ -53,7 +53,7 @@
     <FormationRaggedness> 300.0 </FormationRaggedness>
     <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
 
-    <Scale_Factor>1.07</Scale_Factor>
+    <Scale_Factor>1.2</Scale_Factor>
     <Type>Walk</Type>
     <Deploys>No</Deploys>
     <Affiliation>Empire</Affiliation>
@@ -77,7 +77,7 @@
     
     <Projectile_Types>RA_Proj_Hand_Blaster_Blue</Projectile_Types>
         <Projectile_Damage>0.0</Projectile_Damage>
-        <Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
         <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
         <Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
     
