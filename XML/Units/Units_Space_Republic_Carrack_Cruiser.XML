@@ -39,6 +39,10 @@
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.05</Maintenance_Cost>
 
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 4.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 4.0 </Custom_Hard_YExtent>
+
 	<Affiliation>Empire</Affiliation>
 	<GUI_Row> 0 </GUI_Row>
 	<Tech_Level>2</Tech_Level>

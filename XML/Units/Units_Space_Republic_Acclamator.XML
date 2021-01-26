@@ -35,6 +35,10 @@
 	<OverrideDeceleration>0.03</OverrideDeceleration>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 	
+	    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 7.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 7.0 </Custom_Hard_YExtent>
+
 	<Max_Thrust>0.5</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
