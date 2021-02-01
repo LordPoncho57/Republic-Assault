@@ -13,7 +13,7 @@
 		
 	<Space_Model_Name>Rep_Valiant_Star_Carrier.ALO</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Ranking_In_Category>6</Ranking_In_Category>
 	<Size_Value>30</Size_Value>		
 	<Select_Box_Scale>250</Select_Box_Scale>

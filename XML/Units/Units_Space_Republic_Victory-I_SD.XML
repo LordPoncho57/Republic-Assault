@@ -14,7 +14,7 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.85</Scale_Factor>
 
 	<Lua_Script>ObjectScript_LayerZ_DeployFighters</Lua_Script>
 	<Moniker>Victory_Destroyer.txt</Moniker>	

@@ -18,7 +18,7 @@
 	<Tech_Level>0</Tech_Level> 
 	<GUI_Row> 1 </GUI_Row>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>2200</Autoresolve_Health>
 	<Shield_Points>2500</Shield_Points>
@@ -174,6 +174,7 @@
 	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 	<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>

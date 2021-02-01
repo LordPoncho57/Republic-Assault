@@ -15,7 +15,7 @@
 
 	<Space_Model_Name>Rep_Gladiator_Heavy_Cruiser.ALO</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.7</Scale_Factor>
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Size_Value>10</Size_Value>		
 	<Select_Box_Scale>100</Select_Box_Scale>
@@ -115,8 +115,8 @@
 	<!-- 7. Movement Data -->
 		
 	<Mass>1</Mass>
-	<Max_Speed>0.5</Max_Speed>
-	<Min_Speed>3.0</Min_Speed>
+	<Max_Speed>2.5</Max_Speed>
+	<Min_Speed>2.0</Min_Speed>
 	<OverrideAcceleration>0.15</OverrideAcceleration>
 	<OverrideDeceleration>0.15</OverrideDeceleration>
 

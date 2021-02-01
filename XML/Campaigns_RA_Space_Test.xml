@@ -77,14 +77,16 @@
         <!-- Bothawui Space Forces -->
 		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>	
 		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>										
+		<Starting_Forces> Rebel, Ryloth, Lucrehulk </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, CIS_Providence_IKM </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>										
 
 
                                 
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, AAT_Tank_Company </Starting_Forces>		
+		
 		
 
 
@@ -101,6 +103,7 @@
 		<Starting_Forces> Empire, Christophsis, Victory_SD </Starting_Forces>		
 		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>		
 		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Mandator_Dreadnaught </Starting_Forces>		
 
 			
 			

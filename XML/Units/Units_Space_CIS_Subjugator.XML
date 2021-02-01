@@ -15,7 +15,7 @@
 
 	<Space_Model_Name>CIS_Subjugator_Class.alo</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Ranking_In_Category>5</Ranking_In_Category>
 	<Size_Value>8</Size_Value>		
 	<Select_Box_Scale>1000</Select_Box_Scale>

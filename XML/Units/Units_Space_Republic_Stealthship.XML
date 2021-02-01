@@ -14,7 +14,7 @@
 	<Select_Box_Scale>250</Select_Box_Scale>
 	<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 	<Mass>0.9995</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Lua_Script>ObjectScript_LayerZ_FullSalvo</Lua_Script>
 

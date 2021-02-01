@@ -14,7 +14,7 @@
 		
 	<Space_Model_Name>Rep_Arquitens_Light_Cruiser.ALO</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ_FullSalvo</Lua_Script>
-	<Scale_Factor>0.5</Scale_Factor>
+	<Scale_Factor>0.35</Scale_Factor>
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Size_Value>10</Size_Value>		
 	<Select_Box_Scale>100</Select_Box_Scale>

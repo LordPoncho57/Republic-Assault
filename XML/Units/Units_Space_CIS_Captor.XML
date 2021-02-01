@@ -20,7 +20,7 @@
 	<Tech_Level>0</Tech_Level> 
 	<GUI_Row> 1 </GUI_Row>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>3800</Autoresolve_Health>
 	<Shield_Points>3000</Shield_Points>

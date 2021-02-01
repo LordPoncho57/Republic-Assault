@@ -16,7 +16,7 @@
 
 	<Space_Model_Name>Ns_Dreadnaught_Heavy_Cruiser.ALO</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Size_Value>8</Size_Value>
 	<Select_Box_Scale>300</Select_Box_Scale>
@@ -47,6 +47,7 @@
 	<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 
 	<!-- 4. Class Data -->
 

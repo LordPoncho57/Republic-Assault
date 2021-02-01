@@ -16,7 +16,7 @@
         <Land_Model_Name>Rep_AT_TE.alo</Land_Model_Name>
         <Land_Model_Anim_Override_Name>Rep_AT_TE.alo</Land_Model_Anim_Override_Name>        
         <Icon_Name>i_button_atte.TGA</Icon_Name>
-	    <Scale_Factor>0.8</Scale_Factor>
+	    <Scale_Factor>0.6</Scale_Factor>
 	    <Size_Value>75</Size_Value>        
         <Select_Box_Scale>50</Select_Box_Scale>
         <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>        
@@ -70,10 +70,10 @@
         <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Structure, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Infantry, 80.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 65.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
 
 		<!-- 3. Targeting Data -->		
 

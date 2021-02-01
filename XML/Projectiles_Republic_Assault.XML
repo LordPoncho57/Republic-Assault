@@ -805,7 +805,7 @@
 	<Projectile_Damage>300.0</Projectile_Damage>
 
 		<!-- Below behaviour makes all concussion missiles be able to be shot down. They are targeted as bombers -->
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING</Behavior>
+	<Behavior>PROJECTILE, TARGETING, DAMAGE_TRACKING</Behavior>
 	<Ship_Class>bomber</Ship_Class>
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
@@ -829,7 +829,7 @@
 	<Projectile_Category>ROCKET</Projectile_Category>
 
 	<!-- Below behaviour makes all concussion missiles be able to be shot down. They are targeted as bombers -->
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING</Behavior>
+	<Behavior>PROJECTILE, TARGETING, DAMAGE_TRACKING</Behavior>
 	<Ship_Class>bomber</Ship_Class>
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
@@ -1029,7 +1029,7 @@
 	<Projectile_Damage>300.0</Projectile_Damage>
 
 	<!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, TARGETING</Behavior>
+	<Behavior>PROJECTILE, TARGETING, DAMAGE_TRACKING</Behavior>
 	<Ship_Class>bomber</Ship_Class>
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Death_Explosions>Conc_Missile_Detonation_Particle</Death_Explosions>
@@ -1370,8 +1370,6 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
 	<Scale_Factor>0.8</Scale_Factor>
-	<Projectile_Width>0.8</Projectile_Width>
-	<Projectile_Length>1.2</Projectile_Length>	
 	<Damage_Type> Damage_ATAT </Damage_Type>
 	<Max_Speed>25.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>

@@ -19,7 +19,7 @@
 	<Tech_Level>0</Tech_Level> 
 	<GUI_Row> 1 </GUI_Row>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.9</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>3000</Autoresolve_Health>
 	<Shield_Points>5000</Shield_Points>
@@ -29,9 +29,9 @@
 	<Energy_Refresh_Rate>2000</Energy_Refresh_Rate>
 
 	<Ranking_In_Category>3</Ranking_In_Category>
-	<Max_Speed>2.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.45</Max_Rate_Of_Roll>
+	<Max_Speed>1.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.25</Max_Rate_Of_Roll>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
@@ -42,8 +42,8 @@
 	<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
 
 	<Bank_Turn_Angle>35</Bank_Turn_Angle>
-	<OverrideAcceleration> .075 </OverrideAcceleration>
-	<OverrideDeceleration> .075 </OverrideDeceleration>
+	<OverrideAcceleration> .025 </OverrideAcceleration>
+	<OverrideDeceleration> .025 </OverrideDeceleration>
 
 	<Armor_Type> RA_Space_Armour_V_Heavy </Armor_Type>
 	<Shield_Armor_Type>RA_Space_Shield_Heavy_MKI</Shield_Armor_Type>

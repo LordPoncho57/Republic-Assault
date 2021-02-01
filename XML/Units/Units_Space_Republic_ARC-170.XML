@@ -11,7 +11,7 @@
 	<Icon_Name>I_BUTTON_ARC170.tga</Icon_Name>
 	<Space_Model_Name>Rep_ARC-170.alo</Space_Model_Name>
 	<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-	<Scale_Factor>0.65</Scale_Factor> 
+	<Scale_Factor>0.55</Scale_Factor> 
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>

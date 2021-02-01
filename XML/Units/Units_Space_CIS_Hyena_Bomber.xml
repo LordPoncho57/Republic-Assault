@@ -12,7 +12,7 @@
 
 	<Space_Model_Name>CIS_Hyena_Bomber.ALO</Space_Model_Name>
 	<Icon_Name>i_button_hyena.tga</Icon_Name>
-	<Scale_Factor>1.2</Scale_Factor>
+	<Scale_Factor>1.1</Scale_Factor>
 	<Select_Box_Scale>70</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 
@@ -153,7 +153,7 @@
 
 	<Space_Model_Name>CIS_Hyena_Bomber.ALO</Space_Model_Name>
 	<Icon_Name>i_button_hyena.tga</Icon_Name>
-	<Scale_Factor>1.2</Scale_Factor>
+	<Scale_Factor>1.1</Scale_Factor>
 	<Select_Box_Scale>70</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 

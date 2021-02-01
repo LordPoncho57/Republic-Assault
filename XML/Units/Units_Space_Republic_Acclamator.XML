@@ -14,7 +14,7 @@
 	<Select_Box_Scale>300</Select_Box_Scale>
 	<Select_Box_Z_Adjust>-35</Select_Box_Z_Adjust>
 	<Mass>0.9995</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 
 	<Lua_Script>ObjectScript_LayerZ_PowerToWeapons</Lua_Script>
 	<Moniker>Acclamator.txt</Moniker>	

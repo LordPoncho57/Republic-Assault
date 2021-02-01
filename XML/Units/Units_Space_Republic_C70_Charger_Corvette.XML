@@ -13,7 +13,7 @@
 	<!-- 2. Model Data -->
     
 	<Space_Model_Name>Rep_C70_Charger_Corvette.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Size_Value>8</Size_Value>
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
