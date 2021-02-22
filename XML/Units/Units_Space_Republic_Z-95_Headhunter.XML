@@ -10,7 +10,7 @@
 
 	<Icon_Name>I_BUTTON_Z95_HEADHUNTER.tga</Icon_Name>
 	<Space_Model_Name>Rep_Z-95_Headhunter.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor> <!-- From 0.1 -->
+	<Scale_Factor>0.75</Scale_Factor> 
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -18,27 +18,27 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Speed>3.25</Max_Speed>
-	<Min_Speed>2.3</Min_Speed>
-	<Max_Rate_Of_Turn>2.3</Max_Rate_Of_Turn>
-	<Max_Thrust>1.2</Max_Thrust>
-	<Max_Rate_Of_Roll>2.6</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>60</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>0.53</Max_Lift>	
+	<Max_Speed>3.8</Max_Speed>
+	<Min_Speed>3.6</Min_Speed>
+	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
+	<Max_Thrust>0.53</Max_Thrust>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1250.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
-	<Max_Lift>4</Max_Lift>
 	<Hyperspace>No</Hyperspace>
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Empire</Affiliation>
 	<Shield_Points>5</Shield_Points>
-	<Tactical_Health>22</Tactical_Health>
-	<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
+	<Tactical_Health>30</Tactical_Health>
+	<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
-	<Armor_Type> Armor_Fighter </Armor_Type>
-	<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Fighter</Shield_Armor_Type>
 	<Formation_Priority>1</Formation_Priority>
 	<Is_Escort>yes</Is_Escort>
 	<Is_Bomber>no</Is_Bomber>
@@ -54,7 +54,118 @@
 
 	<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+	<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+	<SFXEvent_Select>Unit_Select_CF</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_CF</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleet_Move_CF</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_CF</SFXEvent_Attack>
+	<SFXEvent_Guard>Unit_Move_CF</SFXEvent_Guard>
+	<SFXEvent_Assist_Move> Unit_Move_CF </SFXEvent_Assist_Move>
+	<SFXEvent_Assist_Attack> Unit_Attack_CF</SFXEvent_Assist_Attack>
+	<SFXEvent_Move_Into_Nebula>Unit_Nebula_CF </SFXEvent_Move_Into_Nebula>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_CF</SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_CF </SFXEvent_Attack_Hardpoint>
+	<SFXEvent_Health_Low_Warning> Unit_Health_Low_CF </SFXEvent_Health_Low_Warning>
+	<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_CF </SFXEvent_Health_Critical_Warning>
+	<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_CF </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+	<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_CF </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+	<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+	<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+	<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	<CategoryMask> Fighter | AntiBomber</CategoryMask>
+	<Property_Flags> SmallShip </Property_Flags>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+	<MovementClass> Space </MovementClass>
+	<FormationOrder>2</FormationOrder>
+	<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+	<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+	<Create_Team>Yes</Create_Team>
+	<AI_Combat_Power>60</AI_Combat_Power>
+	<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+	<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+	<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+	<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+	<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+	<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+	<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+	<Strafe_Distance>500.0</Strafe_Distance>
+	<Population_Value>0</Population_Value>
+	<Unit_Abilities_Data SubObjectList="Yes">
+	  <!-- Primary ability -->
+	  <Unit_Ability>
+		<Type>HUNT</Type>
+	  </Unit_Ability>
+	</Unit_Abilities_Data>
+  </SpaceUnit>
+
+<SpaceUnit Name="Rep_Z95_Pen">
+	<Text_ID>TEXT_UNIT_Z95</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_Z95</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Icon_Name>I_BUTTON_Z95_HEADHUNTER.tga</Icon_Name>
+	<Space_Model_Name>Rep_Z-95_Headhunter.alo</Space_Model_Name>
+	<Scale_Factor>0.75</Scale_Factor> 
+	<Select_Box_Scale>10</Select_Box_Scale>
+	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+	<Mass>0.98</Mass>
+	<Max_Lift>0.53</Max_Lift>	
+	<Max_Speed>3.8</Max_Speed>
+	<Min_Speed>3.6</Min_Speed>
+	<Max_Rate_Of_Turn>0.73</Max_Rate_Of_Turn>
+	<Max_Thrust>0.53</Max_Thrust>
+	<Max_Rate_Of_Roll>0.73</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1250.0</Begin_Turn_Towards_Distance>
+	<Fires_Forward>no</Fires_Forward>
+	<Hyperspace>No</Hyperspace>
+	<Hyperspace_Speed>0.0</Hyperspace_Speed>
+	<Maintenance_Cost>0.1</Maintenance_Cost>
+	<Affiliation>Empire</Affiliation>
+	<Shield_Points>5</Shield_Points>
+	<Tactical_Health>30</Tactical_Health>
+	<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
+	<Energy_Capacity>500</Energy_Capacity>
+	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+	<Ship_Class>fighter</Ship_Class>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Fighter</Shield_Armor_Type>
+	<Formation_Priority>1</Formation_Priority>
+	<Is_Escort>yes</Is_Escort>
+	<Is_Bomber>no</Is_Bomber>
+	<Political_Control>0</Political_Control>
+	<Squadron_Capacity>0</Squadron_Capacity>
+	<Number_per_Squadron>5</Number_per_Squadron>
+	<Size_Value>8</Size_Value>
+	<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, SHIELDED, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING </SpaceBehavior>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Damage>8</Damage>
+
+	<HardPoints>HP_Z-95_01_Pen, HP_Z-95_02 </HardPoints>
+
+	<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
@@ -141,10 +252,10 @@
 	<!--<Required_Planets>Ord_Mantell</Required_Planets>-->
 	<Required_Special_Structures />
 	<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95</Squadron_Units>
-	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95</Squadron_Units>
-	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95</Squadron_Units>
-	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95</Squadron_Units>
+	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95_Pen</Squadron_Units>
+	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95_Pen</Squadron_Units>
+	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95_Pen</Squadron_Units>
+	<Squadron_Units>Rep_Z95, Rep_Z95, Rep_Z95_Pen</Squadron_Units>
 	<Max_Squad_Size>12</Max_Squad_Size>
         <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>

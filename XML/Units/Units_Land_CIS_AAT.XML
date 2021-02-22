@@ -15,7 +15,7 @@
 	<Land_Model_Name>CIS_AAT.ALO</Land_Model_Name>
 
 	<Mass>1.0</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Type>Hover</Type>
 	<Deploys>No</Deploys>
 	<Affiliation>Rebel</Affiliation>
@@ -73,10 +73,10 @@
 	<Projectile_Fire_Recharge_Seconds>18.0</Projectile_Fire_Recharge_Seconds> <!-- From 1.0 -->
 	<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count> <!-- From 3 -->
 	<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-	<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy> Vehicle, 15.0 </Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Infantry, 80.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 65.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
 	<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>

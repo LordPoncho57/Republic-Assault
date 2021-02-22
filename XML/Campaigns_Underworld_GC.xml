@@ -1944,7 +1944,8 @@
 				Bonadan, 
 				Bothawui, 
 				Byss, 
-				Carida, 
+				Carida,
+				Christophsis,
 				Corellia, 
 				Corulag, 
 				Coruscant, 
@@ -2435,7 +2436,16 @@
 		<Starting_Forces> Empire, Dantooine, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Dantooine, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Dantooine, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		
+
+		<!-- Christophsis Space Forces -->
+		<Starting_Forces> Empire, Christophsis, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Rep_Acclamator </Starting_Forces>
+		<!-- Christophsis Land Forces -->
+		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Imperial_Heavy_Scout_Squad </Starting_Forces>
+
 		<!-- Corellia Space Forces -->
 		<Starting_Forces> Empire, Corellia, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, TIE_Scout_Squadron </Starting_Forces>
@@ -2747,7 +2757,8 @@
 				Bonadan, 
 				Bothawui, 
 				Byss, 
-				Carida, 
+				Carida,
+				Christophsis,
 				Corellia, 
 				Corulag, 
 				Coruscant, 
@@ -3164,7 +3175,16 @@
 		<Starting_Forces> Empire, Dantooine, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Dantooine, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Dantooine, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		
+
+		<!-- Christophsis Space Forces -->
+		<Starting_Forces> Empire, Christophsis, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Rep_Acclamator </Starting_Forces>
+		<!-- Christophsis Land Forces -->
+		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Imperial_Heavy_Scout_Squad </Starting_Forces>
+
 		<!-- Corellia Space Forces -->
 		<Starting_Forces> Empire, Corellia, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, TIE_Scout_Squadron </Starting_Forces>

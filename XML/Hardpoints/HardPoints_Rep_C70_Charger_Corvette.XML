@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+<HardPoint Name="HP_C70_Charger_LC_01">
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>LC_01A</Fire_Bone_A>
+	<Fire_Bone_B>LC_01B</Fire_Bone_B>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+	<Fire_Cone_Width>120.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height> 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<!-- Vessel Targeting Efficiency: High - Accuracy vs Fighters increased -->
+	<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance> <!-- decreased from 18.0 -->
+	<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>  <!-- decreased from 3.0 -->
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_C70_Charger_LC_02">
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>LC_02A</Fire_Bone_A>
+	<Fire_Bone_B>LC_02B</Fire_Bone_B>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+	<Fire_Cone_Width>120.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height> 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<!-- Vessel Targeting Efficiency: High - Accuracy vs Fighters increased -->
+	<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance> <!-- decreased from 18.0 -->
+	<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>  <!-- decreased from 3.0 -->
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_C70_Charger_LC_03">
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>LC_03</Fire_Bone_A>
+	<Fire_Bone_B>LC_03</Fire_Bone_B>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+	<Fire_Cone_Width>120.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height> 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<!-- Vessel Targeting Efficiency: High - Accuracy vs Fighters increased -->
+	<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance> <!-- decreased from 18.0 -->
+	<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>  <!-- decreased from 3.0 -->
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_C70_Charger_TBL_01">
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>TBL_01</Fire_Bone_A>
+	<Fire_Bone_B>TBL_01</Fire_Bone_B>
+	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+	<Fire_Cone_Width>120.0</Fire_Cone_Width>
+	<Fire_Cone_Height>45.0</Fire_Cone_Height> 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Light_Turbolaser_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Republic_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<!-- Vessel Targeting Efficiency: High - Accuracy vs Fighters increased -->
+	<Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance> <!-- decreased from 22.0 -->
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>  <!-- decreased from 8.0 -->	
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
+</HardPoint>
+
+<HardPoint Name="HP_C70_Charger_Conc_01">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>CONC_01</Fire_Bone_A>
+	<Fire_Bone_B>CONC_01</Fire_Bone_B>
+	<Fire_Cone_Width>160.0</Fire_Cone_Width>
+	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<!-- Vessel Targeting Efficiency: High - Accuracy vs Fighters increased -->
+	<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance> <!-- decreased from 10.0 -->
+	<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>  <!-- decreased from 10.0 -->
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_C70_Charger_Conc_02">
+	<Type> HARD_POINT_WEAPON_MISSILE </Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+
+	<Fire_Bone_A>CONC_02</Fire_Bone_A>
+	<Fire_Bone_B>CONC_02</Fire_Bone_B>
+	<Fire_Cone_Width>160.0</Fire_Cone_Width>
+	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>12</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>2500.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<!-- Vessel Targeting Efficiency: High - Accuracy vs Fighters increased -->
+	<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance> <!-- decreased from 10.0 -->
+	<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>  <!-- decreased from 10.0 -->
+	<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+</HardPoints>

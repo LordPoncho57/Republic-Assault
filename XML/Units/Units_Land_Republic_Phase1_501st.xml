@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<Clone_Troopers_501_Data>
+
+   	<!-- 501st Clone Trooper Variants -->
+	
+	
+	
+   	<!-- 501st Regulars -->
+
+	<GroundInfantry Name="P1_Clone_501st_DC15S">
+    <Variant_Of_Existing_Type>P2_Clone_DC15S_T3</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_DC15A">
+    <Variant_Of_Existing_Type>P2_Clone_DC15A_T3</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15A</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15A,
+    	Urban,          Rep_P1_501_DC15A,
+    	Arctic,     	Rep_P1_501_DC15A,
+    	Volcanic,     	Rep_P1_501_DC15A,
+    	Desert,     	Rep_P1_501_DC15A,
+    	Forest,     	Rep_P1_501_DC15A,
+    	Swamp,          Rep_P1_501_DC15A
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15A</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Medic">
+    <Variant_Of_Existing_Type>P2_Clone_Medic_T3</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_Medic</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_Medic,
+    	Urban,          Rep_P1_501_Medic,
+    	Arctic,     	Rep_P1_501_Medic,
+    	Volcanic,     	Rep_P1_501_Medic,
+    	Desert,     	Rep_P1_501_Medic,
+    	Forest,     	Rep_P1_501_Medic,
+    	Swamp,          Rep_P1_501_Medic
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_Medic</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Sniper">
+    <Variant_Of_Existing_Type>P2_Clone_Sniper</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15X</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15X,
+    	Urban,          Rep_P1_501_DC15X,
+    	Arctic,     	Rep_P1_501_DC15X,
+    	Volcanic,     	Rep_P1_501_DC15X,
+    	Desert,     	Rep_P1_501_DC15X,
+    	Forest,     	Rep_P1_501_DC15X,
+    	Swamp,          Rep_P1_501_DC15X
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15X</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Z-6">
+    <Variant_Of_Existing_Type>P2_Clone_Z-6</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Grenadier">
+    <Variant_Of_Existing_Type>P2_Clone_DC15A_T3</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Vanguard">
+    <Variant_Of_Existing_Type>P2_Clone_Vanguard</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Sergeant">
+    <Variant_Of_Existing_Type>P2_Clone_Sergeant</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Lieutenant">
+    <Variant_Of_Existing_Type>P2_Clone_Lieutenant</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+	<GroundInfantry Name="P1_Clone_501st_Captain">
+    <Variant_Of_Existing_Type>P2_Clone_Captain</Variant_Of_Existing_Type>	
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_501_DC15S</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_501_DC15S,
+    	Urban,          Rep_P1_501_DC15S,
+    	Arctic,     	Rep_P1_501_DC15S,
+    	Volcanic,     	Rep_P1_501_DC15S,
+    	Desert,     	Rep_P1_501_DC15S,
+    	Forest,     	Rep_P1_501_DC15S,
+    	Swamp,          Rep_P1_501_DC15S
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_501_DC15S</Land_Model_Anim_Override_Name>	
+</GroundInfantry>	
+
+
+
+
+
+
+   	<!-- 501st Heroes -->
+	<GroundInfantry Name="P1_Clone_Captain_Rex">
+	<Text_ID>TEXT_UNIT_P2_DC15S</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_P2_DC15S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Land_Model_Name>Rep_P1_Captain_Rex.alo</Land_Model_Name>
+	<Icon_Name>I_BUTTON_P2_DC15S.tga</Icon_Name>
+    <Land_Terrain_Model_Mapping>
+    	Temperate,     	Rep_P1_Captain_Rex.alo,
+    	Urban,         Rep_P1_Captain_Rex.alo,
+    	Arctic,     	Rep_P1_Captain_Rex.alo,
+    	Volcanic,     	Rep_P1_Captain_Rex.alo,
+    	Desert,     	Rep_P1_Captain_Rex.alo,
+    	Forest,     	Rep_P1_Captain_Rex.alo,
+    	Swamp,         Rep_P1_Captain_Rex.alo
+    </Land_Terrain_Model_Mapping>
+    <Land_Model_Anim_Override_Name>Rep_P1_Captain_Rex.alo</Land_Model_Anim_Override_Name>
+
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>LANDING,SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+        <Select_Box_Scale>3</Select_Box_Scale>
+
+    <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+    <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+    <Max_Speed>0.8</Max_Speed>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
+    <Space_Layer> None </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> 0.05 </OverrideAcceleration>
+    <OverrideDeceleration> 0.05 </OverrideDeceleration>
+
+    <FormationOrder> 2 </FormationOrder>
+    <FormationSpacing> 0.7 </FormationSpacing>
+    <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+    <WaitsForFormationFormup>false</WaitsForFormationFormup>
+    <FormationRaggedness> 300.0 </FormationRaggedness>
+    <Squadron_Formation_Error_Tolerance>300.0</Squadron_Formation_Error_Tolerance>
+
+    <Scale_Factor>1.07</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Empire</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Size_Value>10</Size_Value>
+    
+	<!-- Unit Attributes -->
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+	<MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>	
+	
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <Death_Fade_Time>3</Death_Fade_Time>
+    <Death_Persistence_Duration> 300 </Death_Persistence_Duration>	
+    
+    <Tactical_Health>25</Tactical_Health>
+    <Shield_Points>0</Shield_Points>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <AI_Combat_Power>2</AI_Combat_Power>
+    <Tactical_Bribe_Cost>2</Tactical_Bribe_Cost>
+	
+    <Sensor_Range>20</Sensor_Range>
+    <Stealth_Capable>No</Stealth_Capable>	
+	
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+	<!-- This defines whether the unit is in a squad or as individual soldiers -->
+    <Create_Team>Yes</Create_Team>
+    
+	
+	    <!-- Weapon Stats -->
+        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<!-- Reload Rate -->
+        <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<!-- Burst Rate -->
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<!-- Fire Rate -->
+        <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
+		<!-- Fire Range -->
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		
+		<!-- Weapon Accuracy: Higher numbers are less accurate -->
+        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Unit line of sight and engagement range and targeting -->	
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+	
+    <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
+	
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Idle_Chase_Range>0.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>		
+	
+	<!-- This value should be slightly lower than the weapon range so the whole unit can fire -->
+    <Attack_Move_Response_Range>350.0</Attack_Move_Response_Range>
+	
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_Clone_Trooper_DC17
+    </HardPoints>	
+    
+
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+  
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    
+    <SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
+    <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+    <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+	
+    <SFXEvent_Select>Unit_Select_Clone_Trooper</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Clone_Trooper</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Trooper</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_Clone_Trooper</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Clone_Trooper</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Clone_Trooper </SFXEvent_Assist_Move>    
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Clone_Trooper </SFXEvent_Assist_Attack>
+    <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>    
+    <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>    
+    <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+ 
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>4</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>HEAD</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+    	<!-- Primary ability -->
+    	<Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>          	
+    </Unit_Ability>
+        	
+    <Unit_Ability>
+        <Type>SPRINT</Type>
+        <Expiration_Seconds> 7.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+	</Unit_Ability>
+    </Unit_Abilities_Data>
+</GroundInfantry>
+
+</Clone_Troopers_501_Data>

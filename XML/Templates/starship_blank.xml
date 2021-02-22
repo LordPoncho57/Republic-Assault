@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Arquitens_Files>
+
+<SpaceUnit Name="Arquitens_Light_Cruiser">
+	<Text_ID>TEXT_UNIT_ARQUITENS</Text_ID>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
+	<Encyclopedia_Text>TEXT_TOOLTIP_ARQUITENS</Encyclopedia_Text>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+	<Icon_Name>I_BUTTON_ARQUITENS.tga</Icon_Name>
+
+	<!-- 2. Model Data -->
+		
+	<Space_Model_Name>Rep_Arquitens_Light_Cruiser.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Size_Value>xxx</Size_Value>		
+	<Select_Box_Scale>xxx</Select_Box_Scale>
+	<Select_Box_Z_Adjust>10</Select_Box_Z_Adjust>
+	<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+	<Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
+
+		
+	<Target_Bones />
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		
+	<HardPoints>
+			HP_Arquitens_QTBL_01,
+			HP_Arquitens_QTBL_02,
+			HP_Arquitens_QTBL_03,
+			HP_Arquitens_QTBL_04,
+			HP_Arquitens_LC_01,
+			HP_Arquitens_LC_02,
+			HP_Arquitens_LC_03,
+			HP_Arquitens_LC_04,
+			HP_Arquitens_Conc_01,
+			HP_Arquitens_Conc_02,
+</HardPoints>
+
+	<!-- 3. Targeting Data -->	
+		
+	<Begin_Turn_Towards_Distance>100</Begin_Turn_Towards_Distance>
+	<Strafe_Distance>1000</Strafe_Distance>
+	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
+	<Targeting_Max_Attack_Distance>1200</Targeting_Max_Attack_Distance>
+	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+	<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
+		
+	<!-- 4. Class Data -->
+		
+	<Ship_Class>frigate</Ship_Class>
+	<CategoryMask> Frigate | AntiCorvette </CategoryMask>  
+
+	<FormationPriority>2</FormationPriority>
+	<FormationOrder>2</FormationOrder>
+	<WaitsForFormationFormup>false</WaitsForFormationFormup>
+	<Victory_Relevant>yes</Victory_Relevant>
+	<Is_Escort>yes</Is_Escort>
+	<Is_Bomber>n0</Is_Bomber>
+	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+	<Influences_Capture_Point>false</Influences_Capture_Point>
+	<UnitCollisionClass>vehicle</UnitCollisionClass>	
+	<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
+
+	<Space_Layer>Frigate</Space_Layer>		
+	<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		
+	<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		
+	<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
+	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
+		
+	<!-- 5. Autoresolve Data -->
+
+	<Damage>30</Damage>
+	<Autoresolve_Health>1600</Autoresolve_Health>
+	<AI_Combat_Power>60</AI_Combat_Power>
+
+	<!-- 6. Hull Data -->
+
+	<Tactical_Health>3200</Tactical_Health>
+	<Armor_Type>Armor_Nebulon_B</Armor_Type>
+
+	<Shield_Points>6600</Shield_Points>
+	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+
+	<Energy_Capacity>1000</Energy_Capacity>
+	<Energy_Refresh_Rate>80</Energy_Refresh_Rate>
+
+	<Abilities SubObjectList="Yes">
+	<Force_Healing_Ability Name="Arquitens_Repair_Crew">
+		<Activation_Style>Combat_Automatic</Activation_Style>
+		<Heal_Range>1</Heal_Range>
+		<Heal_Percent>0.2</Heal_Percent>
+		<Heal_Amount>20</Heal_Amount>
+		<Heal_Interval_In_Secs>10</Heal_Interval_In_Secs>
+		<Single_Target_Heal>yes</Single_Target_Heal>
+		<Applicable_Unit_Categories />
+		<Applicable_Unit_Types />
+	</Force_Healing_Ability>
+	</Abilities>
+		
+	<!-- 7. Movement Data -->
+		
+	<Mass>1</Mass>
+	<Max_Speed>1.0</Max_Speed>
+	<Min_Speed>2.5</Min_Speed>
+	<OverrideAcceleration>0.08</OverrideAcceleration>
+	<OverrideDeceleration>0.08</OverrideDeceleration>
+
+	<Max_Thrust>2.0</Max_Thrust>		
+	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.45</Max_Rate_Of_Roll>
+	<Max_Lift>1.0</Max_Lift>		
+	<Bank_Turn_Angle>80</Bank_Turn_Angle>
+
+	<Stopped_Rate_Of_Turn />
+	<Min_Speed_Fraction_For_Turn />		
+		
+	<Hyperspace>yes</Hyperspace>
+	<Hyperspace_Speed>1.0</Hyperspace_Speed>
+
+	<MovementClass>space</MovementClass>
+	<Space_Full_Stop_Command>no</Space_Full_Stop_Command>
+	<Has_Space_Evaluator>true</Has_Space_Evaluator>
+
+	<Minimum_Follow_Distance>1600</Minimum_Follow_Distance>
+	<Guard_Chase_Range>200</Guard_Chase_Range>
+	<Idle_Chase_Range>800</Idle_Chase_Range>
+	<Attack_Move_Response_Range>2400</Attack_Move_Response_Range>
+	<Reinforcement_Prevention_Radius>0.0</Reinforcement_Prevention_Radius>
+		
+	<!-- 8. Galactic Build Data -->
+		
+	<Build_Cost_Credits>2400</Build_Cost_Credits>
+	<Build_Time_Seconds>20</Build_Time_Seconds>
+	<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
+
+<Abilities SubObjectList="Yes">
+<Planet_Income_Bonus_Ability Name="Arquitens_Maintenance">
+	<Specific_Mod_Source_Text>TEXT_TOOLTIP_STARSHIP_MAINTENANCE</Specific_Mod_Source_Text>
+	<Absolute_Income_Modifier>-50</Absolute_Income_Modifier>
+</Planet_Income_Bonus_Ability>
+</Abilities>
+	
+	<Required_Star_Base_Level>2</Required_Star_Base_Level>
+	<Required_Planets></Required_Planets>
+	<Required_Special_Structures></Required_Special_Structures>
+
+	<Required_Timeline>0</Required_Timeline>
+	<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		
+	<GUI_Row>1</GUI_Row>
+	<Build_Tab_Space_Units>no</Build_Tab_Space_Units>
+	<Build_Initially_Locked>no</Build_Initially_Locked>
+
+	<Tech_Level>2</Tech_Level>
+	<Build_Can_Be_Unlocked_By_Slicer>no</Build_Can_Be_Unlocked_By_Slicer>
+	<Slice_Cost_Credits>100</Slice_Cost_Credits>		
+		
+	<Population_Value>2</Population_Value>
+	
+	<!-- 9. Multiplayer Skirmish Build Data -->
+
+	<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	<Tactical_Build_Prerequisites />
+	<Build_Limit_Current_Per_Player />
+	<Build_Limit_Lifetime_For_All_Allies />
+		
+	<!-- 10. Other Data -->
+
+	<Override_Bounty_SP>100</Override_Bounty_SP>
+	<Override_Bounty_MP>100</Override_Bounty_MP>
+	<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+	<Piracy_Value_Credits>100</Piracy_Value_Credits>
+	<Score_Cost_Credits>100</Score_Cost_Credits>
+
+	<!-- 11. Tactical Combat Data -->
+		
+	<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+	<SpaceBehavior>
+			ABILITY_COUNTDOWN, 
+			ASTEROID_FIELD_DAMAGE,
+			DAMAGE_TRACKING,
+			FIGHTER_LOCOMOTOR,
+			HIDE_WHEN_FOGGED, 
+			ION_STUN_EFFECT, 
+			NEBULA, 
+			REVEAL, 
+			SPACE_OBSTACLE, 
+			TACTICAL_BUILD_OBJECTS, 
+			TARGETING, 
+			TURRET, 
+			UNIT_AI, 
+			WEAPON 
+	</SpaceBehavior>
+		
+	<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+	<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+
+
+	<!-- 14. Death Data -->
+
+	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+	<Remove_Upon_Death>true</Remove_Upon_Death>		
+
+	<!-- 15. Sound Data -->
+		
+	<SFXEvent_Build_Started>EHD_build_vehicle</SFXEvent_Build_Started>
+	<SFXEvent_Build_Cancelled>EHD_unit_canceled</SFXEvent_Build_Cancelled>
+	<SFXEvent_Build_Complete>Unit_Complete_CS</SFXEvent_Build_Complete>
+
+	<SFXEvent_Select>Unit_Select_CS</SFXEvent_Select>
+	<SFXEvent_Move>Unit_Move_CS</SFXEvent_Move>
+	<SFXEvent_Fleet_Move>Unit_Fleetmove_CS</SFXEvent_Fleet_Move>
+	<SFXEvent_Attack>Unit_Attack_CS</SFXEvent_Attack>
+	<SFXEvent_Guard></SFXEvent_Guard>
+	<SFXEvent_Assist_Move>Unit_Move_CS</SFXEvent_Assist_Move>
+	<SFXEvent_Assist_Attack>Unit_Attack_CS</SFXEvent_Assist_Attack>
+
+	<SFXEvent_Ambient_Loop>Unit_Rep_Ship_Engine_Moving</SFXEvent_Ambient_Loop>
+	<SFXEvent_Engine_Idle_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Idle_Loop>
+	<SFXEvent_Engine_Moving_Loop> Unit_Rep_Ship_Engine_Moving</SFXEvent_Engine_Moving_Loop>
+	<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Rep_Ship_Engine_Idle_CIN</SFXEvent_Engine_Cinematic_Focus_Loop>
+	<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+	<SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+	<SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+</SpaceUnit>
+
+	
+</Arquitens_Files>

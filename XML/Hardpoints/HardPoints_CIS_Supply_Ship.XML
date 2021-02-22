@@ -53,7 +53,7 @@
 	<Collision_Mesh>SHIELD</Collision_Mesh>
 	<Damage_Particles>DMG_SHIELD</Damage_Particles>
 
-	<Health>750.0</Health>
+	<Health>1000.0</Health>
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 </HardPoint>
@@ -67,7 +67,7 @@
 	<Collision_Mesh>ENGINE_01</Collision_Mesh>
 	<Damage_Particles>DMG_ENGINE_01</Damage_Particles>
 
-	<Health>350.0</Health>
+	<Health>1000.0</Health>
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 </HardPoint>
@@ -81,7 +81,7 @@
 	<Collision_Mesh>ENGINE_02</Collision_Mesh>
 	<Damage_Particles>DMG_ENGINE_02</Damage_Particles>
 
-	<Health>350.0</Health>
+	<Health>1000.0</Health>
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 </HardPoint>
@@ -91,7 +91,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -99,12 +99,12 @@
 	<Attachment_Bone>CONC_01</Attachment_Bone>
 	<Collision_Mesh>CONC_01</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_01</Fire_Bone_A>
 	<Fire_Bone_B>CONC_01</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -122,7 +122,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -130,12 +130,12 @@
 	<Attachment_Bone>CONC_02</Attachment_Bone>
 	<Collision_Mesh>CONC_02</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_02</Fire_Bone_A>
 	<Fire_Bone_B>CONC_02</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -153,7 +153,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -161,12 +161,12 @@
 	<Attachment_Bone>CONC_03</Attachment_Bone>
 	<Collision_Mesh>CONC_03</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_03</Fire_Bone_A>
 	<Fire_Bone_B>CONC_03</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -184,7 +184,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-	<Health>350.0</Health>
+	<Health>400.0</Health>
 
 	<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -192,12 +192,12 @@
 	<Attachment_Bone>CONC_04</Attachment_Bone>
 	<Collision_Mesh>CONC_04</Collision_Mesh>
 
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
+
 	<Fire_Bone_A>CONC_04</Fire_Bone_A>
 	<Fire_Bone_B>CONC_04</Fire_Bone_B>
 	<Fire_Cone_Width>160.0</Fire_Cone_Width>
 	<Fire_Cone_Height>90.0</Fire_Cone_Height> 
-	<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+	<Fire_Projectile_Type>RA_Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 	<Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
 	<Fire_Max_Recharge_Seconds>35</Fire_Max_Recharge_Seconds>
 	<Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -215,7 +215,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -225,7 +225,7 @@
 	<Collision_Mesh>LBC_01</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_01</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -249,7 +249,7 @@
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 			 <!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
@@ -264,7 +264,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -274,7 +274,7 @@
 	<Collision_Mesh>LBC_02</Collision_Mesh>
 	<Damage_Particles>DMG_LBC_02</Damage_Particles>
 
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -298,7 +298,7 @@
 	<Fire_Pulse_Count>1</Fire_Pulse_Count>
 			 <!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1750.0</Fire_Range_Distance>
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Beam_Cannon_Fire</Fire_SFXEvent>
 
 	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
@@ -313,7 +313,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -321,7 +321,7 @@
 	<Model_To_Attach>QCTBL_01.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_01</Attachment_Bone>
 	<Collision_Mesh>TBL_01</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -336,24 +336,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_02">
@@ -361,7 +365,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -369,7 +373,7 @@
 	<Model_To_Attach>QCTBL_02.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_02</Attachment_Bone>
 	<Collision_Mesh>TBL_02</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -384,24 +388,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_03">
@@ -409,7 +417,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -417,7 +425,7 @@
 	<Model_To_Attach>QCTBL_03.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_03</Attachment_Bone>
 	<Collision_Mesh>TBL_03</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -432,24 +440,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+	 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>		
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_04">
@@ -457,7 +469,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -465,7 +477,7 @@
 	<Model_To_Attach>QCTBL_04.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_04</Attachment_Bone>
 	<Collision_Mesh>TBL_04</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -480,24 +492,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+	 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_05">
@@ -505,7 +521,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -513,7 +529,7 @@
 	<Model_To_Attach>QCTBL_05.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_05</Attachment_Bone>
 	<Collision_Mesh>TBL_05</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -528,24 +544,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+	 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_06">
@@ -553,7 +573,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -561,7 +581,7 @@
 	<Model_To_Attach>QCTBL_06.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_06</Attachment_Bone>
 	<Collision_Mesh>TBL_06</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -576,24 +596,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+	 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_07">
@@ -601,7 +625,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -609,7 +633,7 @@
 	<Model_To_Attach>QCTBL_07.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_07</Attachment_Bone>
 	<Collision_Mesh>TBL_07</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -624,24 +648,28 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+	 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>	
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_TBL_08">
@@ -649,7 +677,7 @@
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
 	<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-	<Health>400.0</Health>
+	<Health>300.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -657,7 +685,7 @@
 	<Model_To_Attach>QCTBL_08.ALO</Model_To_Attach>
 	<Attachment_Bone>TBL_08</Attachment_Bone>
 	<Collision_Mesh>TBL_08</Collision_Mesh>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -672,32 +700,36 @@
 	 <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
 	 <Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	 <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Turbolaser_Red</Fire_Projectile_Type>
-			
-			 <!-- Reload Rate -->
-	 <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>6</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.33</Fire_Pulse_Delay_Seconds>
+	 
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Light_2x2_Turbolaser_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>5</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
 	<Fire_SFXEvent>Unit_CIS_Turbolaser_Fire</Fire_SFXEvent>
 
-	<Fire_Category_Restrictions> Missile, Laser, Fighter, Bomber, Transport</Fire_Category_Restrictions>
-	<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>		
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_01">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -706,7 +738,7 @@
 	<Attachment_Bone>LLC_01</Attachment_Bone>
 	<Collision_Mesh>LLC_01</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -721,34 +753,36 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_02">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -757,7 +791,7 @@
 	<Attachment_Bone>LLC_02</Attachment_Bone>
 	<Collision_Mesh>LLC_02</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -772,34 +806,35 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_03">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -808,7 +843,7 @@
 	<Attachment_Bone>LLC_03</Attachment_Bone>
 	<Collision_Mesh>LLC_03</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -823,34 +858,35 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_04">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -859,7 +895,7 @@
 	<Attachment_Bone>LLC_04</Attachment_Bone>
 	<Collision_Mesh>LLC_04</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -874,34 +910,35 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_05">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -910,7 +947,7 @@
 	<Attachment_Bone>LLC_05</Attachment_Bone>
 	<Collision_Mesh>LLC_05</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -925,34 +962,35 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_06">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -961,7 +999,7 @@
 	<Attachment_Bone>LLC_06</Attachment_Bone>
 	<Collision_Mesh>LLC_06</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -976,34 +1014,35 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_07">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1012,7 +1051,7 @@
 	<Attachment_Bone>LLC_07</Attachment_Bone>
 	<Collision_Mesh>LLC_07</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -1027,34 +1066,35 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_LLC_08">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1063,7 +1103,7 @@
 	<Attachment_Bone>LLC_08</Attachment_Bone>
 	<Collision_Mesh>LLC_08</Collision_Mesh>
 
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
@@ -1078,35 +1118,36 @@
 	<Turret_Elevate_Extent_Degrees> 120.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>4</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.65</Fire_Pulse_Delay_Seconds>
+    <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>3</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
 	<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>	
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 25.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 
 <HardPoint Name="HP_Supply_Ship_HQAA_01">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1114,7 +1155,7 @@
 	<Model_To_Attach>HQAA_01.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_01</Attachment_Bone>
 	<Collision_Mesh>LC_01</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1129,31 +1170,37 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_02">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1161,7 +1208,7 @@
 	<Model_To_Attach>HQAA_02.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_02</Attachment_Bone>
 	<Collision_Mesh>LC_02</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1176,31 +1223,37 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
-	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
+
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_03">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1208,7 +1261,7 @@
 	<Model_To_Attach>HQAA_03.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_03</Attachment_Bone>
 	<Collision_Mesh>LC_03</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1223,31 +1276,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_04">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1255,7 +1313,7 @@
 	<Model_To_Attach>HQAA_04.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_04</Attachment_Bone>
 	<Collision_Mesh>LC_04</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1270,31 +1328,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_05">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1302,7 +1365,7 @@
 	<Model_To_Attach>HQAA_05.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_05</Attachment_Bone>
 	<Collision_Mesh>LC_05</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1317,31 +1380,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_06">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1349,7 +1417,7 @@
 	<Model_To_Attach>HQAA_06.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_06</Attachment_Bone>
 	<Collision_Mesh>LC_06</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1364,31 +1432,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_07">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1396,7 +1469,7 @@
 	<Model_To_Attach>HQAA_07.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_07</Attachment_Bone>
 	<Collision_Mesh>LC_07</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1411,31 +1484,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_08">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1443,7 +1521,7 @@
 	<Model_To_Attach>HQAA_08.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_08</Attachment_Bone>
 	<Collision_Mesh>LC_08</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1458,31 +1536,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_09">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1490,7 +1573,7 @@
 	<Model_To_Attach>HQAA_09.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_09</Attachment_Bone>
 	<Collision_Mesh>LC_09</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1505,31 +1588,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_10">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1537,7 +1625,7 @@
 	<Model_To_Attach>HQAA_10.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_10</Attachment_Bone>
 	<Collision_Mesh>LC_10</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1552,31 +1640,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_11">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1584,7 +1677,7 @@
 	<Model_To_Attach>HQAA_11.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_11</Attachment_Bone>
 	<Collision_Mesh>LC_11</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1599,31 +1692,36 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_Supply_Ship_HQAA_12">
-	<Type> HARD_POINT_WEAPON_LASER </Type>
+	<Type> HARD_POINT_WEAPON_MASS_DRIVER </Type>
+	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>	
 	<Is_Targetable>Yes</Is_Targetable>
 	<Is_Destroyable>Yes</Is_Destroyable>
-	<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	<Health>250.0</Health>
+	<Health>10.0</Health>
 
 	<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 	<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -1631,7 +1729,7 @@
 	<Model_To_Attach>HQAA_12.ALO</Model_To_Attach>
 	<Attachment_Bone>LC_12</Attachment_Bone>
 	<Collision_Mesh>LC_12</Collision_Mesh>
-	<Damage_Type> Damage_IPV </Damage_Type>
+
 			
 	<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
 	<Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
@@ -1646,23 +1744,28 @@
 	<Turret_Elevate_Extent_Degrees> 100.0 </Turret_Elevate_Extent_Degrees>
 	<Turret_Bone_Name> TURRET_ROTATION </Turret_Bone_Name>
 	<Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
-	<Fire_Projectile_Type>Proj_Ship_Quad_Laser_Cannon_Red</Fire_Projectile_Type>
-	<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-			
-			<!-- Reload Rate -->
-<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-<Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-			 <!-- Burst Rate -->
+   
+ <!-- Projectile type, this defines range, damage and VFX of the projectile -->
+	<Fire_Projectile_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Fire Rate -->
 	<Fire_Pulse_Count>2</Fire_Pulse_Count>
-			 <!-- Fire Rate -->
-	<Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>8000.0</Fire_Range_Distance>
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Weapon Range -->
+	<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+    <!-- Weapon Fire Sound Effect -->
+	<Fire_SFXEvent>Unit_CIS_Laser_Cannon_Fire</Fire_SFXEvent>
 
-	 <Fire_Category_Restrictions> Missile, Laser, Frigate, Capital, Super </Fire_Category_Restrictions>
-	 <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-	 <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+	<!-- Weapon Accuracy: Higher numbers are less accurate. -->
+	<Fire_Inaccuracy_Distance> Fighter, 18.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Transport, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 </HardPoint>
 
 </HardPoints>

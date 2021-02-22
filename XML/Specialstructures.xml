@@ -2817,9 +2817,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			Empire_Survivors_Small, 1.0
-			Empire_Survivors_Medium, 1.0
-			Empire_Survivors_Large, 1.0 
+			Republic_Survivors_Small, 1.0
+			Republic_Survivors_Medium, 1.0
+			Republic_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -2877,14 +2877,7 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Imperial_Stormtrooper_Squad,
-				Imperial_Light_Scout_Squad,
-				Field_Com_Empire_Team,
-				DarkTrooper_P1_Company,
-				DarkTrooper_P2_Company,
-				DarkTrooper_P3_Company,
-				EL_Increased_Mobility_Upgrade,
-				EL_Weatherproof_Upgrade,
+				Republic_Clonetrooper_P1_Company_T3,
 		</Tactical_Buildable_Objects_Multiplayer>
 			
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
@@ -2898,12 +2891,9 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Company_T1, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Company_T1, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, -1</Reserve_Spawned_Units_Tech_0>
-		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>

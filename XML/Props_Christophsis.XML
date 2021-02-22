@@ -1,0 +1,1628 @@
+<?xml version="1.0"?>
+<Props_Christophsis>
+
+<!-- Christophsis_Props-->
+
+	<Props_Christophsis Name="Christophsis_Building1_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_01.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_01.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_01.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_01.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Building2_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_02.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_02.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_02.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_02.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Building3_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_03.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_03.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_03.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_03.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_03.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+		<Props_Christophsis Name="Christophsis_Building4_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_04.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_04.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_04.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_04.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_04.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+	
+			<Props_Christophsis Name="Christophsis_Building5_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_05.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_05.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_05.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_05.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_05.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+	
+
+
+	<Props_Christophsis Name="Christophsis_Bridge_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Bridge_1_Supports_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01_Supports.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_1_Supports_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01_Supports.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_1_Supports_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01_Supports.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_1_Supports_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01_Supports.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_1_Supports_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_01_Supports.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Bridge_2_Supports_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02_Supports.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_2_Supports_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02_Supports.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_2_Supports_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02_Supports.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_2_Supports_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02_Supports.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_2_Supports_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02_Supports.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Bridge_Corner_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_Corner_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_Corner_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_Corner_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02.alo</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Bridge_Corner_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_02.alo</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Barricade_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Barricade.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Barricade_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Barricade.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Barricade_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Barricade.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Barricade_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Barricade.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Barricade_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Barricade.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Door_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_Light_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door_Light.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_Light_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door_Light.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_Light_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door_Light.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_Light_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door_Light.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Door_Light_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Door_Light.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes1_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes1_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes1_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes1_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes1_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hexes1_06">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+	<Props_Christophsis Name="Christophsis_Hex_1_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_1_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_1_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_1_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_1_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hex_1_06">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hex_1_07">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hex_1_08">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_Single.ALO</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	
+		<Props_Christophsis Name="Christophsis_Hex_s1_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_s1_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_s1_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_s1_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_s1_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hex_s1_06">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hex_s1_07">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>15.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hex_s1_08">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_01_SM.ALO</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+
+	<Props_Christophsis Name="Christophsis_Hexes2_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_02.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes2_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_02.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes2_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_02.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes2_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_02.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Hexes2_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_02.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	<Props_Christophsis Name="Christophsis_Hexes2_06">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Hexes_02.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Big_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Big.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Big_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Big.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Big_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Big.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Big_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Big.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Big_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Big.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+	<Props_Christophsis Name="Christophsis_Road_Trim_Cap_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Cap.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Cap_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Cap.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Cap_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Cap.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Cap_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Cap.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Cap_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Cap.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Small_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Small.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Small_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Small.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Small_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Small.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Small_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Small.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Small_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Small.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	
+		<Props_Christophsis Name="Christophsis_Road_Trim_Corner2_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner_Capless.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner2_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner_Capless.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner2_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner_Capless.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner2_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner_Capless.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Road_Trim_Corner2_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Road_Trim_Corner_Capless.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+
+	<Props_Christophsis Name="Christophsis_Streetlight_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Streetlight.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Streetlight_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Streetlight.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+	
+	
+	<Props_Christophsis Name="Christophsis_Streetlight_Broken_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Streetlight_Broken.ALO</Land_Model_Name>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Streetlight_Broken_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Streetlight_Broken.ALO</Land_Model_Name>
+		<Scale_Factor>12.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	
+	<Props_Christophsis Name="Christophsis_Building1_Lights_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_01.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_Lights_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_01.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_Lights_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_01.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_Lights_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_01.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building1_Lights_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_01.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Building2_Lights_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_02.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_Lights_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_02.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_Lights_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_02.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_Lights_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_02.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building2_Lights_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_02.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Building3_Lights_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_03.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_Lights_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_03.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_Lights_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_03.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_Lights_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_03.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building3_Lights_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_03.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+	<Props_Christophsis Name="Christophsis_Building4_Lights_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_04.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_Lights_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_04.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_Lights_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_04.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_Lights_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_04.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building4_Lights_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_04.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+	
+	
+		<Props_Christophsis Name="Christophsis_Building5_Lights_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_05.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_Lights_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_05.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_Lights_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_05.alo</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_Lights_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_05.alo</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Building5_Lights_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Building_Lights_05.alo</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Rubble_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Rubble.alo</Land_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Rubble_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Rubble.alo</Land_Model_Name>
+		<Scale_Factor>14.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Rubble_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Rubble.alo</Land_Model_Name>
+		<Scale_Factor>18.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Rubble_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Rubble.alo</Land_Model_Name>
+		<Scale_Factor>22.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Rubble_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Rubble.alo</Land_Model_Name>
+		<Scale_Factor>26.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble01_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_01.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble01_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_01.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble01_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_01.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble01_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_01.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble01_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_01.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble02_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_02.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble02_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_02.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble02_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_02.ALO</Land_Model_Name>
+		<Scale_Factor>9.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble02_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_02.ALO</Land_Model_Name>
+		<Scale_Factor>11.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Crystal_Rubble02_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crystal Rubble_02.ALO</Land_Model_Name>
+		<Scale_Factor>13.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Christophsis_Damaged_Bridge_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_03.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Damaged_Bridge_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_03.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Damaged_Bridge_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_03.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Damaged_Bridge_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_03.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Christophsis_Damaged_Bridge_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Bridge_03.ALO</Land_Model_Name>
+		<Scale_Factor>7.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</Props_Christophsis>
+
+
+	<Props_Christophsis Name="Republic_Weapon_Rack_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Republic_Weapon_Rack.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Weapon_Rack_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Republic_Weapon_Rack.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Weapon_Rack_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Republic_Weapon_Rack.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Weapon_Rack_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Republic_Weapon_Rack.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Weapon_Rack_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Republic_Weapon_Rack.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+	
+	
+	<Props_Christophsis Name="Republic_Crates_1_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_01.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_1_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_01.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_1_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_01.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_1_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_01.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_1_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_01.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+	
+	
+	<Props_Christophsis Name="Republic_Crates_2_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_02.ALO</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_2_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_02.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_2_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_02.ALO</Land_Model_Name>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_2_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_02.ALO</Land_Model_Name>
+		<Scale_Factor>5.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+	<Props_Christophsis Name="Republic_Crates_2_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Christophsis_Crates_02.ALO</Land_Model_Name>
+		<Scale_Factor>6.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Christophsis>
+
+</Props_Christophsis>
