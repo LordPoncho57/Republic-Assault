@@ -1222,7 +1222,7 @@
 <Projectile Name="RA_Proj_Hand_Blaster_Blue">
 	<Text_ID>TEXT_NONE</Text_ID>
     <Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
-    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <Damage_Type> RA_Land_Damage_Blaster </Damage_Type>
 	<Projectile_Width>1.0</Projectile_Width>
 	<Projectile_Length>1.85</Projectile_Length>
 	<Scale_Factor>0.09</Scale_Factor>
@@ -1231,7 +1231,7 @@
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>2.0</Projectile_Damage>
+	<Projectile_Damage>5.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1247,114 +1247,97 @@
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 </Projectile>
 
-<Projectile Name="Proj_Hand_Blaster_Red">	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+<Projectile Name="Proj_Hand_Blaster_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
     <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
 </Projectile>
 
 <Projectile Name="RA_Proj_Sniper_Blaster_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
-	<Projectile_Width>1.0</Projectile_Width>
-	<Projectile_Length>1.85</Projectile_Length>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Blaster_Hand </Damage_Type>
-	<Max_Speed>35.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>10.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Blaster_Impact_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>40</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Projectile_Width>0.99</Projectile_Width>
+	<Projectile_Length>2.0</Projectile_Length>
+	<Scale_Factor>0.09</Scale_Factor>
+	<Max_Speed>32.0</Max_Speed>
+	<Projectile_Damage>100.0</Projectile_Damage>
+	<AI_Combat_Power>60</AI_Combat_Power>
 </Projectile>
 
-<Projectile Name="RA_Proj_Hand_AntiArmor">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Blaster_Hand </Damage_Type>
-	<Max_Speed>25.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>3.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Blaster_Impact_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>40</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
-
-<Projectile Name="RA_Proj_Blaster_Cannon_Blue">	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
-	<Projectile_Damage>4.0</Projectile_Damage>
+<Projectile Name="RA_Proj_Blaster_Cannon_Blue">	
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Heavy_Blaster </Damage_Type>
+	<Projectile_Damage>6.0</Projectile_Damage>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>80</AI_Combat_Power>
+	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+	<Projectile_Blast_Area_Damage>4.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>5.0</Projectile_Blast_Area_Range>
+</Projectile>
 
-<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
-<Projectile_Blast_Area_Range>2.0</Projectile_Blast_Area_Range>
+<Projectile Name="RA_Proj_Light_Blaster_Cannon_Blue">
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.13</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Light_Cannon </Damage_Type>
+	<Max_Speed>26.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>8.0</Projectile_Blast_Area_Damage>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>30.0</Projectile_Damage> 	
+
+	<Projectile_Energy_Per_Shot>8</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Small_Explosion_Land </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle> Small_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Small_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>100</AI_Combat_Power>
 </Projectile>
 
 <Projectile Name="RA_Proj_Medium_Blaster_Cannon_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_ATST </Damage_Type>
-	<Max_Speed>20.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Blast_Area_Range>30.0</Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
-	<Projectile_Damage>10.0</Projectile_Damage> 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.2</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Medium_Cannon </Damage_Type>
+	<Max_Speed>24.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>10.0</Projectile_Blast_Area_Damage>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>50.0</Projectile_Damage> 	
+
+	<Projectile_Energy_Per_Shot>8</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Explosion_Land </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+
 	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>80</AI_Combat_Power>
+	<AI_Combat_Power>150</AI_Combat_Power>
 </Projectile>
 
 <Projectile Name="RA_Proj_Heavy_Blaster_Cannon_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_ATST </Damage_Type>
-	<Max_Speed>20.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Blast_Area_Range>100.0</Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Damage>10.0</Projectile_Blast_Area_Damage>
-	<Projectile_Damage>35.0</Projectile_Damage> 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.4</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Heavy_Cannon </Damage_Type>
+	<Max_Speed>22.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>30.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>30.0</Projectile_Blast_Area_Damage>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>80.0</Projectile_Damage> 	
+
 	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Large_Explosion_Land </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1363,19 +1346,14 @@
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 
 	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>80</AI_Combat_Power>
+	<AI_Combat_Power>200</AI_Combat_Power>
 </Projectile>
 
 <Projectile Name="RA_Proj_Super_Heavy_Blaster_Cannon_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>0.8</Scale_Factor>
-	<Damage_Type> Damage_ATAT </Damage_Type>
-	<Max_Speed>25.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.5</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Heavy_Cannon </Damage_Type>
+	<Max_Speed>20.0</Max_Speed>
 
 	<Projectile_Blast_Area_Range>35.0</Projectile_Blast_Area_Range>
 	<Projectile_Blast_Area_Damage>35.0</Projectile_Blast_Area_Damage>
@@ -1384,18 +1362,16 @@
 	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
 
 	<Projectile_Damage>100.0</Projectile_Damage> 	
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle> Large_Explosion_Land </Projectile_Object_Detonation_Particle>
+
+	<Projectile_Energy_Per_Shot>15</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Huge_Explosion_Land </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle> Large_Explosion_Land </Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle> Large_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle> Huge_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Huge_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 
 	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>80</AI_Combat_Power>
+	<AI_Combat_Power>250</AI_Combat_Power>
 </Projectile>
 
 <!-- ******************************************************* -->
@@ -1405,15 +1381,28 @@
 
 <Projectile Name="RA_Proj_Thermal_Det">
 	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
-		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+	<Projectile_Blast_Area_Damage>35.0</Projectile_Blast_Area_Damage>
+	<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
 </Projectile>
 
 <Projectile Name="RA_Proj_Droid_Popper">
 	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
-		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
-	    <Damage_Type> RA_Land_EMP_Grenade </Damage_Type>
+	<Projectile_Blast_Area_Damage>35.0</Projectile_Blast_Area_Damage>
+	    <Damage_Type> RA_Land_Damage_EMP_Grenade </Damage_Type>
 </Projectile>
 
+<Projectile Name="RA_Proj_Hand_AntiArmor">
+	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
+	<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+	<Scale_Factor>0.75</Scale_Factor>
+	<Projectile_Damage>100.0</Projectile_Damage>
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>100.0</Projectile_Blast_Area_Damage>
+	<Projectile_Grenade_Gravity>0.1</Projectile_Grenade_Gravity>
+	<Projectile_Grenade_Gravity_Lob_Mod>0.1</Projectile_Grenade_Gravity_Lob_Mod>
+	<Projectile_Max_Lifetime>800.0</Projectile_Max_Lifetime>
+	<Projectile_Grenade_Can_Lob_Slower>no</Projectile_Grenade_Can_Lob_Slower>
+</Projectile>
 
 <Projectile Name="RA_Proj_Vehicle_Missile_Missile">
 	<Text_ID>TEXT_NONE</Text_ID>

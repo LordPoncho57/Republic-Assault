@@ -27,9 +27,9 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 50.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -60,9 +60,9 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 25.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 40.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -93,9 +93,9 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 40.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 25.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 40.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -126,9 +126,9 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 40.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 40.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 35.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -159,7 +159,7 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> LandHero, 35.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -192,7 +192,7 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -227,20 +227,17 @@
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
         <Fire_SFXEvent>Unit_Plex_Soldier_Fire</Fire_SFXEvent> 
     </HardPoint>	
 
-	
-	
-	
-	
+		
     <HardPoint Name="HP_Clone_Trooper_Z-6_T3">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -263,7 +260,7 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 35.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 20.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> LandHero, 30.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -274,9 +271,6 @@
     </HardPoint>
 
 
-
-
-
     <HardPoint Name="HP_Clone_Trooper_DC15X">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -285,7 +279,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40.0</Fire_Cone_Width>
         <Fire_Cone_Height>45.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
+        <Fire_Projectile_Type>RA_Proj_Sniper_Blaster_Blue</Fire_Projectile_Type>
 		<!-- Reload Rate -->
         <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -297,11 +291,12 @@
         <Fire_Range_Distance>900.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Infantry, 6.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 6.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 8.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 6.0 </Fire_Inaccuracy_Distance>
+
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -353,7 +348,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40.0</Fire_Cone_Width>
         <Fire_Cone_Height>45.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Merc_Concussion_Grenade</Fire_Projectile_Type>
+        <Fire_Projectile_Type>RA_Proj_Thermal_Det</Fire_Projectile_Type>
 		<!-- Reload Rate -->
         <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
@@ -385,7 +380,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40.0</Fire_Cone_Width>
         <Fire_Cone_Height>45.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Merc_Concussion_Grenade</Fire_Projectile_Type>
+        <Fire_Projectile_Type>RA_Proj_Droid_Popper</Fire_Projectile_Type>
 		<!-- Reload Rate -->
         <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
@@ -436,9 +431,9 @@
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 5.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -455,7 +450,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40.0</Fire_Cone_Width>
         <Fire_Cone_Height>45.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Merc_Concussion_Grenade</Fire_Projectile_Type>
+        <Fire_Projectile_Type>RA_Proj_Hand_AntiArmor</Fire_Projectile_Type>
 		<!-- Reload Rate -->
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
@@ -467,11 +462,11 @@
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Infantry, 3.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 3.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 8.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -488,8 +483,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40.0</Fire_Cone_Width>
         <Fire_Cone_Height>45.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
-		<Projectile_Damage>100.0</Projectile_Damage>		
+        <Fire_Projectile_Type>RA_Proj_Sniper_Blaster_Blue</Fire_Projectile_Type>		
 		<!-- Reload Rate -->
         <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
@@ -501,11 +495,11 @@
         <Fire_Range_Distance>700.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Infantry, 2.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 2.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 3.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> LandHero, 5.0 </Fire_Inaccuracy_Distance>
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 

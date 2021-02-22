@@ -74,13 +74,7 @@
 		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
-        <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>	
-		<Starting_Forces> Rebel, Ryloth, Dreadnaught_Heavy_Cruiser_CIS </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Lucrehulk </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, CIS_Providence_IKM </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>										
-
+        <!-- Bothawui Space Forces -->									
 
                                 
         <!-- Bothawui Land Forces -->

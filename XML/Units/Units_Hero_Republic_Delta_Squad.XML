@@ -31,7 +31,7 @@
     <Mass>1.0</Mass>
     <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 
-    <Movement_Animation_Speed> 1.4 </Movement_Animation_Speed>
+    <Movement_Animation_Speed> 1.52 </Movement_Animation_Speed>
     <Rotation_Animation_Speed> 10.0 </Rotation_Animation_Speed>
     <Walk_Animation_Speed> .266 </Walk_Animation_Speed>
     <Crouch_Animation_Speed> .337 </Crouch_Animation_Speed>
@@ -80,16 +80,15 @@
         <Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
         <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
         <Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
-    
+  
+		<Targeting_Fire_Inaccuracy> Infantry, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 8.0 </Targeting_Fire_Inaccuracy>
+
     <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
     <Land_FOW_Reveal_Range>800.0</Land_FOW_Reveal_Range>
-    
-    <Targeting_Fire_Inaccuracy> Infantry, 15.0 </Targeting_Fire_Inaccuracy>
-    <Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-    <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
-    <Targeting_Fire_Inaccuracy> Structure, 30.0 </Targeting_Fire_Inaccuracy>
-    <Targeting_Fire_Inaccuracy> LandHero, 99.0 </Targeting_Fire_Inaccuracy>
-
 
 	
     <Sensor_Range>20</Sensor_Range>
@@ -102,7 +101,7 @@
     <Occlusion_Silhouette_Enabled>0</Occlusion_Silhouette_Enabled>
     <Victory_Relevant>yes</Victory_Relevant>
   
-    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
     <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
     
     <!--<SFXEvent_Ambient_Moving> Ambient_Storm_Trooper_Random_Chatter </SFXEvent_Ambient_Moving>
@@ -114,7 +113,7 @@
 	<SFXEvent_Fleet_Move>Unit_Move_Boss</SFXEvent_Fleet_Move>
 	<SFXEvent_Attack>Unit_Attack_Boss</SFXEvent_Attack>
 	<SFXEvent_Guard>Unit_Guard_Boss</SFXEvent_Guard>
-    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <SFXEvent_Fire>Unit_Clone_DC17M_Fire</SFXEvent_Fire>
 	<SFXEvent_Health_Low_Warning>Unit_Low_Health_Boss </SFXEvent_Health_Low_Warning>
 	<SFXEvent_Health_Critical_Warning>Unit_Critical_Health_Boss </SFXEvent_Health_Critical_Warning>   
 	<Death_SFXEvent_Start_Die>Unit_Death_Boss</Death_SFXEvent_Start_Die>
@@ -139,9 +138,9 @@
     <Create_Team>Yes</Create_Team>
 
     <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-    <Idle_Chase_Range>50.0</Idle_Chase_Range>
+    <Idle_Chase_Range>10.0</Idle_Chase_Range>
     <Guard_Chase_Range>200.0</Guard_Chase_Range>
-    <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+    <Attack_Move_Response_Range>10.0</Attack_Move_Response_Range>
 
     <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
     <Weather_Category>Infantry</Weather_Category>
@@ -150,7 +149,7 @@
     <Death_Persistence_Duration> 300 </Death_Persistence_Duration>
 
     <HardPoints>
-        HP_Clone_Trooper_DC17
+        HP_Clone_Commando_DC17M
     </HardPoints>
 
 	<Select_Box_Scale>10</Select_Box_Scale>
@@ -248,7 +247,7 @@
 	<SFXEvent_Fleet_Move>Unit_Move_Fixer</SFXEvent_Fleet_Move>
 	<SFXEvent_Attack>Unit_Attack_Fixer</SFXEvent_Attack>
 	<SFXEvent_Guard>Unit_Guard_Fixer</SFXEvent_Guard>
-    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <SFXEvent_Fire>Unit_Clone_DC17M_Fire</SFXEvent_Fire>
 	<SFXEvent_Health_Low_Warning>Unit_Low_Health_Fixer</SFXEvent_Health_Low_Warning>
 	<SFXEvent_Health_Critical_Warning>Unit_Critical_Health_Fixer</SFXEvent_Health_Critical_Warning>   
 	<Death_SFXEvent_Start_Die>Unit_Death_Fixer</Death_SFXEvent_Start_Die>
@@ -339,13 +338,28 @@
     </Land_Terrain_Model_Mapping>
     <Land_Model_Anim_Override_Name>Rep_Commando_Sev.ALO</Land_Model_Anim_Override_Name>
 
-	
+	<Projectile_Types>RA_Proj_Sniper_Blaster_Blue</Projectile_Types>
+	<Projectile_Damage>0.0</Projectile_Damage>
+	<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+	<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+	<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+
+	<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Vehicle, 2.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Structure, 3.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> LandHero, 5.0 </Targeting_Fire_Inaccuracy>	
+
+    <HardPoints>
+        HP_Clone_Commando_DC17M_Sniper
+    </HardPoints>	
+
 	<SFXEvent_Select>Unit_Select_Sev</SFXEvent_Select>
 	<SFXEvent_Move>Unit_Move_Sev</SFXEvent_Move>
 	<SFXEvent_Fleet_Move>Unit_Move_Sev</SFXEvent_Fleet_Move>
 	<SFXEvent_Attack>Unit_Attack_Sev</SFXEvent_Attack>
 	<SFXEvent_Guard>Unit_Guard_Sev</SFXEvent_Guard>
-    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+    <SFXEvent_Fire>Unit_Clone_DC17M_Sniper_Fire</SFXEvent_Fire>
 	<SFXEvent_Health_Low_Warning>Unit_Low_Health_Sev</SFXEvent_Health_Low_Warning>
 	<SFXEvent_Health_Critical_Warning>Unit_Critical_Health_Sev</SFXEvent_Health_Critical_Warning>   
 	<Death_SFXEvent_Start_Die>Unit_Death_Sev</Death_SFXEvent_Start_Die>
@@ -450,13 +464,30 @@
     </Land_Terrain_Model_Mapping>
     <Land_Model_Anim_Override_Name>Rep_Commando_Scorch.ALO</Land_Model_Anim_Override_Name>
 
-	
+	<Projectile_Types>RA_Proj_Hand_AntiArmor</Projectile_Types>
+	<Projectile_Damage>0.0</Projectile_Damage>
+	<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
+	<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+	<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+
+	<Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Structure, 3.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> LandHero, 8.0 </Targeting_Fire_Inaccuracy>
+
+	<Fire_Category_Restrictions> Wall, Air </Fire_Category_Restrictions>	
+   
+	<HardPoints>
+        HP_Clone_Commando_DC17M_Grenade
+    </HardPoints>	
+
 	<SFXEvent_Select>Unit_Select_Scorch</SFXEvent_Select>
 	<SFXEvent_Move>Unit_Move_Scorch</SFXEvent_Move>
 	<SFXEvent_Fleet_Move>Unit_Move_Scorch</SFXEvent_Fleet_Move>
 	<SFXEvent_Attack>Unit_Attack_Scorch</SFXEvent_Attack>
 	<SFXEvent_Guard>Unit_Guard_Scorch</SFXEvent_Guard>
-    <!--<SFXEvent_Fire>Unit_Clone_Infantry_Fire</SFXEvent_Fire>-->
+	<Fire_SFXEvent>Unit_Clone_DC17M_Grenade_Fire</Fire_SFXEvent>	
 	<SFXEvent_Health_Low_Warning>Unit_Low_Health_Scorch</SFXEvent_Health_Low_Warning>
 	<SFXEvent_Health_Critical_Warning>Unit_Critical_Health_Scorch</SFXEvent_Health_Critical_Warning>   
 	<Death_SFXEvent_Start_Die>Unit_Death_Scorch</Death_SFXEvent_Start_Die>

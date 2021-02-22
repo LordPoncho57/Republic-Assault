@@ -61,7 +61,7 @@
         <Turret_Deployed_Rest_Angle>0.0, 0.0, 0.0</Turret_Deployed_Rest_Angle>
 
         <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-        <Projectile_Types>RA_Proj_Super_Heavy_Blaster_Cannon_Blue</Projectile_Types>
+        <Projectile_Types>RA_Proj_Heavy_Blaster_Cannon_Blue</Projectile_Types>
 		<!-- Reload Rate -->
         <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
@@ -75,10 +75,19 @@
         <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
 
+        <HardPoints>
+            HP_ATTE_FRONT_CANNON_01,
+            HP_ATTE_FRONT_CANNON_02,
+            HP_ATTE_FRONT_CANNON_03,
+            HP_ATTE_FRONT_CANNON_04,                        
+            HP_ATTE_REAR_CANNON_01,
+            HP_ATTE_REAR_CANNON_02
+        </HardPoints>        
+
 		<!-- 3. Targeting Data -->		
 
 	    <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>      
+		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>      
 	    <Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>   
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>   
         <Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>          
@@ -149,11 +158,11 @@
 		<!-- 8. Movement Data -->
 
 		<Mass>1.0</Mass>
-        <Movement_Animation_Speed>0.65</Movement_Animation_Speed>	
-        <Rotation_Animation_Speed>0.47</Rotation_Animation_Speed>
+        <Movement_Animation_Speed>1.0</Movement_Animation_Speed>	
+        <Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
 
-        <Max_Speed>0.8 </Max_Speed>
-        <Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+        <Max_Speed>0.15 </Max_Speed>
+        <Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
         <Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
 
         <Walk_Transition>Yes</Walk_Transition>
