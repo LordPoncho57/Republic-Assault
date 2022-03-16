@@ -36,6 +36,7 @@
     <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
         <Select_Box_Scale>3</Select_Box_Scale>
 
+	<!-- Movement -->
     <Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
     <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
     <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
@@ -66,8 +67,8 @@
     <Size_Value>10</Size_Value>
     
 	<!-- Unit Attributes -->
-    <Armor_Type> Armor_Infantry </Armor_Type>
-    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
+    <Armor_Type> RA_Land_Armour_Infantry </Armor_Type>
+    <Damage_Type> RA_Land_Damage_Blaster </Damage_Type>
     <CategoryMask> Infantry | AntiInfantry </CategoryMask>
 	<MovementClass> Infantry </MovementClass>
     <Property_Flags>Fodder</Property_Flags>	
@@ -118,7 +119,7 @@
         <Targeting_Fire_Inaccuracy> LandHero, 50.0 </Targeting_Fire_Inaccuracy>	
 
 	<!-- Unit line of sight and engagement range and targeting -->	
-    <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+    <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
     <Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 	
     <Targeting_Priority_Set>AntiInfantryAir</Targeting_Priority_Set>	
@@ -223,7 +224,7 @@
 	<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
 	<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>	
 
-    <Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
+    <Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 		
     <HardPoints>
         HP_Clone_Trooper_DC15A_T1
@@ -356,8 +357,10 @@
     </Land_Terrain_Model_Mapping>
     <Land_Model_Anim_Override_Name>Rep_P1_Clone_Vanguard.ALO</Land_Model_Anim_Override_Name>
 
+	<Damage_Type> RA_Land_Damage_Missile </Damage_Type>
+
 	<!-- Weapon Stats -->
-	<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
+	<Projectile_Types>RA_Proj_Hand_Plex</Projectile_Types>
 	<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
 	<Projectile_Damage>0.0</Projectile_Damage>		
 	<!-- Reload Rate -->
@@ -464,7 +467,7 @@
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
 	<!-- Unit line of sight and engagement range and targeting -->	
-    <Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+    <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
     <Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
   
     <Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
@@ -620,7 +623,7 @@
 	<Targeting_Fire_Inaccuracy> LandHero, 40.0 </Targeting_Fire_Inaccuracy>	
 
 	<!-- Unit line of sight and engagement range and targeting -->	
-    <Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
+    <Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 
 	<!-- Hardpoint to allow infantry to fire on the move -->
     <HardPoints>
@@ -943,7 +946,7 @@
   <OverrideAcceleration> .05 </OverrideAcceleration>
 <OverrideDeceleration> .05 </OverrideDeceleration>
 
-	<Armor_Type> Armor_Infantry </Armor_Type>
+	<Armor_Type> RA_Land_Armour_Infantry </Armor_Type>
 
 	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -951,7 +954,7 @@
 
 	<Icon_Name>I_BUTTON_P1_DC15S.tga</Icon_Name>
 
-	<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>1.0</Idle_Chase_Range>
 	<Guard_Chase_Range>100.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
@@ -1002,7 +1005,7 @@
   <OverrideAcceleration> .05 </OverrideAcceleration>
 <OverrideDeceleration> .05 </OverrideDeceleration>
 
-	<Armor_Type> Armor_Infantry </Armor_Type>
+	<Armor_Type> RA_Land_Armour_Infantry </Armor_Type>
 
 	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1010,7 +1013,7 @@
 
 	<Icon_Name>I_BUTTON_P1_DC15S.tga</Icon_Name>
 
-	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>1.0</Idle_Chase_Range>
 	<Guard_Chase_Range>200.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
@@ -1063,7 +1066,7 @@
   <OverrideAcceleration> .05 </OverrideAcceleration>
 <OverrideDeceleration> .05 </OverrideDeceleration>
 
-	<Armor_Type> Armor_Infantry </Armor_Type>
+	<Armor_Type> RA_Land_Armour_Infantry </Armor_Type>
 
 	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
@@ -1071,7 +1074,7 @@
 
 	<Icon_Name>I_BUTTON_P1_DC15S.tga</Icon_Name>
 
-	<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>1.0</Idle_Chase_Range>
 	<Guard_Chase_Range>200.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>

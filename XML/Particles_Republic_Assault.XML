@@ -19,6 +19,116 @@
 	<Particle_Lifetime_Frames>2000</Particle_Lifetime_Frames>
 </Particle>
 
+			<!-- TURBO LASER DEATH -->
+<Particle Name="Turbolaser_death_large_blue">
+	<Land_Model_Name>p_damage_turbolaser_miss_large_blue.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_large_blue.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_large_red">
+	<Land_Model_Name>p_damage_turbolaser_miss_large_red.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_large_red.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_large_green">
+	<Land_Model_Name>p_damage_turbolaser_miss_large_green.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_large_green.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_large_yellow">
+	<Land_Model_Name>p_damage_turbolaser_miss_large_yellow.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_large_yellow.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_medium_blue">
+	<Land_Model_Name>p_damage_turbolaser_miss_medium_blue.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_medium_blue.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_medium_red">
+	<Land_Model_Name>p_damage_turbolaser_miss_medium_red.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_medium_red.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_medium_green">
+	<Land_Model_Name>p_damage_turbolaser_miss_medium_green.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_medium_green.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_medium_yellow">
+	<Land_Model_Name>p_damage_turbolaser_miss_medium_yellow.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_medium_yellow.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_small_blue">
+	<Land_Model_Name>p_damage_turbolaser_miss_small_blue.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_small_blue.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_small_red">
+	<Land_Model_Name>p_damage_turbolaser_miss_small_red.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_small_red.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_small_green">
+	<Land_Model_Name>p_damage_turbolaser_miss_small_green.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_small_green.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+<Particle Name="Turbolaser_death_small_yellow">
+	<Land_Model_Name>p_damage_turbolaser_miss_small_yellow.ALO</Land_Model_Name>
+	<Space_Model_Name>p_damage_turbolaser_miss_small_yellow.ALO</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Is_Decoration>Yes</Is_Decoration>
+	<Behavior>PARTICLE</Behavior>
+			<Particle_Lifetime_Frames>6000</Particle_Lifetime_Frames>
+</Particle>
+
+
 			<!-- ION CANNON DEATH -->
 
 <Particle Name="Fancy_Ion_Death">

@@ -61,7 +61,7 @@
         <Turret_Deployed_Rest_Angle>0.0, 0.0, 0.0</Turret_Deployed_Rest_Angle>
 
         <!-- Projectile type, this defines range, damage and VFX of the projectile -->
-        <Projectile_Types>RA_Proj_Heavy_Blaster_Cannon_Blue</Projectile_Types>
+        <Projectile_Types>RA_Proj_Super_Heavy_Blaster_Cannon_Blue</Projectile_Types>
 		<!-- Reload Rate -->
         <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
@@ -70,10 +70,10 @@
         <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Targeting_Fire_Inaccuracy> Infantry, 80.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Vehicle, 65.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 35.0 </Targeting_Fire_Inaccuracy>
 
         <HardPoints>
             HP_ATTE_FRONT_CANNON_01,
@@ -86,15 +86,15 @@
 
 		<!-- 3. Targeting Data -->		
 
-	    <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+	    <Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>      
 	    <Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>   
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>   
-        <Land_FOW_Reveal_Range>2000.0</Land_FOW_Reveal_Range>          
+        <Land_FOW_Reveal_Range>1500.0</Land_FOW_Reveal_Range>          
 
         <Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>10.0</Autonomous_Move_Extension_Vs_Attacker>  
 
 		<!-- 4. Class Data -->
@@ -108,7 +108,7 @@
         <Property_Flags>CanContainGarrison | DoNotKite</Property_Flags>
         <!--	<Create_Team>yes</Create_Team>   (Used for creating unit teams for ground companies) -->   
 		<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
-		<Is_Visible_On_Radar>n</Is_Visible_On_Radar>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>i_radar_atte.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>80</Radar_Icon_Size>
 
@@ -147,7 +147,7 @@
 
 
 		<!-- 7. Garrison Data -->
-		<Garrison_Category> Infantry, Vehicle, LandHero </Garrison_Category>
+		<Garrison_Category> Infantry, LandHero </Garrison_Category>
 		<Num_Garrison_Slots>2</Num_Garrison_Slots>
 		<Garrison_Bone_Names>B_ROPEMASTER</Garrison_Bone_Names>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
@@ -158,11 +158,11 @@
 		<!-- 8. Movement Data -->
 
 		<Mass>1.0</Mass>
-        <Movement_Animation_Speed>1.0</Movement_Animation_Speed>	
-        <Rotation_Animation_Speed>1.0</Rotation_Animation_Speed>
+        <Movement_Animation_Speed>0.24</Movement_Animation_Speed>	
+        <Rotation_Animation_Speed>0.24</Rotation_Animation_Speed>
 
-        <Max_Speed>0.15 </Max_Speed>
-        <Max_Rate_Of_Turn>0.1</Max_Rate_Of_Turn>
+        <Max_Speed>0.26 </Max_Speed>
+        <Max_Rate_Of_Turn>0.17</Max_Rate_Of_Turn>
         <Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
 
         <Walk_Transition>Yes</Walk_Transition>
@@ -200,7 +200,7 @@
 
 		<!-- 10. Hull Data -->
 
-        <Armor_Type> Armor_ATST </Armor_Type>
+        <Armor_Type> RA_Land_Armour_V_Heavy </Armor_Type>
         <Shield_Points>0</Shield_Points>
         <Tactical_Health>750</Tactical_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
@@ -260,8 +260,8 @@
 
         <GUI_Row> 1 </GUI_Row>
         <Is_Dummy>Yes</Is_Dummy>
-        <Damage>30</Damage>
-        <Autoresolve_Health>100</Autoresolve_Health>
+        <Damage>1000</Damage>
+        <Autoresolve_Health>2000</Autoresolve_Health>
         <Affiliation>Empire</Affiliation>
         <Build_Cost_Credits>900</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>

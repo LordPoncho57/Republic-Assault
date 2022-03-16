@@ -75,7 +75,10 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->									
-
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>	
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Bulwark_MKI </Starting_Forces>		
+		
                                 
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
@@ -97,7 +100,8 @@
 		<Starting_Forces> Empire, Christophsis, Victory_SD </Starting_Forces>		
 		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>		
 		<Starting_Forces> Empire, Christophsis, Gladiator_Heavy_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Mandator_Dreadnaught </Starting_Forces>		
+		<Starting_Forces> Empire, Christophsis, Mandator_Dreadnaught </Starting_Forces>
+
 
 			
 			
@@ -180,20 +184,18 @@
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
         
         <!-- Bothawui Space Forces -->
-		<Starting_Forces> Rebel, Ryloth, CIS_Vulture_Droid_Squadron </Starting_Forces>	
-		<Starting_Forces> Rebel, Ryloth, CIS_Tri_Fighter_Squadron </Starting_Forces>		
-		<Starting_Forces> Rebel, Ryloth, CIS_HMP_Gunship </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, CIS_Hyena_Bomber_Squadron </Starting_Forces>						
-				
-
-										
+		<Starting_Forces> Rebel, Ryloth, Lucrehulk </Starting_Forces>	
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>		
+		<Starting_Forces> Rebel, Ryloth, Munificent_Frigate </Starting_Forces>					
+													
                                 
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
-		
+		<Starting_Forces> Rebel, Ryloth, CIS_B1_BattleDroid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, CIS_B1_BattleDroid_Company </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, CIS_B1_BattleDroid_Company </Starting_Forces>
 
+		
 
 		<!-- Empire Starting Forces -->
 
@@ -201,17 +203,16 @@
 		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 		
-        <!-- Thyferra Space Forces -->
-		<Starting_Forces> Empire, Christophsis, Dreadnaught_Heavy_Cruiser_CorSec </Starting_Forces>			
-		<Starting_Forces> Empire, Christophsis, Dreadnaught_Heavy_Cruiser_CorSec </Starting_Forces>		
+        <!-- Thyferra Space Forces -->	
 			
 								
 	
 
         <!-- Thyferra Land Forces -->
 		<Starting_Forces> Empire, Christophsis, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
-		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Squad_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Company_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Company_T3 </Starting_Forces>
+		<Starting_Forces> Empire, Christophsis, Republic_Clonetrooper_P1_Company_T3 </Starting_Forces>
 		
     </Campaign>
 

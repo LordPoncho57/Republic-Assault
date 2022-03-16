@@ -1355,11 +1355,11 @@
 
 	<!-- RA_Land_Armour_Light -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Land_Armour_Light, 0.8 </Damage_To_Armor_Mod> 	
-	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_Light, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_Light, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Detonator, RA_Land_Armour_Light, 0.8 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Light, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Light, 0.3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_EMP_Grenade, RA_Land_Armour_Light, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Light_Cannon, RA_Land_Armour_Light, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Light_Cannon, RA_Land_Armour_Light, 0.75 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_Light, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Cannon, RA_Land_Armour_Light, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Missile, RA_Land_Armour_Light, 1 </Damage_To_Armor_Mod>
@@ -1369,9 +1369,9 @@
 
 	<!-- RA_Land_Armour_Medium -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Land_Armour_Medium, 0.6 </Damage_To_Armor_Mod> 		
-	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_Medium, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_Medium, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Detonator, RA_Land_Armour_Medium, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Medium, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Medium, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_EMP_Grenade, RA_Land_Armour_Medium, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Light_Cannon, RA_Land_Armour_Medium, 0.35 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_Medium, 0.5 </Damage_To_Armor_Mod>
@@ -1383,9 +1383,9 @@
 	
 	<!-- RA_Land_Armour_Heavy -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Land_Armour_Heavy, 0.4 </Damage_To_Armor_Mod> 		
-	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_Heavy, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_Heavy, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Detonator, RA_Land_Armour_Heavy, 0.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Heavy, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Heavy, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_EMP_Grenade, RA_Land_Armour_Heavy, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Light_Cannon, RA_Land_Armour_Heavy, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_Heavy, 0.35 </Damage_To_Armor_Mod>
@@ -1398,12 +1398,12 @@
 	<!-- RA_Land_Armour_V_Heavy -->
 	<Damage_To_Armor_Mod> Damage_Default, RA_Land_Armour_V_Heavy, 0.2 </Damage_To_Armor_Mod> 		
 	<Damage_To_Armor_Mod> RA_Land_Damage_Blaster, RA_Land_Armour_V_Heavy, 0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Detonator, RA_Land_Armour_V_Heavy, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Detonator, RA_Land_Armour_V_Heavy, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_V_Heavy, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_EMP_Grenade, RA_Land_Armour_V_Heavy, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Light_Cannon, RA_Land_Armour_V_Heavy, 0.1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_V_Heavy, 0.2 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Cannon, RA_Land_Armour_V_Heavy, 0.35 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_V_Heavy, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Cannon, RA_Land_Armour_V_Heavy, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Missile, RA_Land_Armour_V_Heavy, 0.35 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Bomb, RA_Land_Armour_V_Heavy, 0.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Ion_Cannon, RA_Land_Armour_V_Heavy, 1 </Damage_To_Armor_Mod>
@@ -1416,8 +1416,8 @@
 	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Blaster, RA_Land_Armour_Super_Heavy, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_EMP_Grenade, RA_Land_Armour_Super_Heavy, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Light_Cannon, RA_Land_Armour_Super_Heavy, 0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_Super_Heavy, 0.1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Cannon, RA_Land_Armour_Super_Heavy, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Medium_Cannon, RA_Land_Armour_Super_Heavy, 0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> RA_Land_Damage_Heavy_Cannon, RA_Land_Armour_Super_Heavy, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Missile, RA_Land_Armour_Super_Heavy, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Bomb, RA_Land_Armour_Super_Heavy, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> RA_Land_Damage_Ion_Cannon, RA_Land_Armour_Super_Heavy, 1 </Damage_To_Armor_Mod>

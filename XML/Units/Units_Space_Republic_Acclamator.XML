@@ -83,7 +83,7 @@
 	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 
 	<Death_Clone>Damage_Normal, Acclamator_Death_Clone </Death_Clone>
-	<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 
 	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>

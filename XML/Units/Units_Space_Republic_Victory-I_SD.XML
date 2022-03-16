@@ -123,7 +123,7 @@
 
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-	<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 	<Death_Explosions></Death_Explosions>
 	<Death_Clone>Damage_Normal, Victory-I_Death_Clone</Death_Clone>
 
@@ -163,7 +163,7 @@
 	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>	 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>400.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 

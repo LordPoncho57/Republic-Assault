@@ -44,7 +44,7 @@
 	<!-- 3. Targeting Data -->	
 
 	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
@@ -109,7 +109,7 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 
     <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
 	<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>

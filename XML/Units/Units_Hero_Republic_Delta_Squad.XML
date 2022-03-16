@@ -135,7 +135,7 @@
     <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
     <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
     <Is_Squashable> Yes </Is_Squashable>
-    <Create_Team>Yes</Create_Team>
+    <Create_Team>No</Create_Team>
 
     <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
     <Idle_Chase_Range>10.0</Idle_Chase_Range>

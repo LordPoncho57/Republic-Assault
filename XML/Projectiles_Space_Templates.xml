@@ -14,18 +14,28 @@
         <Max_Speed>45.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
         <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-        <Projectile_Category>Laser</Projectile_Category>
+        <Projectile_Category>DEFAULT</Projectile_Category>
         <Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 		<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 		<Projectile_Damage>5.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
         <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+		<Projectile_Blast_Area_Damage>1.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>30</Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>	
 	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Damage_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>160</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -71,18 +81,28 @@
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>850.0</Projectile_Max_Flight_Distance>
 	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Damage>6.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>1.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>32</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>12</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Damage_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>180</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -128,18 +148,28 @@
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
 	<Damage_Type>RA_Space_Damage_Laser</Damage_Type>
 	<Projectile_Damage>7.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>2.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>35</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Damage_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>160</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -185,18 +215,28 @@
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
 	<Damage_Type>RA_Space_Damage_Laser</Damage_Type>
 	<Projectile_Damage>8.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>2.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>38</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>12</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Damage_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>180</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -243,18 +283,28 @@
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	<Damage_Type>RA_Space_Damage_Laser</Damage_Type>
 	<Projectile_Damage>9.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>3.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>45</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>15</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Damage_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>200</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -301,18 +351,28 @@
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	<Damage_Type>RA_Space_Damage_Laser</Damage_Type>
 	<Projectile_Damage>10.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>3.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>50</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>30</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Medium_Damage_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Damage_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>200</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -359,17 +419,27 @@
 	<Max_Speed>50.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	<Projectile_Damage>15.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>52</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>35</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Tiny_Explosion_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Tiny_Explosion_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>500</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
@@ -419,17 +489,27 @@
 	<Max_Speed>50.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Category>DEFAULT</Projectile_Category>
 	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
 	<Projectile_Damage>20.0</Projectile_Damage>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>55</Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>0.1</Max_Secs_For_AE_Delayed_Damage>
+
 	<Projectile_Energy_Per_Shot>40</Projectile_Energy_Per_Shot>
 	<Projectile_Object_Detonation_Particle> Tiny_Explosion_Space </Projectile_Object_Detonation_Particle>
 	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Ground_Detonation_Particle> Medium_Damage_Space </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Tiny_Explosion_Space </Projectile_Lifetime_Detonation_Particle>
 	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 	<AI_Combat_Power>510</AI_Combat_Power>
 	<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>

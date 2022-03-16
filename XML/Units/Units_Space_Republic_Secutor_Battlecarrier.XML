@@ -96,7 +96,7 @@
 	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 	<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
 		
-	<Space_FOW_Reveal_Range>3000</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>5000</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
 		
 	<!-- 5. Autoresolve Data -->

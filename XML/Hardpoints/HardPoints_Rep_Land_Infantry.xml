@@ -22,7 +22,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
@@ -55,7 +55,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
@@ -88,7 +88,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
@@ -121,7 +121,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
@@ -154,7 +154,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
@@ -187,7 +187,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
@@ -215,7 +215,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Plex_Missile</Fire_Projectile_Type>
+        <Fire_Projectile_Type>RA_Proj_Hand_Plex</Fire_Projectile_Type>
 		<!-- Reload Rate -->
         <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
@@ -255,7 +255,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>600.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
@@ -288,7 +288,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>2.0</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>900.0</Fire_Range_Distance>
+        <Fire_Range_Distance>800.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 6.0 </Fire_Inaccuracy_Distance>
@@ -322,7 +322,7 @@
 		<!-- Fire Rate -->
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<!-- Fire Range -->
-        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
 		
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
         <Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>

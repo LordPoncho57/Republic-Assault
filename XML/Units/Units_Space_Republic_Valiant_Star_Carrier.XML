@@ -56,7 +56,7 @@
 	<Begin_Turn_Towards_Distance>100</Begin_Turn_Towards_Distance>
 	<Strafe_Distance>1200</Strafe_Distance>
 	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>2400</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>4000</Targeting_Max_Attack_Distance>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
@@ -84,7 +84,7 @@
 	<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		
-	<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>4000</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
 		
 	<!-- 5. Autoresolve Data -->
@@ -145,7 +145,7 @@
 	<Minimum_Follow_Distance>1600</Minimum_Follow_Distance>
 	<Guard_Chase_Range>200</Guard_Chase_Range>
 	<Idle_Chase_Range>800</Idle_Chase_Range>
-	<Attack_Move_Response_Range>2400</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100</Attack_Move_Response_Range>
 	<Reinforcement_Prevention_Radius>0.0</Reinforcement_Prevention_Radius>
 
 	<!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->

@@ -432,14 +432,14 @@
 	<!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<!-- Fire Range -->
-	<Fire_Range_Distance>600.0</Fire_Range_Distance>
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 	
 	<!-- Weapon Accuracy: Higher numbers are less accurate -->
-	<Fire_Inaccuracy_Distance>LandHero, 70.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 60.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Vehicle, 40.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_ATTE_REAR_CANNON_02">
@@ -473,14 +473,14 @@
 	<!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<!-- Fire Range -->
-	<Fire_Range_Distance>600.0</Fire_Range_Distance>
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 	
 	<!-- Weapon Accuracy: Higher numbers are less accurate -->
-	<Fire_Inaccuracy_Distance>LandHero, 70.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 60.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Vehicle, 40.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_ATTE_FRONT_CANNON_01">
@@ -514,14 +514,14 @@
 	<!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<!-- Fire Range -->
-	<Fire_Range_Distance>600.0</Fire_Range_Distance>
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 	
 	<!-- Weapon Accuracy: Higher numbers are less accurate -->
-	<Fire_Inaccuracy_Distance>LandHero, 70.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 60.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Vehicle, 40.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_ATTE_FRONT_CANNON_02">
@@ -555,14 +555,14 @@
 	<!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<!-- Fire Range -->
-	<Fire_Range_Distance>600.0</Fire_Range_Distance>
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 	
 	<!-- Weapon Accuracy: Higher numbers are less accurate -->
-	<Fire_Inaccuracy_Distance>LandHero, 70.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 60.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Vehicle, 40.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_ATTE_FRONT_CANNON_03">
@@ -596,14 +596,14 @@
 	<!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<!-- Fire Range -->
-	<Fire_Range_Distance>600.0</Fire_Range_Distance>
+	<Fire_Range_Distance>700.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 	
 	<!-- Weapon Accuracy: Higher numbers are less accurate -->
-	<Fire_Inaccuracy_Distance>LandHero, 70.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 60.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Vehicle, 40.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
 </HardPoint>
 
 <HardPoint Name="HP_ATTE_FRONT_CANNON_04">
@@ -637,14 +637,14 @@
 	<!-- Fire Rate -->
 	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 	<!-- Fire Range -->
-	<Fire_Range_Distance>600.0</Fire_Range_Distance>
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
 	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 	
 	<!-- Weapon Accuracy: Higher numbers are less accurate -->
-	<Fire_Inaccuracy_Distance>LandHero, 70.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 60.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Vehicle, 40.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
 </HardPoint>
 
 </HardPoints>

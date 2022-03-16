@@ -28,11 +28,11 @@
 
 	<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 
-	<Movement_Animation_Speed> 0.7 </Movement_Animation_Speed>
+	<Movement_Animation_Speed> 0.72 </Movement_Animation_Speed>
 	<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 	<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 	<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-	<Max_Speed>0.7</Max_Speed>
+	<Max_Speed>0.65</Max_Speed>
 	<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 	<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 	<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -45,7 +45,7 @@
 	<OverrideDeceleration> .05 </OverrideDeceleration>
 	<FormationOrder> 2 </FormationOrder>
 
-	<Scale_Factor>2.2</Scale_Factor>  <!-- Temp scale change for scale test - change back once models resized -->
+	<Scale_Factor>1.1</Scale_Factor> 
 	<!--<Is_Sprite>No</Is_Sprite>-->
 	<Type>Walk</Type>
 	<Deploys>No</Deploys>
@@ -62,7 +62,8 @@
 	<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 	<Stealth_Capable>No</Stealth_Capable>
 
-	<Armor_Type> Armor_Infantry </Armor_Type>
+	<Armor_Type> RA_Land_Armour_Infantry </Armor_Type>
+	<Damage_Type> RA_Land_Damage_Blaster </Damage_Type>
 
 	<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 	<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
@@ -76,27 +77,28 @@
 	<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
 	    <!-- Weapon Stats -->
-        <Fire_Projectile_Type>RA_Proj_Hand_Blaster_Red</Fire_Projectile_Type>
-		<!-- Weapon Damage set to 0, weapon damage is instead handled by the unit HP -->
-		<Projectile_Damage>0.0</Projectile_Damage>
+        <Projectile_Types>RA_Proj_Hand_Blaster_Red</Projectile_Types>	
 		<!-- Reload Rate -->
-        <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>  
 		<!-- Burst Rate -->
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<!-- Fire Rate -->
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<!-- Fire Range -->
-        <Fire_Range_Distance>500.0</Fire_Range_Distance>
-		
+        <Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
+
 		<!-- Weapon Accuracy: Higher numbers are less accurate -->
-        <Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
+        <Targeting_Fire_Inaccuracy> Infantry, 35.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 35.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 30.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> LandHero, 50.0 </Targeting_Fire_Inaccuracy>	
+		
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<!-- Hardpoint to allow infantry to fire on the move -->
+    <HardPoints>
+        HP_B1_Blaster
+    </HardPoints>	
 
 	<SFXEvent_Select>Unit_Select_B1</SFXEvent_Select>
 	<SFXEvent_Move>Unit_Move_B1</SFXEvent_Move>
@@ -120,7 +122,6 @@
 	<OccupationStyle>1x1</OccupationStyle>
 
 
-
 	<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 	<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
 	<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
@@ -131,12 +132,7 @@
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-	<!-- Hardpoint to allow infantry to fire on the move -->
-    <HardPoints>
-        HP_B1_Blaster
-    </HardPoints>	
-
-	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>50.0</Idle_Chase_Range>
 	<Guard_Chase_Range>200.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
@@ -375,7 +371,7 @@ Squad_Battledroid
 	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-	<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>1.0</Idle_Chase_Range>
 	<Guard_Chase_Range>200.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
@@ -413,11 +409,11 @@ Squad_Battledroid
 
 	<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 
-	<Movement_Animation_Speed> 0.9 </Movement_Animation_Speed>
+	<Movement_Animation_Speed> 0.75 </Movement_Animation_Speed>
 	<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 	<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 	<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
-	<Max_Speed>0.8</Max_Speed>
+	<Max_Speed>0.65</Max_Speed>
 	<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 	<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 	<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -430,7 +426,7 @@ Squad_Battledroid
 	<OverrideDeceleration> .05 </OverrideDeceleration>
 	<FormationOrder> 2 </FormationOrder>
 
-	<Scale_Factor>1.2</Scale_Factor> 
+	<Scale_Factor>1.0</Scale_Factor> 
 	<Type>Walk</Type>
 	<Affiliation>Rebel</Affiliation>
 	<Political_Control>0</Political_Control>
@@ -499,7 +495,7 @@ Squad_Battledroid
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
 
-	<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>50.0</Idle_Chase_Range>
 	<Guard_Chase_Range>200.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
@@ -665,7 +661,7 @@ Squad_Battledroid
 	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-	<Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 	<Idle_Chase_Range>50.0</Idle_Chase_Range>
 	<Guard_Chase_Range>200.0</Guard_Chase_Range>
 	<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>

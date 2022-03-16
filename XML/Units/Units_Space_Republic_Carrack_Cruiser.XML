@@ -137,7 +137,7 @@
 	<MovementClass> Space </MovementClass>
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>400.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>600.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>

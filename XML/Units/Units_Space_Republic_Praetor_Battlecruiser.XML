@@ -133,7 +133,7 @@
 	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 	<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
 		
-	<Space_FOW_Reveal_Range>3500</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>5000</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
 		
 	<!-- 5. Autoresolve Data -->
@@ -189,7 +189,7 @@
 
 	<Guard_Chase_Range>800.0</Guard_Chase_Range>
 	<Idle_Chase_Range>100.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 
     <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
 	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>

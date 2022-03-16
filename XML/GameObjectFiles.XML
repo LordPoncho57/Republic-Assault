@@ -1,4 +1,4 @@
-<?XML version="1.0" ?>
+<?xml version="1.0" ?>
 <Game_Object_Files>
 
 <File>TransportUnits.XML</File>
@@ -151,6 +151,7 @@
 <File>Units_Hero_Rebel_Rogue_Squadron.XML</File>
 
 <File>Units_Land_Rebel_Gallofree_HTT.XML</File>
+<File>Units/Units_Land_CIS_Battledroids.XML</File>
 <File>Units/Units_Land_CIS_AAT.XML</File>
 
 <File>Units/Units_Space_CIS_Vulture_Droid.XML</File>

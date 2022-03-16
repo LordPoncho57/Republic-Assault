@@ -57,7 +57,7 @@ HP_C70_Charger_TBL_01
 
 	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
-	<Space_FOW_Reveal_Range>750.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
 	<!-- 5. Autoresolve Data -->
@@ -246,7 +246,7 @@ HP_C70_Charger_Conc_02
 
 	<Guard_Chase_Range>2000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>1000</Idle_Chase_Range>
-	<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 	<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
 
