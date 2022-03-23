@@ -10,24 +10,29 @@
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-	<Randomize_Between_Fire_Bones>Yes</Randomize_Between_Fire_Bones>
-	<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
-	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>2</Fire_Pulse_Count> <!-- from 6 -->
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>250.0</Fire_Range_Distance>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Red</Fire_Projectile_Type>
 
-	<Damage_Type>Damage_2M_Repulsortank</Damage_Type>
-	<Fire_SFXEvent>Unit_AAT_Laser_Fire</Fire_SFXEvent>
-	<Fire_Inaccuracy_Distance>LandHero, 15.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 15.0</Fire_Inaccuracy_Distance>
-	<Targeting_Fire_Inaccuracy>Vehicle, 15.0</Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
-	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
-	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>500.0</Fire_Range_Distance>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance> Infantry, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Vehicle, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Air, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Structure, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> LandHero, 60.0 </Fire_Inaccuracy_Distance>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
 </HardPoint>
 
 <HardPoint Name="HP_AAT_Cannons_02">
@@ -39,24 +44,28 @@
 	<Fire_Cone_Width>40.0</Fire_Cone_Width>
 	<Fire_Cone_Height>60.0</Fire_Cone_Height>
 
-	<Randomize_Between_Fire_Bones>Yes</Randomize_Between_Fire_Bones>
-	<Fire_Projectile_Type>Proj_Blaster_Cannon_Red</Fire_Projectile_Type>
-	<Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
-	<Fire_Max_Recharge_Seconds>16.0</Fire_Max_Recharge_Seconds>
-	<Fire_Pulse_Count>4</Fire_Pulse_Count> <!-- from 6 -->
-	<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-	<Fire_Range_Distance>100.0</Fire_Range_Distance>
 	<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-
-	<Damage_Type>Damage_2M_Repulsortank</Damage_Type>
-	<Fire_SFXEvent>Unit_AAT_Laser_Fire</Fire_SFXEvent>
-	<Fire_Inaccuracy_Distance>LandHero, 15.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Infantry, 15.0</Fire_Inaccuracy_Distance>
-	<Targeting_Fire_Inaccuracy>Vehicle, 15.0</Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
-	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
-	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Red</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>2</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>500.0</Fire_Range_Distance>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance> Infantry, 50.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Vehicle, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Air, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> Structure, 25.0 </Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance> LandHero, 60.0 </Fire_Inaccuracy_Distance>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
 </HardPoint>
 
 <HardPoint Name="HP_AAT_Missiles_01">
@@ -76,12 +85,11 @@
 	<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 	<Fire_Range_Distance>150.0</Fire_Range_Distance>
 
-	<Damage_Type> Damage_2M_Repulsortank </Damage_Type>
 	<Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
 	<Fire_Inaccuracy_Distance>LandHero, 30.0</Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance>Infantry, 30.0</Fire_Inaccuracy_Distance>
-	<Targeting_Fire_Inaccuracy>Vehicle, 30.0</Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy>Structure, 30.0</Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy>Vehicle, 15.0</Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
 	<Fire_Category_Restrictions>Air, Transport</Fire_Category_Restrictions>
 	<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>

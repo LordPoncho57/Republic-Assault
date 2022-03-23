@@ -14,7 +14,7 @@
 		
 	<Space_Model_Name>Rep_Arquitens_Light_Cruiser.ALO</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ_FullSalvo</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.35</Scale_Factor>
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Size_Value>10</Size_Value>		
 	<Select_Box_Scale>100</Select_Box_Scale>
@@ -44,13 +44,13 @@ HP_Arquitens_Conc_02,
 
 	<!-- 3. Targeting Data -->	
 		
-	<Begin_Turn_Towards_Distance>100</Begin_Turn_Towards_Distance>
+	<Begin_Turn_Towards_Distance>800</Begin_Turn_Towards_Distance>
 	<Strafe_Distance>1000</Strafe_Distance>
 	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>1200</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>1800</Targeting_Max_Attack_Distance>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
-	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+	<Autonomous_Move_Extension_Vs_Attacker>50.0</Autonomous_Move_Extension_Vs_Attacker>
 		
 	<!-- 4. Class Data -->
 		
@@ -62,7 +62,7 @@ HP_Arquitens_Conc_02,
 	<WaitsForFormationFormup>false</WaitsForFormationFormup>
 	<Victory_Relevant>yes</Victory_Relevant>
 	<Is_Escort>yes</Is_Escort>
-	<Is_Bomber>n0</Is_Bomber>
+	<Is_Bomber>no</Is_Bomber>
 	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 	<Influences_Capture_Point>false</Influences_Capture_Point>
 	<UnitCollisionClass>vehicle</UnitCollisionClass>	
@@ -75,7 +75,7 @@ HP_Arquitens_Conc_02,
 	<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		
-	<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1500</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
 		
 	<!-- 5. Autoresolve Data -->
@@ -87,11 +87,11 @@ HP_Arquitens_Conc_02,
 	<!-- 6. Hull Data -->
 
 	<Tactical_Health>3200</Tactical_Health>
-	<Armor_Type>Armor_Nebulon_B</Armor_Type>
+	<Armor_Type>RA_Space_Armour_Light</Armor_Type>
 
-	<Shield_Points>6600</Shield_Points>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-	<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+	<Shield_Points>2000</Shield_Points>
+	<Shield_Armor_Type>RA_Space_Shield_Light_MKI</Shield_Armor_Type>
+	<Shield_Refresh_Rate>1.7</Shield_Refresh_Rate>
 
 	<Energy_Capacity>1000</Energy_Capacity>
 	<Energy_Refresh_Rate>80</Energy_Refresh_Rate>
@@ -112,14 +112,14 @@ HP_Arquitens_Conc_02,
 	<!-- 7. Movement Data -->
 		
 	<Mass>1</Mass>
-	<Max_Speed>0.5</Max_Speed>
-	<Min_Speed>3.0</Min_Speed>
-	<OverrideAcceleration>0.08</OverrideAcceleration>
-	<OverrideDeceleration>0.08</OverrideDeceleration>
+	<Max_Speed>1.8</Max_Speed>
+	<Min_Speed>0.5</Min_Speed>
+	<OverrideAcceleration>0.055</OverrideAcceleration>
+	<OverrideDeceleration>0.055</OverrideDeceleration>
 
-	<Max_Thrust>2.0</Max_Thrust>		
-	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.45</Max_Rate_Of_Roll>
+	<Max_Thrust>1.0</Max_Thrust>		
+	<Max_Rate_Of_Turn>0.42</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.52</Max_Rate_Of_Roll>
 	<Max_Lift>1.0</Max_Lift>		
 	<Bank_Turn_Angle>55</Bank_Turn_Angle>
 
@@ -136,8 +136,12 @@ HP_Arquitens_Conc_02,
 	<Minimum_Follow_Distance>1600</Minimum_Follow_Distance>
 	<Guard_Chase_Range>200</Guard_Chase_Range>
 	<Idle_Chase_Range>800</Idle_Chase_Range>
-	<Attack_Move_Response_Range>2400</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100</Attack_Move_Response_Range>
 	<Reinforcement_Prevention_Radius>0.0</Reinforcement_Prevention_Radius>
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 4.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 4.0 </Custom_Hard_YExtent>	
 		
 	<!-- 8. Galactic Build Data -->
 		
@@ -171,7 +175,7 @@ HP_Arquitens_Conc_02,
 	
 	<!-- 9. Multiplayer Skirmish Build Data -->
 
-	<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	<Tactical_Build_Prerequisites />
@@ -190,15 +194,25 @@ HP_Arquitens_Conc_02,
 
 	<!-- 11. Tactical Combat Data -->
 		
-	<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
-	<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior> 
+	<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+	<SpaceBehavior>
+			ABILITY_COUNTDOWN, 
+			ASTEROID_FIELD_DAMAGE,
+			DAMAGE_TRACKING,
+			SIMPLE_SPACE_LOCOMOTOR,
+			HIDE_WHEN_FOGGED, 
+			ION_STUN_EFFECT, 
+			NEBULA, 
+			REVEAL, 
+			TARGETING, 
+			UNIT_AI, 
+	</SpaceBehavior>
 		
 	<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
 	<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
 
 
 	<!-- 13. Ability Data -->
-
 
 <Unit_Abilities_Data SubObjectList="Yes">
 

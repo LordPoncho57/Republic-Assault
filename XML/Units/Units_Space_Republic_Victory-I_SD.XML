@@ -14,7 +14,7 @@
 	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.85</Scale_Factor>
 
 	<Lua_Script>ObjectScript_LayerZ_DeployFighters</Lua_Script>
 	<Moniker>Victory_Destroyer.txt</Moniker>	
@@ -22,30 +22,30 @@
 	<Ranking_In_Category>6</Ranking_In_Category>
 	<Damage>60</Damage>
 	<Autoresolve_Health>6000</Autoresolve_Health>
-	<Shield_Points>15000</Shield_Points>
+	<Shield_Points>5000</Shield_Points>
 	<Tactical_Health>11250</Tactical_Health>
-	<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+	<Shield_Refresh_Rate>4.1</Shield_Refresh_Rate>
 	<Energy_Capacity>8000</Energy_Capacity>
 	<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Max_Speed>1.65</Max_Speed>
-	<Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.17</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>60</Bank_Turn_Angle>
-	<OverrideAcceleration> .1 </OverrideAcceleration>
-	<OverrideDeceleration> .1 </OverrideDeceleration>
+	<OverrideAcceleration> 0.1 </OverrideAcceleration>
+	<OverrideDeceleration> 0.1 </OverrideDeceleration>
 	<Layer_Z_Adjust> 0 </Layer_Z_Adjust>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
 	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-	<Armor_Type> Armor_Star_Destroyer </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Heavy </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Heavy_MKI</Shield_Armor_Type>
 		
-	<Max_Thrust>1.0</Max_Thrust>
+	<Max_Thrust>0.5</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -77,8 +77,8 @@
 
 			<!-- Tech 1 -->
 
-	<Starting_Spawned_Units_Tech_0>V19_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>V19_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 5</Reserve_Spawned_Units_Tech_0> 
 
 			<!-- Tech 3 -->
 
@@ -95,7 +95,8 @@
 
 	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
 	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_5> 
-			<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+
+  <Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
 
 	<HardPoints>
 		HP_Victory-I_Dummy,
@@ -122,21 +123,30 @@
 
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-	<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
 	<Death_Explosions></Death_Explosions>
 	<Death_Clone>Damage_Normal, Victory-I_Death_Clone</Death_Clone>
 
 
-<Projectile_Types>Proj_Ship_Concussion_Missile</Projectile_Types>
-<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-<Turret_Elevate_Extent_Degrees>360</Turret_Elevate_Extent_Degrees>
+<Projectile_Types>RA_Proj_Ship_Concussion_Missile</Projectile_Types>
+<Turret_Rotate_Extent_Degrees>30</Turret_Rotate_Extent_Degrees>
+<Turret_Elevate_Extent_Degrees>30</Turret_Elevate_Extent_Degrees>
 <Projectile_Fire_Pulse_Count>36</Projectile_Fire_Pulse_Count>
 <Projectile_Fire_Pulse_Delay_Seconds>0.08</Projectile_Fire_Pulse_Delay_Seconds>
 <Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
-<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-<Targeting_Min_Attack_Distance>300</Targeting_Min_Attack_Distance>
+<Targeting_Max_Attack_Distance>3900.0</Targeting_Max_Attack_Distance>
+<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
 <SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
 <Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+
+	<Targeting_Fire_Inaccuracy> Fighter, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Bomber, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Transport, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Corvette, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Frigate, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Capital, 10.0 </Targeting_Fire_Inaccuracy>
+	<Targeting_Fire_Inaccuracy> Super, 10.0 </Targeting_Fire_Inaccuracy>	
+
 
 	<CategoryMask> Frigate | AntiCorvette</CategoryMask>
 	<Icon_Name>I_BUTTON_SD_VICTORY.tga</Icon_Name>
@@ -153,9 +163,14 @@
 	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>	 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>400.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 25.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>	
 
 		<!-- SFX Events -->
 
@@ -214,15 +229,11 @@
 	<Alternate_Icon_Name>I_SA_FAB.tga</Alternate_Icon_Name>
 </Unit_Ability>
 
-<Unit_Ability>
-	<Type>DEPLOY_SQUAD</Type>
-	<Recharge_Seconds>6</Recharge_Seconds>
-</Unit_Ability>
 </Unit_Abilities_Data>
 
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites />
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

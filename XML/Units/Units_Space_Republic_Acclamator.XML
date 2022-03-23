@@ -14,7 +14,7 @@
 	<Select_Box_Scale>300</Select_Box_Scale>
 	<Select_Box_Z_Adjust>-35</Select_Box_Z_Adjust>
 	<Mass>0.9995</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 
 	<Lua_Script>ObjectScript_LayerZ_PowerToWeapons</Lua_Script>
 	<Moniker>Acclamator.txt</Moniker>	
@@ -24,30 +24,35 @@
 
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-	<Max_Speed>2.2</Max_Speed>
-	<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+	<Max_Speed>2.4</Max_Speed>
+	<Max_Rate_Of_Turn>0.14</Max_Rate_Of_Turn>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Layer_Z_Adjust>-110.0</Layer_Z_Adjust>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+	<Max_Rate_Of_Roll>0.17</Max_Rate_Of_Roll>
 	<Bank_Turn_Angle>35</Bank_Turn_Angle>
-	<OverrideAcceleration> .04 </OverrideAcceleration>
+	<OverrideAcceleration>0.03</OverrideAcceleration>
+	<OverrideDeceleration>0.03</OverrideDeceleration>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 	
-	<Max_Thrust>1.5</Max_Thrust>
+	    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 7.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 7.0 </Custom_Hard_YExtent>
+
+	<Max_Thrust>0.5</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 
-	<Armor_Type> Armor_Acclamator </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Medium </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKI</Shield_Armor_Type> <!-- MKI shields are stronger but slower to regen. Take less damage from ion cannons and proton weapons. -->
 	<Damage>40</Damage>
 	<Autoresolve_Health>3000</Autoresolve_Health>
-	<Shield_Points>6000</Shield_Points>
+	<Shield_Points>3000</Shield_Points>
 	<Tactical_Health>3500</Tactical_Health>
-	<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+	<Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>
 	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 
 	<Affiliation>Empire</Affiliation>
 	<Tech_Level>1</Tech_Level>
@@ -78,10 +83,10 @@
 	<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 
 	<Death_Clone>Damage_Normal, Acclamator_Death_Clone </Death_Clone>
-	<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 
 	<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-	<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	
 	
 	<HardPoints>
@@ -167,7 +172,7 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
@@ -194,7 +199,7 @@
 	<Score_Cost_Credits> 1800</Score_Cost_Credits>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-	<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites />
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue> 

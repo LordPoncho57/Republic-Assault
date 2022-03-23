@@ -1,0 +1,930 @@
+<?xml version="1.0"?>
+<xxx_Files>
+
+	<SpaceUnit Name="xxx">
+
+		<!-- 1. Description Data -->
+
+		<Text_ID>TEXT_UNIT_XXX</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_XXX</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_xxx.tga</Icon_Name>
+
+		<!-- 2. Model Data -->
+		
+		<Space_Model_Name>xxx.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Size_Value>xxx</Size_Value>		
+		<Select_Box_Scale>xxx</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+
+		<Selection_Blob_Material_Name>xxx</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>xxx</Highlight_Blob_Material_Name>
+		
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		
+		<HardPoints>
+			HP_xxx,
+			HP_xxx
+		</HardPoints>
+
+	    <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+        <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+	    <Fire_Bone_C>MuzzleA_02</Fire_Bone_C>
+        <Fire_Bone_D>MuzzleA_03</Fire_Bone_D>		
+		<Projectile_Types>ps_xxx</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>xxx</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>xxx</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>xxx</Projectile_Fire_Recharge_Seconds>
+		<Turret_Rotate_Extent_Degrees>10</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>10</Turret_Elevate_Extent_Degrees>
+		
+		<!-- X / XX -->
+		<Fire_Inaccuracy_Distance> Fighter,	xxx	</Fire_Inaccuracy_Distance>	
+		<Fire_Inaccuracy_Distance> Bomber,	xxx	</Fire_Inaccuracy_Distance>	
+		<Fire_Inaccuracy_Distance> Transport,	xxx	</Fire_Inaccuracy_Distance>	
+		<Fire_Inaccuracy_Distance> Corvette,	xxx	</Fire_Inaccuracy_Distance>	
+		<Fire_Inaccuracy_Distance> Frigate,	xxx	</Fire_Inaccuracy_Distance>	
+		<Fire_Inaccuracy_Distance> Capital,	xxx	</Fire_Inaccuracy_Distance>	
+		<Fire_Inaccuracy_Distance> Super,	xxx	</Fire_Inaccuracy_Distance>		
+
+		<!-- 3. Targeting Data -->		
+		
+		<Begin_Turn_Towards_Distance>xxx</Begin_Turn_Towards_Distance>	
+		<Targeting_Max_Attack_Distance>xxx</Targeting_Max_Attack_Distance>
+		<Strafe_Distance>xxx</Strafe_Distance>
+		<Targeting_Min_Attack_Distance>xxx</Targeting_Min_Attack_Distance>
+		<Targeting_Priority_Set>xxx</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
+		
+		<!-- 4. Class Data -->
+		
+		<Ship_Class>xxx</Ship_Class>
+		<CategoryMask>xxx</CategoryMask>
+		<Property_Flags>SmallShip</Property_Flags>
+		<Create_Team>yes</Create_Team>
+		
+		<FormationPriority>xxx</FormationPriority>
+		<FormationOrder>xxx</FormationOrder>
+		<WaitsForFormationFormup>t/f</WaitsForFormationFormup>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Escort>y/n</Is_Escort>
+		<Is_Bomber>y/n</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Influences_Capture_Point>false</Influences_Capture_Point>
+		<UnitCollisionClass>vehicle</UnitCollisionClass>	
+		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
+		
+		<Is_Visible_On_Radar>y/n</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_xxx.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>xxx  xxx</Radar_Icon_Size>
+		
+		<Space_FOW_Reveal_Range>xxx</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>xxx</Damage>
+		<Autoresolve_Health>xxx</Autoresolve_Health>
+		<AI_Combat_Power>xxx</AI_Combat_Power>
+
+		<!-- 6. Hull Data -->
+
+		<Tactical_Health>xxx</Tactical_Health>
+		<Armor_Type>armor_x</Armor_Type>
+
+		<Shield_Points>xxx</Shield_Points>
+		<Shield_Armor_Type>shield_x</Shield_Armor_Type>
+		<Shield_Refresh_Rate>xxx</Shield_Refresh_Rate>
+
+		<Energy_Capacity>xxx</Energy_Capacity>
+		<Energy_Refresh_Rate>xxx</Energy_Refresh_Rate>
+
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="xxx_damage_control">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Heal_Range>0</Heal_Range>
+				<Heal_Percent>0</Heal_Percent>
+				<Heal_Amount>xxx</Heal_Amount>
+				<Heal_Interval_In_Secs>1</Heal_Interval_In_Secs>
+				<Single_Target_Heal>yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+			</Force_Healing_Ability>
+		</Abilities>
+		
+		<!-- 7. Movement Data -->
+		
+		<Mass>1</Mass>
+		<Max_Speed>xxx</Max_Speed>
+		<Min_Speed>xxx</Min_Speed>
+		<OverrideAcceleration>xxx</OverrideAcceleration>
+		<OverrideDeceleration>xxx</OverrideDeceleration>
+
+		<Max_Thrust>xxx</Max_Thrust>
+		<Max_Rate_Of_Turn>xxx</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>xxx</Max_Rate_Of_Roll>
+		<Max_Lift>xxx</Max_Lift>		
+		<Bank_Turn_Angle>360</Bank_Turn_Angle>
+		
+		<Hyperspace>y/n</Hyperspace>
+		<Hyperspace_Speed>xxx</Hyperspace_Speed>
+
+		<MovementClass>space</MovementClass>
+		<Space_Full_Stop_Command>no</Space_Full_Stop_Command>
+		<Has_Space_Evaluator>true</Has_Space_Evaluator>
+
+		<Minimum_Follow_Distance>2400</Minimum_Follow_Distance>
+		<Guard_Chase_Range>0</Guard_Chase_Range>
+		<Idle_Chase_Range>1200</Idle_Chase_Range>
+		<Attack_Move_Response_Range>4800</Attack_Move_Response_Range>
+		<Reinforcement_Prevention_Radius>10</Reinforcement_Prevention_Radius>
+		
+		<!-- 8. Galactic Build Data -->
+
+		<!-- 9. Multiplayer Skirmish Build Data -->
+
+		<Tactical_Build_Cost_Multiplayer>xxx</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>xxx</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player />
+		<Build_Limit_Lifetime_For_All_Allies />
+		
+		<!-- 10. Other Data -->
+
+		<Override_Bounty_SP>xxx</Override_Bounty_SP>
+		<Override_Bounty_MP>xxx</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>xxx</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>xxx</Piracy_Value_Credits>
+		<Score_Cost_Credits>xxx</Score_Cost_Credits>
+
+		<!-- 11. Tactical Combat Data -->
+		
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN, 
+			AMBIENT_SFX,
+			ASTEROID_FIELD_DAMAGE,
+			DAMAGE_TRACKING,
+			FIGHTER_LOCOMOTOR,
+			HIDE_WHEN_FOGGED, 
+			HUNT,
+			ION_STUN_EFFECT, 
+			NEBULA, 
+			POWERED,
+			REVEAL, 
+			SELECTABLE,
+			SHIELDED,
+			TARGETING,
+			UNIT_AI, 
+			WEAPON 
+		</SpaceBehavior>
+		
+		<Collidable_By_Projectile_Living>yes</Collidable_By_Projectile_Living>
+		<Ground_Vehicle_Turret_Target>yes</Ground_Vehicle_Turret_Target>
+
+		<!-- 12. Carrier Data -->	
+		
+		<!-- 13. Abilities -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>		
+
+		<!-- 14. Death Data -->
+
+		<Asteroid_Damage_Hit_Particles>damage_ps_blaster</Asteroid_Damage_Hit_Particles>
+		<Damaged_Smoke_Asset_Name>pf_xxx.alo</Damaged_Smoke_Asset_Name>
+		<Remove_Upon_Death>true</Remove_Upon_Death>		
+
+		<Death_Explosions>
+			explosion_ps_xxx_1,
+			explosion_ps_xxx_2,
+			explosion_ps_xxx_3,
+			explosion_ps_xxx_4,
+			explosion_ps_xxx_5,
+			explosion_ps_xxx_6,
+			explosion_ps_xxx_7,
+			explosion_ps_xxx_8,
+			explosion_ps_xxx_9			
+		</Death_Explosions>
+
+		<Spin_Away_On_Death>yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.25</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>5.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>explosion_ps_xxx</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>unit_xxx_death_SFX</Spin_Away_On_Death_SFXEvent_Start_Die>
+
+		<!-- 15. Sound Data -->
+
+		<SFXEvent_Fire>unit_xxx_fire</SFXEvent_Fire>
+		<SFXEvent_Select>unit_select_xxx</SFXEvent_Select>
+		<SFXEvent_Move>unit_move_xxx</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>unit_fleet_move_xxx</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>unit_attack_xxx</SFXEvent_Attack>
+		<SFXEvent_Guard>unit_guard_xxx</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>unit_assist_move_xxx</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>unit_assist_attack_xxx</SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field>unit_asteroids_xxx</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>unit_nebula_xxx</SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>unit_enemy_health_low_xxx</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>unit_enemy_health_critical_xxx</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Health_Low_Warning>unit_health_low_xxx</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>unit_health_critical_xxx</SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,		unit_HP_laser_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,		unit_HP_missile_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,		unit_HP_torpedo_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,	unit_HP_ion_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,	unit_HP_shield_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,				unit_HP_engines_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,		unit_HP_gravity_well_xxx </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY,			unit_HP_hangar_xxx </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving>unit_xxx_fly_by</SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>unit_xxx_cinematic_engine_loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>unit_xxx_death_SFX</Death_SFXEvent_Start_Die>
+		
+	</SpaceUnit>
+
+	
+<!-- xxx types -->
+	
+
+	<SpaceUnit Name="X_xxx">
+
+		<Variant_Of_Existing_Type>xxx</Variant_Of_Existing_Type>
+
+		<Affiliation>xxx</Affiliation>
+
+	</SpaceUnit>
+
+	
+<!-- Formations -->	
+	
+
+<!-- Squadron, 12 units -->
+			
+	<Squadron Name="xxx_squadron">
+		
+		<!-- 1. Description Data -->
+		
+		<Text_ID>TEXT_UNIT_XXX</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_XXX </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_xxx.tga</Icon_Name>
+
+		<!-- 4. Class Data -->
+		
+		<Property_Flags>SmallShip</Property_Flags>
+
+		<Formation_Priority>xxx</Formation_Priority>
+		<FormationOrder>xxx</FormationOrder>
+		<WaitsForFormationFormup>t/f</WaitsForFormationFormup>
+		<Is_Dummy>yes</Is_Dummy>
+		<Is_Escort>y/n</Is_Escort>
+		<Is_Bomber>y/n</Is_Bomber>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>xxx</Damage>
+		<Autoresolve_Health>xxx</Autoresolve_Health>
+
+		<Build_Cost_Credits />
+		<Build_Time_Seconds />
+		<Build_Time_Reduced_By_Multiple_Factories />
+	
+		<Tech_Level>xxx</Tech_Level>
+		<Required_Star_Base_Level />
+		<Required_Planets />	
+		<Required_Special_Structures />	
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level />
+		
+		<GUI_Row>1</GUI_Row>
+		<Build_Tab_Space_Units>no</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>no</Build_Can_Be_Unlocked_By_Slicer>
+		
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+		
+		<!-- 7. Movement Data -->
+
+		<Guard_Chase_Range>1000</Guard_Chase_Range>
+		<Idle_Chase_Range>5000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>800</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<!-- 9. Multiplayer Skirmish Build Data -->
+
+		<Tactical_Build_Cost_Multiplayer>xxx</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>xxx</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player />
+		<Build_Limit_Lifetime_For_All_Allies />		
+
+		<!-- 11. Tactical Combat Data -->
+		
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<!-- 12. Squadron Data -->	
+
+		<Create_Team_Type /> <!-- unit container for targeted abiltiies -->	
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Units>
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx			
+		</Squadron_Units>
+
+		<!-- Fluid wall fighter squadron formation -->		
+		<!-- +forwards -backwards, +left -right, +up - down -->
+		<Squadron_Offsets>100,0,30</Squadron_Offsets>			<!-- squadron leader -->
+		<Squadron_Offsets>100,30,0</Squadron_Offsets>			<!-- port wingman, lead element -->		
+		<Squadron_Offsets>100,-30,0</Squadron_Offsets>			<!-- starboard wingman, lead element -->
+		<Squadron_Offsets>100,0,-30</Squadron_Offsets>			<!-- flight leader, lead element -->
+
+		<Squadron_Offsets>0,0,60</Squadron_Offsets>				<!-- flight leader, middle element -->
+		<Squadron_Offsets>0,60,0</Squadron_Offsets>				<!-- port wingman, lead element -->		
+		<Squadron_Offsets>0,-60,0</Squadron_Offsets>			<!-- starboard wingman, lead element -->
+		<Squadron_Offsets>0,0,-60</Squadron_Offsets>			<!-- bottom wingman, lead element -->
+
+		<Squadron_Offsets>-100,0,90</Squadron_Offsets>			<!-- flight leader, rear element -->
+		<Squadron_Offsets>-100,90,0</Squadron_Offsets>			<!-- port wingman, rear element -->		
+		<Squadron_Offsets>-100,-90,0</Squadron_Offsets>			<!-- starboard wingman, rear element -->
+		<Squadron_Offsets>-100,0,-90</Squadron_Offsets>			<!-- bottom wingman, rear element -->
+
+		<Squadron_Formation_Error_Tolerance>40</Squadron_Formation_Error_Tolerance>
+
+		<!-- 13. Abilities -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>		
+		
+		<!-- 15. Sound Data -->
+	
+		<SFXEvent_Build_Started>RHD_build_vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_unit_canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>unit_complete_xxx</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>unit_fleet_move_xxx</SFXEvent_Fleet_Move>
+
+	</Squadron>
+
+<!-- Flight, 6 units -->
+			
+	<Squadron Name="xxx_flight">
+		
+		<!-- 1. Description Data -->
+		
+		<Text_ID>TEXT_UNIT_XXX</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_XXX </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_xxx.tga</Icon_Name>
+
+		<!-- 4. Class Data -->
+		
+		<Property_Flags>SmallShip</Property_Flags>
+
+		<Formation_Priority>xxx</Formation_Priority>
+		<FormationOrder>xxx</FormationOrder>
+		<WaitsForFormationFormup>t/f</WaitsForFormationFormup>
+		<Is_Dummy>yes</Is_Dummy>
+		<Is_Escort>y/n</Is_Escort>
+		<Is_Bomber>y/n</Is_Bomber>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>xxx</Damage>
+		<Autoresolve_Health>xxx</Autoresolve_Health>
+
+		<Build_Cost_Credits />
+		<Build_Time_Seconds />
+		<Build_Time_Reduced_By_Multiple_Factories />
+	
+		<Tech_Level>xxx</Tech_Level>
+		<Required_Star_Base_Level />
+		<Required_Planets />	
+		<Required_Special_Structures />	
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level />
+		
+		<GUI_Row>1</GUI_Row>
+		<Build_Tab_Space_Units>no</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>no</Build_Can_Be_Unlocked_By_Slicer>
+		
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+		
+		<!-- 7. Movement Data -->
+
+		<Guard_Chase_Range>1000</Guard_Chase_Range>
+		<Idle_Chase_Range>5000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>800</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<!-- 9. Multiplayer Skirmish Build Data -->
+
+		<Tactical_Build_Cost_Multiplayer>xxx</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>xxx</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player />
+		<Build_Limit_Lifetime_For_All_Allies />		
+
+		<!-- 11. Tactical Combat Data -->
+		
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<!-- 12. Squadron Data -->	
+
+		<Create_Team_Type /> <!-- unit container for targeted abilities -->	
+		<Max_Squad_Size>6</Max_Squad_Size>
+		<Squadron_Units>
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx,
+			xxx
+		</Squadron_Units>
+
+		<!-- Double vic formation -->
+		<!-- +forwards -backwards, +left -right, +up - down -->		
+		<Squadron_Offsets>30,-40,0</Squadron_Offsets>			<!-- flight leader -->
+		<Squadron_Offsets>5,-10,0</Squadron_Offsets>			<!-- port, wingman -->
+		<Squadron_Offsets>5,-70,0</Squadron_Offsets>			<!-- starboard, wingman -->
+		<Squadron_Offsets>-5,40,15</Squadron_Offsets>			<!-- element leader -->
+		<Squadron_Offsets>-30,70,15</Squadron_Offsets>			<!-- port, element wingman -->
+		<Squadron_Offsets>-30,10,15</Squadron_Offsets>			<!-- starboard, element wingman -->
+
+		<Squadron_Formation_Error_Tolerance>40</Squadron_Formation_Error_Tolerance>
+
+		<!-- 13. Abilities -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>		
+		
+		<!-- 15. Sound Data -->
+	
+		<SFXEvent_Build_Started>RHD_build_vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_unit_canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>unit_complete_xxx</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>unit_fleet_move_xxx</SFXEvent_Fleet_Move>
+
+	</Squadron>
+
+<!-- Flight/Section, 4 units -->
+			
+	<Squadron Name="xxx_flight/section">
+		
+		<!-- 1. Description Data -->
+		
+		<Text_ID>TEXT_UNIT_XXX</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_XXX </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_xxx.tga</Icon_Name>
+
+		<!-- 4. Class Data -->
+		
+		<Property_Flags>SmallShip</Property_Flags>
+
+		<Formation_Priority>xxx</Formation_Priority>
+		<FormationOrder>xxx</FormationOrder>
+		<WaitsForFormationFormup>t/f</WaitsForFormationFormup>
+		<Is_Dummy>yes</Is_Dummy>
+		<Is_Escort>y/n</Is_Escort>
+		<Is_Bomber>y/n</Is_Bomber>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>xxx</Damage>
+		<Autoresolve_Health>xxx</Autoresolve_Health>
+
+		<Build_Cost_Credits />
+		<Build_Time_Seconds />
+		<Build_Time_Reduced_By_Multiple_Factories />
+	
+		<Tech_Level>xxx</Tech_Level>
+		<Required_Star_Base_Level />
+		<Required_Planets />	
+		<Required_Special_Structures />	
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level />
+		
+		<GUI_Row>1</GUI_Row>
+		<Build_Tab_Space_Units>no</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>no</Build_Can_Be_Unlocked_By_Slicer>
+		
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+		
+		<!-- 7. Movement Data -->
+
+		<Guard_Chase_Range>1000</Guard_Chase_Range>
+		<Idle_Chase_Range>5000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>800</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<!-- 9. Multiplayer Skirmish Build Data -->
+
+		<Tactical_Build_Cost_Multiplayer>xxx</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>xxx</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player />
+		<Build_Limit_Lifetime_For_All_Allies />		
+
+		<!-- 11. Tactical Combat Data -->
+		
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<!-- 12. Squadron Data -->	
+
+		<Create_Team_Type /> <!-- unit container for targeted abiltiies -->	
+		<Max_Squad_Size>4</Max_Squad_Size>
+		<Squadron_Units>
+			xxx,
+			xxx,
+			xxx,
+			xxx
+		</Squadron_Units>
+
+		<!-- Four finger/ route fighter formation -->		
+		<!-- +forwards -backwards, +left -right, +up - down -->
+		<Squadron_Offsets>40,0,0</Squadron_Offsets>				<!-- flight leader -->
+		<Squadron_Offsets>0,48,0</Squadron_Offsets>				<!-- port, wingman -->
+		<Squadron_Offsets>0,-48,0</Squadron_Offsets>			<!-- starboard, element leader -->
+		<Squadron_Offsets>-40,-96,0</Squadron_Offsets>			<!-- starboard, element wingman -->
+
+		<Squadron_Formation_Error_Tolerance>40</Squadron_Formation_Error_Tolerance>
+
+		<!-- 13. Abilities -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>		
+		
+		<!-- 15. Sound Data -->
+	
+		<SFXEvent_Build_Started>RHD_build_vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_unit_canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>unit_complete_xxx</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>unit_fleet_move_xxx</SFXEvent_Fleet_Move>
+
+	</Squadron>
+	
+<!-- Element, 3 units -->
+			
+	<Squadron Name="xxx_element">
+		
+		<!-- 1. Description Data -->
+		
+		<Text_ID>TEXT_UNIT_XXX</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_XXX </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_xxx.tga</Icon_Name>
+
+		<!-- 4. Class Data -->
+		
+		<Property_Flags>SmallShip</Property_Flags>
+
+		<Formation_Priority>xxx</Formation_Priority>
+		<FormationOrder>xxx</FormationOrder>
+		<WaitsForFormationFormup>t/f</WaitsForFormationFormup>
+		<Is_Dummy>yes</Is_Dummy>
+		<Is_Escort>y/n</Is_Escort>
+		<Is_Bomber>y/n</Is_Bomber>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>xxx</Damage>
+		<Autoresolve_Health>xxx</Autoresolve_Health>
+
+		<Build_Cost_Credits />
+		<Build_Time_Seconds />
+		<Build_Time_Reduced_By_Multiple_Factories />
+	
+		<Tech_Level>xxx</Tech_Level>
+		<Required_Star_Base_Level />
+		<Required_Planets />	
+		<Required_Special_Structures />	
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level />
+		
+		<GUI_Row>1</GUI_Row>
+		<Build_Tab_Space_Units>no</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>no</Build_Can_Be_Unlocked_By_Slicer>
+		
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+		
+		<!-- 7. Movement Data -->
+
+		<Guard_Chase_Range>1000</Guard_Chase_Range>
+		<Idle_Chase_Range>5000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>800</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<!-- 9. Multiplayer Skirmish Build Data -->
+
+		<Tactical_Build_Cost_Multiplayer>xxx</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>xxx</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player />
+		<Build_Limit_Lifetime_For_All_Allies />		
+
+		<!-- 11. Tactical Combat Data -->
+		
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<!-- 12. Squadron Data -->	
+
+		<Create_Team_Type /> <!-- unit container for targeted abiltiies -->	
+		<Max_Squad_Size>3</Max_Squad_Size>
+		<Squadron_Units>
+			xxx,
+			xxx,			
+			xxx
+		</Squadron_Units>
+
+		<!-- Wedge formation -->
+		<!-- +forwards -backwards, +left -right, +up - down -->
+		<Squadron_Offsets>20,0,0</Squadron_Offsets>				<!-- flight leader -->
+		<Squadron_Offsets>-20,40,0</Squadron_Offsets>			<!-- port, wingman -->
+		<Squadron_Offsets>-20,-40,0</Squadron_Offsets>			<!-- starboard, wingman -->
+
+		<Squadron_Formation_Error_Tolerance>40</Squadron_Formation_Error_Tolerance>
+
+		<!-- 13. Abilities -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>		
+		
+		<!-- 15. Sound Data -->
+	
+		<SFXEvent_Build_Started>RHD_build_vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_unit_canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>unit_complete_xxx</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>unit_fleet_move_xxx</SFXEvent_Fleet_Move>
+
+	</Squadron>	
+	
+<!-- Pair, 2 units -->
+			
+	<Squadron Name="xxx_pair">
+		
+		<!-- 1. Description Data -->
+		
+		<Text_ID>TEXT_UNIT_XXX</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_XXX </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text></Encyclopedia_Text>
+		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
+		<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_xxx.tga</Icon_Name>
+
+		<!-- 4. Class Data -->
+		
+		<Property_Flags>SmallShip</Property_Flags>
+
+		<Formation_Priority>xxx</Formation_Priority>
+		<FormationOrder>xxx</FormationOrder>
+		<WaitsForFormationFormup>t/f</WaitsForFormationFormup>
+		<Is_Dummy>yes</Is_Dummy>
+		<Is_Escort>y/n</Is_Escort>
+		<Is_Bomber>y/n</Is_Bomber>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<!-- 5. Autoresolve Data -->
+
+		<Damage>xxx</Damage>
+		<Autoresolve_Health>xxx</Autoresolve_Health>
+
+		<Build_Cost_Credits />
+		<Build_Time_Seconds />
+		<Build_Time_Reduced_By_Multiple_Factories />
+	
+		<Tech_Level>xxx</Tech_Level>
+		<Required_Star_Base_Level />
+		<Required_Planets />	
+		<Required_Special_Structures />	
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level />
+		
+		<GUI_Row>1</GUI_Row>
+		<Build_Tab_Space_Units>no</Build_Tab_Space_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>no</Build_Can_Be_Unlocked_By_Slicer>
+		
+		<Population_Value>1</Population_Value>
+		<Space_Override_Population_Value>1</Space_Override_Population_Value>
+		
+		<!-- 7. Movement Data -->
+
+		<Guard_Chase_Range>1000</Guard_Chase_Range>
+		<Idle_Chase_Range>5000</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>800</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<!-- 9. Multiplayer Skirmish Build Data -->
+
+		<Tactical_Build_Cost_Multiplayer>xxx</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>xxx</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player />
+		<Build_Limit_Lifetime_For_All_Allies />		
+
+		<!-- 11. Tactical Combat Data -->
+		
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<!-- 12. Squadron Data -->	
+
+		<Create_Team_Type /> <!-- unit container for targeted abiltiies -->	
+		<Max_Squad_Size>2</Max_Squad_Size>
+		<Squadron_Units>
+			xxx,
+			xxx
+		</Squadron_Units>
+
+		<!-- Short echelon formation -->		
+		<!-- +forwards -backwards, +left -right, +up - down -->
+		<Squadron_Offsets>0,0,0</Squadron_Offsets>				<!-- flight leader -->
+		<Squadron_Offsets>-75,-75,-10</Squadron_Offsets>		<!-- starboard, wingman -->
+
+		<Squadron_Formation_Error_Tolerance>40</Squadron_Formation_Error_Tolerance>
+
+		<!-- 13. Abilities -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>		
+		
+		<!-- 15. Sound Data -->
+	
+		<SFXEvent_Build_Started>RHD_build_vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_unit_canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>unit_complete_xxx</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>unit_fleet_move_xxx</SFXEvent_Fleet_Move>
+
+	</Squadron>
+
+	
+<!-- xxx squadron types -->
+
+
+<!-- xxx Squadron, 12 units in Fluid wall fighter squadron formation  -->
+	
+	<Squadron Name="X_xxx_squadron">
+
+		<Variant_Of_Existing_Type>xxx_squadron</Variant_Of_Existing_Type>
+		<Affiliation>xxx</Affiliation>
+
+		<Squadron_Units>
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx			
+		</Squadron_Units>
+
+	</Squadron>
+
+<!-- xxx Flight, 6 units in Double vic fighter formation  -->
+	
+	<Squadron Name="X_xxx_flight">
+
+		<Variant_Of_Existing_Type>xxx_flight</Variant_Of_Existing_Type>
+		<Affiliation>xxx</Affiliation>
+
+		<Squadron_Units>
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx,			
+			X_xxx,
+			X_xxx
+		</Squadron_Units>
+
+	</Squadron>
+
+<!-- xxx Flight/Section, 4 units in Four finger/ route fighter formation  -->
+	
+	<Squadron Name="X_xxx_flight/section">
+
+		<Variant_Of_Existing_Type>xxx_flight/section</Variant_Of_Existing_Type>
+		<Affiliation>xxx</Affiliation>
+
+		<Squadron_Units>
+			X_xxx,
+			X_xxx,
+			X_xxx,
+			X_xxx
+		</Squadron_Units>
+
+	</Squadron>
+
+<!-- xxx Element, 3 units in Wedge formation  -->
+	
+	<Squadron Name="X_xxx_element">
+
+		<Variant_Of_Existing_Type>xxx_element</Variant_Of_Existing_Type>
+		<Affiliation>xxx</Affiliation>
+
+		<Squadron_Units>
+			X_xxx,
+			X_xxx,			
+			X_xxx
+		</Squadron_Units>
+
+	</Squadron>
+
+<!-- xxx Pair, 2 units in Short echelon formation  -->
+	
+	<Squadron Name="X_xxx_pair">
+
+		<Variant_Of_Existing_Type>xxx_pair</Variant_Of_Existing_Type>
+		<Affiliation>xxx</Affiliation>
+
+		<Squadron_Units>
+			X_xxx,
+			X_xxx
+		</Squadron_Units>
+
+	</Squadron>
+	
+	
+</xxx_Files>

@@ -7,15 +7,18 @@
 
 	<File>Hardpoints/HardPoints_Neutral_Dreadnaught_Heavy_Cruiser.XML</File>
 	
-	<File>Hardpoints/HardPoints_Rep_Land_Vehicles.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Land_Infantry.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Land_Vehicles.XML</File>	
 	<File>Hardpoints/HardPoints_Rep_V-19_Torrent_Fighter.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Y-Wing_Bomber.XML</File>
 	<File>Hardpoints/HardPoints_Rep_ARC-170.XML</File>
 	<File>Hardpoints/HardPoints_Rep_V-Wing.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Z-95_Headhunter.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Stealthship.XML</File>
+	<File>Hardpoints/HardPoints_Rep_C70_Charger_Corvette.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Carrack_Cruiser.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Arquitens.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Gladiator_Heavy_Cruiser.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Acclamator.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Venator_SD.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Valiant_Star_Carrier.XML</File>
@@ -24,8 +27,10 @@
 	<File>Hardpoints/HardPoints_Rep_Secutor_Battlecarrier.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Maelstrom_Battlecruiser.XML</File>
 	<File>Hardpoints/HardPoints_Rep_Praetor_Battlecruiser.XML</File>
+	<File>Hardpoints/HardPoints_Rep_Mandator_Dreadnaught.XML</File>
 	<File>Hardpoints/HardPoints_Republic_Space.XML</File>
 
+	<File>Hardpoints/HardPoints_CIS_Land_Infantry.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Land_Vehicles.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Vulture_Droid.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Hyena_Bomber.XML</File>	
@@ -40,7 +45,9 @@
 	<File>Hardpoints/HardPoints_CIS_Bulwark.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Providence.XML</File>
 	<File>Hardpoints/HardPoints_CIS_Lucrehulk.XML</File>
-
+	<File>Hardpoints/HardPoints_CIS_Subjugator.XML</File>
+	<File>HardPoints/HardPoints_CIS_Space.XML</File>
+	
 	<File>Hardpoints/HardPoints_Mandalorian_Komrk.XML</File>
 	<File>Hardpoints/HardPoints_Mandalorian_Kandosii.XML</File>
 </Hard_Point_Files>

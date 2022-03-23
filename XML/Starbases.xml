@@ -8,8 +8,8 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		
 		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL1.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T1.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T1_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Is_Dummy>No</Is_Dummy>
@@ -31,8 +31,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type> RA_Space_Armour_Super_Heavy </Armor_Type>
+		<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKI</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -44,40 +44,47 @@
 				RS_Improved_Weapons_L1_Upgrade,
 		</Tactical_Buildable_Objects_Campaign>
 
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_CIS, 1</Starting_Spawned_Units_Tech_0>		
 
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		<Autoresolve_Health>15000</Autoresolve_Health>
 		<Damage>35</Damage>
-		<Shield_Points>10000</Shield_Points>
+		<Shield_Points>8000</Shield_Points>
 		<Tactical_Health>7500</Tactical_Health>
-		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
-		<Energy_Capacity>5000</Energy_Capacity>
-		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>6.6</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04
+</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_01.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T1.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -159,8 +166,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_02.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL2.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T2.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T2_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -194,14 +201,14 @@
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 1</Reserve_Spawned_Units_Tech_0>
 
 	<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
@@ -216,22 +223,34 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_02.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T2.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -312,8 +331,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_03.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL3.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T3.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T3_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1000</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -350,16 +369,16 @@
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
 		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
 
 		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 1</Reserve_Spawned_Units_Tech_0>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -375,25 +394,42 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
-		<GUI_Model_Name>RB_STATION_03.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T3.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -473,8 +509,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_04.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL4.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T4.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T4_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -510,20 +546,20 @@
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 8</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 4</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Recusant_Frigate, 1</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -541,29 +577,51 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
 		
-		<GUI_Model_Name>RB_STATION_04.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T4.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -647,8 +705,8 @@
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
-		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_RB_STATION_LEVEL5.ALO</Galactic_Model_Name>
+		<Space_Model_Name>CIS_Starbase_T5.ALO</Space_Model_Name>
+		<Galactic_Model_Name>CIS_Starbase_T5_GC.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -684,20 +742,19 @@
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 16</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Starting_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Vulture_Droid_Squadron, 20</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 8</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>CIS_Hyena_Bomber_Squadron, 20</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 6</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Gozanti_Cruiser, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, 2</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 4</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Munificent_Frigate, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Munificent_Frigate, 2</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Recusant_Frigate, 2</Starting_Spawned_Units_Tech_0>
-	<Reserve_Spawned_Units_Tech_0>Gozanti_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 
 
 		<Tactical_Buildable_Objects_Campaign> 
@@ -719,33 +776,59 @@
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01_Dummy,
+HP_CIS_Station_Comm_Array_01_Dummy,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_TBL_09,
+HP_CIS_Station_TBL_10,
+HP_CIS_Station_TBL_11,
+HP_CIS_Station_TBL_12,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_LC_09,
+HP_CIS_Station_LC_10,
+HP_CIS_Station_LC_11,
+HP_CIS_Station_LC_12,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 		
 		<!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 		
 		
-		<GUI_Model_Name>RB_STATION_05.ALO</GUI_Model_Name>
+		<GUI_Model_Name>CIS_Starbase_T5.ALO</GUI_Model_Name>
 		<GUI_Distance>4700</GUI_Distance>
 		<GUI_Offset>0 0 -300</GUI_Offset>
 		<GUI_Angles>90 0 0</GUI_Angles>
@@ -847,24 +930,25 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
-		<Shield_Points>300</Shield_Points>
+		<Shield_Points>8000</Shield_Points>
 		<Tactical_Health>1600</Tactical_Health>
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
-		<Energy_Capacity>5000</Energy_Capacity>
-		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Shield_Refresh_Rate>6.6</Shield_Refresh_Rate>
+		<Energy_Capacity>10000</Energy_Capacity>
+		<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Station </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type> RA_Space_Armour_Super_Heavy </Armor_Type>
+		<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKI</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_CorSec, 1</Starting_Spawned_Units_Tech_0>	
+
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1001,15 +1085,11 @@ HP_Valor_LC_04
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 2</Starting_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0> 
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_CorSec, 3</Starting_Spawned_Units_Tech_0>	
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -1153,17 +1233,19 @@ HP_Valor_LC_06
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+
+		<Starting_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_Rep, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Dreadnaught_Heavy_Cruiser_Rep, 1</Reserve_Spawned_Units_Tech_0>		
+
+		<Starting_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 1</Reserve_Spawned_Units_Tech_0>		
 		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1314,20 +1396,20 @@ HP_Valor_LC_08
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 8</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 16</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Venator, 1</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>C70_Charger_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>C70_Charger_Squadron, 1</Reserve_Spawned_Units_Tech_0> 		
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1483,20 +1565,22 @@ HP_Valor_LC_12
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>V19_Squadron, 14</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 28</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-		
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 7</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 14</Reserve_Spawned_Units_Tech_0> 
 
-		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>Venator, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Venator, 3</Reserve_Spawned_Units_Tech_0> 		
+
+		<Starting_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Arquitens_Light_Cruiser, 2</Reserve_Spawned_Units_Tech_0> 	
+
+		<Starting_Spawned_Units_Tech_0>C70_Charger_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>C70_Charger_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 		
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
 		
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1846,9 +1930,20 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_One_ShieldGen, HP_Rebel_Station_One_Fighter_Bay
-		</HardPoints>
+<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04
+</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1857,8 +1952,11 @@ HP_Valor_LC_18
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_X-Wing_Squadron, 
-				Y-Wing_Squadron, 
+				CIS_Vulture_Droid_Squadron, 
+				CIS_Hyena_Bomber_Squadron,
+				Gozanti_Cruiser,
+				Dreadnaught_Heavy_Cruiser_CIS,
+				Lucrehulk, 
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Two_Starbase_Upgrade,
@@ -1916,18 +2014,30 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1937,12 +2047,14 @@ HP_Valor_LC_18
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
-				Y-Wing_Squadron, 
-				Nebulon_B_Frigate,
-				A_Wing_Squadron,
-				Han_Solo_Team_Space_MP,
+				CIS_Vulture_Droid_Squadron, 
+				CIS_Hyena_Bomber_Squadron,
+				Gozanti_Cruiser,
+				Dreadnaught_Heavy_Cruiser_CIS,
+				Lucrehulk, 
+				Munificent_Frigate,
+				Recusant_Frigate,
+				CIS_HMP_Gunship_Squadron,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Three_Starbase_Upgrade,
@@ -1999,9 +2111,38 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_One_ShieldGen, HP_Rebel_Station_One_Fighter_Bay, HP_Rebel_Station_Two_LC, HP_Rebel_Station_Two_PRT, HP_Rebel_Station_Two_TBL, HP_Rebel_Station_Three_CCM, HP_Rebel_Station_Three_IC, HP_Rebel_Station_Three_PRT		
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08
+	</HardPoints>
 		
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -2011,16 +2152,17 @@ HP_Valor_LC_18
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
-				Y-Wing_Squadron, 
-				Nebulon_B_Frigate,
-				A_Wing_Squadron,
-				Corellian_Gunboat,
-				Han_Solo_Team_Space_MP,
-				Sundered_Heart,
-				B-Wing_Squadron,
-				Alliance_Assault_Frigate,
+				CIS_Vulture_Droid_Squadron, 
+				CIS_Hyena_Bomber_Squadron,
+				Gozanti_Cruiser,
+				Dreadnaught_Heavy_Cruiser_CIS,
+				Lucrehulk, 
+				Munificent_Frigate,
+				Recusant_Frigate,
+				CIS_HMP_Gunship_Squadron,
+				CIS_Providence_IKM,
+				Captor_Carrier,
+				Wavecrest_Frigate,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Enhanced_Shielding_L2_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -2081,9 +2223,46 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock, HP_Rebel_Station_One_Comm_Array, HP_Rebel_Station_One_CCM, HP_Rebel_Station_One_LC, HP_Rebel_Station_One_TBL, HP_Rebel_Station_Four_ShieldGen, HP_Rebel_Station_One_Fighter_Bay, HP_Rebel_Station_Two_LC, HP_Rebel_Station_Two_PRT, HP_Rebel_Station_Two_TBL, HP_Rebel_Station_Three_CCM, HP_Rebel_Station_Three_IC, HP_Rebel_Station_Three_PRT, HP_Rebel_Station_Four_IC, HP_Rebel_Station_Four_LC, HP_Rebel_Station_Four_TBL			
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -2093,19 +2272,18 @@ HP_Valor_LC_18
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
-				Y-Wing_Squadron, 
-				Nebulon_B_Frigate,
-				A_Wing_Squadron,
-				Corellian_Gunboat,
-				Alliance_Assault_Frigate,
-				Marauder_Missile_Cruiser,
-				Han_Solo_Team_Space_MP,
-				Rogue_Squadron_Space,
-				Sundered_Heart,
-				MC30_Frigate,
-				B-Wing_Squadron,
+				CIS_Vulture_Droid_Squadron, 
+				CIS_Hyena_Bomber_Squadron,
+				Gozanti_Cruiser,
+				Dreadnaught_Heavy_Cruiser_CIS,
+				Lucrehulk, 
+				Munificent_Frigate,
+				Recusant_Frigate,
+				CIS_HMP_Gunship_Squadron,
+				CIS_Providence_IKM,
+				Captor_Carrier,
+				Wavecrest_Frigate,
+				CIS_Supply_Ship,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Enhanced_Shielding_L2_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
@@ -2167,28 +2345,54 @@ HP_Valor_LC_18
 		<Is_Community_Property>Yes</Is_Community_Property>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL			
-		</HardPoints>
+	<HardPoints>
+HP_CIS_Station_Hangar_01,
+HP_CIS_Station_Hangar_02,
+HP_CIS_Station_Hangar_03,
+HP_CIS_Station_Hangar_04,
+HP_CIS_Station_Hangar_05,
+HP_CIS_Station_Shield_01,
+HP_CIS_Station_Dock_01,
+HP_CIS_Station_Comm_Array_01,
+HP_CIS_Station_TBL_01,
+HP_CIS_Station_TBL_02,
+HP_CIS_Station_TBL_03,
+HP_CIS_Station_TBL_04,
+HP_CIS_Station_TBL_05,
+HP_CIS_Station_TBL_06,
+HP_CIS_Station_TBL_07,
+HP_CIS_Station_TBL_08,
+HP_CIS_Station_TBL_09,
+HP_CIS_Station_TBL_10,
+HP_CIS_Station_TBL_11,
+HP_CIS_Station_TBL_12,
+HP_CIS_Station_LC_01,
+HP_CIS_Station_LC_02,
+HP_CIS_Station_LC_03,
+HP_CIS_Station_LC_04,
+HP_CIS_Station_LC_05,
+HP_CIS_Station_LC_06,
+HP_CIS_Station_LC_07,
+HP_CIS_Station_LC_08,
+HP_CIS_Station_LC_09,
+HP_CIS_Station_LC_10,
+HP_CIS_Station_LC_11,
+HP_CIS_Station_LC_12,
+HP_CIS_Station_Conc_01,
+HP_CIS_Station_Conc_02,
+HP_CIS_Station_Conc_03,
+HP_CIS_Station_Conc_04,
+HP_CIS_Station_Conc_05,
+HP_CIS_Station_Conc_06,
+HP_CIS_Station_Conc_07,
+HP_CIS_Station_Conc_08,
+HP_CIS_Station_Torp_01,
+HP_CIS_Station_Torp_02,
+HP_CIS_Station_Torp_03,
+HP_CIS_Station_Torp_04,
+HP_CIS_Station_Torp_05,
+HP_CIS_Station_Torp_06
+	</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -2198,21 +2402,18 @@ HP_Valor_LC_18
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
-				Y-Wing_Squadron, 
-				Nebulon_B_Frigate,
-				A_Wing_Squadron,
-				Corellian_Gunboat,
-				Alliance_Assault_Frigate,
-				Marauder_Missile_Cruiser,
-				Calamari_Cruiser,
-				Home_One,
-				Han_Solo_Team_Space_MP,
-				Rogue_Squadron_Space,
-				Sundered_Heart,
-				MC30_Frigate,
-				B-Wing_Squadron,
+				CIS_Vulture_Droid_Squadron, 
+				CIS_Hyena_Bomber_Squadron,
+				Gozanti_Cruiser,
+				Dreadnaught_Heavy_Cruiser_CIS,
+				Lucrehulk, 
+				Munificent_Frigate,
+				Recusant_Frigate,
+				CIS_HMP_Gunship_Squadron,
+				CIS_Providence_IKM,
+				Captor_Carrier,
+				Wavecrest_Frigate,
+				CIS_Supply_Ship,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Enhanced_Shielding_L2_Upgrade,
 				RS_Enhanced_Shielding_L3_Upgrade,
@@ -2299,9 +2500,11 @@ HP_Valor_LC_04
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Praetor_Battlecruiser,
-				TIE_Interceptor_Squadron,
-				TIE_Bomber_Squadron,
+				Dreadnaught_Heavy_Cruiser_Rep,
+				V19_Squadron,
+				Rep_Y-Wing_Squadron,
+				C70_Charger_Squadron,
+				Rep_Acclamator,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade,
@@ -2385,13 +2588,14 @@ HP_Valor_LC_06
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Interceptor_Squadron,
-				TIE_Phantom_Squadron,
-				TIE_Scout_Squadron,
-				Tartan_Patrol_Cruiser,
-				TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship,
-				Boba_Fett_Team_Space_MP,
+				Dreadnaught_Heavy_Cruiser_Rep,
+				V19_Squadron,
+				Rep_Y-Wing_Squadron,
+				C70_Charger_Squadron,
+				Rep_Acclamator,
+				Z95_Squadron,
+				Arquitens_Light_Cruiser,
+				Venator,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
@@ -2480,17 +2684,19 @@ HP_Valor_LC_08
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Interceptor_Squadron,
-				TIE_Defender_Squadron,
-				TIE_Phantom_Squadron,
-				Tartan_Patrol_Cruiser,
-				TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship,
-				TIE_Scout_Squadron,
-				Interdictor_Cruiser,
-				Boba_Fett_Team_Space_MP,
-				Darth_Team_Space_MP,
-				Victory_Destroyer,
+				Dreadnaught_Heavy_Cruiser_Rep,
+				Rep_Y-Wing_Squadron,
+				C70_Charger_Squadron,
+				Carrack_Light_Cruiser,
+				Rep_Acclamator,
+				Z95_Squadron,
+				Arquitens_Light_Cruiser,
+				Venator,
+				Valiant,
+				Rothana_Battlecruiser,
+				Maelstrom_Battlecruiser,				
+				Republic_Stealth_Ship,
+				ARC170_Squadron,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
@@ -2594,19 +2800,22 @@ HP_Valor_LC_12
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Interceptor_Squadron,
-				TIE_Defender_Squadron,
-				TIE_Phantom_Squadron,
-				Tartan_Patrol_Cruiser,
-				TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship,
-				TIE_Scout_Squadron,
-				Interdictor_Cruiser,
-				Victory_Destroyer,
-				Broadside_Class_Cruiser,
-				Boba_Fett_Team_Space_MP,
-				Darth_Team_Space_MP,
-				Admonitor_Star_Destroyer,
+				Dreadnaught_Heavy_Cruiser_Rep,
+				Rep_Y-Wing_Squadron,
+				C70_Charger_Squadron,
+				Carrack_Light_Cruiser,
+				Rep_Acclamator,
+				Arquitens_Light_Cruiser,
+				Venator,
+				Victory_SD,
+				Republic_Stealth_Ship,
+				Valiant,
+				Rothana_Battlecruiser,
+				ARC170_Squadron,
+				V-Wing_Squadron,
+				Maelstrom_Battlecruiser,
+				Praetor_Battlecruiser,
+				Secutor_Battlecarrier,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
@@ -2728,22 +2937,23 @@ HP_Valor_LC_18
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Interceptor_Squadron,
-				TIE_Defender_Squadron,
-				TIE_Phantom_Squadron,
-				Tartan_Patrol_Cruiser,
-				TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship,
-				TIE_Scout_Squadron,
-				Interdictor_Cruiser,
-				Victory_Destroyer,
-				Broadside_Class_Cruiser,
-				Star_Destroyer,
-				Boba_Fett_Team_Space_MP,
-				Darth_Team_Space_MP,
-				Accuser_Star_Destroyer,
-				Admonitor_Star_Destroyer,
-				<!--Executor_Super_Star_Destroyer,-->  <!-- Uncomment this line to use the Executor in multiplayer-->
+				Dreadnaught_Heavy_Cruiser_Rep,
+				Rep_Y-Wing_Squadron,
+				C70_Charger_Squadron,
+				Carrack_Light_Cruiser,
+				Rep_Acclamator,
+				Arquitens_Light_Cruiser,
+				Venator,				
+				Victory_SD,
+				Valiant,
+				Rothana_Battlecruiser,
+				ARC170_Squadron,
+				V-Wing_Squadron,
+				Gladiator_Heavy_Cruiser,
+				Maelstrom_Battlecruiser,
+				Praetor_Battlecruiser,
+				Secutor_Battlecarrier,
+				Mandator_Dreadnaught,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Enhanced_Reactors_L3_Upgrade,

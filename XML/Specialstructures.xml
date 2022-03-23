@@ -2529,15 +2529,15 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>900.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 100 </Targeting_Min_Attack_Distance>
 		
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Projectile_Damage>125.0</Projectile_Damage>
-		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>1.5</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		
@@ -2560,17 +2560,16 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
-		<!-- Ground infantry priority 1, ground vehicles priority 1, air vehicles N/A (9999) -->
 		<Turret_Targets_Ground_Infantry> 3 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Air_Vehicles> 2 </Turret_Targets_Air_Vehicles>       
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>       
 		<Turret_Targets_Anything_Else> 9999 </Turret_Targets_Anything_Else>     <!-- 9999 = won't target -->
 
-		<Targeting_Fire_Inaccuracy> Infantry, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 35.0 </Targeting_Fire_Inaccuracy>
 
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
@@ -2634,7 +2633,7 @@
 		<Obstacle_Proxy_Type> E_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
 
 		<Affiliation>Empire</Affiliation>
-		<Projectile_Types>Proj_Ground_Turbolaser_Green</Projectile_Types>
+		<Projectile_Types>RA_Proj_Super_Heavy_Blaster_Cannon_Blue</Projectile_Types>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -2651,7 +2650,7 @@
 		<Obstacle_Proxy_Type> R_Ground_Turbolaser_Tower_Build_Pad </Obstacle_Proxy_Type>
 
 		<Affiliation>Rebel</Affiliation>
-		<Projectile_Types>Proj_Ground_Turbolaser_Red</Projectile_Types>
+		<Projectile_Types>RA_Proj_Super_Heavy_Blaster_Cannon_Red</Projectile_Types>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -2817,9 +2816,9 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors> 
-			Empire_Survivors_Small, 1.0
-			Empire_Survivors_Medium, 1.0
-			Empire_Survivors_Large, 1.0 
+			Republic_Survivors_Small, 1.0
+			Republic_Survivors_Medium, 1.0
+			Republic_Survivors_Large, 1.0 
 		</Destruction_Survivors>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -2877,14 +2876,7 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Imperial_Stormtrooper_Squad,
-				Imperial_Light_Scout_Squad,
-				Field_Com_Empire_Team,
-				DarkTrooper_P1_Company,
-				DarkTrooper_P2_Company,
-				DarkTrooper_P3_Company,
-				EL_Increased_Mobility_Upgrade,
-				EL_Weatherproof_Upgrade,
+				Republic_Clonetrooper_P1_Company_T3,
 		</Tactical_Buildable_Objects_Multiplayer>
 			
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
@@ -2898,12 +2890,9 @@
 		</Tactical_Buildable_Objects_Multiplayer>-->
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Company_T1, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Clonetrooper_P1_Company_T1, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, -1</Reserve_Spawned_Units_Tech_0>
-		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>

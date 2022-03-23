@@ -19,14 +19,14 @@
 	<Tech_Level>0</Tech_Level> 
 	<GUI_Row> 1 </GUI_Row>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>2500</Autoresolve_Health>
-	<Shield_Points>7500</Shield_Points>
+	<Shield_Points>2000</Shield_Points>
 	<Tactical_Health>2500</Tactical_Health>
-	<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Shield_Refresh_Rate>3.3</Shield_Refresh_Rate>
+	<Energy_Capacity>5000</Energy_Capacity>
+	<Energy_Refresh_Rate>2000</Energy_Refresh_Rate>
 
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Max_Speed>2.3</Max_Speed>
@@ -37,12 +37,16 @@
 	<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 7.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 7.0 </Custom_Hard_YExtent>
+
 	<Bank_Turn_Angle>30</Bank_Turn_Angle>
 	<OverrideAcceleration> .05 </OverrideAcceleration>
 	<OverrideDeceleration> .05 </OverrideDeceleration>
 
-	<Armor_Type>Armor_Victory_Class</Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Armor_Type>RA_Space_Armour_Light</Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKII</Shield_Armor_Type>
 	<Max_Thrust>1.75</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Select_Box_Scale>180</Select_Box_Scale>
@@ -72,8 +76,8 @@
 	<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
 	<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior> 
 
-	<Space_FOW_Reveal_Range>1400.0</Space_FOW_Reveal_Range>
-	<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+	<Space_FOW_Reveal_Range>2200.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -152,7 +156,7 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 

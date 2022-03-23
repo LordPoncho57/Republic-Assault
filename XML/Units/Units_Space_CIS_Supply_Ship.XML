@@ -19,30 +19,34 @@
 	<Tech_Level>0</Tech_Level> 
 	<GUI_Row> 1 </GUI_Row>
 	<Mass>0.999</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.9</Scale_Factor>
 	<Damage>40</Damage>
 	<Autoresolve_Health>3000</Autoresolve_Health>
-	<Shield_Points>7200</Shield_Points>
+	<Shield_Points>5000</Shield_Points>
 	<Tactical_Health>3000</Tactical_Health>
-	<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+	<Shield_Refresh_Rate>4.1</Shield_Refresh_Rate>
+	<Energy_Capacity>5000</Energy_Capacity>
+	<Energy_Refresh_Rate>2000</Energy_Refresh_Rate>
 
 	<Ranking_In_Category>3</Ranking_In_Category>
-	<Max_Speed>2.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.45</Max_Rate_Of_Roll>
+	<Max_Speed>1.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.25</Max_Rate_Of_Roll>
 	<MovementClass> Space </MovementClass>
 	<Space_Layer> Frigate </Space_Layer>
 	<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 	<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Bank_Turn_Angle>35</Bank_Turn_Angle>
-	<OverrideAcceleration> .075 </OverrideAcceleration>
-	<OverrideDeceleration> .075 </OverrideDeceleration>
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
 
-	<Armor_Type> Armor_Nebulon_B </Armor_Type>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+	<Bank_Turn_Angle>35</Bank_Turn_Angle>
+	<OverrideAcceleration> .025 </OverrideAcceleration>
+	<OverrideDeceleration> .025 </OverrideDeceleration>
+
+	<Armor_Type> RA_Space_Armour_V_Heavy </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Heavy_MKI</Shield_Armor_Type>
 	<Max_Thrust>1.75</Max_Thrust>
 	<Hyperspace>Yes</Hyperspace>
 	<Select_Box_Scale>250</Select_Box_Scale>
@@ -77,8 +81,8 @@
 	<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
 	<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior> 
 
-	<Space_FOW_Reveal_Range>1750.0</Space_FOW_Reveal_Range>
-	<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+	<Space_FOW_Reveal_Range>2250.0</Space_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -178,12 +182,12 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-	<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+	<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
 	<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 	<Tactical_Build_Prerequisites />
 	<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

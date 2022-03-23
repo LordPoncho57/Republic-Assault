@@ -11,7 +11,7 @@
 	<Icon_Name>I_BUTTON_ARC170.tga</Icon_Name>
 	<Space_Model_Name>Rep_ARC-170.alo</Space_Model_Name>
 	<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-	<Scale_Factor>1.0</Scale_Factor> <!-- From 0.1 -->
+	<Scale_Factor>0.55</Scale_Factor> 
 	<Select_Box_Scale>10</Select_Box_Scale>
 	<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 	<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
@@ -19,27 +19,27 @@
 	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 	<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 	<Mass>0.98</Mass>
-	<Max_Speed>3.75</Max_Speed>
-	<Min_Speed>2.0</Min_Speed>
-	<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
-	<Max_Thrust>1.6</Max_Thrust>
-	<Max_Rate_Of_Roll>2.6</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>60</Bank_Turn_Angle>
-	<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+	<Max_Lift>0.42</Max_Lift>	
+	<Max_Speed>3.5</Max_Speed>
+	<Min_Speed>3.2</Min_Speed>
+	<Max_Rate_Of_Turn>0.68</Max_Rate_Of_Turn>
+	<Max_Thrust>0.55</Max_Thrust>
+	<Max_Rate_Of_Roll>0.68</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>50</Bank_Turn_Angle>
+	<Begin_Turn_Towards_Distance>1150.0</Begin_Turn_Towards_Distance>
 	<Fires_Forward>no</Fires_Forward>
-	<Max_Lift>4</Max_Lift>
 	<Hyperspace>No</Hyperspace>
 	<Hyperspace_Speed>0.0</Hyperspace_Speed>
 	<Maintenance_Cost>0.1</Maintenance_Cost>
 	<Affiliation>Empire</Affiliation>
-	<Shield_Points>12</Shield_Points>
-	<Tactical_Health>20</Tactical_Health>
+	<Shield_Points>6</Shield_Points>
+	<Tactical_Health>45</Tactical_Health>
 	<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
 	<Energy_Capacity>500</Energy_Capacity>
 	<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 	<Ship_Class>fighter</Ship_Class>
-	<Armor_Type> Armor_Fighter </Armor_Type>
-	<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>
+	<Shield_Armor_Type>RA_Space_Shield_Fighter</Shield_Armor_Type>
 	<Formation_Priority>1</Formation_Priority>
 	<Is_Escort>yes</Is_Escort>
 	<Is_Bomber>no</Is_Bomber>
@@ -53,9 +53,11 @@
 
 	<HardPoints>HP_ARC-170_01, HP_ARC-170_02, HP_ARC-170_03, HP_ARC-170_04, HP_ARC-170_05</HardPoints>
 
+			<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>	
+
 	<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 	<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-	<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 	<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
 	<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 	<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>

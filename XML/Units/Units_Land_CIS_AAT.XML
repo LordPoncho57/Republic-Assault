@@ -15,7 +15,7 @@
 	<Land_Model_Name>CIS_AAT.ALO</Land_Model_Name>
 
 	<Mass>1.0</Mass>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Type>Hover</Type>
 	<Deploys>No</Deploys>
 	<Affiliation>Rebel</Affiliation>
@@ -37,7 +37,7 @@
 	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
 	<Custom_Hard_YExtent> 22.0 </Custom_Hard_YExtent>
 	<MovementPredictionInterval> 3.0 </MovementPredictionInterval>
-	<Armor_Type> Armor_T4B </Armor_Type>
+	<Armor_Type> RA_Land_Armour_Medium </Armor_Type>
 	<Size_Value>75</Size_Value>
 	<Damage>6</Damage>
 	<Shield_Points>0</Shield_Points>
@@ -57,6 +57,8 @@
 	<Barrel_Bone_Name>B_BARREL</Barrel_Bone_Name>
 	<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
 
+	<Create_Team>Yes</Create_Team>
+
 	<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 	<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
@@ -65,18 +67,18 @@
 	<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
 	<Turret_Targets_Anything_Else> 9999 </Turret_Targets_Anything_Else>
 
-	<Projectile_Types>Proj_Ground_Laser_Cannon_Red_ATAT</Projectile_Types>
+	<Projectile_Types>RA_Proj_Heavy_Blaster_Cannon_Red</Projectile_Types>
 
-	<Land_FOW_Reveal_Range>310.0</Land_FOW_Reveal_Range>
-	<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+	<Land_FOW_Reveal_Range>1000.0</Land_FOW_Reveal_Range>
+	<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 	<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
-	<Projectile_Fire_Recharge_Seconds>18.0</Projectile_Fire_Recharge_Seconds> <!-- From 1.0 -->
+	<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds> <!-- From 1.0 -->
 	<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count> <!-- From 3 -->
 	<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-	<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy> Vehicle, 15.0 </Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-	<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Vehicle, 45.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Air, 50.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 45.0 </Targeting_Fire_Inaccuracy>
 	<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
@@ -159,6 +161,31 @@
 	<IsDeathClone> true </IsDeathClone>
 </GroundVehicle>
 
+<Container Name="AAT_Team">
+	<Text_ID>TEXT_UNIT_AAT_TANK</Text_ID>
+	<Encyclopedia_Text>TEXT_TOOLTIP_AAT_TANK</Encyclopedia_Text>
+	<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
+	<Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+	<Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+	<Select_Box_Scale>65</Select_Box_Scale>
+	<Show_Name>No</Show_Name>
+	<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+	<LandBehavior>AFFECTED_BY_SHIELD, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
+	<SpaceBehavior>REVEAL</SpaceBehavior>
+
+	<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+	<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+	<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+	<Icon_Name> I_BUTTON_AAT.tga </Icon_Name>
+
+	<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+	<Idle_Chase_Range>1.0</Idle_Chase_Range>
+	<Guard_Chase_Range>100.0</Guard_Chase_Range>
+	<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
+	<Autonomous_Move_Extension_Vs_Attacker>1.0</Autonomous_Move_Extension_Vs_Attacker>
+</Container>	
 
 <GroundCompany Name="AAT_Tank_Company">
 	<Text_ID>TEXT_UNIT_AAT_TANK</Text_ID>
@@ -192,10 +219,14 @@
 	<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 	<Company_Units>
-	AAT_Tank,
-	AAT_Tank
+		AAT_Tank,
+		AAT_Tank,
+		AAT_Tank,
+		AAT_Tank,
+		AAT_Tank,
+		AAT_Tank
 	</Company_Units>
-		<Max_Squad_Size> 1 </Max_Squad_Size>
+	<Max_Squad_Size> 3 </Max_Squad_Size>
 	<Icon_Name> I_BUTTON_AAT.tga </Icon_Name>
 
 	<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>

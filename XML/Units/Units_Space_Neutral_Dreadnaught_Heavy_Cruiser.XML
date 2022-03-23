@@ -16,7 +16,7 @@
 
 	<Space_Model_Name>Ns_Dreadnaught_Heavy_Cruiser.ALO</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Ranking_In_Category>3</Ranking_In_Category>
 	<Size_Value>8</Size_Value>
 	<Select_Box_Scale>300</Select_Box_Scale>
@@ -44,9 +44,10 @@
 	<!-- 3. Targeting Data -->	
 
 	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+	<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 
 	<!-- 4. Class Data -->
 
@@ -76,25 +77,28 @@
 	<!-- 6. Hull Data -->
 
 	<Tactical_Health>10000</Tactical_Health>
-	<Armor_Type> Armor_Acclamator </Armor_Type>
+	<Armor_Type> RA_Space_Armour_V_Heavy </Armor_Type>
 
-	<Shield_Points>2000</Shield_Points>
-	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-	<Shield_Refresh_Rate>75</Shield_Refresh_Rate>
+	<Shield_Points>3000</Shield_Points>
+	<Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>	
+	<Shield_Armor_Type>RA_Space_Shield_Medium_MKI</Shield_Armor_Type> <!-- MKI shields are stronger but slower to regen. Take less damage from ion cannons and proton weapons. -->
 
-	<Energy_Capacity>3000</Energy_Capacity>
-	<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+
+	<Energy_Capacity>10000</Energy_Capacity>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+
+	<!-- 7. Movement Data -->
 
 	<Mass>0.9995</Mass>
-	<Max_Speed>2.2</Max_Speed>
-	<Min_Speed>1.0</Min_Speed>
-	<OverrideAcceleration> .15 </OverrideAcceleration>
+	<Max_Speed>1.7</Max_Speed>
+	<Min_Speed>0.5</Min_Speed>
+	<OverrideAcceleration> 0.15 </OverrideAcceleration>
 	<OverrideDeceleration>0.1</OverrideDeceleration>
 
-	<Max_Thrust>1.5</Max_Thrust>
-	<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>35</Bank_Turn_Angle>
+	<Max_Thrust>0.5</Max_Thrust>
+	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.18</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>40</Bank_Turn_Angle>
 
 	<Hyperspace>Yes</Hyperspace>
 	<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -105,7 +109,11 @@
 
 	<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 	<Idle_Chase_Range>0.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
 
 	<!-- 8. Galactic Build Data -->
 
@@ -248,6 +256,17 @@
 
 <SpaceUnit Name="Dreadnaught_Heavy_Cruiser_CorSec">
 	<Variant_Of_Existing_Type>Dreadnaught_Heavy_Cruiser</Variant_Of_Existing_Type>
+	<Armor_Type> RA_Space_Armour_Medium </Armor_Type>
+	<Shield_Type> RA_Space_Shield_Light_MKI </Shield_Type>
+	
+	<Shield_Points>1500</Shield_Points> 
+	<Shield_Refresh_Rate>1.25</Shield_Refresh_Rate>
+
+	<Energy_Capacity>10000</Energy_Capacity>
+	<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+
+	<Build_Cost_Credits>1500</Build_Cost_Credits>
+	<Build_Time_Seconds>15</Build_Time_Seconds>
 
 	<Encyclopedia_Text> 
 	TEXT_TOOLTIP_PRAETOR

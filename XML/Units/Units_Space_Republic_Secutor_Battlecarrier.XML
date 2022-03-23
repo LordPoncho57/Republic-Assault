@@ -15,7 +15,7 @@
 
 	<Space_Model_Name>Rep_Secutor_Battlecarrier.alo</Space_Model_Name>
 	<Lua_Script>ObjectScript_LayerZ</Lua_Script>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.8</Scale_Factor>
 	<Ranking_In_Category>5</Ranking_In_Category>
 	<Size_Value>8</Size_Value>		
 	<Select_Box_Scale>1000</Select_Box_Scale>
@@ -74,7 +74,7 @@
 	<!-- 3. Targeting Data -->	
 		
 	<Targeting_Min_Attack_Distance>50</Targeting_Min_Attack_Distance>
-	<Targeting_Max_Attack_Distance>8000</Targeting_Max_Attack_Distance>
+	<Targeting_Max_Attack_Distance>4000</Targeting_Max_Attack_Distance>
 	<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 	<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>		
 		
@@ -96,7 +96,7 @@
 	<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 	<Radar_Icon_Size>0.4  0.4</Radar_Icon_Size>
 		
-	<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
+	<Space_FOW_Reveal_Range>5000</Space_FOW_Reveal_Range>
 	<Dense_FOW_Reveal_Range_Multiplier>0.1</Dense_FOW_Reveal_Range_Multiplier>
 		
 	<!-- 5. Autoresolve Data -->
@@ -108,11 +108,11 @@
 	<!-- 6. Hull Data -->
 
 	<Tactical_Health>50000</Tactical_Health>
-	<Armor_Type>Armor_Star_Destroyer</Armor_Type>
+	<Armor_Type>RA_Space_Armour_Super_Heavy</Armor_Type>
 
-	<Shield_Points>15000</Shield_Points>
-	<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-	<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
+	<Shield_Points>6000</Shield_Points>
+	<Shield_Armor_Type>RA_Space_Shield_V_Heavy_MKII</Shield_Armor_Type>
+	<Shield_Refresh_Rate>10.0</Shield_Refresh_Rate>
 
 	<Energy_Capacity>30000</Energy_Capacity>
 	<Energy_Refresh_Rate>5000</Energy_Refresh_Rate>
@@ -133,15 +133,15 @@
 	<!-- 7. Movement Data -->
 		
 	<Mass>.99</Mass>
-	<Max_Speed>3.0</Max_Speed>
+	<Max_Speed>2.0</Max_Speed>
 	<Min_Speed>1.0</Min_Speed>
-	<OverrideAcceleration>0.08</OverrideAcceleration>
-	<OverrideDeceleration>0.03</OverrideDeceleration>
+	<OverrideAcceleration>0.01</OverrideAcceleration>
+	<OverrideDeceleration>0.01</OverrideDeceleration>
 
 	<Max_Thrust>0.15</Max_Thrust>		
-	<Max_Rate_Of_Turn>0.055</Max_Rate_Of_Turn>
-	<Max_Rate_Of_Roll>0.04</Max_Rate_Of_Roll>
-	<Bank_Turn_Angle>20</Bank_Turn_Angle>
+	<Max_Rate_Of_Turn>0.085</Max_Rate_Of_Turn>
+	<Max_Rate_Of_Roll>0.07</Max_Rate_Of_Roll>
+	<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		
 	<Hyperspace>yes</Hyperspace>
 	<Hyperspace_Speed>0.5</Hyperspace_Speed>
@@ -152,8 +152,12 @@
 
 	<Guard_Chase_Range>800.0</Guard_Chase_Range>
 	<Idle_Chase_Range>100.0</Idle_Chase_Range>
-	<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
-		
+	<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
+
+    <!-- This value defines how large the radius is around which other ships cannot manouevre/hyperspace in -->
+	<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+	<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
+
 	<!-- 8. Galactic Build Data -->
 		
 	<Build_Cost_Credits>5000</Build_Cost_Credits>
@@ -210,22 +214,22 @@
 
 			<!-- Tech 1 -->
 
-	<Starting_Spawned_Units_Tech_0>V19_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 12</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>V19_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>V19_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
 
-	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
+	<Starting_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rep_Y-Wing_Squadron, 7</Reserve_Spawned_Units_Tech_0> 
 
 			<!-- Tech 3 -->
 
-	<Starting_Spawned_Units_Tech_3>V19_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>V19_Squadron, 6</Reserve_Spawned_Units_Tech_3> 
+	<Starting_Spawned_Units_Tech_3>V19_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>V19_Squadron_Double, 3</Reserve_Spawned_Units_Tech_3> 
 
-	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 2</Starting_Spawned_Units_Tech_3>
-	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 6</Reserve_Spawned_Units_Tech_3> 
+	<Starting_Spawned_Units_Tech_3>Z95_Squadron, 1</Starting_Spawned_Units_Tech_3>
+	<Reserve_Spawned_Units_Tech_3>Z95_Squadron, 7</Reserve_Spawned_Units_Tech_3> 
 
-	<Starting_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_3> 
+	<Starting_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Rep_Y-Wing_Squadron, 5</Reserve_Spawned_Units_Tech_3> 
 
 	<Starting_Spawned_Units_Tech_3>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>ARC170_Squadron, 3</Reserve_Spawned_Units_Tech_3> 
@@ -233,19 +237,18 @@
 			<!-- Tech 5 -->
 
 	<Starting_Spawned_Units_Tech_5>V-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
-
-	<Starting_Spawned_Units_Tech_5>V19_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>V19_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
+	<Reserve_Spawned_Units_Tech_5>V-Wing_Squadron, 7</Reserve_Spawned_Units_Tech_5> 
 
 	<Starting_Spawned_Units_Tech_5>Z95_Squadron, 1</Starting_Spawned_Units_Tech_5>
-	<Reserve_Spawned_Units_Tech_5>Z95_Squadron, 6</Reserve_Spawned_Units_Tech_5> 
+	<Reserve_Spawned_Units_Tech_5>Z95_Squadron, 5</Reserve_Spawned_Units_Tech_5> 
 
 	<Starting_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Rep_Y-Wing_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
 
 	<Starting_Spawned_Units_Tech_5>ARC170_Squadron, 1</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>ARC170_Squadron, 3</Reserve_Spawned_Units_Tech_5> 
+
+	  <Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>			
 
 	<!-- 13. Ability Data -->
 
@@ -261,10 +264,6 @@
 		<Alternate_Icon_Name>I_SA_FAB.tga</Alternate_Icon_Name>
 	</Unit_Ability>
 
-	<Unit_Ability>
-		<Type>DEPLOY_SQUAD</Type>
-		<Recharge_Seconds>6</Recharge_Seconds>
-	</Unit_Ability>
 </Unit_Abilities_Data>-->
 
 

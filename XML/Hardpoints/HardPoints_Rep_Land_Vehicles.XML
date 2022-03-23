@@ -1,62 +1,5 @@
 <?xml version="1.0"?>
 <HardPoints>
-				<!--Infantry-->
-
-    <HardPoint Name="HP_Clone_Trooper_DC15S_T1">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
-        <Fire_Cone_Width>30.0</Fire_Cone_Width>
-        <Fire_Cone_Height>60.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
-
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>300.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Clone_Infantry_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-       <!-- <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>-->
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-
-	    <Fire_Category_Restrictions> Wall </Fire_Category_Restrictions>
-    </HardPoint>
-
-    <HardPoint Name="HP_Clone_Trooper_DC17">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-        <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
-        <Fire_Cone_Width>30.0</Fire_Cone_Width>
-        <Fire_Cone_Height>60.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Hand_Blaster_Blue</Fire_Projectile_Type>
-
-        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>300.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_DC-17M_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Structure, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> LandHero, 99.0 </Fire_Inaccuracy_Distance>
-       <!-- <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>-->
-	    <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-
-	    <Fire_Category_Restrictions> Wall </Fire_Category_Restrictions>
-    </HardPoint>
-
-
 
 				<!--AT-XT-->
 
@@ -80,7 +23,8 @@
 	<Fire_Inaccuracy_Distance>Infantry, 35.0</Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance>Vehicle, 4.0</Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance>Air, 0.0</Fire_Inaccuracy_Distance>
-	<Fire_Inaccuracy_Distance>Structure, 2.0</Fire_Inaccuracy_Distance>            <Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
+	<Fire_Inaccuracy_Distance>Structure, 2.0</Fire_Inaccuracy_Distance>            
+	<Full_Salvo_Weapon_Delay_Multiplier>.18</Full_Salvo_Weapon_Delay_Multiplier>
 </HardPoint>
 
 			<!--HAVw A6 Juggernaut-->
@@ -457,5 +401,250 @@
 	<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 </HardPoint>
 
+<HardPoint Name="HP_ATTE_REAR_CANNON_01">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>1.0</Health>
+
+	<Model_To_Attach>Rep_AT_TE_SmallGun00.ALO</Model_To_Attach>
+	<Attachment_Bone>BONE_00</Attachment_Bone>
+
+	<Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Is_Turret>Yes</Is_Turret>
+	<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+	<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+	<Turret_Rotate_Speed>0.6</Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>TURRET_00</Turret_Bone_Name>
+	<Barrel_Bone_Name>MUZZLEB_00</Barrel_Bone_Name>
+		
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_ATTE_REAR_CANNON_02">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>1.0</Health>
+
+	<Model_To_Attach>Rep_AT_TE_SmallGun01.ALO</Model_To_Attach>
+	<Attachment_Bone>BONE_01</Attachment_Bone>
+
+	<Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Is_Turret>Yes</Is_Turret>
+	<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+	<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+	<Turret_Rotate_Speed>0.6</Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
+	<Barrel_Bone_Name>MUZZLEB_01</Barrel_Bone_Name>
+		
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_ATTE_FRONT_CANNON_01">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>1.0</Health>
+
+	<Model_To_Attach>Rep_AT_TE_SmallGun02.ALO</Model_To_Attach>
+	<Attachment_Bone>BONE_02</Attachment_Bone>
+
+	<Fire_Bone_A>MUZZLEB_02</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_02</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Is_Turret>Yes</Is_Turret>
+	<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+	<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+	<Turret_Rotate_Speed>0.6</Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees>60.0</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
+	<Barrel_Bone_Name>MUZZLEB_02</Barrel_Bone_Name>
+		
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_ATTE_FRONT_CANNON_02">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>1.0</Health>
+
+	<Model_To_Attach>Rep_AT_TE_SmallGun03.ALO</Model_To_Attach>
+	<Attachment_Bone>BONE_03</Attachment_Bone>
+
+	<Fire_Bone_A>MUZZLEB_03</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_03</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Is_Turret>Yes</Is_Turret>
+	<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+	<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+	<Turret_Rotate_Speed>0.6</Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees>60.0</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
+	<Barrel_Bone_Name>MUZZLEB_03</Barrel_Bone_Name>
+		
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_ATTE_FRONT_CANNON_03">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>1.0</Health>
+
+	<Model_To_Attach>Rep_AT_TE_SmallGun04.ALO</Model_To_Attach>
+	<Attachment_Bone>BONE_04</Attachment_Bone>
+
+	<Fire_Bone_A>MUZZLEB_04</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_04</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Is_Turret>Yes</Is_Turret>
+	<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+	<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+	<Turret_Rotate_Speed>0.6</Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees>60.0</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>TURRET_04</Turret_Bone_Name>
+	<Barrel_Bone_Name>MUZZLEB_04</Barrel_Bone_Name>
+		
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>700.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
+</HardPoint>
+
+<HardPoint Name="HP_ATTE_FRONT_CANNON_04">
+	<Type>HARD_POINT_WEAPON_LASER</Type>
+	<Is_Targetable>No</Is_Targetable>
+	<Is_Destroyable>No</Is_Destroyable>
+	<Health>1.0</Health>
+
+	<Model_To_Attach>Rep_AT_TE_SmallGun05.ALO</Model_To_Attach>
+	<Attachment_Bone>BONE_05</Attachment_Bone>
+
+	<Fire_Bone_A>MUZZLEB_05</Fire_Bone_A>
+	<Fire_Bone_B>MUZZLEB_05</Fire_Bone_B>
+	<Fire_Cone_Width>30.0</Fire_Cone_Width>
+	<Fire_Cone_Height>30.0</Fire_Cone_Height>
+	<Is_Turret>Yes</Is_Turret>
+	<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+	<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+	<Turret_Rotate_Speed>0.6</Turret_Rotate_Speed>
+	<Turret_Rotate_Extent_Degrees>60.0</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+	<Turret_Bone_Name>TURRET_05</Turret_Bone_Name>
+	<Barrel_Bone_Name>MUZZLEB_05</Barrel_Bone_Name>
+		
+	<Fire_Projectile_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Fire_Projectile_Type>
+	<!-- Reload Rate -->
+	<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+	<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+	<!-- Burst Rate -->
+	<Fire_Pulse_Count>1</Fire_Pulse_Count>
+	<!-- Fire Rate -->
+	<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+	<!-- Fire Range -->
+	<Fire_Range_Distance>900.0</Fire_Range_Distance>
+	<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
+	
+	<!-- Weapon Accuracy: Higher numbers are less accurate -->
+	<Fire_Inaccuracy_Distance>LandHero, 60.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Infantry, 50.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Vehicle, 25.0</Fire_Inaccuracy_Distance>
+	<Fire_Inaccuracy_Distance>Structure, 25.0</Fire_Inaccuracy_Distance>
+</HardPoint>
 
 </HardPoints>

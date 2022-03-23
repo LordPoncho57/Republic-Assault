@@ -1,4 +1,4 @@
-<?XML version="1.0" ?>
+<?xml version="1.0" ?>
 <Game_Object_Files>
 
 <File>TransportUnits.XML</File>
@@ -50,7 +50,8 @@
 <File>Planets.XML</File>
 
 <File>Projectiles.XML</File>
-<File>Projectiles_Megabalta.XML</File>
+<File>Projectiles_Space_Templates.XML</File>
+<File>Projectiles_Land_Templates.XML</File>
 <File>Projectiles_Republic_Assault.XML</File>
 
 <File>SpecialEffects.XML</File>
@@ -65,6 +66,7 @@
 <File>UpgradeObjects.XML</File>
 <File>SecondaryStructures.XML</File>
 
+<File>Props_Christophsis.XML</File>
 <File>Props_Temperate.XML</File>
 <File>Props_Swamp.XML</File>
 <File>Props_Volcanic.XML</File>
@@ -111,8 +113,11 @@
 <File>Units/Units_Space_Republic_ARC-170.XML</File>
 <File>Units/Units_Space_Republic_V-Wing.XML</File>
 <File>Units/Units_Space_Republic_Stealthship.xml</File>
+<File>Units/Units_Space_Republic_C70_Charger_Corvette.xml</File>
+
 <File>Units/Units_Space_Republic_Carrack_Cruiser.XML</File>
 <File>Units/Units_Space_Republic_Arquitens.XML</File>
+<File>Units/Units_Space_Republic_Gladiator_Heavy_Cruiser.XML</File>
 <File>Units/Units_Space_Republic_Acclamator.XML</File>
 <File>Units/Units_Space_Republic_Venator_SD.XML</File>
 <File>Units/Units_Space_Republic_Valiant_Star_Carrier.XML</File>
@@ -121,13 +126,16 @@
 <File>Units/Units_Space_Republic_Secutor_Battlecarrier.XML</File>
 <File>Units/Units_Space_Republic_Maelstrom_Battlecruiser.XML</File>
 <File>Units/Units_Space_Republic_Praetor_Battlecruiser.XML</File>
+<File>Units/Units_Space_Republic_Mandator_Dreadnaught.XML</File>
 
+<File>Units/Units_Land_Republic_Phase1_Clone_Troopers.XML</File>
 <File>Units/Units_Land_Republic_Phase2_Clone_Troopers.XML</File>
 <File>Units/Units_Land_Republic_BARC_Speeder.XML</File>
 <File>Units/Units_Land_Republic_IFT-X.XML</File>
 <File>Units/Units_Land_Republic_AT-XT.XML</File>
 <File>Units/Units_Land_Republic_AT-AP.XML</File>
 <File>Units/Units_Land_Republic_ACAT.XML</File>
+<File>Units/Units_Land_Republic_AT-TE.XML</File>
 <File>Units/Units_Land_Republic_A6_Juggernaut.XML</File>
 <File>Units_Land_Empire_DarkTroopers.XML</File>
 <File>Units_Land_Empire_Lancet.XML</File>
@@ -143,6 +151,7 @@
 <File>Units_Hero_Rebel_Rogue_Squadron.XML</File>
 
 <File>Units_Land_Rebel_Gallofree_HTT.XML</File>
+<File>Units/Units_Land_CIS_Battledroids.XML</File>
 <File>Units/Units_Land_CIS_AAT.XML</File>
 
 <File>Units/Units_Space_CIS_Vulture_Droid.XML</File>
@@ -158,6 +167,8 @@
 <File>Units/Units_Space_CIS_Bulwark.XML</File>
 <File>Units/Units_Space_CIS_Providence.XML</File>
 <File>Units/Units_Space_CIS_Lucrehulk.XML</File>
+<File>Units/Units_Space_CIS_Subjugator.XML</File>
+
 <File>Units_Space_Rebel_BWing.XML</File>	
 <File>Units_Space_Rebel_MC30_Frigate.XML</File>
 

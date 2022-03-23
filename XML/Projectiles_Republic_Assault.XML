@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Projectiles>
 
+<!-- ************************************************************************************** -->
+<!-- ******************************* Space Projectiles ************************************ -->
+<!-- ************************************************************************************** -->
 
 <Projectile Name="Proj_Ship_Dummy">
 	<Text_ID>TEXT_NONE</Text_ID>
@@ -28,568 +31,544 @@
 	<Projectile_Absorbed_By_Shields_Particle />
 </Projectile>
 
+<!-- ************************************************************************************** -->
+<!-- *************************** Space Lasers and Turbolasers ***************************** -->
+<!-- ************************************************************************************** -->
 
-<Projectile Name="Proj_Ship_Blue_Beam">
-	<Projectile_Damages_Random_Hard_Points>yes</Projectile_Damages_Random_Hard_Points>
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>pw_beam_b.ALO</Space_Model_Name>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
-	<Max_Speed>350.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>1.5</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-	<AI_Combat_Power>500</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
+<!-- IMPORTANT!!!! -->	
+<!-- Hard Point Data for laser cannons and turbolasers can be found in Projectiles_Space_Templates, please use this data to determine the characteristics of each weapon you use -->
 
-<Projectile Name="Proj_SPHAT_Cannon">
-	<Variant_Of_Existing_Type>Proj_Ship_Blue_Beam</Variant_Of_Existing_Type>
-	<Damage_Type>Damage_Hyper_Gun</Damage_Type>
-</Projectile>
-
-<Projectile Name="Proj_Ship_Red_Beam">
-	<Projectile_Damages_Random_Hard_Points>yes</Projectile_Damages_Random_Hard_Points>
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>pw_beam_r.ALO</Space_Model_Name>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
-	<Max_Speed>350.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>1.5</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-	<AI_Combat_Power>500</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
-
-<Projectile Name="Proj_Ship_Green_Beam">
-	<Projectile_Damages_Random_Hard_Points>yes</Projectile_Damages_Random_Hard_Points>
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>pw_beam_g.ALO</Space_Model_Name>
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
-	<Max_Speed>350.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>1.5</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle />
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-	<AI_Combat_Power>500</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
-
-
-
-<Projectile Name="Proj_Ship_Concussion_Missile">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>w_projectile_assault_missile</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
-	<Max_Speed>10.0</Max_Speed>
-	<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>50.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_Damage>18.0</Projectile_Damage>
-	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
-	<AI_Combat_Power>300</AI_Combat_Power>
-</Projectile>
-
-	<Projectile Name="Proj_Ship_Concussion_Missile_Super_Heavy">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>w_projectile_assault_missile.alo</Space_Model_Name>
-<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-	<Scale_Factor>0.4</Scale_Factor>
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
-	<Max_Speed>8.5</Max_Speed>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>ROCKET</Projectile_Category>
-	<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Damage_assault_missile</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Damage_assault_missile</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Damage_assault_missile</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Damage_assault_missile</Projectile_Lifetime_Detonation_Particle>
-	<AI_Combat_Power>500</AI_Combat_Power>
-  <Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
-
-	<Max_Rate_Of_Turn>10</Max_Rate_Of_Turn>
-
-  <Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
-  <Projectile_Rocket_Curve_Offset>250</Projectile_Rocket_Curve_Offset>
-  <Projectile_Rocket_Straight_Distance>600</Projectile_Rocket_Straight_Distance>
-
-	<Projectile_Blast_Area_Damage> 400 </Projectile_Blast_Area_Damage>
-	<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-	<Projectile_Blast_Area_Dropoff_Tiers>20</Projectile_Blast_Area_Dropoff_Tiers>
+<!-- ************************************************************************************** -->
+<!-- ****** Blue Stuff, Used by the Republic:  Quads, Triples, Duals, Singles ************* -->
+<!-- ************************************************************************************** -->
+	
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Blue" Description="Blue small laser bolt for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_blaster_bl.ALO</Space_Model_Name>
 	</Projectile>
 
-<Projectile Name="Proj_Fighter_Concussion_Missile">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>W_Fighter_Conc_Missile.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Proton_Torp </Damage_Type>
-	<Max_Speed>10.0</Max_Speed>
-	<Projectile_Damage>200.0</Projectile_Damage>
-<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Blue_Pen">
+		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Blue</Variant_Of_Existing_Type>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>3.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>
 
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
-	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
-	<Behavior>PROJECTILE</Behavior>
+	<Projectile Name="Proj_Ship_Dual_Small_Laser_Cannon_Blue" Description="Blue dual small laser bolt for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_b2.ALO</Space_Model_Name>
+	</Projectile>
 
-	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-	<AI_Combat_Power>100</AI_Combat_Power>
-</Projectile>
+	<Projectile Name="Proj_Ship_Dual_Small_Laser_Cannon_Blue_Pen" Description="Blue dual small laser bolt for star fighters">
+		<Variant_Of_Existing_Type>Proj_Ship_Dual_Small_Laser_Cannon_Blue</Variant_Of_Existing_Type>	
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>4.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>
 
-<Projectile Name="Proj_Proton_Bomb">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>pp_proton_bomb.ALO</Space_Model_Name>
-	<Land_Model_Name>pp_proton_bomb.ALO</Land_Model_Name>
-	<Scale_Factor>2.1</Scale_Factor>
-	<Damage_Type>Damage_Proton_Torp</Damage_Type>
-	<Max_Speed>6.0</Max_Speed>
-	<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>10.0</Projectile_Max_Scan_Range>
-	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_Damage>100.0</Projectile_Damage>
-	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
-	<!--	<Projectile_Absorbed_By_Shields_Particle>Conc_Missile_Absorbed_By_Shields</Projectile_Absorbed_By_Shields_Particle> -->
-	<AI_Combat_Power>300</AI_Combat_Power>
-</Projectile>
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Blue" Description="Blue laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_b.ALO</Space_Model_Name>
+	</Projectile>
 
-
-<Projectile Name="Proj_Proton_Torpedo">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>P_Proton_Torpedo.alo</Space_Model_Name>
-	<Land_Model_Name>P_Proton_Torpedo.alo</Land_Model_Name>
-	<Scale_Factor>2.1</Scale_Factor>
-	<Damage_Type>Damage_Proton_Torp</Damage_Type>
-	<Max_Speed>14.0</Max_Speed>
-	<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>
-	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_Damage>20.0</Projectile_Damage>
-	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
-	<!--	<Projectile_Absorbed_By_Shields_Particle>Conc_Missile_Absorbed_By_Shields</Projectile_Absorbed_By_Shields_Particle> -->
-	<AI_Combat_Power>300</AI_Combat_Power>
-</Projectile>
-
-<Projectile Name="Proj_Proton_Torpedo_Light">
-	<Variant_Of_Existing_Type>Proj_Proton_Torpedo</Variant_Of_Existing_Type>
-	<Damage_Type> Damage_Proton_Torp_Light </Damage_Type>
-</Projectile>
-
-<Projectile Name="Proj_Proton_Torpedo_SSD">
-	<Variant_Of_Existing_Type>Proj_Proton_Torpedo</Variant_Of_Existing_Type>
-	<Projectile_Damage>24.0</Projectile_Damage>
-	<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
-</Projectile>
-
-<Projectile Name="Proj_Hand_Blaster_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-    <Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
-    <Damage_Type> Damage_Blaster_Hand </Damage_Type>
-	<Projectile_Width>0.85</Projectile_Width>
-	<Projectile_Length>2.0</Projectile_Length>
-	<Scale_Factor>0.08</Scale_Factor>
-	<Max_Speed>28.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>800.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>2.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Blaster_Impact_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>40</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
-
-<Projectile Name="Proj_Sniper_Blaster_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Blaster_Hand </Damage_Type>
-	<Max_Speed>35.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>600.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>10.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Blaster_Impact_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>40</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
-
-<Projectile Name="Proj_Hand_AntiArmor">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Blaster_Hand </Damage_Type>
-	<Max_Speed>25.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>3.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Blaster_Impact_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>40</AI_Combat_Power>
-	<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-</Projectile>
-
-<Projectile Name="Proj_Blaster_Cannon_Blue">	<Variant_Of_Existing_Type>Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
-	<Projectile_Damage>4.0</Projectile_Damage>
-	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
-	<AI_Combat_Power>80</AI_Combat_Power>
-
-<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
-<Projectile_Blast_Area_Range>2.0</Projectile_Blast_Area_Range>
-</Projectile>
-
-<Projectile Name="Proj_Medium_Blaster_Cannon_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_ATST </Damage_Type>
-	<Max_Speed>20.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
-	<Projectile_Blast_Area_Range>30.0</Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
-	<Projectile_Damage>10.0</Projectile_Damage> 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>80</AI_Combat_Power>
-</Projectile>
-
-<Projectile Name="Proj_Heavy_Blaster_Cannon_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_ATST </Damage_Type>
-	<Max_Speed>20.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
-	<Projectile_Blast_Area_Range>100.0</Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Damage>10.0</Projectile_Blast_Area_Damage>
-	<Projectile_Damage>35.0</Projectile_Damage> 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle> Large_Explosion_Land </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle> Large_Explosion_Land </Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle> Large_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>80</AI_Combat_Power>
-</Projectile>
-
-<Projectile Name="Proj_Super_Heavy_Blaster_Cannon_Blue">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>w_blaster_b.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_ATAT </Damage_Type>
-	<Max_Speed>20.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
-	<Projectile_Blast_Area_Range>100.0</Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Damage>35.0</Projectile_Blast_Area_Damage>
-	<Projectile_Damage>35.0</Projectile_Damage> 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle> Large_Explosion_Land </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle> Large_Explosion_Land </Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle> Large_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>80</AI_Combat_Power>
-</Projectile>
-
-<Projectile Name="Proj_Ship_Small_Buzz_Droid_Missile">
-	<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
-	<Space_Model_Name>W_CIS_Missile.ALO</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Con_Missile </Damage_Type>
-	<Max_Speed>30.0</Max_Speed> 
-	<Scale_Factor>0.02</Scale_Factor>
-	<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>30.0</Projectile_Damage>
-	<Projectile_Blast_Area_Damage> 2 </Projectile_Blast_Area_Damage>
-	<Projectile_Blast_Area_Range> 100 </Projectile_Blast_Area_Range>
-	<AI_Combat_Power>150</AI_Combat_Power>
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Blue_Pen">
+		<Variant_Of_Existing_Type>Proj_Ship_Medium_Laser_Cannon_Blue</Variant_Of_Existing_Type>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>5.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>
 	
-	<Projectile_Object_Detonation_Particle> Conc_Buzz_Droid_Missile_Detonation_Particle </Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Buzz_Droid_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Buzz_Droid_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Conc_Buzz_Droid_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Blue" Description="Blue dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_b2.ALO</Space_Model_Name>
+	</Projectile>
 
-	<Max_Secs_For_AE_Delayed_Damage>15</Max_Secs_For_AE_Delayed_Damage>
-</Projectile>
-
-<Projectile Name="Proj_CIS_Fighter_Concussion_Missile">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>W_CIS_Missile.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Proton_Torp </Damage_Type>
-	<Max_Speed>10.0</Max_Speed>
-	<Projectile_Damage>200.0</Projectile_Damage>
-<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-
-	<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
-	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
-	<Behavior>PROJECTILE</Behavior>
-	<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
-	<Projectile_Blast_Area_Range> 150 </Projectile_Blast_Area_Range>
-
-	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-	<AI_Combat_Power>100</AI_Combat_Power>
-</Projectile>
-
-<Projectile Name="Proj_CIS_HMP_Missile">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>W_CIS_HMP_Missile.alo</Space_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type> Damage_Proton_Torp </Damage_Type>
-	<Max_Speed>10.0</Max_Speed>
-	<Projectile_Damage>20.0</Projectile_Damage>
-<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-
-	<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
-	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
-	<Projectile_Rocket_Curve_Offset>15</Projectile_Rocket_Curve_Offset>
-	<Behavior>PROJECTILE</Behavior>
-	<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
-	<Projectile_Blast_Area_Range> 300 </Projectile_Blast_Area_Range>
-
-
-	<Projectile_Category>MISSILE</Projectile_Category>
-	<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
-	<AI_Combat_Power>100</AI_Combat_Power>
-</Projectile>
-
-<Projectile Name="Proj_Vehicle_Missile_Missile">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
-	<Scale_Factor>0.3</Scale_Factor>
-	<Damage_Type> Damage_PLEX </Damage_Type>
-	<Max_Speed>9.0</Max_Speed>
-	<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>ROCKET</Projectile_Category>
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Blue_Pen">
+		<Variant_Of_Existing_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Blue</Variant_Of_Existing_Type>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>6.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>	
 	
-	<Projectile_Rocket_Curve_Distance>50</Projectile_Rocket_Curve_Distance>
-	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
-	<Projectile_Rocket_Straight_Distance>0</Projectile_Rocket_Straight_Distance>
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Blue" Description="Blue laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_bl.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Blue" Description="Blue dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_b2.ALO</Space_Model_Name>
+	</Projectile>
 
-	<Projectile_Target_Point_On_Terrain> False </Projectile_Target_Point_On_Terrain>
-	<Projectile_Max_Flight_Distance>320.0</Projectile_Max_Flight_Distance>
-	<Projectile_Max_Scan_Range>210.0</Projectile_Max_Scan_Range>
+	<Projectile Name="Proj_Ship_Light_Turbolaser_Blue" Description="Blue light turbo used against small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b.ALO</Space_Model_Name>
+
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Light_Turbolaser_Blue" Description="Generic dual light turbo template used for targetting small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Light_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_b2.ALO</Space_Model_Name>
+	</Projectile>
 	
-	<Projectile_Damage>50.0</Projectile_Damage>
-	<Projectile_Blast_Area_Range>150.0</Projectile_Blast_Area_Range>
-	<Projectile_Blast_Area_Damage>5.0</Projectile_Blast_Area_Damage>
-	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+	<Projectile Name="Proj_Ship_Med_Turbolaser_Blue" Description="Blue medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Med_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_b.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Med_Dual_Turbolaser_Blue" Description="Blue dual medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Med_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b2.ALO</Space_Model_Name>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Heavy_Turbolaser_Blue" Description="Blue heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_b.ALO</Space_Model_Name>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Dual_Heavy_Turbolaser_Blue" Description="Blue dual heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_b2.ALO</Space_Model_Name>
+	</Projectile>		
+
+	<Projectile Name="Proj_Ship_Triple_Turbolaser_Blue" Description="Blue triple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Triple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b3.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Quad_Turbolaser_Blue" Description="Blue light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Turbolaser_Blue" Description="Blue quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Octuple_Turbolaser_Blue" Description="Blue octuple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Octuple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b8.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_2x2_Turbolaser_Blue" Description="Blue light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Square_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b4_arquitens.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_2x2_Turbolaser_Blue_Acc" Description="Blue light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_2x2_Turbolaser_Blue</Variant_Of_Existing_Type>
+		<Scale_Factor>0.05</Scale_Factor>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Light_2x2_Turbolaser_Arquitens" Description="Blue light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Square_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b4_arquitens.ALO</Space_Model_Name>
+			<Scale_Factor>0.03</Scale_Factor>	
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_2x2_Turbolaser_Blue" Description="Blue quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Square_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b4_arquitens.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Turbolaser_Blue_X2" Description="Blue quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Turbolaser_Parted_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_b4a.ALO</Space_Model_Name>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ****** Green Stuff, Used by the Republic: Octuples, Quads, Duals, Singles ************ -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Green" Description="Green small laser bolt template for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_blaster_gl.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Green" Description="Green laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_g.ALO</Space_Model_Name>
+	</Projectile>
 	
-	<Projectile_SFXEvent_Detonate>SFX_Plex_Missile_Detonation</Projectile_SFXEvent_Detonate>
-	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
-	<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
-	<AI_Combat_Power>120</AI_Combat_Power>
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Green" Description="Green dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_g2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Green" Description="Green laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_gl.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Green" Description="Green dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_g2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Turbolaser_Green" Description="Green light turbo used against small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Light_Turbolaser_Green" Description="Generic dual light turbo template used for targetting small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Light_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_g2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Med_Turbolaser_Green" Description="Green medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Med_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_g.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Med_Dual_Turbolaser_Green" Description="Green dual medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Med_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g2.ALO</Space_Model_Name>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Heavy_Turbolaser_Green" Description="Green heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_g.ALO</Space_Model_Name>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Dual_Heavy_Turbolaser_Green" Description="Green dual heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_g2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Triple_Turbolaser_Green" Description="Green triple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Triple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g3.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Quad_Turbolaser_Green" Description="Green light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_2x2_Turbolaser_Green" Description="Green light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g4c.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Turbolaser_Green" Description="Green quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Octuple_Turbolaser_Green" Description="Green octuple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Octuple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g8.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Turbolaser_Green_X2" Description="Green quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Turbolaser_Parted_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_g4a.ALO</Space_Model_Name>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ********** Red Stuff, Used by the Confederacy: Quads, Duals, Singles ***************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Red" Description="Red small laser bolt template for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_blaster_rl.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Red_Pen">
+		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>3.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Small_Laser_Cannon_Red" Description="Red dual small laser bolt for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_r2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Small_Laser_Cannon_Red_Pen" Description="Red dual small laser bolt for star fighters">
+		<Variant_Of_Existing_Type>Proj_Ship_Dual_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>	
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>4.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Red" Description="Red laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_r.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Red_Pen" Description="Red laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>Proj_Ship_Medium_Laser_Cannon_Red</Variant_Of_Existing_Type>	
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>5.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Red" Description="Red dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_r2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Red_Pen" Description="Red laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>Proj_Ship_Dual_Medium_Laser_Cannon_Red</Variant_Of_Existing_Type>	
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>6.0</Projectile_Damage>	
+		<Damage_Type> RA_Space_Damage_Fighter_Pen </Damage_Type>
+	</Projectile>	
+	
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Red" Description="Red laser bolt for point defence weapons"> 
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_rl.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Red_Pen" Description="Red laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>Proj_Ship_Large_Laser_Cannon_Red</Variant_Of_Existing_Type>	
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+		<Projectile_Damage>7.0</Projectile_Damage>	
+	</Projectile>		
+
+	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Red" Description="Red dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_r2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Turbolaser_Red" Description="Red light turbo used against small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Light_Turbolaser_Red" Description="Generic dual light turbo template used for targetting small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Light_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_r2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Med_Turbolaser_Red" Description="Red medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Med_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_r.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Med_Dual_Turbolaser_Red" Description="Red dual medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Med_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r2.ALO</Space_Model_Name>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Heavy_Turbolaser_Red" Description="Red heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_r.ALO</Space_Model_Name>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Dual_Heavy_Turbolaser_Red" Description="Red dual heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_r2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Triple_Turbolaser_Red" Description="Red triple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Triple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r3.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Quad_Turbolaser_Red" Description="Red light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Turbolaser_Red" Description="Red quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r4.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Octuple_Turbolaser_Red" Description="Red octuple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Octuple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r8.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_2x2_Turbolaser_Red" Description="Red light quad turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Quad_Square_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r4b.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_2x2_Turbolaser_Red" Description="Red quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Square_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r4b.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Quad_Turbolaser_Red_X2" Description="Red quad turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Quad_Turbolaser_Parted_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_r4a.ALO</Space_Model_Name>
+	</Projectile>
+
+<!-- Quad laser cannon for CIS only-->
+
+<Projectile Name="Proj_Ship_Quad_Laser_Cannon_Red">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_r4c.ALO</Space_Model_Name>
+		<Scale_Factor>0.1</Scale_Factor>
+		<Damage_Type> RA_Space_Damage_Heavy_Turbolaser </Damage_Type>
+		<Max_Speed>60.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>180</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>Turbo_Death_Red_Triple</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>1500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 </Projectile>
 
-<Projectile Name="Proj_Ground_Sabertank_Beam">
-	<Text_ID>TEXT_NONE</Text_ID>
-	<Land_Model_Name>P_blue_beam_grnd.ALO</Land_Model_Name>
-	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_Laser_GRND</Damage_Type>
-	<Max_Speed>40.0</Max_Speed>
-	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>25.0</Projectile_Damage>
-	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-	<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
-	<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
-	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-	<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
-	<Projectile_Lifetime_Detonation_Particle />
-	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-	<AI_Combat_Power>100</AI_Combat_Power>
-</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ****** Purple Stuff, Used by the Geonosians: Triples, Duals, Singles ***************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Purple" Description="Purple small laser bolt template for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_blaster_wl.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Purple" Description="Purple laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_w.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Purple" Description="Purple dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_w2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Purple" Description="Purple laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_wl.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Purple" Description="Purple dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_w2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Turbolaser_Purple" Description="Purple light turbo used against small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_w.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Light_Turbolaser_Purple" Description="Generic dual light turbo template used for targetting small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Light_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_w2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Med_Turbolaser_Purple" Description="Purple medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Med_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_w.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Med_Dual_Turbolaser_Purple" Description="Purple dual medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Med_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_w2.ALO</Space_Model_Name>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Heavy_Turbolaser_Purple" Description="Purple heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_w.ALO</Space_Model_Name>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Dual_Heavy_Turbolaser_Purple" Description="Purple dual heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_w2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Triple_Turbolaser_Purple" Description="Purple triple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Triple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_w3.ALO</Space_Model_Name>
+	</Projectile>
+
+
+
+<!-- ************************************************************************************** -->
+<!-- ************ Yellow Stuff, Used by the Hutts: Triples, Duals, Singles **************** -->
+<!-- ************************************************************************************** -->
+	
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Yellow" Description="Yellow small laser bolt template for star fighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_blaster_yl.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Yellow" Description="Yellow laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_y.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Dual_Medium_Laser_Cannon_Yellow" Description="Yellow dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Medium_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_y2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Yellow" Description="Yellow laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_yl.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Dual_Large_Laser_Cannon_Yellow" Description="Yellow dual laser bolt for point defence weapons">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Large_Laser_Cannon_Generic</Variant_Of_Existing_Type>	
+		<Space_Model_Name>w_laser_y2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Light_Turbolaser_Yellow" Description="Yellow light turbo used against small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Light_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_y.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Dual_Light_Turbolaser_Yellow" Description="Generic dual light turbo template used for targetting small frigates, corvettes and starfighters">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Light_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_y2.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Med_Turbolaser_Yellow" Description="Yellow medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Med_Turbolaser_Generic</Variant_Of_Existing_Type>		
+		<Space_Model_Name>w_turbolaser_y.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Med_Dual_Turbolaser_Yellow" Description="Yellow dual medium turbo used for targetting frigates and corvettes">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Med_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_y2.ALO</Space_Model_Name>
+	</Projectile>	
+
+	<Projectile Name="Proj_Ship_Heavy_Turbolaser_Yellow" Description="Yellow heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_y.ALO</Space_Model_Name>
+	</Projectile>
+		
+	<Projectile Name="Proj_Ship_Dual_Heavy_Turbolaser_Yellow" Description="Yellow dual heavy turbo used for bombarding frigates and capitals at long range">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Dual_Heavy_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_heavy_turbolaser_y2.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Triple_Turbolaser_Yellow" Description="Yellow triple turbo used by heavy cruisers and capital ships">
+		<Variant_Of_Existing_Type>RA_Proj_Ship_Triple_Turbolaser_Generic</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_turbolaser_y3.ALO</Space_Model_Name>
+	</Projectile>
 
 <!-- ******************************************************* -->
 <!-- **************** Ion Cannon Projectiles *************** -->
 <!-- ******************************************************* -->
-	
+
+<!-- IMPORTANT!!!! -->	
+<!-- Hard Point Data for Ion Cannons should be the same as the turbolasers (specified in Projectiles Space Templates) but with 1.5x the reload speed -->
+
 <Projectile Name="Proj_Fighter_Ion_Cannon">
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_Fighter_IonCannon.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Max_Speed>30.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -617,7 +596,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon_Small.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>45.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -645,7 +624,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -673,7 +652,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon_Dual.alo</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -702,7 +681,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>w_turbolaser_c3.ALO</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -731,7 +710,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>w_turbolaser_c4b.ALO</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -760,7 +739,7 @@
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Space_Model_Name>P_IonCannon.ALO</Space_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon_LRG</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Heavy_Ion_Cannon</Damage_Type>
 	<Max_Speed>65.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -786,18 +765,324 @@
 </Projectile>
 
 <!-- ******************************************************* -->
+<!-- **************** Ship Beam Projectiles **************** -->
+<!-- ******************************************************* -->
+
+<!-- IMPORTANT!!!! -->	
+<!-- Hard Point Data for ship beam lasers can be found in Projectiles_Space_Templates, please use this data to determine the characteristics of each weapon you use -->
+
+<Projectile Name="Proj_Ship_Blue_Beam">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Beam_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>pw_beam_b.ALO</Space_Model_Name>
+</Projectile>
+
+<Projectile Name="Proj_SPHAT_Cannon">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Beam_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>pw_beam_b.ALO</Space_Model_Name>
+	<Damage_Type>RA_Space_Damage_Super_Laser</Damage_Type>
+</Projectile>
+
+<Projectile Name="Proj_Ship_Red_Beam">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Beam_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>pw_beam_r.ALO</Space_Model_Name>
+</Projectile>
+
+<Projectile Name="Proj_Ship_Green_Beam">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Beam_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>pw_beam_g.ALO</Space_Model_Name>
+</Projectile>
+
+<!-- ******************************************************* -->
+<!-- **************** Missiles and Torpedoes *************** -->
+<!-- ******************************************************* -->
+
+<!-- IMPORTANT!!!! -->	
+<!-- Hard Point Data for missiles and torpedoes can be found in Projectiles_Space_Templates, please use this data to determine the characteristics of each weapon you use -->
+
+	<Projectile Name="RA_Proj_Ship_Concussion_Missile">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>w_projectile_concussion_missile_b.alo</Space_Model_Name>
+	<Scale_Factor>0.3</Scale_Factor>
+	<Projectile_Damage>300.0</Projectile_Damage>
+
+		<!-- Below behaviour makes all concussion missiles be able to be shot down. They are targeted as bombers -->
+	<Behavior>PROJECTILE, TARGETING, DAMAGE_TRACKING</Behavior>
+	<Ship_Class>bomber</Ship_Class>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+	<Tactical_Health>1</Tactical_Health>
+	<CategoryMask> Bomber | AntiCapital</CategoryMask>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>	
+	
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</Projectile>
+
+
+
+	<Projectile Name="RA_Proj_Ship_Concussion_Missile_Super_Heavy">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_Fighter_Conc_Missile.alo</Space_Model_Name>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Max_Speed>6.0</Max_Speed>
+	<Projectile_Damage>500.0</Projectile_Damage>
+	<Projectile_Category>ROCKET</Projectile_Category>
+
+	<!-- Below behaviour makes all concussion missiles be able to be shot down. They are targeted as bombers -->
+	<Behavior>PROJECTILE, TARGETING, DAMAGE_TRACKING</Behavior>
+	<Ship_Class>bomber</Ship_Class>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+	<Tactical_Health>1</Tactical_Health>
+	<CategoryMask> Bomber | AntiCapital</CategoryMask>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>	
+	
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	<Projectile_Max_Flight_Distance>7000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Object_Detonation_Particle>Damage_assault_missile</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Damage_assault_missile</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Damage_assault_missile</Projectile_Lifetime_Detonation_Particle>
+	<AI_Combat_Power>500</AI_Combat_Power>
+  	<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+	<Max_Rate_Of_Turn>10</Max_Rate_Of_Turn>
+<!-- Missile Curve values: Makes the missile curve naturally as if tracking a target-->
+  <Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
+  <Projectile_Rocket_Curve_Offset>250</Projectile_Rocket_Curve_Offset>
+  <Projectile_Rocket_Straight_Distance>600</Projectile_Rocket_Straight_Distance>
+
+<!-- Blast area size, damage and drop off rate: Used for explosives -->
+	<Projectile_Blast_Area_Damage> 400 </Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>20</Projectile_Blast_Area_Dropoff_Tiers>
+	</Projectile>
+
+<Projectile Name="Proj_Fighter_Concussion_Missile">
+    <Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_Fighter_Conc_Missile.alo</Space_Model_Name>
+	<Max_Speed>11.0</Max_Speed>
+	<Projectile_Damage>25.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
+	<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE</Behavior>
+
+	<Projectile_Category>MISSILE</Projectile_Category>
+	<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+	<AI_Combat_Power>100</AI_Combat_Power>
+
+<!-- Missile Curve values: Makes the missile curve naturally as if tracking a target-->
+	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
+	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
+
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+</Projectile>
+
+<Projectile Name="Proj_Fighter_Concussion_Missile_Pen">
+    <Variant_Of_Existing_Type>Proj_Fighter_Concussion_Missile</Variant_Of_Existing_Type>
+	<Projectile_Damage>12.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>
+</Projectile>
+
+<Projectile Name="Proj_Ship_Small_Buzz_Droid_Missile">
+	<Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_CIS_Missile.ALO</Space_Model_Name>
+	<Max_Speed>12.0</Max_Speed> 
+	<Scale_Factor>0.02</Scale_Factor>
+	<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>10.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
+	<AI_Combat_Power>150</AI_Combat_Power>
+
+	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+	
+	<Projectile_Object_Detonation_Particle> Conc_Buzz_Droid_Missile_Detonation_Particle </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Buzz_Droid_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Conc_Buzz_Droid_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Conc_Buzz_Droid_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
+
+<!-- Blast area size, damage and drop off rate: Used for explosives -->
+	<Projectile_Blast_Area_Damage> 2 </Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range> 100 </Projectile_Blast_Area_Range>
+	<Max_Secs_For_AE_Delayed_Damage>15</Max_Secs_For_AE_Delayed_Damage>
+
+</Projectile>
+
+<Projectile Name="Proj_CIS_Fighter_Concussion_Missile">
+	<Variant_Of_Existing_Type>RA_Proj_Ship_Concussion_Missile_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_CIS_Missile.alo</Space_Model_Name>
+	<Max_Speed>12.0</Max_Speed>
+	<Projectile_Damage>20.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
+	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	<Behavior>PROJECTILE</Behavior>
+
+	<Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+
+	<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+	<AI_Combat_Power>100</AI_Combat_Power>
+
+<!-- Blast area size, damage and drop off rate: Used for explosives -->
+	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
+	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
+	<Projectile_Blast_Area_Damage> 2 </Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range> 5 </Projectile_Blast_Area_Range>
+
+<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+</Projectile>
+
+<Projectile Name="Proj_CIS_Fighter_Concussion_Missile_Pen">
+	<Variant_Of_Existing_Type>Proj_CIS_Fighter_Concussion_Missile</Variant_Of_Existing_Type>
+	<Projectile_Damage>12.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>
+</Projectile>
+
+<Projectile Name="Proj_CIS_HMP_Missile">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Space_Model_Name>W_CIS_HMP_Missile.alo</Space_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Max_Speed>12.0</Max_Speed>
+	<Projectile_Damage>30.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter </Damage_Type>
+	<Damage_Type> RA_Space_Damage_Concussion_Missile </Damage_Type>
+<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+	<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
+	<Projectile_Rocket_Curve_Offset>15</Projectile_Rocket_Curve_Offset>
+	<Behavior>PROJECTILE</Behavior>
+	<Projectile_Blast_Area_Damage> 3 </Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
+
+
+	<Projectile_Category>MISSILE</Projectile_Category>
+	<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>750.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+	<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
+	<AI_Combat_Power>100</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="Proj_CIS_HMP_Missile_Pen">
+	<Variant_Of_Existing_Type>Proj_CIS_HMP_Missile</Variant_Of_Existing_Type>
+	<Projectile_Damage>15.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>	
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Bomb"> <!-- 	<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds> <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>  -->
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Space_Model_Name>W_proton_bomb.ALO</Space_Model_Name>
+	<Land_Model_Name>W_proton_bomb.ALO</Land_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Damage_Type>RA_Space_Damage_Proton_Torpedo</Damage_Type>
+	<Max_Speed>8.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>MISSILE</Projectile_Category>
+	<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>10.0</Projectile_Max_Scan_Range>
+	<!-- was 750, changed so it doesn't reacquire targets -->
+	<Projectile_Damage>100.0</Projectile_Damage>
+	<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Lifetime_Detonation_Particle>
+	<!--	<Projectile_Absorbed_By_Shields_Particle>Conc_Missile_Absorbed_By_Shields</Projectile_Absorbed_By_Shields_Particle> -->
+	<AI_Combat_Power>300</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Bomb_Pen">
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Bomb</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
+	<Projectile_Damage>80.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>		
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Torpedo"> 
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
+	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
+	<Projectile_Damage>300.0</Projectile_Damage>
+
+	<!-- Below behaviour makes all proton torpedoes be able to be shot down. They are targeted as bombers -->
+	<Behavior>PROJECTILE, TARGETING, DAMAGE_TRACKING</Behavior>
+	<Ship_Class>bomber</Ship_Class>
+	<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+	<Death_Explosions>Conc_Missile_Detonation_Particle</Death_Explosions>
+	<Tactical_Health>1</Tactical_Health>
+	<CategoryMask> Bomber | AntiCapital</CategoryMask>
+	<Armor_Type> RA_Space_Armour_Fighter </Armor_Type>	
+	
+	<Remove_Upon_Death>true</Remove_Upon_Death>
+
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Torpedo_Light"> <!-- 	<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds> <Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>  -->
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
+	<Scale_Factor>0.9</Scale_Factor>
+	<Max_Speed>10.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>	
+	<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>	
+	<Projectile_Damage>40.0</Projectile_Damage>
+	<Damage_Type> RA_Space_Damage_Light_Proton_Torpedo </Damage_Type>
+	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Torpedo_Light_Pen">
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Light</Variant_Of_Existing_Type>
+	<Projectile_Damage>25.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type> RA_Space_Damage_Fighter_Payload_Pen </Damage_Type>	
+</Projectile>
+
+<Projectile Name="RA_Proj_Proton_Torpedo_SSD">
+	<Variant_Of_Existing_Type>RA_Proj_Proton_Torpedo_Generic</Variant_Of_Existing_Type>
+	<Scale_Factor>10.0</Scale_Factor>
+	<Projectile_Damage>24.0</Projectile_Damage>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Space_Model_Name>W_Proton_Torpedo.alo</Space_Model_Name>
+</Projectile>
+
+
+<!-- ******************************************************* -->
 <!-- **************** Clone Z-95 Projectiles *************** -->
 <!-- ******************************************************* -->
 
 <Projectile Name="Proj_Ship_Z95_Laser">
 	<Text_ID>TEXT_NONE</Text_ID>
-	<Scale_Factor>1.0</Scale_Factor>
+	<Scale_Factor>0.7</Scale_Factor>
 	<Space_Model_Name>W_Laser_Z95.ALO</Space_Model_Name>
 	<Projectile_Damage>2.0</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
-	<Max_Speed>60.0</Max_Speed>
+	<Max_Speed>45.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
@@ -816,6 +1101,13 @@
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 </Projectile>
 
+<Projectile Name="Proj_Ship_Z95_Laser_Pen">
+	<Variant_Of_Existing_Type>Proj_Ship_Z95_Laser</Variant_Of_Existing_Type>
+	<Projectile_Damage>1.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>	
+	<Damage_Type>RA_Space_Damage_Fighter_Pen</Damage_Type>	
+</Projectile>
+
 <!-- ******************************************************* -->
 <!-- ***************** ARC-170 Projectiles ***************** -->
 <!-- ******************************************************* -->
@@ -825,14 +1117,14 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_ARC170.ALO</Space_Model_Name>
 	<Projectile_Damage>2.5</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
-	<Max_Speed>65.0</Max_Speed>
+	<Max_Speed>45.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
-	<Projectile_Max_Flight_Distance>1500.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -847,15 +1139,22 @@
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 </Projectile>
 
+<Projectile Name="Proj_Ship_ARC170_Laser_Pen">
+	<Variant_Of_Existing_Type>Proj_Ship_ARC170_Laser</Variant_Of_Existing_Type>
+	<Projectile_Damage>1.5</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Damage_Type>RA_Space_Damage_Fighter_Pen</Damage_Type>		
+</Projectile>
+
 <Projectile Name="Proj_Ship_ARC170_Gunner_Laser">
 	<Text_ID>TEXT_NONE</Text_ID>
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_ARC170_Gunner.ALO</Space_Model_Name>
 	<Projectile_Damage>1.5</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Fighter</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
-	<Max_Speed>55.0</Max_Speed>
+	<Max_Speed>45.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
@@ -873,6 +1172,13 @@
 	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+<Projectile Name="Proj_Ship_ARC170_Gunner_Laser_Pen">
+	<Variant_Of_Existing_Type>Proj_Ship_ARC170_Gunner_Laser</Variant_Of_Existing_Type>
+	<Projectile_Damage>1.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>		
+	<Damage_Type>RA_Space_Damage_Fighter_Pen</Damage_Type>
+</Projectile>	
+
 <!-- ******************************************************* -->
 <!-- *************** Stealth Ship Projectiles ************** -->
 <!-- ******************************************************* -->
@@ -882,10 +1188,10 @@
 	<Scale_Factor>1.0</Scale_Factor>
 	<Space_Model_Name>W_Laser_StealthShip.ALO.ALO</Space_Model_Name>
 	<Projectile_Damage>10.0</Projectile_Damage>
-	<Damage_Type>Damage_Fighter</Damage_Type>
+	<Damage_Type>RA_Space_Damage_Laser</Damage_Type>
 	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 	<AI_Combat_Power>120</AI_Combat_Power>
-	<Max_Speed>70.0</Max_Speed>
+	<Max_Speed>55.0</Max_Speed>
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
@@ -905,6 +1211,333 @@
 </Projectile>
 
 
+
+<!-- ******************************************************* -->
+<!-- ****************** Land Projectiles ******************* -->
+<!-- ******************************************************* -->
+
+<!-- ******************************************************* -->
+<!-- ************* Blasters and Laser Cannons ************** -->
+<!-- ******************************************************* -->
+
+<Projectile Name="RA_Proj_Hand_Blaster_Blue">
+	<Text_ID>TEXT_NONE</Text_ID>
+    <Land_Model_Name>w_blaster_b.alo</Land_Model_Name>
+    <Damage_Type> RA_Land_Damage_Blaster </Damage_Type>
+	<Projectile_Width>1.0</Projectile_Width>
+	<Projectile_Length>1.85</Projectile_Length>
+	<Scale_Factor>0.08</Scale_Factor>
+	<Max_Speed>28.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>5.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Blaster_Impact_Land</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>40</AI_Combat_Power>
+	<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+</Projectile>
+
+<Projectile Name="RA_Proj_Hand_Blaster_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Sniper_Blaster_Blue">
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Projectile_Width>0.99</Projectile_Width>
+	<Projectile_Length>2.0</Projectile_Length>
+	<Scale_Factor>0.08</Scale_Factor>
+	<Max_Speed>32.0</Max_Speed>
+	<Projectile_Damage>100.0</Projectile_Damage>
+	<AI_Combat_Power>60</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Sniper_Blaster_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Sniper_Blaster_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Blaster_Cannon_Blue">	
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.09</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Heavy_Blaster </Damage_Type>
+	<Projectile_Damage>30.0</Projectile_Damage>
+	<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+	<AI_Combat_Power>80</AI_Combat_Power>
+	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+	<Projectile_Blast_Area_Damage>8.0</Projectile_Blast_Area_Damage>
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+</Projectile>
+
+<Projectile Name="RA_Proj_Blaster_Cannon_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Blaster_Cannon_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Light_Blaster_Cannon_Blue">
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.1</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Light_Cannon </Damage_Type>
+	<Max_Speed>26.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>25.0</Projectile_Blast_Area_Damage>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>50.0</Projectile_Damage> 	
+
+	<Projectile_Energy_Per_Shot>8</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Small_Explosion_Land </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle> Small_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Small_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>100</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Light_Blaster_Cannon_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Light_Blaster_Cannon_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Medium_Blaster_Cannon_Blue">
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.2</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Medium_Cannon </Damage_Type>
+	<Max_Speed>24.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>20.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>100.0</Projectile_Blast_Area_Damage>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>150.0</Projectile_Damage> 	
+
+	<Projectile_Energy_Per_Shot>8</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Small_Explosion_Land </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle> Small_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Small_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>150</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Medium_Blaster_Cannon_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Medium_Blaster_Cannon_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Heavy_Blaster_Cannon_Blue">
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.3</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Heavy_Cannon </Damage_Type>
+	<Max_Speed>22.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>25.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>250.0</Projectile_Blast_Area_Damage>
+
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>500.0</Projectile_Damage> 	
+
+	<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Medium_Explosion_Land </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle> Medium_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Medium_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>200</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Heavy_Blaster_Cannon_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Heavy_Blaster_Cannon_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Super_Heavy_Blaster_Cannon_Blue">
+	<Variant_Of_Existing_Type>RA_Proj_Hand_Blaster_Blue</Variant_Of_Existing_Type>
+	<Scale_Factor>0.35</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Heavy_Cannon </Damage_Type>
+	<Max_Speed>20.0</Max_Speed>
+
+	<Projectile_Blast_Area_Range>30.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>400.0</Projectile_Blast_Area_Damage>
+	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+	<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+	<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+	<Projectile_Damage>800.0</Projectile_Damage> 	
+
+	<Projectile_Energy_Per_Shot>15</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle> Large_Explosion_Land </Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle> Large_Explosion_Land </Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle> Large_Explosion_Land </Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>250</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Super_Heavy_Blaster_Cannon_Red">	
+	<Variant_Of_Existing_Type>RA_Proj_Super_Heavy_Blaster_Cannon_Blue</Variant_Of_Existing_Type>
+    <Land_Model_Name>w_blaster_r.alo</Land_Model_Name>
+</Projectile>
+
+<!-- ******************************************************* -->
+<!-- ***************** Grenades and Rockets **************** -->
+<!-- ******************************************************* -->
+
+
+<Projectile Name="RA_Proj_Thermal_Det">
+	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
+	<Projectile_Blast_Area_Damage>35.0</Projectile_Blast_Area_Damage>
+	<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+</Projectile>
+
+<Projectile Name="RA_Proj_Droid_Popper">
+	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
+	<Projectile_Blast_Area_Damage>35.0</Projectile_Blast_Area_Damage>
+	    <Damage_Type> RA_Land_Damage_EMP_Grenade </Damage_Type>
+</Projectile>
+
+<Projectile Name="RA_Proj_Hand_AntiArmor">
+	<Variant_Of_Existing_Type>RA_Proj_Infantry_Grenade_Template</Variant_Of_Existing_Type>
+	<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+	<Scale_Factor>0.75</Scale_Factor>
+	<Projectile_Damage>80.0</Projectile_Damage>
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>50.0</Projectile_Blast_Area_Damage>
+	<Projectile_Grenade_Gravity>0.1</Projectile_Grenade_Gravity>
+	<Projectile_Grenade_Gravity_Lob_Mod>0.1</Projectile_Grenade_Gravity_Lob_Mod>
+	<Projectile_Max_Lifetime>800.0</Projectile_Max_Lifetime>
+	<Projectile_Grenade_Can_Lob_Slower>no</Projectile_Grenade_Can_Lob_Slower>
+</Projectile>
+
+<Projectile Name="RA_Proj_Hand_Plex">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
+	<Scale_Factor>0.3</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Missile </Damage_Type>
+	<Max_Speed>9.0</Max_Speed>
+	<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>ROCKET</Projectile_Category>
+	
+	<Projectile_Rocket_Curve_Distance>50</Projectile_Rocket_Curve_Distance>
+	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
+	<Projectile_Rocket_Straight_Distance>0</Projectile_Rocket_Straight_Distance>
+
+	<Projectile_Target_Point_On_Terrain> False </Projectile_Target_Point_On_Terrain>
+	<Projectile_Max_Flight_Distance>320.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>210.0</Projectile_Max_Scan_Range>
+	
+	<Projectile_Damage>50.0</Projectile_Damage>
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>15.0</Projectile_Blast_Area_Damage>
+	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+	
+	<Projectile_SFXEvent_Detonate>SFX_Plex_Missile_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>120</AI_Combat_Power>
+</Projectile>
+
+<Projectile Name="RA_Proj_Vehicle_Missile_Missile">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Land_Model_Name>W_concussion_missile.alo</Land_Model_Name>
+	<Scale_Factor>0.3</Scale_Factor>
+	<Damage_Type> RA_Land_Damage_Missile </Damage_Type>
+	<Max_Speed>9.0</Max_Speed>
+	<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>ROCKET</Projectile_Category>
+	
+	<Projectile_Rocket_Curve_Distance>50</Projectile_Rocket_Curve_Distance>
+	<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
+	<Projectile_Rocket_Straight_Distance>0</Projectile_Rocket_Straight_Distance>
+
+	<Projectile_Target_Point_On_Terrain> False </Projectile_Target_Point_On_Terrain>
+	<Projectile_Max_Flight_Distance>320.0</Projectile_Max_Flight_Distance>
+	<Projectile_Max_Scan_Range>210.0</Projectile_Max_Scan_Range>
+	
+	<Projectile_Damage>250.0</Projectile_Damage>
+	<Projectile_Blast_Area_Range>15.0</Projectile_Blast_Area_Range>
+	<Projectile_Blast_Area_Damage>100.0</Projectile_Blast_Area_Damage>
+	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+	
+	<Projectile_SFXEvent_Detonate>SFX_Plex_Missile_Detonation</Projectile_SFXEvent_Detonate>
+	<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Land</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
+	<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Land</Projectile_Absorbed_By_Shields_Particle>
+	<AI_Combat_Power>120</AI_Combat_Power>
+</Projectile>
+
+<!-- ******************************************************* -->
+<!-- **************** Land Beam Projectiles **************** -->
+<!-- ******************************************************* -->
+
+<Projectile Name="RA_Proj_Ground_Sabertank_Beam">
+	<Text_ID>TEXT_NONE</Text_ID>
+	<Land_Model_Name>P_blue_beam_grnd.ALO</Land_Model_Name>
+	<Scale_Factor>1.0</Scale_Factor>
+	<Damage_Type>RA_Land_Damage_Medium_Cannon</Damage_Type>
+	<Max_Speed>40.0</Max_Speed>
+	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+	<Projectile_Category>Laser</Projectile_Category>
+	<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+	<Projectile_Damage>500.0</Projectile_Damage>
+	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+	<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+	<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+	<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+	<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
+	<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+	<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
+	<Projectile_Lifetime_Detonation_Particle />
+	<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+	<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+	<AI_Combat_Power>100</AI_Combat_Power>
+</Projectile>
+
+
 <!-- ******************************************************* -->
 <!-- *************** Bombardment Projectiles *************** -->
 <!-- ******************************************************* -->
@@ -914,7 +1547,7 @@
 	<Land_Model_Name>w_turbolaser_r.ALO</Land_Model_Name>
 	<Scale_Factor>5.0</Scale_Factor>
 		
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Damage_Type> RA_Land_Damage_Turbolaser </Damage_Type>
 	<AI_Combat_Power>200</AI_Combat_Power>
 		
 	<Max_Speed>25.0</Max_Speed>
@@ -929,7 +1562,7 @@
 	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 
 	<Projectile_Blast_Area_Range>120.0</Projectile_Blast_Area_Range>
-	<Projectile_Damage>500.0</Projectile_Damage>
+	<Projectile_Damage>2000.0</Projectile_Damage>
 	<Projectile_Blast_Area_Damage>375.0</Projectile_Blast_Area_Damage>
 	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
 
@@ -952,7 +1585,7 @@
 	<Land_Model_Name>w_turbolaser_b.ALO</Land_Model_Name>
 	<Scale_Factor>5.0</Scale_Factor>
 		
-	<Damage_Type> Damage_Turbolaser </Damage_Type>
+	<Damage_Type> RA_Land_Damage_Turbolaser </Damage_Type>
 	<AI_Combat_Power>200</AI_Combat_Power>
 		
 	<Max_Speed>25.0</Max_Speed>
@@ -967,7 +1600,7 @@
 	<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 
 	<Projectile_Blast_Area_Range>120.0</Projectile_Blast_Area_Range>
-	<Projectile_Damage>500.0</Projectile_Damage>
+	<Projectile_Damage>2000.0</Projectile_Damage>
 	<Projectile_Blast_Area_Damage>375.0</Projectile_Blast_Area_Damage>
 	<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
 
@@ -986,16 +1619,16 @@
 
 <Projectile Name="Proj_Sonic_Cannon">
 	<Text_ID>TEXT_NONE</Text_ID>
-	<Space_Model_Name>W_Sonic_Cannon.ALO</Space_Model_Name>
+	<Land_Model_Name>W_Sonic_Cannon.ALO</Land_Model_Name>
 	<Scale_Factor>1.0</Scale_Factor>
-	<Damage_Type>Damage_IonCannon</Damage_Type>
+	<Damage_Type>RA_Land_Damage_Medium_Cannon</Damage_Type>
 	<Max_Speed>60.0</Max_Speed> 
 	<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 	<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 	<Projectile_Category>Laser</Projectile_Category>
 	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
-	<Projectile_Damage>35.0</Projectile_Damage>
+	<Projectile_Damage>250.0</Projectile_Damage>
 	<Projectile_Energy_Per_Shot>15</Projectile_Energy_Per_Shot>
 	<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 	<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
